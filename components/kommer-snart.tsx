@@ -8,10 +8,12 @@ export function KommerSnart({
   seksjon,
   bilde,
   punkter,
+  foran,
 }: {
   seksjon: Seksjon;
   bilde: BildeNavn;
   punkter: { no: string; am: string; ikon?: LucideIcon }[];
+  foran?: React.ReactNode;
 }) {
   const Ikon = seksjon.ikon;
   return (
@@ -23,6 +25,7 @@ export function KommerSnart({
         </p>
       </Seksjonstopp>
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+        {foran}
         <ul className="grid gap-px overflow-hidden rounded-2xl border border-linje bg-linje sm:grid-cols-2">
           {punkter.map((p) => {
             const PunktIkon = p.ikon ?? Ikon;
