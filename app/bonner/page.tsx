@@ -8,6 +8,7 @@ export default function Bonner() {
   return (
     <KommerSnart
       seksjon={SEKSJONER.find((s) => s.href === "/bonner/")!}
+      bilde="arganonaMaryamDetalj"
       punkter={[
         { no: "ውዳሴ ማርያም for hver ukedag, på ge'ez, amharisk og norsk", am: "ውዳሴ ማርያም ለየዕለቱ በግዕዝ፣ በአማርኛና በኖርዌይኛ" },
         { no: "አንቀጸ ብርሃን", am: "አንቀጸ ብርሃን" },

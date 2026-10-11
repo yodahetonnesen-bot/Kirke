@@ -27,3 +27,9 @@ Skriptene i `scripts/bibel/` henter og bygger dem på nytt:
 
 Rapporten viser alt som er rettet, og det som fortsatt må sjekkes av et menneske.
 Kildene og lisensene står på siden `/om/`.
+
+## Bilder
+
+Bildene i `public/bilder/` er gamle etiopisk-ortodokse ikoner og håndskrifter fra The Metropolitan Museum of Art,
+falt i det fri og frigitt gjennom museets Open Access. Hvert bilde er beskrevet i `lib/bilder.ts` med tittel på
+norsk og amharisk og lenke til museet, og alle står på siden `/om/`.

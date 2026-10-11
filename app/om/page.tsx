@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BILDER } from "@/lib/bilder";
 
 export const metadata: Metadata = { title: "Om siden · ስለ ድረ ገጹ" };
 
@@ -63,6 +64,26 @@ export default function Om() {
           utgaven finnes gratis på biblica.com og open.bible.
         </p>
       </Kilde>
+
+      <h2 className="mt-14 text-sm uppercase tracking-[0.18em] text-dempet">
+        Bildene · <span lang="am" className="normal-case tracking-normal">ሥዕሎቹ</span>
+      </h2>
+      <p className="mt-4 text-dempet">
+        Alle bildene er gamle etiopisk-ortodokse kunstverk fra The Metropolitan Museum of Art i New York. De er falt i
+        det fri, og museet har gjort dem fritt tilgjengelige gjennom Open Access.
+      </p>
+      <ul className="mt-4 divide-y divide-linje/60 border-y border-linje/60 text-sm">
+        {[...new Map(Object.values(BILDER).map((b) => [b.url, b])).values()].map((b) => (
+          <li key={b.url} className="flex flex-wrap justify-between gap-x-4 gap-y-1 py-3">
+            <span>
+              {b.verk}, {b.tid}
+            </span>
+            <a href={b.url} className="text-rubrikk hover:underline" target="_blank" rel="noreferrer">
+              metmuseum.org
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

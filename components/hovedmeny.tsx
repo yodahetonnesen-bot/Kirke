@@ -43,14 +43,18 @@ export function Mobilmeny() {
         </svg>
       </summary>
       <div className="absolute right-0 top-11 z-50 w-64 rounded-2xl border border-linje bg-flate p-2 shadow-lg">
-        {SEKSJONER.map((s) => (
-          <a key={s.href} href={s.href} className="flex items-baseline justify-between gap-3 rounded-xl px-3 py-2.5 hover:bg-linje/50">
-            <span>{s.no}</span>
-            <span lang="am" className="text-sm text-dempet">
-              {s.am}
-            </span>
-          </a>
-        ))}
+        {SEKSJONER.map((s) => {
+          const Ikon = s.ikon;
+          return (
+            <a key={s.href} href={s.href} className="flex items-center gap-3 rounded-xl px-3 py-2.5 hover:bg-linje/50">
+              <Ikon className="size-4 text-rubrikk" aria-hidden="true" />
+              <span className="flex-1">{s.no}</span>
+              <span lang="am" className="text-sm text-dempet">
+                {s.am}
+              </span>
+            </a>
+          );
+        })}
       </div>
     </details>
   );

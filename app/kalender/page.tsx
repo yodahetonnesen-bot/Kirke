@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import { IDag } from "@/components/i-dag";
 import { Manedsoversikt } from "@/components/manedsoversikt";
+import { Seksjonstopp } from "@/components/seksjonstopp";
+import { BILDER } from "@/lib/bilder";
 
 export const metadata: Metadata = { title: "Kalender · ቀን መቁጠሪያ" };
 
 export default function Kalender() {
   return (
-    <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 sm:py-20">
-      <h1 className="font-serif text-4xl sm:text-5xl">Kalender</h1>
-      <p lang="am" className="mt-1 text-2xl text-dempet">ቀን መቁጠሪያ</p>
-
+    <>
+    <Seksjonstopp bilde={BILDER.evangeliebladLam} tittel="Kalender" am="ቀን መቁጠሪያ" />
+    <div className="mx-auto max-w-6xl px-4 pb-14 sm:px-6">
       <div className="mt-12 border-y border-linje/70 py-10">
         <IDag />
       </div>
@@ -34,5 +35,6 @@ export default function Kalender() {
         Fastene og høytidene kommer her etter hvert · <span lang="am">አጽዋማትና በዓላት በቅርቡ ይጨመራሉ</span>
       </p>
     </div>
+    </>
   );
 }

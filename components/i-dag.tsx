@@ -6,7 +6,7 @@ import { MANEDER, UKEDAGER_AM, evangelistar, geezTall, tilEtiopisk } from "@/lib
 // Datoen regnes ut i nettleseren, så den alltid er riktig (siden bygges bare av og til).
 const ingenting = () => () => {};
 
-export function IDag() {
+export function IDag({ kompakt = false }: { kompakt?: boolean }) {
   const iDag = useSyncExternalStore(
     ingenting,
     () => new Date().toDateString(),
@@ -25,7 +25,7 @@ export function IDag() {
       <p className="text-sm uppercase tracking-[0.18em] text-dempet">
         I dag · <span lang="am" className="normal-case tracking-normal">ዛሬ</span>
       </p>
-      <p lang="am" className="mt-3 font-serif text-3xl text-blekk sm:text-4xl">
+      <p lang="am" className={`mt-3 font-serif text-blekk ${kompakt ? "text-2xl" : "text-3xl sm:text-4xl"}`}>
         {UKEDAGER_AM[naa.getDay()]}፣ {maned.am} {et.dag} ቀን {et.aar} ዓ.ም.
       </p>
       <p className="mt-1 text-dempet">

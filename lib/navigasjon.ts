@@ -1,15 +1,22 @@
 // Hoveddelene av siden. Alt står på norsk og amharisk.
+import { BookOpen, CalendarDays, Church, Flame, Music, type LucideIcon } from "lucide-react";
+import type { BildeNavn } from "./bilder";
+
 export type Seksjon = {
   href: string;
   no: string;
   am: string;
   beskrivelse: { no: string; am: string };
   klar: boolean;
+  ikon: LucideIcon;
+  bilde: BildeNavn;
 };
 
 export const SEKSJONER: Seksjon[] = [
   {
     href: "/bibelen/",
+    ikon: BookOpen,
+    bilde: "evangelist",
     no: "Bibelen",
     am: "መጽሐፍ ቅዱስ",
     beskrivelse: {
@@ -20,6 +27,8 @@ export const SEKSJONER: Seksjon[] = [
   },
   {
     href: "/bonner/",
+    ikon: Flame,
+    bilde: "arganonaMaryam",
     no: "Bønner",
     am: "ጸሎት",
     beskrivelse: {
@@ -30,6 +39,8 @@ export const SEKSJONER: Seksjon[] = [
   },
   {
     href: "/laer/",
+    ikon: Church,
+    bilde: "ewostatewos",
     no: "Lær troen",
     am: "ትምህርተ ሃይማኖት",
     beskrivelse: {
@@ -40,6 +51,8 @@ export const SEKSJONER: Seksjon[] = [
   },
   {
     href: "/kalender/",
+    ikon: CalendarDays,
+    bilde: "evangeliebladLam",
     no: "Kalender",
     am: "ቀን መቁጠሪያ",
     beskrivelse: {
@@ -50,6 +63,8 @@ export const SEKSJONER: Seksjon[] = [
   },
   {
     href: "/mezmur/",
+    ikon: Music,
+    bilde: "lyre",
     no: "Mezmur",
     am: "መዝሙር",
     beskrivelse: {
