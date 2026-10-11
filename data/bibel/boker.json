@@ -1,0 +1,1085 @@
+[
+ {
+  "id": "Gen",
+  "nr": 1,
+  "testament": "gt",
+  "adresse": "1-mosebok",
+  "navn": {
+   "am": "ኦሪት ዘፍጥረት",
+   "no": "1. Mosebok",
+   "en": "Genesis"
+  },
+  "kapitler": 50,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Exod",
+  "nr": 2,
+  "testament": "gt",
+  "adresse": "2-mosebok",
+  "navn": {
+   "am": "ኦሪት ዘጸአት",
+   "no": "2. Mosebok",
+   "en": "Exodus"
+  },
+  "kapitler": 40,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Lev",
+  "nr": 3,
+  "testament": "gt",
+  "adresse": "3-mosebok",
+  "navn": {
+   "am": "ኦሪት ዘሌዋውያን",
+   "no": "3. Mosebok",
+   "en": "Leviticus"
+  },
+  "kapitler": 27,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Num",
+  "nr": 4,
+  "testament": "gt",
+  "adresse": "4-mosebok",
+  "navn": {
+   "am": "ኦሪት ዘኍልቍ",
+   "no": "4. Mosebok",
+   "en": "Numbers"
+  },
+  "kapitler": 36,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Deut",
+  "nr": 5,
+  "testament": "gt",
+  "adresse": "5-mosebok",
+  "navn": {
+   "am": "ኦሪት ዘዳግም",
+   "no": "5. Mosebok",
+   "en": "Deuteronomy"
+  },
+  "kapitler": 34,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Josh",
+  "nr": 6,
+  "testament": "gt",
+  "adresse": "josva",
+  "navn": {
+   "am": "መጽሐፈ ኢያሱ ወልደ ነዌ",
+   "no": "Josva",
+   "en": "Joshua"
+  },
+  "kapitler": 24,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Judg",
+  "nr": 7,
+  "testament": "gt",
+  "adresse": "dommerne",
+  "navn": {
+   "am": "መጽሐፈ መሣፍንት",
+   "no": "Dommerne",
+   "en": "Judges"
+  },
+  "kapitler": 21,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Ruth",
+  "nr": 8,
+  "testament": "gt",
+  "adresse": "rut",
+  "navn": {
+   "am": "መጽሐፈ ሩት",
+   "no": "Rut",
+   "en": "Ruth"
+  },
+  "kapitler": 4,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "1Sam",
+  "nr": 9,
+  "testament": "gt",
+  "adresse": "1-samuelsbok",
+  "navn": {
+   "am": "መጽሐፈ ሳሙኤል ቀዳማዊ",
+   "no": "1. Samuelsbok",
+   "en": "1 Samuel"
+  },
+  "kapitler": 31,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "2Sam",
+  "nr": 10,
+  "testament": "gt",
+  "adresse": "2-samuelsbok",
+  "navn": {
+   "am": "መጽሐፈ ሳሙኤል ካል",
+   "no": "2. Samuelsbok",
+   "en": "2 Samuel"
+  },
+  "kapitler": 24,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "1Kgs",
+  "nr": 11,
+  "testament": "gt",
+  "adresse": "1-kongebok",
+  "navn": {
+   "am": "መጽሐፈ ነገሥት ቀዳማዊ።",
+   "no": "1. Kongebok",
+   "en": "1 Kings"
+  },
+  "kapitler": 22,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "2Kgs",
+  "nr": 12,
+  "testament": "gt",
+  "adresse": "2-kongebok",
+  "navn": {
+   "am": "መጽሐፈ ነገሥት ካልዕ።",
+   "no": "2. Kongebok",
+   "en": "2 Kings"
+  },
+  "kapitler": 25,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "1Chr",
+  "nr": 13,
+  "testament": "gt",
+  "adresse": "1-kronikebok",
+  "navn": {
+   "am": "መጽሐፈ ዜና መዋዕል ቀዳማዊ።",
+   "no": "1. Krønikebok",
+   "en": "1 Chronicles"
+  },
+  "kapitler": 29,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "2Chr",
+  "nr": 14,
+  "testament": "gt",
+  "adresse": "2-kronikebok",
+  "navn": {
+   "am": "መጽሐፈ ዜና መዋዕል ካልዕ።",
+   "no": "2. Krønikebok",
+   "en": "2 Chronicles"
+  },
+  "kapitler": 36,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Ezra",
+  "nr": 15,
+  "testament": "gt",
+  "adresse": "esra",
+  "navn": {
+   "am": "መጽሐፈ ዕዝራ።",
+   "no": "Esra",
+   "en": "Ezra"
+  },
+  "kapitler": 10,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Neh",
+  "nr": 16,
+  "testament": "gt",
+  "adresse": "nehemja",
+  "navn": {
+   "am": "መጽሐፈ ነህምያ።",
+   "no": "Nehemja",
+   "en": "Nehemiah"
+  },
+  "kapitler": 13,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Esth",
+  "nr": 17,
+  "testament": "gt",
+  "adresse": "ester",
+  "navn": {
+   "am": "መጽሐፈ አስቴር።",
+   "no": "Ester",
+   "en": "Esther"
+  },
+  "kapitler": 10,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Job",
+  "nr": 18,
+  "testament": "gt",
+  "adresse": "job",
+  "navn": {
+   "am": "መጽሐፈ ኢዮብ።",
+   "no": "Job",
+   "en": "Job"
+  },
+  "kapitler": 42,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Ps",
+  "nr": 19,
+  "testament": "gt",
+  "adresse": "salmene",
+  "navn": {
+   "am": "መዝሙረ ዳዊት",
+   "no": "Salmenes bok",
+   "en": "Psalms"
+  },
+  "kapitler": 150,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Prov",
+  "nr": 20,
+  "testament": "gt",
+  "adresse": "ordsprakene",
+  "navn": {
+   "am": "መጽሐፈ ምሳሌ",
+   "no": "Ordspråkene",
+   "en": "Proverbs"
+  },
+  "kapitler": 31,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Eccl",
+  "nr": 21,
+  "testament": "gt",
+  "adresse": "forkynneren",
+  "navn": {
+   "am": "መጽሐፈ መክብብ",
+   "no": "Forkynneren",
+   "en": "Ecclesiastes"
+  },
+  "kapitler": 12,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Song",
+  "nr": 22,
+  "testament": "gt",
+  "adresse": "hoysangen",
+  "navn": {
+   "am": "መኃልየ መኃልይ ዘሰሎሞን",
+   "no": "Høysangen",
+   "en": "Song of Songs"
+  },
+  "kapitler": 8,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Isa",
+  "nr": 23,
+  "testament": "gt",
+  "adresse": "jesaja",
+  "navn": {
+   "am": "ትንቢተ ኢሳይያስ",
+   "no": "Jesaja",
+   "en": "Isaiah"
+  },
+  "kapitler": 66,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Jer",
+  "nr": 24,
+  "testament": "gt",
+  "adresse": "jeremia",
+  "navn": {
+   "am": "ትንቢተ ኤርምያስ",
+   "no": "Jeremia",
+   "en": "Jeremiah"
+  },
+  "kapitler": 52,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Lam",
+  "nr": 25,
+  "testament": "gt",
+  "adresse": "klagesangene",
+  "navn": {
+   "am": "ሰቆቃው ኤርምያስ",
+   "no": "Klagesangene",
+   "en": "Lamentations"
+  },
+  "kapitler": 5,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Ezek",
+  "nr": 26,
+  "testament": "gt",
+  "adresse": "esekiel",
+  "navn": {
+   "am": "ትንቢተ ሕዝቅኤል",
+   "no": "Esekiel",
+   "en": "Ezekiel"
+  },
+  "kapitler": 48,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Dan",
+  "nr": 27,
+  "testament": "gt",
+  "adresse": "daniel",
+  "navn": {
+   "am": "ትንቢተ ዳንኤል",
+   "no": "Daniel",
+   "en": "Daniel"
+  },
+  "kapitler": 12,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Hos",
+  "nr": 28,
+  "testament": "gt",
+  "adresse": "hosea",
+  "navn": {
+   "am": "ትንቢተ ሆሴዕ",
+   "no": "Hosea",
+   "en": "Hosea"
+  },
+  "kapitler": 14,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Joel",
+  "nr": 29,
+  "testament": "gt",
+  "adresse": "joel",
+  "navn": {
+   "am": "ትንቢተ ኢዮኤል",
+   "no": "Joel",
+   "en": "Joel"
+  },
+  "kapitler": 3,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Amos",
+  "nr": 30,
+  "testament": "gt",
+  "adresse": "amos",
+  "navn": {
+   "am": "ትንቢተ አሞጽ",
+   "no": "Amos",
+   "en": "Amos"
+  },
+  "kapitler": 9,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Obad",
+  "nr": 31,
+  "testament": "gt",
+  "adresse": "obadja",
+  "navn": {
+   "am": "ትንቢተ አብድዩ",
+   "no": "Obadja",
+   "en": "Obadiah"
+  },
+  "kapitler": 1,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Jonah",
+  "nr": 32,
+  "testament": "gt",
+  "adresse": "jona",
+  "navn": {
+   "am": "ትንቢተ ዮናስ",
+   "no": "Jona",
+   "en": "Jonah"
+  },
+  "kapitler": 4,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Mic",
+  "nr": 33,
+  "testament": "gt",
+  "adresse": "mika",
+  "navn": {
+   "am": "ትንቢተ ሚክያስ",
+   "no": "Mika",
+   "en": "Micah"
+  },
+  "kapitler": 7,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Nah",
+  "nr": 34,
+  "testament": "gt",
+  "adresse": "nahum",
+  "navn": {
+   "am": "ትንቢተ ናሆም",
+   "no": "Nahum",
+   "en": "Nahum"
+  },
+  "kapitler": 3,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Hab",
+  "nr": 35,
+  "testament": "gt",
+  "adresse": "habakkuk",
+  "navn": {
+   "am": "ትንቢተ ዕንባቆም",
+   "no": "Habakkuk",
+   "en": "Habakkuk"
+  },
+  "kapitler": 3,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Zeph",
+  "nr": 36,
+  "testament": "gt",
+  "adresse": "sefanja",
+  "navn": {
+   "am": "ትንቢተ ሶፎንያስ",
+   "no": "Sefanja",
+   "en": "Zephaniah"
+  },
+  "kapitler": 3,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Hag",
+  "nr": 37,
+  "testament": "gt",
+  "adresse": "haggai",
+  "navn": {
+   "am": "ትንቢተ ሐጌ",
+   "no": "Haggai",
+   "en": "Haggai"
+  },
+  "kapitler": 2,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Zech",
+  "nr": 38,
+  "testament": "gt",
+  "adresse": "sakarja",
+  "navn": {
+   "am": "ትንቢተ ዘካርያስ",
+   "no": "Sakarja",
+   "en": "Zechariah"
+  },
+  "kapitler": 14,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Mal",
+  "nr": 39,
+  "testament": "gt",
+  "adresse": "malaki",
+  "navn": {
+   "am": "ትንቢተ ሚልክያ",
+   "no": "Malaki",
+   "en": "Malachi"
+  },
+  "kapitler": 4,
+  "tekster": [
+   "am",
+   "no1930"
+  ]
+ },
+ {
+  "id": "Matt",
+  "nr": 40,
+  "testament": "nt",
+  "adresse": "matteus",
+  "navn": {
+   "am": "የማቴዎስ ወንጌል",
+   "no": "Matteus",
+   "en": "Matthew"
+  },
+  "kapitler": 28,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Mark",
+  "nr": 41,
+  "testament": "nt",
+  "adresse": "markus",
+  "navn": {
+   "am": "የማርቆስ ወንጌል",
+   "no": "Markus",
+   "en": "Mark"
+  },
+  "kapitler": 16,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Luke",
+  "nr": 42,
+  "testament": "nt",
+  "adresse": "lukas",
+  "navn": {
+   "am": "የሉቃስ ወንጌል",
+   "no": "Lukas",
+   "en": "Luke"
+  },
+  "kapitler": 24,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "John",
+  "nr": 43,
+  "testament": "nt",
+  "adresse": "johannes",
+  "navn": {
+   "am": "የዮሐንስ ወንጌል",
+   "no": "Johannes",
+   "en": "John"
+  },
+  "kapitler": 21,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Acts",
+  "nr": 44,
+  "testament": "nt",
+  "adresse": "apostlenes-gjerninger",
+  "navn": {
+   "am": "የሐዋርያት ሥራ",
+   "no": "Apostlenes gjerninger",
+   "en": "Acts"
+  },
+  "kapitler": 28,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Rom",
+  "nr": 45,
+  "testament": "nt",
+  "adresse": "romerbrevet",
+  "navn": {
+   "am": "ወደ ሮሜ ሰዎች",
+   "no": "Romerbrevet",
+   "en": "Romans"
+  },
+  "kapitler": 16,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "1Cor",
+  "nr": 46,
+  "testament": "nt",
+  "adresse": "1-korinterbrev",
+  "navn": {
+   "am": "1ኛ ወደ ቆሮንቶስ ሰዎች",
+   "no": "1. Korinterbrev",
+   "en": "1 Corinthians"
+  },
+  "kapitler": 16,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "2Cor",
+  "nr": 47,
+  "testament": "nt",
+  "adresse": "2-korinterbrev",
+  "navn": {
+   "am": "2ኛ ወደ ቆሮንቶስ ሰዎች",
+   "no": "2. Korinterbrev",
+   "en": "2 Corinthians"
+  },
+  "kapitler": 13,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Gal",
+  "nr": 48,
+  "testament": "nt",
+  "adresse": "galaterbrevet",
+  "navn": {
+   "am": "ወደ ገላትያ ሰዎች",
+   "no": "Galaterbrevet",
+   "en": "Galatians"
+  },
+  "kapitler": 6,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Eph",
+  "nr": 49,
+  "testament": "nt",
+  "adresse": "efeserbrevet",
+  "navn": {
+   "am": "ወደ ኤፌሶን ሰዎች",
+   "no": "Efeserbrevet",
+   "en": "Ephesians"
+  },
+  "kapitler": 6,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Phil",
+  "nr": 50,
+  "testament": "nt",
+  "adresse": "filipperbrevet",
+  "navn": {
+   "am": "ወደ ፊልጵስዩስ ሰዎች",
+   "no": "Filipperbrevet",
+   "en": "Philippians"
+  },
+  "kapitler": 4,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Col",
+  "nr": 51,
+  "testament": "nt",
+  "adresse": "kolosserbrevet",
+  "navn": {
+   "am": "ወደ ቆላስይስ ሰዎች",
+   "no": "Kolosserbrevet",
+   "en": "Colossians"
+  },
+  "kapitler": 4,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "1Thess",
+  "nr": 52,
+  "testament": "nt",
+  "adresse": "1-tessalonikerbrev",
+  "navn": {
+   "am": "1ኛ ወደ ተሰሎንቄ ሰዎች",
+   "no": "1. Tessalonikerbrev",
+   "en": "1 Thessalonians"
+  },
+  "kapitler": 5,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "2Thess",
+  "nr": 53,
+  "testament": "nt",
+  "adresse": "2-tessalonikerbrev",
+  "navn": {
+   "am": "2ኛ ወደ ተሰሎንቄ ሰዎች",
+   "no": "2. Tessalonikerbrev",
+   "en": "2 Thessalonians"
+  },
+  "kapitler": 3,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "1Tim",
+  "nr": 54,
+  "testament": "nt",
+  "adresse": "1-timoteusbrev",
+  "navn": {
+   "am": "1ኛ ወደ ጢሞቴዎስ",
+   "no": "1. Timoteusbrev",
+   "en": "1 Timothy"
+  },
+  "kapitler": 6,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "2Tim",
+  "nr": 55,
+  "testament": "nt",
+  "adresse": "2-timoteusbrev",
+  "navn": {
+   "am": "2ኛ ወደ ጢሞቴዎስ",
+   "no": "2. Timoteusbrev",
+   "en": "2 Timothy"
+  },
+  "kapitler": 4,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Titus",
+  "nr": 56,
+  "testament": "nt",
+  "adresse": "titusbrevet",
+  "navn": {
+   "am": "ወደ ቲቶ",
+   "no": "Titusbrevet",
+   "en": "Titus"
+  },
+  "kapitler": 3,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Phlm",
+  "nr": 57,
+  "testament": "nt",
+  "adresse": "filemonbrevet",
+  "navn": {
+   "am": "ወደ ፊልሞና",
+   "no": "Filemonbrevet",
+   "en": "Philemon"
+  },
+  "kapitler": 1,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Heb",
+  "nr": 58,
+  "testament": "nt",
+  "adresse": "hebreerbrevet",
+  "navn": {
+   "am": "ወደ ዕብራውያን",
+   "no": "Hebreerbrevet",
+   "en": "Hebrews"
+  },
+  "kapitler": 13,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Jas",
+  "nr": 59,
+  "testament": "nt",
+  "adresse": "jakobs-brev",
+  "navn": {
+   "am": "የያዕቆብ መልእክት",
+   "no": "Jakobs brev",
+   "en": "James"
+  },
+  "kapitler": 5,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "1Pet",
+  "nr": 60,
+  "testament": "nt",
+  "adresse": "1-petersbrev",
+  "navn": {
+   "am": "1ኛ የጴጥሮስ መልእክት",
+   "no": "1. Petersbrev",
+   "en": "1 Peter"
+  },
+  "kapitler": 5,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "2Pet",
+  "nr": 61,
+  "testament": "nt",
+  "adresse": "2-petersbrev",
+  "navn": {
+   "am": "2ኛ የጴጥሮስ መልእክት",
+   "no": "2. Petersbrev",
+   "en": "2 Peter"
+  },
+  "kapitler": 3,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "1John",
+  "nr": 62,
+  "testament": "nt",
+  "adresse": "1-johannesbrev",
+  "navn": {
+   "am": "1ኛ የዮሐንስ መልእክት",
+   "no": "1. Johannesbrev",
+   "en": "1 John"
+  },
+  "kapitler": 5,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "2John",
+  "nr": 63,
+  "testament": "nt",
+  "adresse": "2-johannesbrev",
+  "navn": {
+   "am": "2ኛ የዮሐንስ መልእክት",
+   "no": "2. Johannesbrev",
+   "en": "2 John"
+  },
+  "kapitler": 1,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "3John",
+  "nr": 64,
+  "testament": "nt",
+  "adresse": "3-johannesbrev",
+  "navn": {
+   "am": "3ኛ የዮሐንስ መልእክት",
+   "no": "3. Johannesbrev",
+   "en": "3 John"
+  },
+  "kapitler": 1,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Jude",
+  "nr": 65,
+  "testament": "nt",
+  "adresse": "judas-brev",
+  "navn": {
+   "am": "የይሁዳ መልእክት",
+   "no": "Judas' brev",
+   "en": "Jude"
+  },
+  "kapitler": 1,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ },
+ {
+  "id": "Rev",
+  "nr": 66,
+  "testament": "nt",
+  "adresse": "apenbaringen",
+  "navn": {
+   "am": "የዮሐንስ ራእይ",
+   "no": "Johannes' åpenbaring",
+   "en": "Revelation"
+  },
+  "kapitler": 22,
+  "tekster": [
+   "am",
+   "no1930",
+   "elb"
+  ]
+ }
+]

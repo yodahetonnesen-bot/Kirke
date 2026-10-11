@@ -1,0 +1,55 @@
+{
+ "tegn": [
+  "1. Mosebok 41,45: «የDoጥፌራ» → «የጶጥፌራ»",
+  "1. Mosebok 41,50: «የDoጥፌራ» → «የጶጥፌራ»",
+  "Ordspråkene 1,26: «አላግጥባችvሁ» → «አላግጥባችኋለሁ» (usikker, må sjekkes mot trykt bibel)",
+  "Jesaja 19,21: «ግብጽAውያንም» → «ግብጻውያንም»",
+  "Jeremia 2,3: «በkWraት» → «በኵራት»",
+  "Jeremia 2,6: «gWdጓድ» → «ጕድጓድ»",
+  "Jeremia 2,13: «gWdጓዶች» → «ጕድጓዶች»",
+  "Jeremia 2,25: «gWroሮሽንም» → «ጕሮሮሽንም»",
+  "Jeremia 2,28: «KWTር» → «ቍጥር»",
+  "Jeremia 2,35: «KWTaው» → «ቍጣው»",
+  "Jeremia 4,1: «ርkWsvትህንም» → «ርኵሰትህንም»",
+  "Jeremia 4,4: «KWTaዬ» → «ቍጣዬ»",
+  "Jeremia 4,26: «KWTaው» → «ቍጣው»",
+  "Jeremia 4,28: «ይጠKWraል» → «ይጠቍራል»",
+  "Jeremia 4,30: «በkWl» → «በኵል»",
+  "Jeremia 4,31: «በkWrዋንም» → «በኵርዋንም»",
+  "Jeremia 5,6: «ተkWla» → «ተኵላ»",
+  "Esekiel 30,17: «gWlማሶች» → «ጕልማሶች»",
+  "Hosea 9,10: «በkWraት» → «በኵራት»",
+  "Joel 2,9: «ያኰበkWbaሉ» → «ያኰበኵባሉ»",
+  "Joel 3,11: «ቸkWlaችሁ» → «ቸኵላችሁ»",
+  "1. Korinterbrev 10,29: «Avረ» → «ኧረ» (usikker, må sjekkes mot trykt bibel)"
+ ],
+ "skjulte": [
+  "2. Kongebok 12,22: skjult vers skilt ut fra vers 21",
+  "Høysangen 7,14: skjult vers skilt ut fra vers 13",
+  "Hosea 2,24: skjult vers skilt ut fra vers 23",
+  "Hosea 2,25: skjult vers skilt ut fra vers 24",
+  "Hosea 12,15: skjult vers skilt ut fra vers 14",
+  "Jona 2,11: skjult vers skilt ut fra vers 10",
+  "Johannes 1,52: skjult vers skilt ut fra vers 51",
+  "3. Johannesbrev 1,15: skjult vers skilt ut fra vers 14",
+  "Johannes' åpenbaring 12,18: skjult vers skilt ut fra vers 17"
+ ],
+ "nummerering": [
+  "1Sam 13,23-23: teksten står i vers 22 (slått sammen bakover)",
+  "1Sam 21,15-15: teksten står i vers 14 (slått sammen bakover)",
+  "2Kgs 11–12: amharisk 12,1-1 lagt på plass som 11,21-21",
+  "Job 40–41: amharisk 40,25-32 lagt på plass som 41,1-8",
+  "Ps 14: amhariske vers [4, 5, 6] vist som egne rader",
+  "Song 7: amharisk 7,1 vist som ekstra vers etter 6,13",
+  "Jer 11,23-23: teksten står i vers 22 (slått sammen bakover)",
+  "Hos 1–2: amharisk 2,1-2 lagt på plass som 1,10-11",
+  "Hos 11–12: amharisk 12,1-1 lagt på plass som 11,12-12",
+  "Jonah 1–2: amharisk 2,1-1 lagt på plass som 1,17-17"
+ ],
+ "erstattet": [
+  "1. Kongebok 21: kopi av kapittel 22 hos wordproject, hentet fra magna25 (2020)"
+ ],
+ "fylt": [
+  "1. Korinterbrev 7,38-40: hentet fra eBible"
+ ]
+}

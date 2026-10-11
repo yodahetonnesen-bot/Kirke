@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Fargene er hentet fra de gamle etiopiske håndskriftene: svart blekk på lyst pergament,
+  med rødt (rubrikk) for hellige navn og overskrifter. Gull brukes svært sparsomt.
+*/
+:root {
+  --bakgrunn: oklch(0.985 0.004 85);
+  --flate: oklch(0.995 0.002 85);
+  --blekk: oklch(0.23 0.012 60);
+  --dempet: oklch(0.52 0.012 60);
+  --svak: oklch(0.68 0.01 60);
+  --linje: oklch(0.91 0.007 80);
+  --rubrikk: oklch(0.5 0.17 28);
+  --rubrikk-svak: oklch(0.95 0.025 28);
+  --gull: oklch(0.7 0.11 78);
+}
+
+.dark {
+  --bakgrunn: oklch(0.17 0.008 60);
+  --flate: oklch(0.2 0.009 60);
+  --blekk: oklch(0.93 0.008 80);
+  --dempet: oklch(0.72 0.01 70);
+  --svak: oklch(0.55 0.01 70);
+  --linje: oklch(0.3 0.01 60);
+  --rubrikk: oklch(0.7 0.14 28);
+  --rubrikk-svak: oklch(0.27 0.04 28);
+  --gull: oklch(0.78 0.1 78);
+}
+
+@theme inline {
+  --color-bakgrunn: var(--bakgrunn);
+  --color-flate: var(--flate);
+  --color-blekk: var(--blekk);
+  --color-dempet: var(--dempet);
+  --color-svak: var(--svak);
+  --color-linje: var(--linje);
+  --color-rubrikk: var(--rubrikk);
+  --color-rubrikk-svak: var(--rubrikk-svak);
+  --color-gull: var(--gull);
+  --font-sans: var(--font-noto-sans), var(--font-noto-sans-ethiopic), system-ui, sans-serif;
+  --font-serif: var(--font-noto-serif), var(--font-noto-serif-ethiopic), Georgia, serif;
+  --font-ge: var(--font-noto-serif-ethiopic), var(--font-noto-serif), serif;
+}
+
+html {
+  background: var(--bakgrunn);
+  color: var(--blekk);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bakgrunn);
+  font-family: var(--font-sans);
+}
+
+/*
+  Etiopisk skrift trenger litt større tekst og mer linjeavstand for å være lett å lese.
+  Ligger i base-laget så Tailwind-klasser (f.eks. små versnumre) kan overstyre den,
+  og gjelder bare elementet som har lang-attributtet, så størrelsen ikke ganges opp.
+*/
+@layer base {
+  [lang="am"],
+  [lang="gez"] {
+    font-family: var(--font-ge);
+    font-size: 1.08em;
+    line-height: 1.85;
+  }
+  [lang="am"] [lang="am"] {
+    font-size: 1em;
+  }
+}
+
+::selection {
+  background: var(--rubrikk-svak);
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--rubrikk);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Visningsvalg i bibelleseren settes som data-attributter på <html> før siden tegnes. */
+html[data-sprak="am"] .kun-no,
+html[data-sprak="no"] .kun-am {
+  display: none;
+}
+html[data-sprak="am"] .vers-rad,
+html[data-sprak="no"] .vers-rad {
+  grid-template-columns: 2.5rem 1fr;
+}
+html:not([data-norsk="elb"]) .norsk-elb,
+html[data-norsk="elb"] .norsk-1930 {
+  display: none;
+}
+/* I GT finnes bare 1930-utgaven, så den vises alltid der. */
+html[data-norsk="elb"] .uten-elb .norsk-1930 {
+  display: block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Når bare norsk vises, flyttes den norske teksten inn i den andre kolonnen. */
+html[data-sprak="no"] .vers-rad .kun-no {
+  grid-column-start: 2;
+  margin-top: 0;
+}
