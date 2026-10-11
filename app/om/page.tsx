@@ -23,7 +23,7 @@ export default function Om() {
           gratis og åpen, og lagrer ingenting om deg.
         </p>
         <p lang="am" className="text-dempet">
-          ይህ ድረ ገጽ የቤተ ክርስቲያን ልጆችና ወጣቶች ሃይማኖታቸውን በአማርኛና በኖርዌይኛ እንዲማሩ የተዘጋጀ ነው። ነጻና ለሁሉ ክፍት ነው።
+          ይህ ድረ ገጽ የቤተ ክርስቲያን ልጆችና ወጣቶች ሃይማኖታቸውን በአማርኛና በኖርዌይኛ እንዲማሩ የተዘጋጀ ነው። ነጻና ለሁሉም ክፍት ነው።
         </p>
         <p className="text-sm text-svak">
           Lærestoffet er under arbeid og skal leses gjennom av en prest eller søndagsskolelærer før det regnes som

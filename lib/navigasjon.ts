@@ -69,7 +69,7 @@ export const SEKSJONER: Seksjon[] = [
     am: "መዝሙር",
     beskrivelse: {
       no: "Søk i mezmurene, med teksten på begge språk.",
-      am: "መዝሙራትን ይፈልጉ፤ ግጥሙ በሁለቱም ቋንቋ።",
+      am: "መዝሙራትን ይፈልጉ፤ ግጥሞቹ በሁለቱም ቋንቋዎች ይገኛሉ።",
     },
     klar: false,
   },

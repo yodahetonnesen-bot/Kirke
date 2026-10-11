@@ -50,7 +50,8 @@ Til da er lærestoffet merket som utkast.
 - Hva ተዋሕዶ betyr, og hvorfor kirka heter det
 - Skapelsen og englene
 - Synd, omvendelse (ንስሐ) og frelse
-- Maria (ወላዲተ አምላክ) og ኪዳነ ምሕረት
+- Kristus (ነገረ ክርስቶስ): hvem Jesus er
+- Maria (ነገረ ማርያም, ወላዲተ አምላክ) og ኪዳነ ምሕረት
 - Helgenene og forbønn (ምልጃ)
 - Ikonene (ሥዕላት), korset (መስቀል) og hvorfor vi kysser dem
 - ታቦት og ጽላት
@@ -73,7 +74,8 @@ For hvert sakrament: hva det er, hvordan det foregår og hva det betyr.
 - De tre delene ቅኔ ማኅሌት, ቅድስት og መቅደስ, og hvem som får gå hvor
 - Runde og firkantede kirker, og kirkegården (ዐውደ ምሕረት)
 - ቤተ ልሔም, der nattverdsbrødet bakes
-- Ting i kirka: ከበሮ, ጸናጽል, መቋሚያ, ዕጣን, lys, klokker, paraplyer og forheng
+- Ting i kirka (ንዋየ ቅድሳት): ከበሮ, ጸናጽል, መቋሚያ, ዕጣን, lys, klokker, paraplyer og forheng
+- Korsene: የመጾር መስቀል, የእጅ መስቀል, የአንገት መስቀል og እርፈ መስቀል, og hva de betyr
 - Prestenes klær, og hvordan vi kler oss (ነጠላ)
 - Hvordan vi oppfører oss i kirka: skoene av, å kysse døra, å bøye seg (ስግደት),
   menn og kvinner på hver sin side, og når man ikke går inn

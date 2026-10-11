@@ -48,7 +48,7 @@ export const BILDER = {
   },
   prosesjonskors: {
     fil: "prosesjonskors",
-    tittel: { no: "Prosesjonskors", am: "የሰልፍ መስቀል" },
+    tittel: { no: "Prosesjonskors", am: "የመጾር መስቀል" },
     verk: "Prosesjonskors i bronse",
     tid: "1200- eller 1300-tallet",
     url: `${MET}479577`,
@@ -56,7 +56,7 @@ export const BILDER = {
   },
   prosesjonskorsLasta: {
     fil: "prosesjonskors-lasta",
-    tittel: { no: "Prosesjonskors fra Lasta", am: "ከላስታ የመጣ የሰልፍ መስቀል" },
+    tittel: { no: "Prosesjonskors fra Lasta", am: "ከላስታ አካባቢ የመጣ የመጾር መስቀል" },
     verk: "Prosesjonskors i bronse, Lasta-området",
     tid: "tidlig 1400-tall",
     url: `${MET}677838`,
@@ -102,7 +102,7 @@ export const BILDER = {
   },
   ikonAnheng: {
     fil: "ikon-anheng",
-    tittel: { no: "Ikon-anheng", am: "የአንገት ሥዕል" },
+    tittel: { no: "Ikon-anheng", am: "በአንገት የሚንጠለጠል ሥዕል" },
     verk: "Dobbelt ikon-anheng",
     tid: "tidlig 1700-tall",
     url: `${MET}317829`,
