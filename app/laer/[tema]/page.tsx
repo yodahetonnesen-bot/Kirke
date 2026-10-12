@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CircleHelp, Languages, Layers, Library, PenLine, Quote } from "lucide-react";
+import { CircleHelp, Languages, Layers, Library, PenLine, Quote, ScrollText } from "lucide-react";
 import { TEMAER, finnTema } from "@/content/laer";
 import { finnDel } from "@/content/laer/deler";
 import { BILDER } from "@/lib/bilder";
@@ -141,6 +141,28 @@ export default async function TemaSide({ params }: PageProps<"/laer/[tema]">) {
             </section>
           ))}
         </div>
+
+        {tema.fedre && tema.fedre.length > 0 && (
+          <section className="mt-16 border-t border-linje pt-10">
+            <Overskrift no="Kirkefedrene lærer" am="አበው ያስተምራሉ" ikon={ScrollText} />
+            <ul className="mt-6 grid gap-4">
+              {tema.fedre.map((f) => (
+                <li key={f.tekst.no} className="rounded-2xl border border-linje/70 bg-flate/60 p-5 sm:p-6">
+                  <p className="text-sm text-rubrikk">
+                    {f.navn.no} · <span lang="am">{f.navn.am}</span>
+                  </p>
+                  <div className="mt-3 grid gap-3 md:grid-cols-2 md:gap-12">
+                    <p className="font-serif leading-relaxed">{f.tekst.no}</p>
+                    <p lang="am" className="text-blekk/90">
+                      {f.tekst.am}
+                    </p>
+                  </div>
+                  <p className="mt-3 text-xs text-svak">{f.kilde}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <section className="mt-16 border-t border-linje pt-10">
           <Overskrift no="Viktige ord" am="ቁልፍ ቃላት" ikon={Languages} />

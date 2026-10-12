@@ -34,6 +34,8 @@ export type Tema = {
   /** det viktigste verset, vises stort øverst */
   hovedvers: string;
   avsnitt: Avsnitt[];
+  /** hva kirkefedrene lærer om temaet (ሃይማኖተ አበው og andre), med kilde */
+  fedre?: { navn: Tekst; tekst: Tekst; kilde: string }[];
   ord: { ord: string; forklaring: Tekst }[];
   sporsmal: { sporsmal: Tekst; svar: Tekst }[];
   kilder: Kilde[];
