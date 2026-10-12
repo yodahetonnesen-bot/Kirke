@@ -5,8 +5,9 @@ import { treenigheten } from "./treenigheten";
 import { menneskevordelsen } from "./menneskevordelsen";
 import { oppstandelsen } from "./oppstandelsen";
 import { kirkebygget } from "./kirkebygget";
+import { sakramentene } from "./sakramentene";
 
 // Rekkefølgen her er rekkefølgen temaene vises i innenfor hver del.
-export const TEMAER: Tema[] = [femMysteriene, treenigheten, menneskevordelsen, oppstandelsen, daapen, kirkebygget];
+export const TEMAER: Tema[] = [femMysteriene, treenigheten, menneskevordelsen, oppstandelsen, sakramentene, daapen, kirkebygget];
 
 export const finnTema = (slug: string) => TEMAER.find((t) => t.slug === slug);
