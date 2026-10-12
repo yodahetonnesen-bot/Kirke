@@ -180,7 +180,7 @@ export const oppstandelsen: Tema = {
         },
         {
           tekst: {
-            no: "Profeten Esekiel så en dal full av tørre knokler. Gud sa at han ville legge sener og kjøtt på dem, dekke dem med hud og gi dem livsånde, så de ble levende. «Jeg vil åpne gravene deres», sa Herren.",
+            no: "Profeten Esekiel så en dal full av tørre knokler. Gud sa at han ville legge sener og kjøtt på dem, dekke dem med hud og gi dem livsånde, så de ble levende. Herren lovet også å åpne gravene deres og føre dem opp av dem.",
             am: "ነቢዩ ሕዝቅኤል በደረቁ አጥንቶች የተሞላ ሸለቆ አየ። እግዚአብሔርም «ጅማትም እሰጣችኋለሁ ሥጋንም አወጣባችኋለሁ በእናንተም ላይ ቁርበትን እዘረጋለሁ ትንፋሽንም አገባባችኋለሁ በሕይወትም ትኖራላችሁ» አለ፤ «መቃብራችሁን እከፍታለሁ» አለ።",
           },
           vers: ["Ezek 37:5-6", "Ezek 37:12"],
