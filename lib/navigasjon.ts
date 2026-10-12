@@ -47,7 +47,7 @@ export const SEKSJONER: Seksjon[] = [
       no: "Sakramentene, gudstjenesten, høytidene, historien og helgenene.",
       am: "ምሥጢራት፣ ቅዳሴ፣ በዓላት፣ ታሪክና ቅዱሳን።",
     },
-    klar: false,
+    klar: true,
   },
   {
     href: "/kalender/",

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { IDag } from "@/components/i-dag";
 import { Manedsoversikt } from "@/components/manedsoversikt";
+import { Kirkekalender } from "@/components/kirkekalender";
+import { Hoytidsliste } from "@/components/hoytidsliste";
 import { Seksjonstopp } from "@/components/seksjonstopp";
 import { BILDER } from "@/lib/bilder";
 
@@ -28,12 +30,16 @@ export default function Kalender() {
       </div>
 
       <div className="mt-14">
-        <Manedsoversikt />
+        <Kirkekalender />
       </div>
 
-      <p className="mt-10 text-sm text-svak">
-        Fastene og høytidene kommer her etter hvert · <span lang="am">አጽዋማትና በዓላት በቅርቡ ይጨመራሉ</span>
-      </p>
+      <div className="mt-20">
+        <Hoytidsliste />
+      </div>
+
+      <div className="mt-20">
+        <Manedsoversikt />
+      </div>
     </div>
     </>
   );

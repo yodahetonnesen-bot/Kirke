@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CircleHelp, Languages, Library, PenLine, Quote } from "lucide-react";
+import { CircleHelp, Languages, Layers, Library, PenLine, Quote } from "lucide-react";
 import { TEMAER, finnTema } from "@/content/laer";
+import { finnDel } from "@/content/laer/deler";
 import { BILDER } from "@/lib/bilder";
 import { hentVers } from "@/lib/vers";
 import { Seksjonstopp } from "@/components/seksjonstopp";
 import { VersBrikke } from "@/components/vers-brikke";
+import { TemaKort } from "@/components/tema-kort";
 
 export const dynamicParams = false;
 
@@ -35,6 +37,8 @@ export default async function TemaSide({ params }: PageProps<"/laer/[tema]">) {
   const tema = finnTema((await params).tema);
   if (!tema) notFound();
   const hovedvers = hentVers(tema.hovedvers);
+  const del = finnDel(tema.del);
+  const naboer = TEMAER.filter((t) => t.del === tema.del && t.slug !== tema.slug);
 
   return (
     <>
@@ -46,9 +50,15 @@ export default async function TemaSide({ params }: PageProps<"/laer/[tema]">) {
 
       <div className="mx-auto max-w-6xl px-4 pb-10 sm:px-6">
         <div className="mt-6 flex flex-wrap items-center gap-3 text-sm">
-          <Link href="/laer/" className="text-dempet hover:text-blekk">
-            ← Lær troen · <span lang="am">ትምህርተ ሃይማኖት</span>
-          </Link>
+          <nav aria-label="Brødsmuler" className="text-dempet">
+            <Link href="/laer/" className="hover:text-blekk">
+              ← Lær troen · <span lang="am">ትምህርተ ሃይማኖት</span>
+            </Link>
+            <span className="px-2 text-svak">/</span>
+            <Link href={`/laer/#${del.id}`} className="hover:text-blekk">
+              {del.no}
+            </Link>
+          </nav>
           {tema.utkast && (
             <span className="rounded-2xl border border-gull/50 bg-gull/10 px-3 py-1 text-dempet">
               <PenLine className="mr-1.5 inline size-3.5 align-[-0.15em]" aria-hidden="true" />
@@ -181,6 +191,10 @@ export default async function TemaSide({ params }: PageProps<"/laer/[tema]">) {
               </li>
             ))}
           </ol>
+          <Link href="/laer/ov/" className="mt-6 inline-flex items-center gap-2 text-sm text-rubrikk hover:underline">
+            <Layers className="size-4" aria-hidden="true" />
+            Øv mer med ordkort · <span lang="am">በቃላት ካርዶች ይለማመዱ</span> →
+          </Link>
         </section>
 
         <section className="mt-16 border-t border-linje pt-10">
@@ -202,6 +216,19 @@ export default async function TemaSide({ params }: PageProps<"/laer/[tema]">) {
             Bibelversene er hentet ordrett fra den amhariske bibelen fra 1962 og den norske fra 1930.
           </p>
         </section>
+
+        {naboer.length > 0 && (
+          <section className="mt-16 border-t border-linje pt-10">
+            <Overskrift no={`Mer om ${del.no.charAt(0).toLowerCase()}${del.no.slice(1)}`} am={del.am} ikon={del.ikon} />
+            <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {naboer.map((t) => (
+                <li key={t.slug}>
+                  <TemaKort tema={t} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </>
   );

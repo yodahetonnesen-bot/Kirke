@@ -1,74 +1,113 @@
 import type { Metadata } from "next";
-import { KommerSnart } from "@/components/kommer-snart";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Layers } from "lucide-react";
 import { SEKSJONER } from "@/lib/navigasjon";
 import { TEMAER } from "@/content/laer";
+import { DELER } from "@/content/laer/deler";
 import { BILDER } from "@/lib/bilder";
-import { Kunstbilde } from "@/components/kunstbilde";
-import {
-  BookOpen, CalendarHeart, Church, Droplets, Flame, Landmark, Languages, Library, MapPin, Music, Sparkles, Users, Wheat,
-} from "lucide-react";
+import { Seksjonstopp } from "@/components/seksjonstopp";
+import { TemaKort } from "@/components/tema-kort";
 
 export const metadata: Metadata = { title: "Lær troen · ትምህርተ ሃይማኖት" };
 
 export default function Laer() {
+  const seksjon = SEKSJONER.find((s) => s.href === "/laer/")!;
+  const klare = DELER.map((d) => ({ del: d, temaer: TEMAER.filter((t) => t.del === d.id) })).filter((g) => g.temaer.length > 0);
+  const kommer = DELER.filter((d) => !TEMAER.some((t) => t.del === d.id));
+
   return (
-    <KommerSnart
-      seksjon={SEKSJONER.find((s) => s.href === "/laer/")!}
-      bilde="ewostatewos"
-      foran={
-        <section className="mb-14">
-          <h2 className="text-sm uppercase tracking-[0.18em] text-dempet">
-            Klar til å leses · <span lang="am" className="normal-case tracking-normal">ለንባብ የተዘጋጁ</span>
-          </h2>
-          <ul className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {TEMAER.map((t) => (
-              <li key={t.slug}>
-                <Link href={`/laer/${t.slug}/`} className="group block overflow-hidden rounded-2xl border border-linje bg-flate">
-                  <div className="aspect-[16/10] overflow-hidden">
-                    <Kunstbilde
-                      bilde={BILDER[t.bilde]}
-                      sizes="(min-width: 1024px) 33vw, 100vw"
-                      className="size-full scale-110 object-cover object-[50%_45%] transition-transform duration-500 group-hover:scale-[1.16]"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <div className="flex items-baseline justify-between gap-3">
-                      <h3 className="font-serif text-2xl group-hover:text-rubrikk">{t.tittel.no}</h3>
-                      <span lang="am" className="text-lg text-dempet">{t.tittel.am}</span>
-                    </div>
-                    <p className="mt-1 text-sm text-dempet">
-                      {t.undertittel.no} · <span lang="am">{t.undertittel.am}</span>
-                    </p>
-                    <span className="mt-4 inline-flex items-center gap-1 text-sm text-rubrikk">
-                      Les · <span lang="am">ያንብቡ</span> <ArrowRight className="size-4" aria-hidden="true" />
+    <>
+      <Seksjonstopp
+        bilde={BILDER.ewostatewos}
+        tittel={seksjon.no}
+        am={seksjon.am}
+        tekst={seksjon.beskrivelse.no}
+        tekstAm={seksjon.beskrivelse.am}
+      >
+        <nav aria-label="Deler" className="mt-8 flex flex-wrap gap-2">
+          {klare.map(({ del, temaer }) => {
+            const Ikon = del.ikon;
+            return (
+              <a
+                key={del.id}
+                href={`#${del.id}`}
+                className="inline-flex items-center gap-2 rounded-full border border-linje bg-flate px-3 py-1.5 text-sm text-dempet transition-colors hover:border-rubrikk/40 hover:text-rubrikk"
+              >
+                <Ikon className="size-4 text-rubrikk" aria-hidden="true" />
+                {del.no}
+                <span className="tabular-nums text-svak">{temaer.length}</span>
+              </a>
+            );
+          })}
+        </nav>
+        <Link
+          href="/laer/ov/"
+          className="group mt-4 inline-flex items-center gap-2 rounded-full bg-blekk px-4 py-2 text-sm text-bakgrunn"
+        >
+          <Layers className="size-4" aria-hidden="true" />
+          Øv med ordkort og spørsmål · <span lang="am">በካርዶችና በጥያቄዎች ይለማመዱ</span>
+          <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+        </Link>
+        <Link
+          href="/laer/fidel/"
+          className="group ml-2 mt-4 inline-flex items-center gap-2 rounded-full border border-linje bg-flate px-4 py-2 text-sm"
+        >
+          <span lang="am" className="text-rubrikk">ሀ ሁ ሂ</span>
+          Lær fidel · <span lang="am">ፊደል ይማሩ</span>
+        </Link>
+      </Seksjonstopp>
+
+      <div className="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
+        {klare.map(({ del, temaer }) => {
+          const Ikon = del.ikon;
+          return (
+            <section key={del.id} id={del.id} className="mt-14 scroll-mt-24 border-t border-linje pt-10 first:mt-10">
+              <h2 className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                <span className="grid size-9 place-items-center rounded-full bg-rubrikk-svak text-rubrikk">
+                  <Ikon className="size-4" aria-hidden="true" />
+                </span>
+                <span className="font-serif text-2xl tracking-tight sm:text-3xl">{del.no}</span>
+                <span lang="am" className="text-xl text-dempet">
+                  {del.am}
+                </span>
+              </h2>
+              <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                {temaer.map((t) => (
+                  <li key={t.slug}>
+                    <TemaKort tema={t} />
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })}
+
+        {kommer.length > 0 && (
+          <section className="mt-16 border-t border-linje pt-10">
+            <h2 className="text-sm uppercase tracking-[0.18em] text-dempet">
+              Kommer · <span lang="am" className="normal-case tracking-normal">በቅርቡ</span>
+            </h2>
+            <ul className="mt-6 grid gap-px overflow-hidden rounded-2xl border border-linje bg-linje sm:grid-cols-2">
+              {kommer.map((d) => {
+                const Ikon = d.ikon;
+                return (
+                  <li key={d.id} className="flex gap-4 bg-bakgrunn p-5">
+                    <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-rubrikk-svak text-rubrikk">
+                      <Ikon className="size-4" aria-hidden="true" />
                     </span>
-                  </div>
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <h2 className="mt-14 text-sm uppercase tracking-[0.18em] text-dempet">
-            Kommer · <span lang="am" className="normal-case tracking-normal">በቅርቡ</span>
-          </h2>
-        </section>
-      }
-      punkter={[
-        { ikon: Sparkles, no: "Troen og de fem mysteriene", am: "ሃይማኖትና አዕማደ ምሥጢር" },
-        { ikon: Droplets, no: "De sju sakramentene", am: "ሰባቱ ምሥጢራተ ቤተ ክርስቲያን" },
-        { ikon: Church, no: "Kirkebygget og hvordan vi oppfører oss i kirka", am: "ሕንጻ ቤተ ክርስቲያንና ሥርዓቱ" },
-        { ikon: Flame, no: "ቅዳሴ, ማኅሌት, ሰዓታት og ኪዳን", am: "ቅዳሴ፣ ማኅሌት፣ ሰዓታትና ኪዳን" },
-        { ikon: Music, no: "Kirkemusikk, ቅዱስ ያሬድ og kirkeskolen", am: "ዜማ፣ ቅዱስ ያሬድና አብነት ትምህርት ቤት" },
-        { ikon: Wheat, no: "Fastene", am: "አጽዋማት" },
-        { ikon: CalendarHeart, no: "Høytidene og feiringene", am: "በዓላት" },
-        { ikon: Landmark, no: "Kirkehistorie", am: "የቤተ ክርስቲያን ታሪክ" },
-        { ikon: Users, no: "Helgener og viktige personer", am: "ቅዱሳንና አባቶች" },
-        { ikon: BookOpen, no: "Kristent liv i hverdagen", am: "ክርስቲያናዊ ሕይወት" },
-        { ikon: Languages, no: "ፊደል og ge'ez", am: "ፊደልና ግዕዝ" },
-        { ikon: MapPin, no: "Å være ortodoks i Norge", am: "በኖርዌይ ኦርቶዶክሳዊ መሆን" },
-        { ikon: Library, no: "Kirkens bøker", am: "የቤተ ክርስቲያን መጻሕፍት" },
-      ]}
-    />
+                    <span>
+                      <span className="block">{d.no}</span>
+                      <span lang="am" className="block text-dempet">
+                        {d.am}
+                      </span>
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
+      </div>
+    </>
   );
 }

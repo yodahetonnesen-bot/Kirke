@@ -2,6 +2,7 @@
 // Bibelvers skrives som henvisninger ("John 3:5", "Matt 28:19-20") og hentes ordrett fra
 // bibeldataene når siden bygges. En henvisning som ikke finnes, stopper bygget.
 import type { BildeNavn } from "@/lib/bilder";
+import type { DelId } from "./deler";
 
 export type Tekst = { no: string; am: string };
 
@@ -24,8 +25,8 @@ export type Kilde = { navn: string; url?: string };
 
 export type Tema = {
   slug: string;
-  /** hvilken del av innholdsplanen temaet hører til */
-  del: string;
+  /** hvilken del av «Lær troen» temaet hører til (se deler.ts) */
+  del: DelId;
   tittel: Tekst;
   undertittel: Tekst;
   bilde: BildeNavn;

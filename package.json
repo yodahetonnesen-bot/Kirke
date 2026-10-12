@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "npm run sjekk && next build",
     "lint": "eslint",
-    "sjekk": "node scripts/sjekk-bibel.mjs"
+    "sjekk": "node scripts/sjekk-bibel.mjs && node scripts/sjekk-kirkear.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.55.0",
@@ -21,6 +21,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
+    "jiti": "^2.7.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
