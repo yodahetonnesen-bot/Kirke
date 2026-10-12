@@ -14,8 +14,8 @@ export type Hoytid = {
   id: string;
   navn: Tekst;
   type: HoytidType;
-  /** fast etiopisk dato, eller en flyttbar dag */
-  dato: { maned: number; dag: number } | { flyttbar: FlyttbarDag };
+  /** fast etiopisk dato, en flyttbar dag, eller søndagen i de sju dagene fra en fast dato (ስብከት, ብርሃን, ኖላዊ) */
+  dato: { maned: number; dag: number } | { flyttbar: FlyttbarDag } | { sondagFra: { maned: number; dag: number } };
   om?: Tekst;
   /** lærside om høytiden, hvis den finnes */
   tema?: string;
@@ -27,7 +27,7 @@ export type Minnedag = { dag: number; navn: Tekst };
 
 /** ልደት er ታኅሣሥ 29, men ታኅሣሥ 28 i Johannes' år (året etter at ጳጉሜን hadde seks dager). */
 function justerDato(h: Hoytid, aar: number): { maned: number; dag: number } | null {
-  if ("flyttbar" in h.dato) return null;
+  if (!("maned" in h.dato)) return null;
   if (h.id === "ledet" && aar % 4 === 0) return { maned: 4, dag: 28 };
   return h.dato;
 }
@@ -35,6 +35,10 @@ function justerDato(h: Hoytid, aar: number): { maned: number; dag: number } | nu
 /** Datoen (i vår kalender) for en høytid i et etiopisk år. */
 export function hoytidDato(h: Hoytid, aar: number): Date {
   if ("flyttbar" in h.dato) return flyttbarDato(aar, h.dato.flyttbar);
+  if ("sondagFra" in h.dato) {
+    const fra = tilGregoriansk({ aar, ...h.dato.sondagFra });
+    return pluss(fra, (7 - fra.getDay()) % 7);
+  }
   return tilGregoriansk({ aar, ...justerDato(h, aar)! });
 }
 
