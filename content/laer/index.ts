@@ -10,8 +10,10 @@ import { myron } from "./myron";
 import { nattverden } from "./nattverden";
 import { skriftemaal } from "./skriftemaal";
 import { sykesalving } from "./sykesalving";
+import { ekteskap } from "./ekteskap";
+import { prestevigsel } from "./prestevigsel";
 
 // Rekkefølgen her er rekkefølgen temaene vises i innenfor hver del.
-export const TEMAER: Tema[] = [femMysteriene, treenigheten, menneskevordelsen, oppstandelsen, sakramentene, daapen, myron, nattverden, skriftemaal, sykesalving, kirkebygget];
+export const TEMAER: Tema[] = [femMysteriene, treenigheten, menneskevordelsen, oppstandelsen, sakramentene, daapen, myron, nattverden, skriftemaal, sykesalving, ekteskap, prestevigsel, kirkebygget];
 
 export const finnTema = (slug: string) => TEMAER.find((t) => t.slug === slug);
