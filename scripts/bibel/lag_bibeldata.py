@@ -170,13 +170,15 @@ def rens_vers(tekst: str, logg: list, ref: str) -> tuple[str, list[str]]:
     return tekst.strip(), noter
 
 
-def les_wordproject_kapittel(fil: pathlib.Path, ref: str, logg: list) -> tuple[str, list[dict]]:
-    """Gir bokas amhariske navn og versene som {nr, tekst, noter} i kildens egen nummerering."""
+def les_wordproject_kapittel(fil: pathlib.Path, ref: str, logg: list) -> tuple[str, list[dict], str]:
+    """Gir bokas amhariske navn, versene som {nr, tekst, noter} i kildens egen nummerering,
+    og teksten som står foran vers 1 (overskriften i Salmene)."""
     side = fil.read_text(encoding="utf-8")
     navn = ren_tekst(re.search(r"<h1>(.*?)</h1>", side, re.S).group(1))
     start = side.index("<!--... the Word of God:-->")
     slutt = side.index("<!--... sharper than", start)
     deler = VERSMERKE.split(side[start:slutt])
+    overskrift = ren_tekst(re.sub(r"<h3>.*?</h3>", "", deler[0], flags=re.S))
     vers: list[dict] = []
     for i in range(1, len(deler), 3):
         nr = int(deler[i] or deler[i + 1])
@@ -195,7 +197,7 @@ def les_wordproject_kapittel(fil: pathlib.Path, ref: str, logg: list) -> tuple[s
             vers.append({"nr": neste, "tekst": biter[j + 1].strip(), "noter": []})
             logg.append(f"{ref},{neste}: skjult vers skilt ut fra vers {vers[-2]['nr']}")
     rydd_ledende(vers)
-    return navn, vers
+    return navn, vers, overskrift
 
 
 def rydd_ledende(vers: list[dict]) -> None:
@@ -377,6 +379,51 @@ def rett_bok(osis: str, am: list[list], no: list[list], logg: list) -> None:
         am[c] = [g[:3] if len(g) > 3 and not g[3] else g for g in kap]
 
 
+# Salmer der overskriften er egne vers i norsk (hebraisk) nummerering: 1 vers, eller 2 vers.
+# Amharisk har overskriften uten versnummer, som i engelske bibler. Kontrollert mot den norske teksten.
+TITTEL_ETT_VERS = {3, 4, 5, 6, 7, 8, 9, 12, 13, 18, 19, 20, 21, 22, 30, 31, 34, 36, 38, 39, 40, 41, 42, 44, 45, 46, 47,
+                   48, 49, 53, 55, 56, 57, 58, 59, 61, 62, 63, 64, 65, 67, 68, 69, 70, 75, 76, 77, 80, 81, 83, 84, 85,
+                   88, 89, 92, 102, 108, 140, 142}
+TITTEL_TO_VERS = {51, 52, 54, 60}
+# Salme 140: kilden har overskriften som vers 1 og slår sammen vers 2-3; deretter er den ett vers bak.
+SALME_KART = {140: {2: (2, 3), **{v: (v + 1, v + 1) for v in range(3, 14)}}}
+
+
+def rett_salmer(am: list[list], no: list[list], overskrifter: dict[int, str], logg: list) -> None:
+    """Tar med salmeoverskriftene og legger amharisk på samme versplass som norsk.
+
+    Der overskriften er egne vers på norsk, blir den amhariske overskriften vers 1 (eller 1-2) og
+    resten flyttes like mange plasser frem. Den norske modulen har da slått de siste versene sammen
+    i det siste verset; det får samme rekkevidde. Ellers settes overskriften foran vers 1."""
+    for k in range(1, len(am) + 1):
+        tittel = overskrifter.get(k, "")
+        antall = 2 if k in TITTEL_TO_VERS else 1 if k in TITTEL_ETT_VERS else 0
+        if antall == 0:
+            if tittel:
+                forste = next(g for g in am[k - 1] if g[0] == 1)
+                forste[2] = f"{tittel} {forste[2]}"
+                logg.append(f"Salme {k}: overskriften satt foran vers 1")
+            continue
+        siste_no = no[k - 1][-1]
+        siste_no[1] = siste_no[0] + antall
+        if k in SALME_KART:
+            kart = SALME_KART[k]
+            am[k - 1] = [flytt(g, *kart[g[0]], k, (k, g[0], g[1])) if g[0] != 1 else g for g in am[k - 1]]
+            logg.append(f"Salme {k}: amharisk har overskriften som vers 1 og vers 2-3 slått sammen")
+            continue
+        if not tittel:
+            # Overskriften finnes ikke i kilden (Salme 7). Plassen merkes som manglende.
+            am[k - 1] = [[1, antall, "", {"mangler": True}]] + [
+                flytt(g, g[0] + antall, g[1] + antall, k, (k, g[0], g[1])) for g in am[k - 1]
+            ]
+            logg.append(f"Salme {k}: overskriften mangler i kilden, amharisk flyttet {antall} frem")
+            continue
+        am[k - 1] = [[1, antall, tittel, {"ref": "ርዕስ"}]] + [
+            flytt(g, g[0] + antall, g[1] + antall, k, (k, g[0], g[1])) for g in am[k - 1]
+        ]
+        logg.append(f"Salme {k}: overskriften er vers 1{'-2' if antall == 2 else ''}, amharisk flyttet {antall} frem")
+
+
 def magna25_kapittel(data: dict, bok_nr: int, kap: int) -> list[list]:
     """Et kapittel fra den eldre kopien (magna25/amharic-bible-json, hentet fra wordproject i 2020).
     Der er sammenslåtte vers lagret med tom tekst på de første versene og teksten på det siste."""
@@ -417,10 +464,13 @@ def main() -> None:
         antall = len(list(mappe.glob("*.htm")))
         am_navn, am = None, []
         tegnlogg: list[str] = []
+        overskrifter: dict[int, str] = {}
         for k in range(1, antall + 1):
-            navn, vers = les_wordproject_kapittel(mappe / f"{k}.htm", f"{no_navn} {k}", tegnlogg)
+            navn, vers, overskrift = les_wordproject_kapittel(mappe / f"{k}.htm", f"{no_navn} {k}", tegnlogg)
             am_navn = am_navn or navn
             am.append(til_grupper(vers))
+            if osis == "Ps" and overskrift:
+                overskrifter[k] = overskrift
         logg["tegn"] += [l for l in tegnlogg if "«" in l]
         logg["skjulte"] += [l for l in tegnlogg if "skjult" in l]
         # 1 Kong 21 hos wordproject er en kopi av kapittel 22; den eldre kopien har det riktige kapitlet.
@@ -440,6 +490,8 @@ def main() -> None:
                     for v, _, t in no[kap - 1]
                 ]
         rett_bok(osis, am, [[g for g in kap] for kap in norsk[osis]], logg["nummerering"])
+        if osis == "Ps":
+            rett_salmer(am, no, overskrifter, logg["nummerering"])
 
         # NT: vers som mangler hos wordproject, hentes fra eBible (samme oversettelse).
         if usfm in ebible_filer:

@@ -122,7 +122,7 @@ export const kirkebygget: Tema = {
             no: "ቅኔ ማኅሌት er den ytterste delen, det første rommet vi kommer inn i. Her synger kirkesangerne (መዘምራን og ደባትር) lovsang. Her ber prester og diakoner ሰዓታት om natten og ኪዳን om morgenen. Menn står i den ene delen og kvinner i den andre. I gamle dager stod også de som lærte troen før dåpen (ንዑሰ ክርስቲያን), her.",
             am: "ቅኔ ማኅሌት ከውጭ ስንገባ የምናገኘው የመጀመሪያው ክፍል ነው። በዚህ ክፍል መዘምራንና ደባትር ማኅሌተ እግዚአብሔር ያደርሳሉ፤ ቀሳውስትና ዲያቆናት በሌሊት ሰዓታት፣ በነግህ ኪዳን ያደርሳሉ። ወንዶች ምእመናን በአንድ በኩል፣ ሴቶች በሌላ በኩል ይቆማሉ። ለጥምቀት ያልበቁ ንዑሰ ክርስቲያንም የሚቆዩበት ክፍል ነው።",
           },
-          vers: ["Ps 84:1-2"],
+          vers: ["Ps 84:2-3"],
         },
         {
           tekst: {
@@ -386,7 +386,7 @@ export const kirkebygget: Tema = {
             no: "ቅጽር er muren og gården rundt kirka. Den er også hellig. Kirkas lærere sier at muren og trærne rundt er et bilde på englene som vokter mennesker og kirka. Den som står i kirkegården under gudstjenesten, regnes også som til stede.",
             am: "ቅጽር የቤተ ክርስቲያኑ ግቢና አጥር ነው፤ እርሱም የተቀደሰ ነው። ዕጽዋቱና ቅጽሩ ሰውንም ሕንጻውንም የሚጠብቁ የቅዱሳን መላእክት ምሳሌ ናቸው ብለው መምህራን ያስተምራሉ። በአገልግሎት ጊዜ በቅጽሩ ውስጥ የቆመም እንዳስቀደሰ ይቆጠራል።",
           },
-          vers: ["Ps 91:11", "Ps 84:1-2"],
+          vers: ["Ps 91:11", "Ps 84:2-3"],
         },
         {
           tekst: {

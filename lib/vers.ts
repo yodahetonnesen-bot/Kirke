@@ -1,6 +1,6 @@
 // Henter bibelvers fra bibeldataene ut fra en henvisning som "John 3:5" eller "Matt 28:19-20".
 // Brukes på lærsidene, så versene alltid står ordrett på begge språk. Bare på serveren.
-import { alleBoker, kapittelRader } from "./bibel";
+import { alleBoker, kapittelRader, type Del } from "./bibel";
 
 // Forkortelser for henvisninger: norsk og amharisk.
 const FORKORTELSER: Record<string, [string, string]> = {
@@ -26,6 +26,22 @@ export type HentetVers = {
   no: string;
 };
 
+/**
+ * Den amhariske bibelen nummererer noen steder annerledes (f.eks. salmer med overskrift).
+ * Da har versene den amhariske henvisningen i ref («51፥1», «ርዕስ»), og den brukes her.
+ */
+function amharskHenvisning(deler: Del[], kap: number, f: number, t: number) {
+  const ekte = deler.filter((d) => d.tekst && d.ref !== "ርዕስ");
+  if (!ekte.some((d) => d.ref)) return t === f ? `${kap}፥${f}` : `${kap}፥${f}–${t}`;
+  const start = (d: Del) => (d.ref ? d.ref.split("፥") : [`${kap}`, `${d.fra}`]);
+  const [k1, n1] = start(ekte[0]);
+  const [k2, n2] = start(ekte[ekte.length - 1]);
+  const fra = n1.split("-")[0];
+  const til = n2.split("-").pop()!;
+  if (k1 !== k2) return `${k1}፥${fra}–${k2}፥${til}`;
+  return fra === til ? `${k1}፥${fra}` : `${k1}፥${fra}–${til}`;
+}
+
 const MONSTER = /^(\S+) (\d+):(\d+)(?:-(\d+))?$/;
 
 /** Henter et vers eller en versrekke. Kaster feil ved ukjent henvisning, så skrivefeil stopper bygget. */
@@ -44,7 +60,7 @@ export function hentVers(henvisning: string): HentetVers {
   const del = (tekster: { tekst: string }[]) => tekster.map((d) => d.tekst).join(" ");
   const nr = t === f ? `${f}` : `${f}–${t}`;
   return {
-    ref: { no: `${fork[0]} ${kap},${nr}`, am: `${fork[1]} ${kap}፥${nr}` },
+    ref: { no: `${fork[0]} ${kap},${nr}`, am: `${fork[1]} ${amharskHenvisning(rader.flatMap((r) => r.am), kap, f, t)}` },
     href: `/bibelen/${bok.adresse}/${kap}/#v${rader[0].fra}`,
     am: rader.map((r) => del(r.am)).join(" "),
     no: rader.map((r) => del(r.no)).join(" "),

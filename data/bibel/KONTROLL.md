@@ -5,16 +5,17 @@ Laget av `scripts/bibel/kontroller_bibel.py`. Kjøres på nytt når dataene endr
 ## Tall
 
 - Kapitler: 1189
-- Amharisk: tekst på 31103 versplasser, 480 versgrupper (sammenslåtte vers), 4 ekstra vers uten norsk motstykke
+- Amharisk: tekst på 31169 versplasser, 485 versgrupper (sammenslåtte vers), 4 ekstra vers uten norsk motstykke
 - Norsk 1930: 31101 vers
 - En Levende Bok (NT): 7942 vers
 
 ## Må fikses av et menneske
 
-### Vers som mangler i den amhariske kilden: 1
+### Vers som mangler i den amhariske kilden: 2
 
 Disse står som «mangler» i leseren. Teksten kan skrives av fra en trykt amharisk bibel.
 
+- Salmenes bok 7,1
 - Salmenes bok 78,71–72
 
 ### Hull i den amhariske nummereringen: 0
@@ -97,13 +98,144 @@ Vers som moderne oversettelser utelater fordi de mangler i de eldste håndskrift
 - 3. Johannesbrev 1,15: skjult vers skilt ut fra vers 14
 - Johannes' åpenbaring 12,18: skjult vers skilt ut fra vers 17
 
-**Vers lagt på norsk versplass:** 10
+**Vers lagt på norsk versplass:** 141
 
 - 1Sam 13,23-23: teksten står i vers 22 (slått sammen bakover)
 - 1Sam 21,15-15: teksten står i vers 14 (slått sammen bakover)
 - 2Kgs 11–12: amharisk 12,1-1 lagt på plass som 11,21-21
 - Job 40–41: amharisk 40,25-32 lagt på plass som 41,1-8
 - Ps 14: amhariske vers [4, 5, 6] vist som egne rader
+- Salme 3: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 4: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 5: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 6: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 7: overskriften mangler i kilden, amharisk flyttet 1 frem
+- Salme 8: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 9: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 11: overskriften satt foran vers 1
+- Salme 12: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 13: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 16: overskriften satt foran vers 1
+- Salme 17: overskriften satt foran vers 1
+- Salme 18: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 19: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 20: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 21: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 22: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 23: overskriften satt foran vers 1
+- Salme 25: overskriften satt foran vers 1
+- Salme 26: overskriften satt foran vers 1
+- Salme 27: overskriften satt foran vers 1
+- Salme 28: overskriften satt foran vers 1
+- Salme 29: overskriften satt foran vers 1
+- Salme 30: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 31: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 32: overskriften satt foran vers 1
+- Salme 33: overskriften satt foran vers 1
+- Salme 34: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 36: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 37: overskriften satt foran vers 1
+- Salme 38: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 39: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 40: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 41: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 42: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 43: overskriften satt foran vers 1
+- Salme 44: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 45: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 46: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 47: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 48: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 49: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 50: overskriften satt foran vers 1
+- Salme 51: overskriften er vers 1-2, amharisk flyttet 2 frem
+- Salme 52: overskriften er vers 1-2, amharisk flyttet 2 frem
+- Salme 53: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 54: overskriften er vers 1-2, amharisk flyttet 2 frem
+- Salme 55: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 56: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 57: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 58: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 59: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 60: overskriften er vers 1-2, amharisk flyttet 2 frem
+- Salme 61: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 62: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 63: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 64: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 65: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 66: overskriften satt foran vers 1
+- Salme 67: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 68: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 69: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 70: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 71: overskriften satt foran vers 1
+- Salme 72: overskriften satt foran vers 1
+- Salme 73: overskriften satt foran vers 1
+- Salme 74: overskriften satt foran vers 1
+- Salme 75: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 76: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 77: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 78: overskriften satt foran vers 1
+- Salme 79: overskriften satt foran vers 1
+- Salme 80: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 81: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 82: overskriften satt foran vers 1
+- Salme 83: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 84: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 85: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 86: overskriften satt foran vers 1
+- Salme 87: overskriften satt foran vers 1
+- Salme 88: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 89: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 90: overskriften satt foran vers 1
+- Salme 91: overskriften satt foran vers 1
+- Salme 92: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 93: overskriften satt foran vers 1
+- Salme 94: overskriften satt foran vers 1
+- Salme 95: overskriften satt foran vers 1
+- Salme 96: overskriften satt foran vers 1
+- Salme 98: overskriften satt foran vers 1
+- Salme 99: overskriften satt foran vers 1
+- Salme 100: overskriften satt foran vers 1
+- Salme 101: overskriften satt foran vers 1
+- Salme 102: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 103: overskriften satt foran vers 1
+- Salme 104: overskriften satt foran vers 1
+- Salme 105: overskriften satt foran vers 1
+- Salme 107: overskriften satt foran vers 1
+- Salme 108: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 109: overskriften satt foran vers 1
+- Salme 110: overskriften satt foran vers 1
+- Salme 114: overskriften satt foran vers 1
+- Salme 116: overskriften satt foran vers 1
+- Salme 117: overskriften satt foran vers 1
+- Salme 118: overskriften satt foran vers 1
+- Salme 120: overskriften satt foran vers 1
+- Salme 121: overskriften satt foran vers 1
+- Salme 122: overskriften satt foran vers 1
+- Salme 123: overskriften satt foran vers 1
+- Salme 124: overskriften satt foran vers 1
+- Salme 125: overskriften satt foran vers 1
+- Salme 126: overskriften satt foran vers 1
+- Salme 127: overskriften satt foran vers 1
+- Salme 128: overskriften satt foran vers 1
+- Salme 129: overskriften satt foran vers 1
+- Salme 130: overskriften satt foran vers 1
+- Salme 131: overskriften satt foran vers 1
+- Salme 132: overskriften satt foran vers 1
+- Salme 133: overskriften satt foran vers 1
+- Salme 134: overskriften satt foran vers 1
+- Salme 138: overskriften satt foran vers 1
+- Salme 139: overskriften satt foran vers 1
+- Salme 140: amharisk har overskriften som vers 1 og vers 2-3 slått sammen
+- Salme 141: overskriften satt foran vers 1
+- Salme 142: overskriften er vers 1, amharisk flyttet 1 frem
+- Salme 143: overskriften satt foran vers 1
+- Salme 144: overskriften satt foran vers 1
+- Salme 145: overskriften satt foran vers 1
+- Salme 146: overskriften satt foran vers 1
+- Salme 147: overskriften satt foran vers 1
+- Salme 148: overskriften satt foran vers 1
 - Song 7: amharisk 7,1 vist som ekstra vers etter 6,13
 - Jer 11,23-23: teksten står i vers 22 (slått sammen bakover)
 - Hos 1–2: amharisk 2,1-2 lagt på plass som 1,10-11

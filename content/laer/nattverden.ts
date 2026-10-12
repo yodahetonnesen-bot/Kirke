@@ -186,7 +186,7 @@ export const nattverden: Tema = {
             no: "Brødet lages av rent hvetemel, vann og surdeig (det er hevet brød). Vinen lages av tørkede druer – rosiner – som legges i vann og presses. Kirka bruker hvete og vin fordi Melkisedek bar fram brød og vin, og fordi Salmenes bok taler om korn og vin.",
             am: "ኅብስቱ ከንጹሕ የስንዴ ዱቄት፣ ከውኃና ከእርሾ ይዘጋጃል። ወይኑ ከደረቀ ወይን (ዘቢብ) በውኃ ተዘፍዝፎ ተጨምቆ ይዘጋጃል። ስንዴና ወይን የተመረጡት መልከ ጼዴቅ በኅብስትና በወይን ስለ ሠዋ ነው፤ ቅዱስ ዳዊትም «በልቤ ደስታን ጨመርህ፤ ከስንዴ ፍሬና ከወይን ከዘይትም ይልቅ በዛ» ብሎ ትንቢት ተናግሯል።",
           },
-          vers: ["Gen 14:18", "Ps 4:7-8"],
+          vers: ["Gen 14:18", "Ps 4:8"],
         },
         {
           tekst: {

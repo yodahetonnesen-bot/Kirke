@@ -216,7 +216,7 @@ export const skriftemaal: Tema = {
             no: "Kong David tok en annen manns kone og fikk mannen drept. Da profeten Natan kom, sa David: «Jeg har syndet mot Herren.» Natan svarte: «Herren har tatt bort synden din.» Da skrev David Salme 51: «Vær meg nådig, Gud … rens meg fra min synd.»",
             am: "ንጉሥ ዳዊት የሰውን ሚስት ወስዶ ባሏን አስገደለ። ነቢዩ ናታን በመጣ ጊዜ «እግዚአብሔርን በድያለሁ» አለ፤ ናታንም «እግዚአብሔር ደግሞ ኃጢአትህን አርቆልሃል» አለው። ዳዊትም «አቤቱ፥ እንደ ቸርነትህ መጠን ማረኝ … ከኃጢአቴም አንጻኝ» ብሎ መዝሙር 51ን ጸለየ።",
           },
-          vers: ["2Sam 12:13", "Ps 51:1-4"],
+          vers: ["2Sam 12:13", "Ps 51:3-6"],
         },
         {
           tekst: {
@@ -268,7 +268,7 @@ export const skriftemaal: Tema = {
             no: "ጸጸት – å angre og sørge: Vi husker synden vår, innrømmer at vi har gjort urett mot Gud og mennesker, og blir lei oss. Ikke bare fordi vi ble straffet, men fordi vi har gjort Gud sorg. Vi lærer å hate synden og bestemmer oss for hvordan vi vil leve etterpå.",
             am: "ጸጸት (ኀዘን)፤ ኃጢአታችንን እናስታውሳለን፤ ሰውንና እግዚአብሔርን መበደላችንን አምነን እናዝናለን። ማዘናችን ስለ ደረሰብን ቅጣት ብቻ ሳይሆን እግዚአብሔርን ስላሳዘንን ነው። ኃጢአትን እንጠላለን፤ ከንስሐ በኋላ ስለምንኖረው ሕይወትም እንወስናለን።",
           },
-          vers: ["Ps 51:1-4", "Acts 2:37-38"],
+          vers: ["Ps 51:3-6", "Acts 2:37-38"],
         },
         {
           tekst: {
@@ -495,7 +495,7 @@ export const skriftemaal: Tema = {
             no: "Et nytt hjerte: Vi blir fornyet og løst fra syndens lenker.",
             am: "መታደስ፤ አዲስ ልብ እናገኛለን፤ ከኃጢአት እስራትም እንፈታለን።",
           },
-          vers: ["Ezek 18:31", "Ps 51:1-4"],
+          vers: ["Ezek 18:31", "Ps 51:3-6"],
         },
         {
           tekst: {
