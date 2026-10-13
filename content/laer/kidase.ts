@@ -13,6 +13,11 @@ import type { Tema } from "./typer";
 // Usikkert: Kildene er ikke enige om hvilke anaforaer som brukes på hvilke dager. Daoud sier at ቅዳሴ ዲዮስቆሮስ brukes
 // i julen, ved ጥምቀት, påske, Kristi himmelfart og pinse, mens አኰቴተ ቍርባን sier at ቅዳሴ ጎርጎርዮስ ካልዕ er julens ቅዳሴ.
 // Vi har bare tatt med noen få eksempler som kildene er tydelige på. Presten bør se over listen.
+// Usikkert: «Church Music» (ethiopianorthodox.org) har en egen liste over dagene (tatt med i ett punkt), men den sier
+// at ቅዳሴ ዮሐንስ ወልደ ነጐድጓድ også brukes i julen, at «Gregor av Nazianz» brukes på ሆሣዕና (አኰቴተ ቍርባን: ጎርጎርዮስ
+// ዘኑሲስ), og at ቅዳሴ ያዕቆብ ዘሥሩግ brukes på englenes dager (አኰቴተ ቍርባን: i ጳጉሜ). Vi har utelatt det som strider
+// mot አኰቴተ ቍርባን, og skrevet at skikken kan variere. Den engelske listen nevner heller ikke ቅዳሴ ጎርጎርዮስ ካልዕ, men
+// «Gregor armeneren»; vi følger navnene i አኰቴተ ቍርባን.
 // Usikkert: አኰቴተ ቍርባን sier at kirka har 20 ቅዳሴያት i alt, men at 14 er trykt og brukes. Vi skriver «14 i bruk».
 // Usikkert: Hvem som leser hvilken lesning (utenom Paulus-brevet ved hoveddiakonen og evangeliet ved presten) sier kildene
 // ikke tydelig, så det har vi ikke skrevet.
@@ -359,8 +364,8 @@ export const kidase: Tema = {
         },
         {
           tekst: {
-            no: "ቅዳሴ ሐዋርያት er grunnmønsteret som de andre bygger på. Kirka lærer at kjernen i den kommer fra apostlene selv. Den brukes blant annet på apostlenes minnedager.",
-            am: "ቅዳሴ ሐዋርያት ሌሎቹ ቅዳሴያት የሚመሠረቱበት መሠረታዊ ቅዳሴ ነው። ዋናው ክፍሉ በሐዋርያት እንደ ተጻፈ ቤተ ክርስቲያን ታስተምራለች። በሐዋርያት መታሰቢያ በዓላትም ይቀደሳል።",
+            no: "ቅዳሴ ሐዋርያት er grunnmønsteret som de andre bygger på. Kirka lærer at kjernen i den kommer fra apostlene selv. Kirkas nettside kaller den den vanlige anaforaen, mens de andre brukes på bestemte dager.",
+            am: "ቅዳሴ ሐዋርያት ሌሎቹ ቅዳሴያት የሚመሠረቱበት መሠረታዊ ቅዳሴ ነው። ዋናው ክፍሉ በሐዋርያት እንደ ተጻፈ ቤተ ክርስቲያን ታስተምራለች። የቤተ ክርስቲያን ድረ ገጽ ዘወትር የሚቀደስበት ቅዳሴ እንደ ሆነ፣ ሌሎቹ ግን በተወሰኑ ዕለታት እንደሚቀደሱ ይገልጻል።",
           },
           vers: ["Acts 1:3", "Eph 2:20"],
         },
@@ -377,6 +382,13 @@ export const kidase: Tema = {
             am: "አንዳንዶቹ የተወሰኑ ጊዜያት አሏቸው፤ ቅዳሴ ጎርጎርዮስ ዘኑሲስ በሆሣዕና ሳምንት፣ ቅዳሴ ጎርጎርዮስ ካልዕ በበዓለ ልደት፣ ቅዳሴ ያዕቆብ ዘሥሩግ በዕለታተ ጳጉሜ ይቀደሳሉ። ቅዳሴ ያዕቆብ ዘሥሩግ ስለ ዓለም ፍጻሜና ስለ ዳግም ምጽአት በሰፊው ይናገራል፤ ጳጉሜም የዓመቱ መጨረሻ እንደ ሆነች የዓለም ፍጻሜ ይታሰብባታል።",
           },
           vers: ["John 12:12-13", "Matt 24:30-31"],
+        },
+        {
+          tekst: {
+            no: "Kirkas egen nettside gir flere eksempler: ቅዳሴ እግዚእ brukes på Herrens høytider og på ደብረ ታቦር (forklarelsen), ቅዳሴ ማርያም på Marias høytider og på Gabriels dag, ቅዳሴ ዮሐንስ ወልደ ነጐድጓድ på dagene for apostelen Johannes, Stefanus, Georg og martyrene, ቅዳሴ አትናቴዎስ på søndager, ቅዳሴ ዲዮስቆሮስ på Kristi himmelfart og pinse, ቅዳሴ ባስልዮስ på dagene for patriarker og biskoper, og ቅዳሴ ያዕቆብ ዘሥሩግ også på englenes dager. Skikken kan variere litt fra kirke til kirke, og presten vet hvilken som skal brukes.",
+            am: "የቤተ ክርስቲያናችን ድረ ገጽ ተጨማሪ ምሳሌዎችን ይሰጣል፤ ቅዳሴ እግዚእ በጌታችን በዓላትና በደብረ ታቦር፣ ቅዳሴ ማርያም በእመቤታችን በዓላትና በቅዱስ ገብርኤል በዓል፣ ቅዳሴ ዮሐንስ ወልደ ነጐድጓድ በቅዱስ ዮሐንስ፣ በቅዱስ እስጢፋኖስ፣ በቅዱስ ጊዮርጊስና በሰማዕታት በዓላት፣ ቅዳሴ አትናቴዎስ በሰንበተ ክርስቲያን፣ ቅዳሴ ዲዮስቆሮስ በዕርገትና በጰራቅሊጦስ፣ ቅዳሴ ባስልዮስ በሊቃነ ጳጳሳትና በጳጳሳት በዓላት፣ ቅዳሴ ያዕቆብ ዘሥሩግም በመላእክት በዓላት ይቀደሳሉ። ልማዱ ከደብር ደብር ትንሽ ሊለያይ ይችላል፤ የትኛው እንደሚቀደስ ካህኑ ያውቃል።",
+          },
+          vers: ["Matt 17:1-2", "Acts 7:59-60", "Acts 2:1-4"],
         },
         {
           tekst: {
