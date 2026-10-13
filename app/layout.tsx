@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 };
 
 // Settes før siden tegnes, så det ikke blinker: lys/mørk, hvilket språk som vises, og norsk utgave.
-const forhandsvalg = `try{var d=document.documentElement,l=localStorage;var t=l.getItem('tema');if(t==='mork'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))d.classList.add('dark');var s=l.getItem('sprak');if(s==='am'||s==='no')d.dataset.sprak=s;if(l.getItem('norsk')==='elb')d.dataset.norsk='elb'}catch(e){}`;
+const forhandsvalg = `try{var d=document.documentElement,l=localStorage;var t=l.getItem('tema');if(t==='mork'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))d.classList.add('dark');var s=l.getItem('sprak');if(s==='am'||s==='no')d.dataset.sprak=s;if(l.getItem('norsk')==='elb')d.dataset.norsk='elb';var b=l.getItem('skjul');if(b)d.dataset.skjul=b}catch(e){}`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (

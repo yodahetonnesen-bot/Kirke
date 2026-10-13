@@ -35,7 +35,7 @@ export const SEKSJONER: Seksjon[] = [
       no: "ውዳሴ ማርያም og de daglige bønnene.",
       am: "ውዳሴ ማርያምና የዕለት ጸሎቶች።",
     },
-    klar: false,
+    klar: true,
   },
   {
     href: "/laer/",

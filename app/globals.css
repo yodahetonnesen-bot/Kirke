@@ -116,3 +116,10 @@ html[data-sprak="no"] .vers-rad .kun-no {
   grid-column-start: 2;
   margin-top: 0;
 }
+
+/* Bønneboka: språk som er skjult (data-skjul="gez am" osv.), satt av Spraakvalg. */
+html[data-skjul~="gez"] .bonn-gez,
+html[data-skjul~="am"] .bonn-am,
+html[data-skjul~="no"] .bonn-no {
+  display: none;
+}

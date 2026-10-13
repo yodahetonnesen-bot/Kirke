@@ -1,0 +1,636 @@
+{
+ "kilde": {
+  "tittel": "Bønnebok for daglig bruk – ge'ez, amharisk og norsk",
+  "oversatt": "Fikre Sillassie",
+  "tid": "juli 2026"
+ },
+ "deler": [
+  {
+   "id": "daglig",
+   "tittel": {
+    "gez": "ጸሎት ዘዘወትር",
+    "am": "የዘወትር ጸሎት",
+    "no": "Daglig bønn"
+   },
+   "innledning": {
+    "gez": "አአትብ ገጽየ፣ ወኵለንታየ፣ በትእምርተ መስቀል።",
+    "am": "በጌታዬ በኢየሱስ ክርስቶስ ትእምርተ መስቀል ፊቴንና መላ ሰውነቴን ሦስት ጊዜ አማትባለሁ።",
+    "no": "Jeg korser mitt ansikt og hele min kropp med min Herre Jesus Kristus korsets tegn tre ganger."
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "በስመ አብ ወወልድ፣ ወመንፈስ ቅዱስ፣ አሐዱ አምላክ፣ በቅድስት ሥላሴ እንዘ አአምን፣ ወእትመሐፀን፣ እክሕደከ ሰይጣን፣ በቅድመ ዛቲ፣ እምየ ቅድስት፣ ቤተ ክርስቲያን፣ እንተ ይእቲ፣ ስምዕየ ማርያም፣ ጽዮን፣ ለዓለመ ዓለም።",
+     "am": "አንድ አምላክ በሆኑ በአብ በወልድ በመንፈስ ቅዱስ ስም፣ ንጹሕ ልዩ ክቡር ጽሩይ በሆነች በሦስትነት ወይም በሥላሴ እያመንኩና እየተማፀንኩ፣ ጠላቴ ሰይጣንን እክድሃለሁ፣ በዚች በእናቴ በቤተ ክርስቲያን ፊት ቁሜ እክድሃለሁ። ለዚህም ምስክሬ ማርያም ናት፣ በዚህም ዓለም፣ በወዲያኛውም ዓለም እሷን አምባ መጠጊያ አድርጌ እክድሃለሁ።",
+     "no": "I Faderens og Sønnens og Den Hellige Ånds navn, den ene Gud, bekjenner jeg min tro på Den hellige Treenighet, og påkaller Ham. Foran deg, min Mor, den hellige Kirke, står jeg og forkaster deg, satan, min fiende. Og til vitnesbyrd om dette er Maria av Sion mitt vitne i alle evighet."
+    },
+    {
+     "nr": 2,
+     "gez": "ነአኵተከ እግዚኦ! ወንሴብሐከ፤ ንባርከከ እግዚኦ! ወንትአመነከ፤ ንገኒ ለከ እግዚኦ! ወንትቀነይ፤ ለስምከ ቅዱስ። ንሰግድ ለከ፤ ኦ ዘለከ፣ ይሰግድ ኵሉ ብርክ፣ ወለከ ይትቀነይ ኵሉ ልሳን። አንተ ውእቱ አምላከ አማልክት፣ ወእግዚአ አጋእዝት፣ ወንጉሠ ነገሥት፣ አምላክ አንተ ለኵሉ ዘሥጋ፣ ወለኵላ ዘነፍስ፣ ወንጼውዐከ በከመ መሐረነ ቅዱስ ወልድከ፣ እንዘ ይብል አንትሙሰ ሶበ ትጼልዩ ከመዝ በሉ።",
+     "am": "አቤቱ እናመሰግንሃለን፣ አቤቱ እናከብርሃለን፣ አቤቱ እንገዛልሃለን። አቤቱ ቅዱስ ስምህን እናመሰግናለን። ጉልበት ሁሉ የሚሰግድልህ፣ አቤቱ እንሰግድልሃለን። አንደበትም ሁሉ ለአንተ ይገዛል። የአማልክት አምላክ፣ የጌቶች ጌታ፣ የነገሥታት ንጉሥ አንተ ነህ። የሥጋም የነፍስም ፈጣሪ አነተ ነህ። “እናንተስ በምትጸልዩበት ጊዜ እንዲህ ብላችሁ ጸልዩ” ብሎ ቅዱስ ልጅህ እንዳስተማረን እንጠራለሃን።",
+     "no": "Vi takker Deg, Herre, og vi tilber Deg. Vi lovpriser Deg, Herre, og vi setter vår lit til Deg. Vi takker Deg, Herre, og vi tjener Ditt hellige navn. Vi tilber Deg, for Deg bøyer hvert kne seg i tilbedelse, og hver tunge tjener Deg. Du er Gudenes Gud, herrenes Herre og kongenes Konge. Du er Gud for alle som har kjød og sjel. Derfor påkaller vi deg, slik din hellige Sønn lærte oss da Han sa: «Når dere ber, skal dere be slik.»:"
+    },
+    {
+     "nr": 3,
+     "gez": "አቡነ ዘበሰማያት ይትቀደስ ስምከ፣ ትምጻእ መንግሥትከ፣ ወይኩን ፈቃድከ፣ በከመ በሰማይ፣ ከማሁ በምድር፣ ሲሳየነ ዘለለ ዕለትነ፣ ሀበነ ዮም። ኅድግ ለነ አበሳነ ወጌጋየነ፣ ከመ ንሕነኒ ንኅድግ ለዘአበሰ ለነ። ኢታብአነ እግዚኦ ውስተ መንሱት፣ አላ አድኅነነ ወባልሐነ እምኵሉ እኩይ፣ እስመ ዚአከ ይእቲ መንግሥት፣ ኀይል ወስብሐት፣ ለዓለመ ዓለም። አሜን።",
+     "am": "አባታችን ሆይ! በሰማያት የምትኖር፣ ስምህ ይቀደስ፣ መንግሥትህ ትምጣ። ፈቃድህ በሰማይ እንደሆነች፣ እንዲሁም በምድር ትሁን። የዕለት እንጀራችንን ስጠን ዛሬ። በደላችንንም ይቅር በለን፤ እኛም የበደሉንን ይቅር እንደምንል። አቤቱ ወደ ፈተናም አታግባን፣ ከክፉ ሁሉ አድነን እንጂ። መንግሥት ያንተ ናትና፣ ኃይል፣ ክብር፣ ምስጋና ለዘለዓለሙ አሜን።",
+     "no": "Fader vår, Du som er i himmelen! La Ditt navn helliges. La Ditt rike komme. La Din vilje skje på jorden som i himmelen. Gi oss i dag vårt daglige brød. Og tilgi oss vår skyld, som vi òg tilgir våre skyldnere. Og led oss ikke inn i fristelse, men frels oss fra det onde. For riket er Ditt, og makten og æren i evighet. Amen."
+    },
+    {
+     "nr": 4,
+     "gez": "በሰላመ ቅዱስ ገብርኤል መልአክ፣ ኦ እግዝእትየ ማርያም ሰላም ለኪ፣ ድንግል በሕሊናኪ፣ ወድንግል በሥጋኪ። እመ እግዚአብሔር ጸባዖት ሰላም ለኪ። ቡርክት አንቲ እምአንስት፣ ወቡሩክ ፍሬ ከርሥኪ። ተፈሥሒ ፍሥሕት ኦ ማርያም ምልእተ ጸጋ እግዚአብሔር ምስሌኪ። ሰአሊ ወጸልዪ ለነ ምሕረተ ኅበ ፍቁር ወልድኪ ኢየሱስ ክርስቶስ ከመ ይሥረይ ለነ ኀጣውኢነ። ጸሎተ ሃይማኖት",
+     "am": "እመቤታችን ቅድስት ድንግል ማርያም ሆይ! በመልአኩ በቅዱስ ገብርኤል ሰላምታ ሰላም እንልሻለን። በሃሳብሽ ድንግል ነሽ፣ በሥጋሽም ድንግል ነሽ። የአሸናፊ የእግዚአብሔር እናት ሆይ! ሰላምታ ላንቺ ይገባል። ከሴቶች ሁሉ ተለይተሽ፣ አንቺ የተባረክሽ ነሽ፣ የማሕጸንሽም ፍሬ የተባረከ ነው። ጸጋን የተመላሽ ክብርት ሆይ! ደስ ይበልሽ! ልዑል እግዚአብሔር ካንቺ ጋር ነውና። ከተወደደው ልጅሽ ከጌታችን፣ ከመድኃኒታችን፣ ከኢየሱስ ክርስቶስ ዘንድ ይቅርታና ምሕረትን ለምኚልን፣ ኃጢአታችንንም ያስተሰርይልን ዘንድ፣ ለዘለዓለሙ አሜን። የሃይማኖት ጸሎት",
+     "no": "Slik som engelen Gabriel hilste Deg, hilser også jeg Deg, hellige jomfru Maria. Du er jomfru i sinn og jomfru i kropp. Hilset være Du, elskede Guds Mor. Velsignet er Du blant kvinner, og velsignet er Ditt livs frukt. Gled deg, du som er fylt av nåde, for Herren er med deg. Be for oss om miskunn hos din elskede Sønn, vår Herre og frelser Jesus Kristus, så Han kan tilgi oss våre synder. Amen. Trosbekjennelsen"
+    },
+    {
+     "nr": 5,
+     "gez": "ነአምን በአሐዱ አምላክ እግዚአብሔር አብ አኃዜ ኵሉ ገባሬ ሰማያት ወምድር፣ ዘያስተርኢ ወዘኢያስተርኢ። ወነአምን በአሐዱ እግዚእ ኢየሱስ ክርስቶስ፣ ወልደ አብ ዋሕድ ዘህልው ምስሌሁ እምቅድመ ይትፈጠር ዓለም። ብርሃን ዘእምብርሃን፣ አምላክ ዘእምአምላክ ዘበአማን። ዘተወልደ ወአኮ ዘተገብረ ዘዕሩይ ምስለ አብ በመለኮቱ። ዘቦቱ ኵሉ ኮነ ወዘእንበሌሁሰ አልቦ ዘኮነ ወኢምንትኒ ዘበሰማይኒ ወዘበምድርኒ። ዘበእንቲአነ ለሰብእ ወበእንተ መድኃኒትነ ወረደ እምሰማያት ተሰብአ ወተሠገወ እመንፈስ ቅዱስ ወእማርያም እምቅድስት ድንግል ኮነ ብእሴ ወተሰቅለ በእንቲአነ በመዋዕለ ጲላጦስ ጰንጤናዊ። ሐመ ወሞተ ወተቀበረ ወተንሥአ እሙታን አመ ሣልስት ዕለት በከመ ጽሑፍ ውስተ ቅዱሳት መጻሕፍት። ዐርገ በስብሐት ውስተ ሰማያት። ወነበረ በየማነ አቡሁ ዳግመ ይመጽእ በስብሐት ይኮንን ሕያዋነ ወሙታነ ወአልቦ ማኅለቅት ለመንግሥቱ። ወነአምን በመንፈስ ቅዱስ እግዚእ ማሕየዊ ዘሠረጸ እምአብ ንስግድ ሎቱ ወንሰብሖ ምስለ አብ ወወልድ ዘነበበ በነቢያት። ወነአምን በአሐቲ ቅድስት ቤተ ክርስቲያን እንተ ላዕለ ኵሉ ጉባኤ ዘሐዋርያት። ወነአምን በአሐቲ ጥምቀት ለሥርየት ኀጢአት ወንሴፎ ትንሣኤ ሙታን ወሕይወተ ዘይመጽእ ለዓለመ ዓለም።",
+     "am": "ሁሉን የፈጠረ፣ አንድ አምላክ በሆነ፣ በእግዚአብሔር አብ እናምናለን። ሰማይንና ምድርን የፈጠረ፣ የሚታየውንና የማይታየውን፣ ዓለም ሳይፈጠር ከእርሱ ጋር በነበረ፣ አንድ የአብ ልጅ በሆነ፣ በአንድ ጌታ በኢየሱስ ክርስቶስ እናምናለን። ከብርሃን የተገኘ ብርሃን፣ ከእውነተኛ አምላክ የተገኘ እውነተኛ አምላክ፤ የተወለደ እንጂ ያልተፈጠረ፤ በባሕርዩ ከአብ ጋር የሚተካከል፣ ሁሉ በእርሱ የሆነ፣ በሰማይ ካለው በምድርም ካለው ያለእርሱ ምንም ምን የሆነ የለም። ስለእኛ ስለሰዎች እኛን ለማዳን ከሰማይ ወረደ፣ በመንፈስ ቅዱስ ግብር ከቅድስት ድንግል ማርያም ፍጹም ሰው ሆነ፤ ደግሞም ስለእኛ ተሰቀለ፤ በጰንጤናዊው በጲላጦስ ዘመን እርሱ መከራን ተቀበለ፣ ሞተ ተቀበረ በሦስተኛውም ቀን ከሙታን ተለይቶ ተነሣ፤ በቅዱሳት መጻሕፍት እንደተጻፈው፣ በክብር በምስጋና ወደሰማይ ዐረገ፣ በአባቱም ቀኝ ተቀመጠ፣ ዳግመኛም በሕያዋንና በሙታን ለመፍረድ በምስጋና ይመጣል፣ ለመንግሥቱም ፍጻሜ የለውም። በመንፈስ ቅዱስም እናምናለን፣ እርሱም ጌታ ሕይወትን የሚሰጥ ከአብ የሠረፀ፣ ከአብና ከወልድ ጋር በአንድነት እንሰግድለታለን፤ እናመሰግነዋለን፤ እርሱም በነቢያት አድሮ የተናገረው ነው። ከሁሉም በላይ በምትሆን፣ ሐዋርያት በሰበሰቧት በአንዲት ክብርት ቤተ ክርስቲያን እናምናለን። ኃጢአት በሚሠረይባት በአንዲት ጥምቀትም እናምናለን። የሙታንንም መነሣት ተስፋ እናደርጋለን። የሚመጣውንም ሕይወት ለዘላለሙ።",
+     "no": "Vi tror på én Gud, Faderen, Den Allmektige, som har skapt himmel og jord, alt synlig og usynlig. Og vi tror på én Herre, Jesus Kristus, Guds enbårne Sønn, født av Faderen før alle tider. Lys av lys, sann Gud av sann Gud, født, ikke skapt, av samme vesen som Faderen. Ved Ham er alt blitt skapt. For oss mennesker og til vår frelse steg Han ned fra himmelen. Han er blitt kjøtt ved Den Hellige Ånd av Jomfru Maria og er blitt menneske. Han ble korsfestet for oss under Pontius Pilatus, led og ble begravet. Han oppstod på den tredje dag, etter Skriftene, og for opp til himmelen, sitter ved Faderens høyre hånd. Han skal komme igjen i herlighet for å dømme levende og døde, og Hans rike skal være uten ende. Og vi tror på Den Hellige Ånd, Herren og Livgiveren, som utgår fra Faderen, og som med Faderen og Sønnen tilbes og æres, og som har talt ved profetene. Vi tror på én, hellig, allmenn og apostolisk Kirke. Vi bekjenner én dåp til syndenes forlatelse og venter på de dødes oppstandelse og det evige liv i den kommende verden. Amen."
+    },
+    {
+     "nr": 6,
+     "gez": "ቅዱስ ቅዱስ ቅዱስ እግዚአብሔር ጸባዖት ፍጹም ምሉዕ ሰማያተ ወምድረ ቅድሳተ ስብሐቲከ። ንሰግድ ለከ ክርስቶስ ምስለ አቡከ ኄር ሰማያዊ ወመንፈስከ ቅዱስ ማሕየዊ እስመ መጻእከ ወአድኀንከነ።",
+     "am": "አሸናፊ እግዚአብሔር ሆይ! ቅዱስ፣ ቅዱስ፣ ቅዱስ ተብለህ ትመሰገናለህ። ምስጋናህም በሰማይና በምድር የመላ ነው። ክርስቶስ ለአንተ እንሰግድልሃለን፣ ከሰማያዊ ከቸር አባትህ ጋር፣ አዳኝ ከሆነ ከመንፈስ ቅዱስም ጋር እንሰግድልሃለን፣ ወደዚህ ዓለም መጥተህ አድነኸናልና።",
+     "no": "Å Allmektige Gud, du prises med ordene: Hellig, Hellig, Hellig. Himmel og jord er fulle av Din herlighet. Kristus, vi tilber Deg, sammen med Din gode himmelske Far og Den Hellige Ånd, Frelseren, for Du kom til denne verden og frelste oss."
+    },
+    {
+     "nr": 7,
+     "gez": "እሰግድ ለአብ ወወልድ ወመንፈስ ቅዱስ አሐተ ስግደተ (ሠለስተ ጊዜያተ በል)። እንዘ አሐዱ ሠለስቱ ወእንዘ ሠለስቱ አሐዱ፣ ይሤለሱ በአካላት ወይትዋሐዱ በመለኮት። እሰግድ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ። እሰግድ ለመስቀለ እግዚእነ ኢየሱስ ክርስቶስ ዘተቀደሰ በደሙ ክቡር። መስቀል ኀይልነ፣ መስቀል ጽንዕነ፣ መስቀል ቤዛነ፣ መስቀል መድኀኒተ ነፍስነ፣ አይሁድ ክሕዱ ንሕነሰ አመነ ወእለ አመነ በኃይለ መስቀሉ ድኅነ።",
+     "am": "ለአብ ለወልድ ለመንፈስ ቅዱስ አንዲት ስግደት እሰግዳለሁ። (3 ጊዜ በል) ። አንድ ሲሆን ሦስት፣ ሦስት ሲሆኑ አንድ፣ በአካል ሦስት ሲሆኑ በመለኮት አንድ ለሚሆኑ እሰግዳለሁ። አምላክን ለወለደች ለእመቤታችን ለቅድስት ለድንግል ማርያም እሰግዳለሁ። ዓለምን ሁሉ ለማዳን ሲል ኢየሱስ ክርስቶስ ለተሰቀለበት መስቀልም እሰግዳለሁ። መስቀል ኃይላችን ነው፣ ኃይላችን መስቀል ነው፣ የሚያጸናን መስቀል ነው፣ መስቀል ቤዛችን ነው፣ መስቀል የነፍሳችን መዳኛ ነው። አይሁድ ይክዱታል፣ እኛ ግን እናምነዋለን፣ ያመነውም እኛም በመስቀሉ እንድናለን፣ ድነናልም።",
+     "no": "Én tilbedelse frembærer jeg til Faderen og Sønnen og Den Hellige Ånd. (Sies tre ganger). Jeg tilber den ene Gud i Treenigheten, og Treenigheten i den ene Gud: tre personer, én guddom. Jeg tilber også for vår Frue, Guds Mor, den salige Jomfru Maria. Jeg tilber for det kors, som vår Herre Jesus Kristus ble korsfestet på til verdens frelse. Korset er vår styrke, og i korset er vår kraft. Korset er vårt vern og våre sjelers frelse. Jødene fornekter det, men vi tror på det. Ved korset blir vi troende frelst. I korset har vi vår frelse."
+    },
+    {
+     "nr": 8,
+     "gez": "ስብሐት ለአብ ስብሐት ለወልድ ስብሐት ለመንፈስ ቅዱስ (ሠለስተ ጊዜያተ በል።) — ይደልዎሙ ለአብ ወወልድ ወመንፈስ ቅዱስ ስብሐት ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ። — ይደልዋ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ። ስብሐት ለመስቀለ እግዚእነ ኢየሱስ ክርስቶስ። — ይደልዎ ለመስቀለ እግዚእነ ኢየሱስ ክርስቶስ። ክርስቶስ በምሕረቱ ይዘከረነ። —አሜን። አመ ዳግም ምጽአቱ ኢያስተሐፍረነ። —አሜን። ለሰብሖተ ስሙ ያንቅሀነ። —አሜን። ወበአምልኮቱ ያጽንአነ። —አሜን። እግዝእትነ ማርያም አዕርጊ ጸሎተነ። —አሜን። ወአስተሥርዪ ኀጢአተነ። —አሜን። ቅድመ መንበሩ ለእግዚእነ። —አሜን። ለዘአብልዐነ ዘንተ ኅብስተ። —እስመ ለዓለም ምሕረቱ። ወለዘአስተየነ ዘንተ ጽዋዓ። —እስመ ለዓለም ምሕረቱ። ወለዘሠርዐ ለነ ሲሳየነ ወአራዘነ። —እስመ ለዓለም ምሕረቱ። ወለዘተዐገሠ ለነ ኵሎ ኃጢአተነ። —እስመ ለዓለም ምሕረቱ። ወለዘወሀበነ ሥጋሁ ቅዱሰ ወደሞ ክቡረ። —እስመ ለዓለም ምሕረቱ። ወለዘአብጽሐነ እስከ ዛቲ ሰዓት። —እስመ ለዓለም ምሕረቱ። ነሀብ ሎቱ ስብሐተ ወአኰቴተ ለእግዚአብሔር ልዑል ወለወላዲቱ ድንግል ወለመስቀሉ ክቡር ይትአኰት ወይሰባሕ ስሙ ለእግዚአብሔር ወትረ በኵሉ ጊዜ ወበኵሉ ሰዓት።",
+     "am": "ለአብ ምስጋና ይገባል፣ ለወልድ ምስጋና ይገባል፣ ለመንፈስ ቅዱስም ምስጋና ይገባል። (3 ጊዜ በል)። —እውነት ነው ለአብ ለወልድ ለመንፈስ ቅዱስ ምስጋና ይገባል። አምላክን ለወለደች ለእመቤታችን ለቅድስት ለድንግል ማርያም ምስጋና ይገባል። —እውነት ነው አምላክን ለወለደች ለእመቤታችን ለቅድስት ድንግል ማርያም ምስጋና ይገባል። ለኢየሱስ ክርስቶስ መስቀልም ምስጋና ይገባል። — እውነት ነው ለኢየሱስ ክርስቶስ መስቀልም ምስጋና ይገባል። ክርስቶስ በቸርነቱ ያስበን ዘንድ፣ —አሜን። ዳግመኛም በመጣ ጊዜ እንዳያሳፍረን፣ —አሜን። ስሙን ለማመስገን ያነቃን ዘንድ፣ —አሜን። እርሱንም በማምለክ ያጸናን ዘንድ፣ —አሜን። እመቤታችን ጸሎታችንን አሳርጊልን፣ —አሜን። ኃጢአታችንንም አስተሥርዪልን —አሜን። በጌታችን መንበር ፊት ጸሎታችንን አሳርጊልን። —አሜን። ይህንን ኅብስት ላበላን፣ —ምሕረቱ ለዘለዓለም ነውና። ይህንንም ጽዋ ላጠጣን፣ —ምሕረቱ ለዘለዓለም ነውና። ምግባችንንና ልብሳችንንም ላዘጋጀልን፣ —ምሕረቱ ለዘለዓለም ነውና። ኃጢአታችንንም ሁሉ ለታገሠልን፣ —ምሕረቱ ለዘለዓለም ነውና። ክቡር ደሙን ቅዱስ ሥጋውን ለሰጠን፣ —ምሕረቱ ለዘለዓለም ነውና። እስከዚችም ሰዓት ላደረሰን —ምሕረቱ ለዘለዓለም ነውና። ለእርሱ ለልዑል እግዚአብሔር ፍጹም ምስጋና ይገባል፣ ለወለደችው ለድንግልም ምስጋና ይገባል፣ ለክቡር መስቀሉም ምስጋና ይገባል። የእግዚአብሔር ስሙ ፈጽሞ ይመሰገን ዘንድ ዘወትር በየጊዜያቱና በየሰዓቱ ምስጋና ይገባል።",
+     "no": "Ære være Faderen, og ære være Sønnen, og ære være Den hellige Ånd (Sies tre ganger). —Sannelig, ære være Faderen og Sønnen, og Den hellige Ånd Ære være vår Frue, den hellige Jomfru Maria, Guds mor. —Sannelig, ære være vår Frue, den hellige Jomfru Maria, Guds mor. Ære være vår Herre Jesus Kristi kors. — Sannelig, ære være vår Herre Jesus Kristi hellige kors. Må Kristus i sin nåde komme oss i hu. —Amen. Må Han ikke la oss bli til skamme når Han kommer igjen. —Amen. Må Han oppreise oss til å lovprise sitt hellige navn. —Amen. Må Han bevare oss i sin tjensete og tilbedelse. —Amen. Vår Frue, løft vår bønn frem for Herren. —Amen. Og be om syndenes forlatelse for oss. —Amen. Bær våre bønner frem for vår Herres trone. —Amen. La oss takke Ham for dette brød. – For Hans miskunn varer evig. La oss takke Ham for dette beger. – For Hans miskunn varer evig. La oss takke Ham som har skjenket oss mat og klær. – For Hans miskunn varer evig. La oss takke Ham for Hans langmodighet mot våre synder. – For Hans miskunn varer evig. La oss takke Ham for Hans dyrebare legeme og kostelige blod. – For Hans miskunn varer evig. La oss takke Ham som har bevart oss til denne stund. – For Hans miskunn varer evig. La oss derfor gi Gud Den Høyeste all ære og fullkommen lovprisning, sammen med Hans rene og jomfruelige Mor og Hans livgivende og dyrebare kors. Velsignet og lovet være Herrens navn, nå og til evig tid, i alle tider og i alle timer."
+    },
+    {
+     "nr": 9,
+     "gez": "ሰላም ለኪ እንዘ ንሰግድ ንብለኪ ማርያም እምነ ናስተበቊዐኪ እምአርዌ ነዓዊ ተማሕፀነ ብኪ በእንተ ሐና እምኪ ወኢያቄም አቡኪ ማኅበረነ ዮም ድንግል ባርኪ።",
+     "am": "እናታችን ማርያም ሆይ! ሰላም ላንቺ ይሁን እያልን እንሰግድልሻለን፣ እንማልድሻለን፣ ከአዳኝ አውሬ ታድኚን ዘንድ ተማጽነንብሻል። ስለ እናትሽ ስለ ሐና ብለሽ፣ ስለ አባትሽ ስለ ኢያቄም ብለሽ ድንግል ማኅበራችንን ዛሬ ባርኪልን።",
+     "no": "Å vår mor Maria, fred være med deg! Vi tilber deg og søker tilflukt hos deg. Bevar oss fra den onde fienden. For din mor Hannas skyld og din far Joakims skyld, velsign vår forsamling denne dag."
+    },
+    {
+     "nr": 10,
+     "gez": "ጸሎተ እግዝእትነ ማርያም ድንግል ወላዲተ አምላክ። ታዐብዮ ነፍስየ ለእግዚአብሔር። ወትትሐሠይ መንፈስየ በአምላኪየ ወመድኃንየ፤ እስመ ርእየ ሕማማ ለአመቱ። ናሁ እምይእዜሰ ያስተበፅዑኒ ኵሉ ትውልድ። እስመ ገብረ ሊተ ኀይለ ዐቢያተ ወቅዱስ ስሙ። ወሣህሉኒ ለትውልደ ትውልድ ለእለ ይፈርህዎ ወገብረ ኀይለ በመዝራዕቱ፡ ወዘረዎሙ ለእለ ያዐብዩ ሕሊና ልቦሙ፡ ወነሠቶሙ ለኀያላን እመናብርቲሆሙ። አዕበዮሙ ለትሑታን፡ ወአጽገቦሙ እምበረከቱ ለርኁባን፡ ወፈነዎሙ ዕራቆሙ ለብዑላን ወተወክፎ ለእስራኤል ቍልዔሁ፡ ወተዘከረ ሣህሎ ዘይቤሎሙ ለአበዊነ ለአብርሃም ወለዘርዑ እስከ ለዓለም።",
+     "am": "አምላክን በድንግልና የወለደች የእመቤታችን የማርያም ጸሎት፤ ማርያምም አለች፤ “ነፍሴ እግዚአብሔርን ታላቅ ታደርገዋለች፣ መንፈሴም በመድኃኒቴ በእግዚአብሔር ደስ ይላታል። የባሪያይቱን መዋረድ አይቷልና። እነሆ ከዛሬ ጀምሮ ትውልድ ሁሉ ያመሰግኑኛል፤ እርሱ ብርቱ የሚሆን ታላቅ ሥራን ለእኔ አድርጓልና። ስሙም ቅዱስ ነው። ለሚፈሩትም ምሕረቱ ለልጅ ልጅ ነው። ኃይልን በክንዱ አደረገ። በልባቸው አሳብ የሚኮሩ ትዕቢተኞችን በታተናቸው፤ ብርቱዎችንም ከዙፋናቸው አዋረዳቸው። የተዋረዱትንም ከፍ ከፍ አደረጋቸው፤ የተራቡትንም በቸርነቱ አጠገባቸው። ባለጠጎችንም ባዶ እጃቸውን ሰደዳቸው። ምሕረቱን እንዲያስብ እስራኤል ባርያውን ተቀበለ። ለአባቶቻችን ለአብርሃምና ለዘሩም እስከዘለዓለሙ ድረስ እንደተናገረው።”",
+     "no": "Vår frue Marias bønn, hun som fødte Gud i jomfruelighet. Og Maria sa: “Min sjel opphøyer Herren, og min ånd fryder seg over Gud, min frelser. For han har sett til sin ringe tjenerinne. Fra nå av skal alle slekter prise meg salig, for store ting har han gjort mot meg, han den mektige; hellig er hans navn. Hans miskunn varer fra slekt til slekt for dem som frykter ham. Han gjorde storverk med sin sterke arm; han spredte dem som gikk med hovmodstanker, og støtte herskere ned fra tronen, men de små opphøyet han. Han mettet de sultne med gode gaver, men sendte de rike tomhendte fra seg. Han tok seg av sin tjener Israel så han kom i hu sitt løfte til våre fedre og viste miskunn mot Abraham og hans ætt – til evig tid.”"
+    }
+   ]
+  },
+  {
+   "id": "mandag",
+   "tittel": {
+    "gez": "ሰኑይ",
+    "am": "ሰኞ",
+    "no": "Mandag"
+   },
+   "velsignelse": {
+    "gez": "ባርክኒ ወቀድስኒ ወአንፅሕኒ በከመ ባርኪዮ ለቅዱስ ኤፍሬም ኦ እግእዝትየ ፍትሕኒ እማእሰሩ ለሰይጣን እሙ ለመድኅን ወለተ ብርሃን።",
+    "am": "የብርሃን ልጅ የምትሆኝ የመድኅን እናቱ ድንግል ማርያም ሆይ! ከሰይጣን ማሰሪያ ፍቺኝ፣ አገልጋይሽ ቅዱስ ኤፍሬምን እንደባረክሽው ባርኪኝ፣ ቀድሽኝ፣ አንጪኝ።",
+    "no": "Å, hellige Jomfru Maria, Frelserens Mor, du lysets datter, løs meg fra Satans lenker. Velsign meg slik du velsignet din tjener, den hellige Ephrem. Helliggjør meg, rens meg."
+   },
+   "overskrift": {
+    "gez": "ውዳሴሃ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ ዘይትነበብ በዕለተ ሰኑይ።",
+    "am": "ሰኞ የሚጸለይ አምላክን የወለደች የእመቤታችን የቅድስት ድንግል ማርያም ምስጋና።",
+    "no": "Lovprisning til den hellige Jomfru Maria, Gudfødersken, som bes på mandager."
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "ፈቀደ እግዚእ ያግዕዞ ለአዳም ኅዙነ ወትኩዘ ልብ ወያግብኦ ኀበ ዘትካት መንበሩ። ሰአሊ ለነ ቅድስት።",
+     "am": "ጌታ ልቡ ያዘነና የተከዘ አዳምን ነጻ ያወጣውና ወደ ቀድሞ ቦታው ይመልሰው ዘንድ ወደደ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Herren ville befri Adam, som var tynget av sorg og bedrøvelse, og føre ham tilbake til hans opprinnelige herlighet. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 2,
+     "gez": "ሠረቀ በሥጋ እምድንግል ዘእንበለ ዘርዐ ብእሲ ወአድኀነነ። ለሔዋን እንተ አስሐታ ከይሲ ፈትሐ ላዕሌሃ እግዚአብሔር እንዘ ይብል ብዙኀ አበዝኆ ለሕማምኪ ወለጻዕርኪ ሠምረ ልቡ ኀበ ፍቅረ ሰብእ ወአግዐዛ። ሰአሊ ለነ ቅድስት።",
+     "am": "ከድንግል ያለ ወንድ ዘር በሥጋ ተወለደና አዳነን። ከይሲ ዲያቢሎስ ያሳታት ሔዋንን እግዚአብሔር ምጥሽንና ጻርሽን አበዛዋለሁ ብሎ ፈረደባት። ሰውን ወደደና ነጻ አደረጋት። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Han ble født i kjødet av Jomfruen uten arvesynd og frelste oss. Eva, som djevelen forførte ved list, ble dømt av Gud som sa: «Jeg vil gjøre din møye stor i svangerskapet; med smerte skal du føde dine barn.» Men Herren elsket mennesket og gav henne frihet. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 3,
+     "gez": "ኢየሱስ ክርስቶስ ቃል ዘተሰብአ ወኀደረ ላዕሌነ ወርኢነ ስብሐቲሁ ከመ ስብሐተ አሐዱ ዋሕድ ለአቡሁ ሠምረ ይሣሃለነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ሰው የሆነና በእኛ ያደረ ቃል፤ ኢየሱስ ክርስቶስ ነው። ክብሩንም ለአባቱ አንድ እንደመሆኑ ክብር አየን። ይቅር ይለን ዘንድ ወደደ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Ordet som ble menneske og tok bolig iblant oss, er Jesus Kristus. Vi så Hans herlighet, en herlighet som sin Far. Han ville tilgi oss. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 4,
+     "gez": "ርእየ ኢሳይያስ ነቢይ በመንፈሰ ትንቢት ምሥጢሮ ለአማኑኤል ወበእንተዝ ጸርሐ እንዘ ይብል ሕፃን ተወልደ ለነ ወልድ ተውህበ ለነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ነቢዩ ኢሳይያስ በመንፈስ ቅዱስ የአማኑኤልን ምስጠር አየ፣ ስለዚህም “ሕፃን ተወለደልን፤ ወልድም ተሰጠን” ብሎ አሰምቶ ተናገረ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Profeten Jesaja skuet i Den Hellige Ånd mysteriet om Immanuel. Derfor forkynte han og sa: “Et barn er oss født, en sønn er oss gitt.” Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 5,
+     "gez": "ተፈሣሕ ወተሐሠይ ኦ ዘመደ ዕጓለ እመሕያው እስመ አፍቅሮ እግዚአብሔር ለዓለም ወመጠወ ወልዶ ዋሕደ ከመ ይሕየው ኵሉ ዘየአምን ቦቱ እስከ ለዓለም ፈነወ ለነ መዝራዕቶ ልዑለ። ሰአሊ ለነ ቅድስት።",
+     "am": "ሰው ሆይ! ፈጽመህ ደስ ይበልህ፤ እግዚአብሔር ዓለሙን ወዶታልና፤ አንድ ልጁንም የሚያምንበት ሁሉ እስከ ዘለዓለም ፈጽሞ ይድን ዘንድ አሳልፎ ሰጥቷልና። ልዑል ክንዱን ሰደደልን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Fryd deg fullkomment, du menneskeslekt! For Gud elsket verden så høyt at Han gav sin enbårne Sønn, for at hver den som tror på Ham, ikke skal gå fortapt, men ha evig liv. Den Høyeste rakte ut sin sterke arm til vår frelse. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 6,
+     "gez": "ዘሀሎ ወይሄሉ ዘመጽአ ወካዕበ ይመጽእ ኢየሱስ ክርስቶስ ቃል ዘተሰብአ እምኔኪ ዘእንበለ ውላጤ ኮነ ፍጹመ ሰብአ ኢተበዐደ ወኢተፈልጠ በኵሉ ግብሩ ወልድ ዋሕድ አላ አሐዱ ራእይ፣ ወአሐዱ ህላዌ፣ ወአሐዱ መለኮት ዘእግዚአብሔር ቃል። ሰአሊ ለነ ቅድስት።",
+     "am": "የነበረው የሚኖረው፤ የመጣው፣ ዳግመኛ የሚመጣውም ቃል ኢየሱስ ክርስቶስ ያለመለወጥ ፍጹም ሰው ሆነ። አንዱ ወልድ በሥራው ሁሉ አልተለየም፣ የእግዚአብሔር መለኮት አንድ ነው እንጂ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Ordet, Jesus Kristus, Han som var, som er, og som kommer igjen, ble et fullkomment menneske uten å opphøre å være Gud. Den ene Sønnen var ikke adskilt i sine gjerninger, for Guds guddom er én. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 7,
+     "gez": "ተፈሥሒ ኦ ቤተልሔም ሀገሮሙ ለነቢያት እስመ በኀቤኪ ተወልደ ክርስቶስ ዳግማይ አዳም ከመ ያግብኦ ለአዳም ቀዳሚ ብእሲ እምድር ውስተ ገነት ይስዐር ፍትሐ ሞት ኦ አዳም መሬት አንተ ወትገብእ ውስተ መሬት። ኀበ ሀለወት ብዝኅት ኀጢአት በህየ ትበዝኅ ጸጋ እግዚአብሔር። ሰአሊ ለነ ቅድስት።",
+     "am": "የነቢያት ሀገራቸው ቤተልሔም ሆይ! ደስ ይበልሽ። ሁለተኛው አዳም ክርስቶስ በአንቺ ዘንድ ተወልዷልና፤ የቀድሞውን ሰው አዳምን ከምድር (ከሲኦል) ወደ ገነት ይመልሰው ዘንድ። “አዳም ሆይ! መሬት ነበርክና ወደ መሬት ትመለሳለህ።” ብሎ የፈረደበትንም የሞት ፍርድ ያጠፋለት ዘንድ። ብዙ ኃጢአት ባለችበት የእግዚአብሔር ጸጋ ትበዛለች። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gled deg, Betlehem, profetenes by! For i deg ble Kristus, den andre Adam, født, for å føre det første Adam tilbake fra dødsriket til paradiset. Han kom for å oppheve dommen som lød: «Støv er du, og til støv skal du vende tilbake.» Der synden var stor, ble Guds nåde enda større. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 8,
+     "gez": "ትትፌሣሕ ወትትሐሠይ ኵሉ ነፍስተ ሰብእ ምስለ መላእክት ይሴብሕዎ ለክርስቶስ ንጉሥ ይጸርሑ ወይብሉ ስብሐት ለእግዚአብሔር በሰማያት ወሰላም በምድር ሥምረቱ ለሰብእ እስመ ሰዐረ ዘትካት ወነሠተ ምክሮ ለጸላኢ፣ ወሠጠጠ መጽሐፈ ዕዳሆሙ ለአዳም ወለሔዋን፣ ወረሰዮሙ አግዓዝያነ ዘተወልደ ለነ በሀገረ ዳዊት መድኀኒነ ኢየሱስ ክርስቶስ። ሰአሊ ለነ ቅድስት።",
+     "am": "የሰው ሁሉ ሰውነት ደስ ይላታል። በሰማይ ለእግዚአብሔር ምስጋና ይሁን፣ በምድርም ሰላም ለሰውም እርሱ በሚፈቅደው እያሉ አሰምተው ንጉሥ ክርስቶስን ከመላእክት ጋር ያመሰግኑታል፤ የቀድሞውን እርግማን አጥፍቷልና። የጠላትን ምክሩን አፈረሰበት። ለአዳምና ለሔዋን የዕዳ ደብዳቤያቸውን ቀደደላቸው፣ በዳዊት ሀገር የተወለደ መድኃኒታችን ኢየሱስ ክርስቶስ አዳምንና ሔዋንን ነጻ አደረጋቸው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Hvert menneskes sjel fryder seg. Sammen med englene lovpriser de Kristus, Kongen, og roper: «Ære være Gud i det høyeste, og fred på jorden blant mennesker som har Hans velbehag.» For Han har opphevet den gamle forbannelsen og gjort fiendens råd til intet. Han rev i stykker gjeldsbrevet til Adam og Eva. Vår frelser Jesus Kristus, født i Davids by, har satt Adam og Eva fri. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 9,
+     "gez": "ብርሃን ዘበአማን ዘያበርህ ለኵሉ ሰብእ ለእለ ይነብሩ ውስተ ዓለም በእንተ ፍቅረ ሰብእ መጻእከ ውስተ ዓለም ወኵሉ ፍጥረት ተፈሥሐ በምጽአትከ። እስመ አድኀንኮ ለአዳም እምስሕተት ወረሰይካ ለሔዋን አግዓዚተ እምጻዕረ ሞት ወወሀብከነ መንፈሰ ልደት። ባረክናከ ምስለ መላእክቲከ። ሰአሊ ለነ ቅድስት።",
+     "am": "በዚህ ዓለም ለሚኖሩ ሰዎች ሁሉ የምታበራ እውነተኛ ብርሃን፣ ስለ ሰው ፍቅር ወደ ዓለም የመጣህ። ፍጥረት ሁሉ በመምጣትህ ደስ አለው፣ አዳምን ከስሕተት አድነኸዋልና፣ ሔዋንንም ከሞት ጻዕረኝነት ነጻ አድርገኻታልና። የምንወለድበትን መንፈስ በረቂቁን ልደት ሰጠኸን፣ ከመላእክት ጋርም አመሰገንህ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du sanne Lys, som opplyser hvert menneske som kommer til verden, Du kom til verden av kjærlighet til menneskene. Hele skapningen frydet seg over Ditt komme, for Du frelste Adam fra villfarelsen og befridde Eva fra dødens smerte. Du gav oss Ånden så vi kan fødes på ny ved en hellige fødsel. Sammen med englene lovpriser vi Deg. Å hellige Maria, be for oss."
+    }
+   ]
+  },
+  {
+   "id": "tirsdag",
+   "tittel": {
+    "gez": "ሠሉስ",
+    "am": "ማክሰኞ",
+    "no": "Tirsdag"
+   },
+   "velsignelse": {
+    "gez": "ባርክኒ ወቀድስኒ ወአንፅሕኒ በከመ ባርኪዮ ለቅዱስ ኤፍሬም ኦ እግእዝትየ ፍትሕኒ እማእሰሩ ለሰይጣን እሙ ለመድኅን ወለተ ብርሃን።",
+    "am": "የብርሃን ልጅ የምትሆኝ የመድኅን እናቱ ድንግል ማርያም ሆይ! ከሰይጣን ማሰሪያ ፍቺኝ፣ አገልጋይሽ ቅዱስ ኤፍሬምን እንደባረክሽው ባርኪኝ፣ ቀድሽኝ፣ አንጪኝ።",
+    "no": "Å, hellige Jomfru Maria, Frelserens Mor, du lysets datter, løs meg fra Satans lenker. Velsign meg slik du velsignet din tjener, den hellige Ephrem. Helliggjør meg, rens meg."
+   },
+   "overskrift": {
+    "gez": "ውዳሴሃ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ ዘይትነበብ በዕለተ ሠሉስ።",
+    "am": "ማክሰኞ የሚጸለይ አምላክን የወለደች የእመቤታችን የቅድስት ድንግል ማርያም ምስጋና።",
+    "no": "Lovprisning til den hellige Jomfru Maria, Gudfødersken, som bes på tirsdager."
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "አክሊለ ምክሕነ ወቀዳሚተ መድኀኒትነ ወመሠረተ ንጽሕነ ኮነ በማርያም ድንግል እንተ ወለደት ለነ ዘእግዚአብሔር ቃለ ዘኮነ ሰብአ በእንተ መድኀኒትነ እምድኅረ ኮነ ሰብአ ጥዩቀ አምላክ ፍጹም ውእቱ ወበእንተዝ ወለደቶ እንዘ ድንግል ይእቲ መንክር ኀይለ ወሊዶታ ዘኢይትነገር። ሰአሊ ለነ ቅድስት።",
+     "am": "የመመኪያችን ዘውድ፣ የድኅነታችን መጀመሪያ፣ የንጽሕናችንም መሠረት እኛን ስለማዳን ሰው የሆነ የእግዚአብሔርን ቃል በወለደችልን በድንግል ማርያም ተገኘልን። ሰው ከሆነ በኋላም ፍጹም አምላክ ነው፣ ስለዚህም በድንግልና ወለደችው፣ ድንቅ የሆነ የመውለዷ ችሎታ የማይመረመር (ሊነገር የማይቻል) ነው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Vår herlighets krone, vår frelses begynnelse og vår renhets grunnvoll er gitt oss gjennom jomfru Maria, som fødte oss Guds Ord, Han som ble menneske for vår frelses skyld. Selv da Han tok vår menneskenatur på seg, forble Han fullkommen Gud. Derfor fødte hun Ham i jomfruelighet. Hennes fødsel er underfull og uransakelig. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 2,
+     "gez": "እስመ በፈቃዱ ወበሥምረተ አቡሁ ወመንፈስ ቅዱስ መጽአ ወአድኀነነ። ዐቢይ ውእቱ ስብሐተ ድንግልናኪ ኦ ማርያም ድንግል ፍጽምት ረከብኪ ሞገሰ እግዚአብሔር ምስሌኪ አንቲ ውእቱ ሰዋስው ዘርእየ ያዕቆብ እምድር ዘይበጽሕ እስከ ሰማይ ወመላእክተ እግዚአብሔር የዐርጉ ወይወርዱ ውስቴታ። ሰአሊ ለነ ቅድስት።",
+     "am": "በእርሱ ፈቃድ፣ በአባቱ ፈቃድ፣ በመንፈስ ቅዱስ ፈቃድ መጥቶ አዳነን። በድንግልና ፍጽምት የሆንሽ ማርያም ሆይ! የድንግልናሽ ምስጋናና ክብር ታላቅ ነው። እግዚአብሔር ከአንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና። ያዕቆብ ከምድር እስከ ሰማይ ደርሳ የእግዚአብሔር መላእክት ሲወጡባትና ሲወርዱባት ያያት መሰላል አንቺ ነሽ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Ved Hans vilje, ved Faderens vilje og ved Den Hellige Ånds vilje kom Han og frelste oss. Å Maria, du fullkomne jomfru, din jomfruelighets lovprisning og ære er stor, for du har funnet nåde hos Gud, og Herren er med deg. Du er stigen som Jakob skuet, den som rakte fra jorden til himmelen, og hvor Guds engler steg opp og ned. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 3,
+     "gez": "አንቲ ውእቱ ዕፅ ዘርእየ ሙሴ በነደ እሳት ወኢትውዒ ዘውእቱ ወልደ እግዚአብሔር መጽአ ወኀደረ ውስተ ከርሥኪ ወእሳተ መለኮቱ ኢያውዐየ ሥጋኪ። ሰአሊ ለነ ቅድስት።",
+     "am": "ሙሴ በነደ እሳት ሳትቃጠል ያያት ዕፅ አንቺ ነሽ። ይኽውም መጥቶ በማሕጸንሽ ያደረው የእግዚአብሔር ልጅ ነው። የመለኮቱ እሳትነት ሥጋሽን አላቃጠለውም። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er tornebusken som Moses så brenne uten å fortæres. Slik tok Guds Sønn bolig i ditt morsliv, og Hans guddommelige ild fortærte ikke ditt legeme. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 4,
+     "gez": "አንቲ ውእቱ ገራህት ዘኢተዘርዐ ውስቴታ ዘርዕ ወፅአ እምኔኪ ፍሬ ሕይወት። አንቲ ውእቱ መዝገብ ዘተሣየጠ ዮሴፍ ወረከበ በውስቴታ ባሕርየ ዕንቈ ክቡረ ዘውእቱ መድኀኒነ ኢየሱስ ክርስቶስ ተጸውረ በከርሥኪ ወወለድኪዮ ውስተ ዓለም። ሰአሊ ለነ ቅድስት።",
+     "am": "ዘር ያልተዘራባት እርሻ አንቺ ነሽ። የሕይወት ፍሬ ከአንቺ ወጣ። ዮሴፍ የዋጃትና የከበረ ዕንቁን ያገኘባት ሣጥን አንቺ ነሽ፣ ይኽውም መድኃኒታችን ኢየሱስ ክርስቶስ ነው። በማሕጸንሽ አደረ፣ በዚህ ዓለምም ወለድሽው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er den usådde åker, som bar livets frukt. Du er skrinet som Josef fant og rommet den dyrebare perlen i, som er vår Frelser Jesus Kristus. Han tok bolig i ditt morsliv, og du fødte Ham til denne verden. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 5,
+     "gez": "ተፈሥሒ ኦ ወላዲተ እግዚእ ሐሤቶሙ ለመላእክት ተፈሥሒ ኦ ንጽሕት ዜናሆሙ ለነቢያት ተፈሥሒ እስመ ረከብኪ ሞገሰ እግዚአብሔር ምስሌኪ ተፈሥሒ እስመ ተወከፍኪ ቃሎ ለመልአክ ፍሥሐ ኵሉ ዓለም ተፈሥሒ ኦ ወላዲተ ፈጣሬ ኵሉ ዓለም። ሰአሊ ለነ ቅድስት።",
+     "am": "የመላእክት ደስታቸው የሆነ ጌታን የወለድሽ ሆይ! ደስ ይበልሽ። የነቢያት ዜናቸው ንጽሕት ሆይ! ደስ ይበልሽ። እግዚአብሔር ከአንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና ደስ ይበልሽ። የዓለም (የሰው) ሁሉ ደስታ የሆነ የመልአኩን ቃል ተቀብለሻልና ደስ ይበልሽ። ዓለምን ሁሉ የፈጠረ ጌታን የወለድሽ ሆይ! ደስ ይበልሽ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gled deg, du som fødte Herren, englenes glede! Gled deg, du rene, profetenes forkynnelse! Gled deg, du som fant nåde hos Gud, for Herren er med deg! Gled deg, du som tok imot engelens gledelige budskap, til glede for hele verden! Gled deg, du som fødte Herren, hele skapningens Skaper! Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 6,
+     "gez": "ተፈሥሒ እስመ ድልወ ተሰመይኪ ኦ ወላዲተ አምላክ ተፈሥሒ ኦ መድኀኒታ ለሔዋን ተፈሥሒ እንተ አጥበውኪ ሐሊበ ለዘይሴስዮ ለኵሉ ፍጥረት ተፈሥሒ ኦ ቅድስት እሞሙ ለኵሎሙ ሕያዋን ናንቀዐዱ ኀቤኪ ትስአሊ በእንቲአነ። ሰአሊ ለነ ቅድስት።",
+     "am": "በሚገባ የአምላክ እናት ተብለሻልና ደስ ይበልሽ። የሔዋን መድኃኒትዋ ሆይ! ደስ ይበልሽ። ፍጥረቱን ሁሉ የሚመግበውን እሱን ጡትሽን አጥብተሽዋልና ደስ ይበልሽ። የሕያዋን (የጻድቃን) ሁሉ እናታቸው ቅድስት ሆይ! ደስ ይበልሽ። ትለምኚልን ዘንድ ወደ አንቺ እናንጋጥጣለን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gled deg, du som med rette kalles Guds Mor! Gled deg, du Evas gjenreisning! Gled deg, du som gav bryst til Ham som gir næring til hele skapeningen! Gled deg, du mor til alle som lever (de rettferdiges)! Til Deg løfter vi våre øyne; gå i forbønn for oss. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 7,
+     "gez": "ኦ ድንግል ኦ ቅድስት ኦ ወላዲተ እግዚእ እስመ ወለድኪ ለነ ንጉሠ መንክር ምሥጢር ኀደረ ላዕሌኪ ለመድኀኒተ ዚአነ ናርምም እስመ ኢንክል ፈጽሞ ጥንቁቀ ነጊረ በእንተ ዕበዩ ለውእቱ ገባሬ ሠናያት በብዙኅ መንክር ራዕይ። ሰአሊ ለነ ቅድስት።",
+     "am": "ድንግል ሆይ! ቅድስት ሆይ! ጌታን የወለድሽ ሆይ! እኛን ለማዳን ድንቅ ምሥጢር (ተዋሕዶ) በአንቺ ቢደረግ ንጉሥን ወልደሽልናልና፣ ፍጥረታትን በልዩ ልዩ መልክ የፈጠረ የእርሱን የገናንነቱን ነገር ፈጽመን መናገር አይቻለንምና ዝም እንበል። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Å hellige Jomfru, Å Du som fødte Herren! Ved Deg er det store mysterium (Tewahedo) blitt fullbyrdet til vår frelse, da Du fødte Kongen. Siden vi ikke fullt ut kan uttale Hans storhet, Han som har skapt alle skapninger i mangfoldige former, la oss derfor tie stille. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 8,
+     "gez": "ቃለ አብ ሕያው ዘወረደ ውስተ ደብረ ሲና ወወሀበ ሕገ ለሙሴ ወከደነ ርእሰ ደብር በጊሜ ወጢስ በጽልመት ወነፋስ ወበድምፀ ቃለ አቅርንት ይጌሥጽ ለእለ ይቀውሙ በፍርሃት። ሰአሊ ለነ ቅድስት።",
+     "am": "ወደ ደብረ ሲና የወረደ፣ ለሙሴ ሕግን የሰጠ፣ የተራራውን ራስ በጽጋግ በጢስ በጨለማና በነፋስ የሸፈነ፣ ፈርተው የቆሙትንም በነጋሪቶች ድምጽ የገሰጸ፣ የአብ አካላዊ ቃል ነው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Det er Faderens personlige Ord som steg ned på Sinai og gav loven til Moses; Han skjulte fjellets topp i sky og røyk, i mørke og storm, og som refset dem som sto der i frykt med basuners lyd. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 9,
+     "gez": "ውእቱኬ ዘወረደ ኀቤኪ ኦ ደብር ነባቢት በትሕትና መፍቀሬ ሰብእ ተሰብአ እምኔኪ ዘእንበለ ውላጤ ፍጹመ ሥጋ ነባቢ ዘከማነ በመንፈሰ ጥበብ አምላክ ኀደረ ላዕሌሃ ኮነ ፍጹመ ሰብአ ከመ ያድኅኖ ወይሥረይ ኀጢአቶ ለአዳም ወያንብሮ ውስተ ሰማያት ወያግብኦ ኀበ ዘትካት መንበሩ በዕበየ ሣህሉ ወምሕረቱ። ሰአሊ ለነ ቅድስት።",
+     "am": "በትሕትና የተናገርሽ ተራራ ሆይ! ይኸውም ወደ አንቺ የወረደው ነው። ሰውን የወደደ እርሱ ያለመለወጥ በአንቺ ሰው ሆነ። እንደ እኛ በሚናገር ሥጋ ፍጹም ሆኖ አምላክ በመንፈስ ቅዱስ በማሕጸንዋ አደረና ፍጹም ሰው ሆነ። አዳምን ያድነው ዘንድ፣ ኃጢአቱንም ያስተሠርይለት ዘንድ በሰማያት (በሰማያዊ መዓርግ) ያኖረው ዘንድ በቸርነቱና በይቅርታው ብዛት ወደ ቀድሞ ቦታው ይመልሰው ዘንድ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er fjellet som talte i ydmykhet, for til deg steg Han ned. Av kjærlighet til menneskene ble Han menneske i deg uten forandring. Ved Den Hellige Ånd tok Han bolig i ditt hellige morsliv og ikledde seg vår menneskelige natur, fullkommen som oss, med en stemme som vår. Slik frelste Han Adam, tilga ham hans synder og gjenreiste ham til himmelsk verdighet. I sin grenseløse godhet og store barmhjertighet førte Han ham tilbake til den ære og den plass som fra begynnelsen var beredt for ham. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 10,
+     "gez": "ዕበያ ለድንግል ኢይትከሃል ለተነግሮ እስመ እግዚእ ኀረያ መጽአ ወኀደረ ላዕሌሃ ዘየኀድር ውስተ ብርሃን ኀበ አልቦ ዘይቀርቦ ተጸውረ በከርሣ ፱ተ አውራኃ ዘኢይትረአይ ወዘኢይትዐወቅ ወለደቶ ማርያም እንዘ ድንግል ይእቲ። ሰአሊ ለነ ቅድስት።",
+     "am": "የድንግል ገናንነቷ ሊናገሩት አይቻልም፣ ጌታ መርጧታልና። የሚቀርበው በሌለ ብርሃን ውስጥ የሚኖር እርሱ መጥቶ አደረባት። ዘጠኝ ወር በማሕጸንዋ አደረ። የማይታይና የማይመረመር (ታይቶ የማይታወቅ) እርሱን በድንግልና ወለደችው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Jomfruens storhet kan ingen tunge fullt ut forkynne, for Herren har utvalgt henne. Han som bor i det utilgjengelige lys, steg ned og tok bolig i henne. I ni måneder bar hun Ham i sitt hellige morsliv, og Ham som er usynlig, uransakelig og evig, fødte hun i jomfruelighet. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 11,
+     "gez": "ዘውእቱ ዕብን ዘርእየ ዳንኤል ነቢይ ዘተበትከ እምደብር ነዋኅ ዘእንበለ እድ ዘውእቱ ቃል ዘወፅአ እምኀበ አብ መጽአ ወተሰብአ እምድንግል ዘእንበለ ዘርዐ ብእሲ ወአድኀነነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ነቢዩ ዳንኤል ያየው፣ ያለ እጅ ከረጅም ተራራ የተፈነቀለው ያ ደንጊያ፣ ከአብ ዘንድ የወጣው ቃል ነውና፣ መጥቶ ያለ ወንድ ዘር ከድንግል ተወልዶ አዳነን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Steinen som profeten Daniel skuet, den som ble revet løs fra det høye fjellet uten menneskehender, er Ordet som evig utgår fra Faderen. Han steg ned og ble født av Jomfruen, uten mann, for å frelse oss. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 12,
+     "gez": "ኮንኪ ዐጽቀ ንጹሐ ወሙዳየ አሚን ርትዕት ሃይማኖቶሙ ለቅዱሳን አበዊነ ኦ ንጽሕት ወላዲተ አምላክ ድንግል ኅትምት ወለድኪ ለነ ቃለ አብ ኢየሱስ ክርስቶስ መጽአ ለመድኀኒትነ። ሰአሊ ለነ ቅድስት።",
+     "am": "እንደ ንጹሕ ጫፍ ሆንሽ፣ የሃይማኖትም መገኛ ነሽ፣ የቀናች የቅዱሳን አባቶቻችን ሃይማኖታቸው ነሽ፣ አምላክን የወለድሽና በድንግልና የታተምሽ ንጽሕት ሆይ! የአብን ቃል ወለድሽልን፣ ኢየሱስ ክርስቶስ እኛን ለማዳን መጣ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du fremstod som en ren spire og er blitt troens livgivende kilde. Du er våre hellige fedres sanne bekjennelse. Du rene, som fødte Gud og forble beseglet i jomfruelig renhet, fødte for oss Faderens evige Ord. Jesus Kristus kom for å frelse oss. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 13,
+     "gez": "አንቲ እሙ ለብርሃን ክብርት ወላዲተ እግዚእ እንተ ጾርኪዮ ለቃል ዘኢይትረአይ እምድኅረ ወለድኪ ኪያሁ ነበርኪ በድንግልና በስብሐት ወበባርኮት ያዐብዩኪ። ሰአሊ ለነ ቅድስት።",
+     "am": "የከበርሽ ጌታን የወለድሽ ሆይ! የማይታይ ቃልን የተሸከምሽው የብርሃን እናቱ አንቺ ነሽ። እሱን ከወለድሽው በኋላ በድንግልና ኖረሻልና በፍጹም ምስጋና ያገኑሻል። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du ærerike, som fødte Herren, du er Lysets Mor, for du bar det usynlige Ord. Fordi du forble jomfru også etter at du hadde født Ham, priser alle deg salig med fullkommen lovsang. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 14,
+     "gez": "አይ ልሳን ዘይክል ነቢበ ዘይትነገር በእንቲአኪ ኦ ድንግል ንጽሕት እሙ ለቃለ አብ ኮንኪ መንበሮ ለንጉሥ ለዘይጸውርዎ ኪሩቤል ናስተበፅአኪ ኦ ቡርክት ወንዘክር ስመኪ በኵሉ ትውልደ ትውልድ ኦ ርግብ ሠናይት እሙ ለእግዚእነ ኢየሱስ ክርስቶስ። ሰአሊ ለነ ቅድስት።",
+     "am": "የአብ ቃል እናቱ ንጽሕት ድንግል ሆይ! ስለአንቺ የሚነገረውን ነገር መናገር የሚቻለው ምን አንደበት ነው? ኪሩቤል ለሚሸከሙት ንጉሥ ዙፋኑ (ማደሪያው) ሆንሽ፣ የተከበርሽ ሆይ! እናመሰግንሻለን። የጌታችን ኢየሱስ ክርስቶስ እናቱ መልካሟ ርግብ ሆይ! ስምሽን በልጅ ልጅ እንጠራለን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Hvilken tunge kan verdig forkynne din storhet, du rene Jomfru, du som ble Mor til Faderens evige Ord? Du er tronen for Kongen, Han som bæres av kjerubene. Derfor priser vi deg, du ærerike, og opphøyer ditt navn fra slekt til slekt, du vår Herre Jesu Kristi Mor, du rene og gode Due. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 15,
+     "gez": "ተፈሥሒ ኦ ማርያም እም ወአመት እስመ ለዘውስተ ሕፅንኪ ይሴብሕዎ መላእክት ወኪሩቤል ይሰግዱ ሎቱ በፍርሃት ወሱራፌል ዘእንበለ ጽርአት ይሰፍሑ ክነፊሆሙ ወይብሉ ዝንቱ ውእቱ ንጉሠ ስብሐት መጽአ ይሥረይ ኃጢአተ ዓለም በዕበየ ሣህሉ። ሰአሊ ለነ ቅድስት።",
+     "am": "እናትና ገረድ ማርያም ሆይ! ደስ ይበልሽ። የታቀፍሽውን መላእክት ያመሰግኑታልና፣ ኪሩቤልም በፍርሃት ይሰግዱለታልና፣ ሱራፌልም ያለማቋረጥ ክንፋቸውን ዘርግተው የሚመሰገን ንጉሥ (የክብር ባለቤት) ይህ ነው በይቅርታው ብዛት የዓለምን ኃጢአት ያሥተሰርይ ዘንድ የመጣው ይህ ነው ይላሉ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gled deg, Maria, du Mor og Herrens tjenerinne! Englene priser Ham som hviler i dine armer; kjerubene bøyer seg for Ham i ærefrykt, og serafene brer uopphørlig ut sine vinger og roper: «Hellig er ærens Konge! I sin store barmhjertighet kom Han for å utslette verdens synd.» Å hellige Maria, be for oss."
+    }
+   ]
+  },
+  {
+   "id": "onsdag",
+   "tittel": {
+    "gez": "ረቡዕ",
+    "am": "ረቡዕ",
+    "no": "Onsdag"
+   },
+   "velsignelse": {
+    "gez": "ባርክኒ ወቀድስኒ ወአንፅሕኒ በከመ ባርኪዮ ለቅዱስ ኤፍሬም ኦ እግእዝትየ ፍትሕኒ እማእሰሩ ለሰይጣን እሙ ለመድኅን ወለተ ብርሃን።",
+    "am": "የብርሃን ልጅ የምትሆኝ የመድኅን እናቱ ድንግል ማርያም ሆይ! ከሰይጣን ማሰሪያ ፍቺኝ፣ አገልጋይሽ ቅዱስ ኤፍሬምን እንደባረክሽው ባርኪኝ፣ ቀድሽኝ፣ አንጪኝ።",
+    "no": "Å, hellige Jomfru Maria, Frelserens Mor, du lysets datter, løs meg fra Satans lenker. Velsign meg slik du velsignet din tjener, den hellige Ephrem. Helliggjør meg, rens meg."
+   },
+   "overskrift": {
+    "gez": "ውዳሴሃ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ ዘይትነበብ በዕለተ ረቡዕ",
+    "am": "ረቡዕ የሚጸለይ አምላክን የወለደች የእመቤታችን የቅድስት ድንግል ማርያም ምስጋና።",
+    "no": "Lovprisning til den hellige Jomfru Maria, Gudfødersken, som bes på onsdager."
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "ኵሉ ሠራዊተ ሰማያት ይብሉ ብፅዕት አንቲ ሰማይ ዳግሚት ዲበ ምድር ኆኅተ ምሥራቅ ማርያም ድንግል ከብካብ ንጹሕ ወመርዓ ቅዱስ ነጸረ አብ እምሰማይ ወኢረከበ ዘከማኪ ፈነወ ዋሕዶ ወተሰብአ እምኔኪ። ሰአሊ ለነ ቅድስት።",
+     "am": "የምድር ሁለተኛ የሆንሽ ሰማይ ሆይ! የሰማያት ሠራዊት (መላእክት) ንዕድ ነሽ ይላሉ፤ ድንግል ማርያም የምሥራቅ ደጅ ናት። ሙሽራዋ ንጹሕ የሆነ ንጽሕት የሠርግ ቤት ናት። አብ በሰማይ አይቶ እንዳንቺ ያለ አላገኘምና አንድ ልጁን ላከው በአንቺም ሰው ሆነ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Englenes hærskarer priser deg salig, du som er den andre himmel på jorden. Du er Østens port, du rene brudesal for den lyteløse Brudgom. Faderen skuet ned fra himmelen, og da Han ikke fant noen som var deg lik, sendte Han sin enbårne Sønn, som ved deg ble menneske. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 2,
+     "gez": "ኵሉ ትውልድ ያስተበፅዑኪ ለኪ ለባሕቲትኪ ኦ እግዝእትነ ወላዲተ አምላክ ተነበዩ ላዕሌኪ ዐቢያተ ወመንክራተ ኦ ሀገረ እግዚአብሔር እስመ ኮንኪ አንቲ ማኅደረ ለፍሡሐን ኵሎሙ ነገሥተ ምድር የሐውሩ በብርሃንኪ ወአሕዛብኒ በጸዳልኪ ኦ ማርያም ኵሉ ትውልድ ያስተበፅዑኪ ወይሰግዱ ለዘተወልደ እምኔኪ ወያዐብይዎ። ሰአሊ ለነ ቅድስት።",
+     "am": "አምላክን የወለድሽ እመቤታችን ሆይ! ትውልድ ሁሉ አንቺን ብቻ ያመሰግኑሻል፣ የእግዚአብሔር ሀገር (ከተማ) ሆይ! ነቢያት ድንቅ ድንቅ ነገርን ተናገሩልሽ፣ ደስ የተሰኙ የጻድቃን ማደሪያ ሆነሻልና። የምድር ነገሥታት ሁሉ በብርሃንሽ ይሄዳሉ ሕዝቡም (ሠራዊቶቻቸውም) በብርሃንሽ ይሄዳሉ። ማርያም ሆይ! ትውልድ ሁሉ ያመሰግኑሻል፤ ከአንቺ ለተወለደውም ይሰግዱለታል ያገኑታልም። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gudføderske, vår Frue, alle slekter skal prise deg salig. Guds stad, herlige ting er blitt talt om deg av profetene, for du er blitt de rettferdiges gledesfylte bolig. Jordens konger og alle folkeslag skal vandre i ditt lys. Maria, alle slekter velsigner deg og tilber Ham som ble født av deg. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 3,
+     "gez": "አንቲ ዘበአማን ደመና እንተ አስተርአይኪ ለነ ማየ ዝናም ትእምርተ ዋሕዱ ረሰየኪ አብ መንፈስ ቅዱስ ኀደረ ላዕሌኪ ወኀይለ ልዑል ጸለለኪ ኦ ማርያም አማን ወለድኪ ቃለ ወልደ አብ ዘይነብር ለዓለም መጽአ ወአድኀነነ እምኀጢአት ዐቢይ ውእቱ ክብር ዘተውህበ ለከ ኦ ገብርኤል መልአክ ዜናዊ ፍሡሐ ገጽ ሰበከ ለነ ልደተ እግዚእ ዘመጽአ ኀቤነ ወአብሠርካ ለማርያም ድንግል ዘእንበለ ርስሐት ወትቤላ ተፈሥሒ ኦ ምልእተ ጸጋ እግዚአብሔር ምስሌኪ። ሰአሊ ለነ ቅድስት።",
+     "am": "የዝናም ውኃ የታየብሽ የእውነት ደመና አንቺ ነሽ። አብ የልጁ ምልክት አደረገሽ፣ መንፈስ ቅዱስ አደረብሽ፣ የልዑል ኃይል ጋረደሽ። ማርያም ሆይ! ለዘለዓለም የሚኖር የአብን ልጅ ቃልን የወለድሽልን፣ መጥቶም ከኃጢአት አዳነን። ደስ የተሰኘህ ሆነህ ምሥራችን የተናገርክ መልአኩ ገብርኤል ሆይ! የተሰጠህ ክብር ታላቅ ነው። ወደ እኛ የመጣ የጌታን ልደት ነገርከን፣ ለድንግል ማርያም “ጸጋን የተመላሽ ሆይ! እግዚአብሔር ካንቺ ጋር ነውና ደስ ይበልሽ።” ብለህ አበሰርካት። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er sannhetens sky, som bar rettferdighetens regn over verden. Faderen utvalgte deg til et tegn for sin Sønn, Den Hellige Ånd tok bolig i deg, og Den Høyestes kraft overskygget deg. Du, Maria, fødte for oss Faderens evige Ord, Han som lever fra evighet til evighet. Han kom og frelste oss fra synden. Stor er den ære som ble gitt erkeengelen Gabriel, han som forkynte Herrens gledelige budskap og sa: «Gled deg, du nådefulle! Herren er med deg.» Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 4,
+     "gez": "ረከብኪ ጸጋ መንፈስ ቅዱስ ኀደረ ላዕሌኪ ወኀይለ ልዑል ጸለለኪ ኦ ማርያም አማን ወለድኪ ቅዱሰ መድኅኑ ለኵሉ ዓለም መጽአ ወአድኀነነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ጸጋን አገኘሽ፣ መንፈስ ቅዱስ አደረብሽ፣ የልዑል ኃይልም ጋረገሽ (ጸለለብሽ)፣ ማርያም ሆይ! በእውነት ቅዱስን ወለድሽ። ዓለምን ሁሉ የሚያድን መጥቶ አዳነን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du fant nåde, Den Hellige Ånd kom over deg, og Den Høyestes kraft overskygget deg. Maria, i sannhet fødte du Den Hellige, Han som kom for å frelse hele verden. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 5,
+     "gez": "ግብረ ድንግል ይሴብሕ ልሳንነ ዮም ንወድሳ ለማርያም ወላዲተ አምላክ በእንተ ዘተወልደ እምኔሃ በሀገረ ዳዊት እግዚእነ ወመድኃኒነ ኢየሱስ ክርስቶስ ንዑ ኵልክሙ አሕዛብ ናስተብፅዓ ለማርያም እስመ ኮነት እመ ድንግለ ወፅሙረ። ተፈሥሒ ኦ ድንግል ንጽሕት እንተ አልባቲ ርኵስ ዘመጽአ ቃለ አብ ወተሰብአ እምኔሃ። ተፈሥሒ ኦ ሙዳይ እንተ አልባቲ ነውር ፍጽምት ዘአልባ ርስሐት። ተፈሥሒ ኦ ገነት ነባቢት ማኅደሩ ለክርስቶስ ዘኮነ ዳግማይ አዳም በእንተ አዳም ቀዳሚ ብእሲ። ተፈሥሒ ኦ ጸዋሪቱ ለዋሕድ ለዘኢተፈልጠ እምሕፅነ አቡሁ። ተፈሥሒ ኦ ከብካብ ንጹሕ ሥርግው በኵሉ ሥነ ስብሐት መጽአ ወተሰብአ እምኔኪ። ተፈሥሒ ኦ ዕፀ ጳጦስ እንተ ኢያውዐያ እሳተ መለኮት። ተፈሥሒ ኦ አመት ወእም ድንግል ወሰማይ ሰማያዌ እንተ ጾረት በሥጋ ዘይጼዐን ዲበ ኪሩቤል ወበእንተዝ ንትፈሣሕ ወንዘምር ምስለ መላእክት ቅዱሳን በፍሥሐ ወበሐሤት ወንበል ስብሐት ለእግዚአብሔር በሰማያት ወሰላም በምድር ሥምረቱ ለሰብእ እስመ ኪያኪ ሠምረ ዘሎቱ ክብር ወስብሐት። ሰአሊ ለነ ቅድስት።",
+     "am": "አንደበታችን የድንግልን ሥራ ያመሰግናል፣ ጌታችንና መድኃኒታችን ኢየሱስ ክርስቶስ በዳዊት አገር ከእርሷ ስለተወለደ፣ አምላክን የወለደች ማርያምን ዛሬ እናመስግናት። አሕዛብ ኑ ማርያምን እናመስግናት፣ እናትና ድንግልን ሁለቱንም ሆናለችና። ርኩሰት የሌለብሽና የአብ ቃል መጥቶ ከአንቺ ሰው የሆነ ንጽሕት ድንግል ሆይ! ደስ ይበልሽ፤ ነውር የሌለብሽ ፍጽምትና ጉድፍ የሌለብሽ ሙዳይ ሆይ! ደስ ይበልሽ፤ ስለቀደመ ሰው አዳም ሁለተኛ አዳም የሆነ የክርስቶስ ማደሪያው የምትናገሪው ገነት ሆይ! ደስ ይበልሽ፤ ከአባቱ ያልተለየ አንድ እሱን የተሸከምሽ ሆይ! ደስ ይበልሽ፤ በክብር ጌጽ ሁሉ እርሱ መጥቶ ሰው የሆነብሽ ንጽሕት የሠርግ ቤት ሆይ! ደስ ይበልሽ፤ የመለኮት እሳት (ባሕርይ) ያላቃጠለሽ ዕፀ ጳጦስ ሆይ! ደስ ይበልሽ፤ በኪሩቤል ላይ የሚቀመጠውን ሰማያዊ (መለኮትን) በሥጋ የተሸከምሽ ገረድና እናት ድንግልና ሰማይ ሆይ! ደስ ይበልሽ፤ ስለዚህ ንጹሃን ከሆኑ መላእክትጋር በፍጹም ደስታ ደስ ተሰኝተን እናመስግን፣ በሰማይም ለእግዚአብሔር ምስጋና ይሁን በምድርም እርቅ ይሁን እንበል። ክብርና ምሥጋና (ጌትነት) ያለው እርሱ አንቺን ወዷልና። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Våre tunger priser Jomfruens gjerning. La oss i dag ære Maria, Gudfødersken, for av henne ble vår Herre og Frelser Jesus Kristus født i Davids by. Kom, alle folkeslag, la oss lovprise Maria, hun som er både Mor og Jomfru. Gled deg, rene Jomfru, du som bar Faderens evige Ord, som ble menneske. Gled deg, du plettfrie og fullkomne skrin uten lyte. Gled deg, du talende paradis, Kristi bolig, Han som ble den nye Adam for den gamle menneskes skyld. Gled deg, du som bar den Enbårne, Han som aldri forlot sin Far. Gled deg, du rene brudesal, smykket med all herlighet da Ordet tok kjøtt i deg. Gled deg, du brennende busk som ikke ble fortært av guddommens ild. Gled deg, du tjenerinne og Mor, jomfru og himmel, som bar i kjødet Ham som troner over kjerubene. Derfor gleder vi oss sammen med de rene englene og synger: Ære være Gud i det høyeste, og fred på jorden. For Han som er verdig ære, lovprisning og herredømme, elsker deg. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 6,
+     "gez": "የዐቢ ክብራ ለማርያም እምኵሎሙ ቅዱሳን እስመ ድልወ ኮነት ለተወክፎ ቃለ አብ ዘይፈርህዎ መላእክት ወየአኵትዎ ትጉሃን በሰማያት ጾረቶ ማርያም ድንግል በከርሣ ይእቲ ተዐቢ እምኪሩቤል ወትፈደፍድ እምሱራፌል እስመ ኮነት ታቦተ ለአሐዱ ዘእምቅድስት ሥላሴ ዛቲ ይእቲ ኢየሩሳሌም ሀገሮሙ ለነቢያት ወማኅደረ ፍሥሐሆሙ ለኵሎሙ ቅዱሳን ሕዝብ ዘይነብር ውስተ ጽልመት ወጽላሎተ ሞት ብርሃን ዐቢይ ሠረቀ ላዕሌሆሙ እግዚአብሔር ዘየዐርፍ በቅዱሳኒሁ ተሰብአ እምድንግል ለመድኃኒተ ዚአነ። ንዑ ርእዩ ዘንተ መንክረ ወዘምሮ ዘምሩ በእንተ ምሥጢር ዘተከሥተ ለነ እስመ ዘኢይሰባእ ተሰብአ ቃል ተደመረ ወዘአልቦ ጥንት ኮነ ቅድመ ወለዘአልቦ መዋዕል ኮነ ሎቱ መዋዕል ዘኢይትዐወቅ ተከሥተ ወዘኢይትረአይ ተርእየ ወልደ እግዚአብሔር ሕያው ጥዩቀ ኮነ ሰብአ ኢየሱስ ክርስቶስ ዘትማልም ወዮም ወክመ ውእቱ እስከ ለዓለም አሐዱ ህላዌ ሎቱ ንስግድ ወንሰብሕ። ሰአሊ ለነ ቅድስት።",
+     "am": "ከቅዱሳን ክብር የማርያም ክብር ይበልጣል፣ የአብን ቃል ለመቀበል በተገባ ተገኝታለችና። መላእክት የሚፈሩትን፣ ትጉሆች በሰማያት የሚያመሰግኑትን፣ ድንግል ማርያም በማሕጸኗ ተሸከመችው። ይህች ከኪሩቤል ትበልጣለች፣ ከሱራፌልም ትበልጣለች። ከሦስቱ አካል ለአንዱ ማደሪያ ሆናለችና። የነቢያት ሀገራቸው ኢየሩሳሌም ይህች ናት። ለቅዱሳን ሁሉ የደስታቸው ማደሪያ ናት በጨለማና በሞት ጥላ ውስጥ ለሚኖሩ ሰዎች ታላቅ ብርሃን ወጣላቸው። በቅዱሳን ላይ የሚያድር እግዚአብሔር እኛን ለማዳን ልዩ ከሆነች ድንግል ሰው ሆኗልና። ኑ ይህን ድንቅ እዩ፣ ስለተገለጠልን ምሥጢር ምስጋና አቅርቡ። ሰው የማይሆን ሰው ሆኗልና፣ ቃል ተዋህዷልና። ጥንት የሌለው ሥጋ ጥንታዊ ቀዳማይ ሆነ፣ ዘመን የማይቆጠርለት (መለኮት) ዘመን ተቆጠረለት፣ የማይታወቅ ተገለጠ፣ የማይታይ ታየ፣ የሕያው የእግዚአብሔር ልጅ በእርግጥ ሰው ሆነ። ትላንት የነበረው፣ ዛሬም ያለው፣ መቼም የሚኖረው ኢየሱስ ክርስቶስ እንሰግድለትና እናመሰግነው ዘንድ አንድ ባሕርይ ነው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Marias ære er større enn alle de helliges, for hun ble funnet verdig til å motta Faderens evige Ord. Jomfru Maria bar i sitt morsliv Ham som englene skjelver for, og som de våkne i himmelen uopphørlig lovsynger. Hun er opphøyet over kjeruber og serafene, for hun ble gjort til bolig for den ene av Treenighetens personer. Hun er det nye Jerusalem, profetenes by og de helliges gledesbolig. For dem som satt i mørke og dødens skygge, er et stort lys oppgått. Gud, som hviler i de hellige, ble menneske av den utvalgte Jomfru for å frelse oss. Kom og betrakt dette under: Ordet er blitt kjød; Han som er uten begynnelse, har trådt inn i tiden; Han som er evig, har underlagt seg tiden. Den usynlige er blitt synlig, og den evige Guds Sønn er i sannhet blitt menneske. Jesus Kristus er den samme i går, i dag og til evig tid; Ham tilber og lovpriser vi. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 7,
+     "gez": "ሕዝቅኤል ነቢይ ኮነ ስምዐ በእንቲአሃ ወይቤ ርኢኵ ኆኅተ በምሥራቅ ኅቱም በዐቢይ መንክር ማኅተም አልቦ ዘቦአ ዘእንበለ እግዚአ ኀያላን ቦአ ውስቴታ ወወፅአ። ሰአሊ ለነ ቅድስት።",
+     "am": "ነቢዩ ሕዝቅኤል ስለ እርሷ መሰከረ፣ ድንቅ በሆነ ታላቅ ቁልፍ የተዘጋች ደጅ ከምሥራቅ አየሁ አለ። ከኃያላን ጌታ በቀር ወደ እርሷ ገብቶ የወጣ የለም። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Profeten Esekiel vitnet om henne og sa: «Jeg så en port mot Østen, lukket og beseglet med en underfull nøkkel, og ingen har gått inn eller ut gjennom den uten Herren, herrenes Herre.» Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 8,
+     "gez": "ኆኅትሰ ድንግል ይእቲ እንተ ወለደት ለነ መድኅነ እምድኅረ ወለደት ኪያሁ ነበረት በድንግልና ከመ ትካት ቡሩክ ውእቱ ፍሬ ከርሥኪ ኦ ወላዲተ እግዚእ ዘመጽአ ወአድኀነነ እምእደ ጸላኢ ዘአልቦ ምሕረት አንቲ ፍጽምት ወቡርክት ረከብኪ ሞገሰ በኀበ ንጉሠ ስብሐት አምላክ ዘበአማን ለኪ ይደሉ ዕበይ ወክብር እምኵሎሙ እለ ይነብሩ ዲበ ምድር ቃለ አብ መጽአ ወተሰብአ እምኔኪ ወአንሶሰወ ምስለ ሰብእ እስመ መሐሪ ውእቱ ወመፍቀሬ ሰብእ አድኀነ ነፍሳቲነ በምጽአቱ ቅዱስ። ሰአሊ ለነ ቅድስት።",
+     "am": "ኆኅትም (ደጅም) መድኃኒታችንን የወለደች ድንግል ናት። እርሱን ከወለደች በኋላ እንደ ቀድሞው በድንግልና ኖራለችና፣ መጥቶ ምሕረት ከሌለው ጠላት እጅ ያዳነን ጌታን የወለድሽ ሆይ! የማሕጸንሽ ፍሬ የተባረከ ነው። አንቺ ፍጽምትና የተባረክሽ ነሽ። የእውነት አምላክ በሆነ በክብር ባለቤት ዘንድ ባለሟልነትን አግኝተሻልና። በምድር ላይ ከሚኖሩ ሁሉ ይልቅ ገናንነትና ክብር ለአንቺ ይገባል የአብ ቃል መጥቶ በአንቺ ሰው ሆነ፣ ከሰው ጋርም ተመላለሰ፤ መሐሪ ይቅር ባይ ሰውን ወዳጅ ነውና በልዩ አመጣጡ አዳነን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Denne porten er Jomfruen som fødte vår Frelser. Etter fødselen forble hun jomfru slik som før. Velsignet er ditt livs frukt, du som fødte Herren, Han som frelste oss fra den onde fiendes hånd. Du er full av nåde og velsignet, og du har funnet velbehag hos herlighetens Herre. Høyhet og ære tilkommer deg fremfor alle som bor på jorden. Faderens evige Ord kom og ble menneske i deg og bodde iblant oss; Han er barmhjertig og menneskekjærlig, og ved sin komme frelste Han oss. Å hellige Maria, be for oss."
+    }
+   ]
+  },
+  {
+   "id": "torsdag",
+   "tittel": {
+    "gez": "ሐሙስ",
+    "am": "ሐሙስ",
+    "no": "Torsdag"
+   },
+   "velsignelse": {
+    "gez": "ባርክኒ ወቀድስኒ ወአንፅሕኒ በከመ ባርኪዮ ለቅዱስ ኤፍሬም ኦ እግእዝትየ ፍትሕኒ እማእሰሩ ለሰይጣን እሙ ለመድኅን ወለተ ብርሃን።",
+    "am": "የብርሃን ልጅ የምትሆኝ የመድኅን እናቱ ድንግል ማርያም ሆይ! ከሰይጣን ማሰሪያ ፍቺኝ፣ አገልጋይሽ ቅዱስ ኤፍሬምን እንደባረክሽው ባርኪኝ፣ ቀድሽኝ፣ አንጪኝ።",
+    "no": "Å, hellige Jomfru Maria, Frelserens Mor, du lysets datter, løs meg fra Satans lenker. Velsign meg slik du velsignet din tjener, den hellige Ephrem. Helliggjør meg, rens meg."
+   },
+   "overskrift": {
+    "gez": "ውዳሴሃ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ ዘይትነበብ በዕለተ ሐሙስ",
+    "am": "ሐሙስ የሚጸለይ አምላክን የወለደች የእመቤታችን የቅድስት ድንግል ማርያም ምስጋና።",
+    "no": "Lovprisning til den hellige Jomfru Maria, Gudfødersken, som bes på torsdager."
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "ዕፀ እንተ ርእየ ሙሴ በነደ እሳት ውስተ ገዳም ወአዕጹቂሃ ኢትውዒ ትመስል ማርያም ድንግል ዘእንበለ ርኵስ ተሰብአ እምኔሃ ቃለ አብ ወኢያውዐያ እሳተ መለኮቱ ለድንግል እምድኅረ ወለደቶ ድንግልናሃ ተረክበ ወመለኮቱ ኢተወለጠ ኮነ ወልደ ዕጓለ እመሕያው አምላክ ዘበአማን መጽአ ወአድኀነነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ርኩሰት የሌለባት ድንግል ማርያም፣ ሙሴ በበረሃ በነደ እሳት ጫፎቿ ሳይቃጠሉ ያያት ዕፅን ትመስላለች። የአብ ቃል በርስዋ ሰው ሆኗልና፣ እሳተ መለኮቱ (የመለኮቱ ባህርይ) አላቃጠላትምና፣ ከወለደችውም በኋላ ድንግልናዋ አልተለወጠምና፣ ሰውም ቢሆን መለኮቱ አልተለወጠም። በእውነት አምላክ ነውና፣ በእውነት አምላክ የሆነ መጥቶ አዳነን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Den plettfrie Jomfru Maria er den brennende busken som Moses skuet i ørkenen, hvor ilden brant uten å fortære grenene. Slik ble Faderens evige Ord menneske i henne, og guddommens ild fortærte henne ikke. Hennes jomfruelighet forble ubesmittet også etter fødselen, og da Han ble menneske, led Hans guddom ingen forandring, for Han er i sannhet Gud av sann Gud. Han steg ned for vår frelse og frelste oss. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 2,
+     "gez": "ናዐብየኪ ኵልነ ኦ እግዝእትነ ወላዲተ አምላክ እስመ ሣህልኪ ይኩን ላዕለ ኵልነ ትምክሕተ ኵልነ ድንግል ማርያም ወላዲተ አምላክ ዘበእንቲአሃ ተስዕረ ዘቀዳሚ መርገም እንተ ኀደረት ዲበ ዘመድነ በዕልወት ዘገብረት ብእሲት በልዐት እምዕፅ በእንተ ሔዋን ተዐፅወ ኆኅተ ገነት ወበእንተ ማርያም ድንግል ተርኅወ ለነ ዳግመ ከፈለነ ንብላዕ እምዕፀ ሕይወት ዘውእቱ ሥጋሁ ለክርስቶስ ወደሙ ክቡር በእንተ ፍቅረ ዚአነ መጽአ ወአድኀነነ አይ ልቡና ወአይ ነቢብ ወአይ ሰሚዕ ዘይክል አእምሮ ዝንቱ ምሥጢር መንክራተ ዘይትነበብ ላዕሌሃ እግዚአብሔር መፍቀሬ ሰብእ አሐዱ ውእቱ ባሕቲቱ ቃለ አብ ዘሀሎ እምቅድመ ዓለም በመለኮቱ እንበለ ሙስና እም፩ዱ አብ መጽአ ወተሰብአ ወልድ ዋሕድ እምቅድስት እሙ እምድኅረ ወለደቶ ኢማሰነ ድንግልናሃ ወበእንተዝ ግህደ ኮነት ከመ ወላዲተ አምላክ ይእቲ ኦ ዕሙቅ ብዕለ ጥበቡ ለእግዚአብሔር ከርሥ ዘፈትሐ ላዕሌሃ ትለድ በጻዕር ወሕማም ወኀዘነ ልብ ወኮነት ፈልፈለ ሕይወት ወወለደት ዘእንበለ ዘርዐ ብእሲ ዘይስዕር መርገመ እምዘመድነ ወበእንተዝ ንሰብሖ እንዘ ንብል ስብሐት ለከ ኦ መፍቀሬ ሰብእ ኄር ወመድኀኔ ነፍሳቲነ። ሰአሊ ለነ ቅድስት።",
+     "am": "አምላክን የወለድሽ እመቤታችን ሆይ! ሁላችን እናገንሻለን፣ ይቅርታሽ ለሁላችን ይሆን ዘንድ ነውና። ሔዋን እንጨት በልታ ባደረገችው ዓመፅ በባሕርያችን ያደረ የቀድሞው እርግማን በእርስዋ የጠፋልን፣ አምላክን የወለደች ድንግል ማርያም የሁላችን መመኪያ ናት። ስለ ሔዋን የገነት ደጅ ተዘጋ፣ ዳግመኛም ስለ ድንግል ማርያም ተከፈተልን፣ ከዕፀ ሕይወት እንበላ ዘንድ አደለን፣ ይኽውም እኛን ስለመውደድ መጥቶ ያዳነን የክርስቶስ ክቡር ሥጋው፣ ክቡር ደሙ ነው። ሰለ እርሷ ድንቅ ሆኖ የሚነገረውን ይህን ምስጢር ማወቅ የሚቻለው ምን ልቡና ነው? መናገር የሚቻለው ምን አንደበት ነው? መስማት የሚቻለው ምን ጆሮ ነው? ሰውን የሚወድ እግዚአብሔር አንድ ብቻ የሆነ አምላክነቱ ሳይለወጥ ከዓለም በፊት የነበረ የአብ ቃል፣ ከአብ ዘንድ መጥቶ ልዩ ከሆነች እናቱ ሰው ሆነ፣ ከወለደችው በኋላም ድንግልናዋ አልተለወጠም። ስለዚህም አምላክን የወለደች እንደሆነች ታወቀች። እግዚአብሔር የጥበቡ ስፋት ምን ይጠልቅ? በጻእር፣ በምጥ፣ በልብ ጋር ትወልድ ዘንድ የፈረደባት ማሕጸን፣ የሕይወት መገኛ ሆነች። ከባሕርያችን እርግማንን የሚያጠፋልንን ያለ ወንድ ዘር ወለደችልን። ስለዚህም “ሰውን የምትወድ ሆይ! ክብር ላንተ ይገባል፣ ቸርና የሰውነታችንም መድኃኒት ነህ” እያልን እናመስግነው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Vår Frue, Guds Mor, vi opphøyer deg alle, for din forbønn og din barmhjertighet er med oss. Gjennom Jomfru Maria, ble den gamle forbannelsen utslettet, den som kom over oss ved Evas ulydighet da hun spiste av treet. Ved Eva ble Paradisets port lukket, men ved Jomfru Maria ble den åpnet for oss på ny. Hun ga verden Livets Tre, Kristus vår Gud, og Han gir oss å ete av sitt dyrebare Legeme og drikke av sitt dyrebare Blod, Han som i sin store kjærlighet kom og frelste oss. Hvilket hjerte kan fatte, hvilken tunge kan forkynne, og hvilket øre kan høre dette store og underfulle mysterium? Gud, Han som elsker menneskene, den ene uforanderlige Gud, Faderens evige Ord, som var til før alle tider, utgikk fra Faderen og ble menneske ved sin utvalgte Mor. Hans fødsel krenket ikke hennes jomfruelighet, men bevarte den ubesmittet; derfor bekjenner vi henne som Guds Mor. Hvor uransakelige er ikke Guds visdoms dyp! Morslivet, som etter syndefallet var dømt til å føde i smerte, ble livets kilde. Uten mann fødte hun Ham som tok bort forbannelsen fra oss. Derfor priser vi Ham og sier: «Ære være Deg, Du menneskekjærlige, Du gode og vår sjels Frelser.» Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 3,
+     "gez": "ኦ ዝ መንክር ወዕፁብ ኀይለ ከርሣ ለድንግል ወላዲተ አምላክ ዘእንበለ ዘርዕ ስምዐ ኮነ መልአክ ዘአስተርአዮ ለዮሴፍ እንዘ ይብል ከመዝ እስመ ዘይትወለድ እምኔሃ እመንፈስ ቅዱስ ቃለ እግዚአብሔር ውእቱ ተሰብአ ዘእንበለ ውላጤ ወለደቶ ማርያም ምክዕቢተ ዝንቱ ፍሥሐ ወይቤ ትወልዲ ወልደ ወይሰመይ አማኑኤል ዘበትርጓሜሁ እግዚአብሔር ምስሌነ ወዓዲ ይሰመይ ኢየሱስሃ ዘያድኅኖሙ ለሕዝቡ እምኀጢአቶሙ ያድኅነነ በኀይሉ ወይሥረይ ኀጢአተነ እስመ ጥዩቀ አእመርናሁ ከመ አምላክ ውእቱ ዘኮነ ሰብአ ሎቱ ስብሐት እስከ ለዓለም ኦ ዝ መንክር ልደተ አምላክ እማርያም እምቅድስት ድንግል አግመረቶ ለቃል ኢቀደሞ ዘርዕ ለልደቱ ወኢአማሰነ በልደቱ ድንግልናሃ እምኀበ አብ ወጽአ ቃል ዘእንበለ ድካም ወእምድንግል ተወልደ ዘእንበለ ሕማም ሎቱ ሰገዱ ሰብአ ሰገል አምጽኡ ዕጣነ ከመ አምላክ ውእቱ ወርቀ እስመ ንጉሥ ውእቱ ወከርቤ ዘይትወሀብ ለሞቱ ማሕየዊ በእንቲአነ ተወክፈ በፈቃዱ አሐዱ ውእቱ ባሕቲቱ ኄር ወመፍቀሬ ሰብእ። ሰአሊ ለነ ቅድስት።",
+     "am": "ያለ ወንድ ዘር አምላክን የወለደች ድንግል፣ የማሕጸንዋ ሥራ ምን ይደንቅ? ለዮሴፍ የታየው መልአኩ፣ ከእርስዋ በመንፈስ ቅዱስ የሚወለደው ያለመለወጥ ሰው የሚሆነው የእግዚአብሔር ቃል ነው ብሎ መስክሯልና። ማርያም የዚህ ደስታ ዕፅፍ የሆነ እርሱን ወለደችው፣ መልአኩ ልጅ ትወልጃለሽ ስሙም አማኑኤል ይባላል አላት። ትርጓሜውም እግዚአብሔር ከእኛ ጋር ሆነ ማለት ነው። ዳግመኛ ወገኖቹን ከኃጢአታቸው የሚያድናቸው ኢየሱስ ይባላል። በችሎታው (በኃይሉ) ያድነን ዘንድ፣ ኃጢአታችንንም ያስተሠርይልን ዘንድ፣ ለዘላለም ክብር ይግባውና ሰው የሆነ እርሱን አምላክ እንደሆነ በተረዳ ነገር አውቀነዋልና፣ ልዩ ከሆነች ድንግል ማርያም ይህ የአምላክ መወለድ ምን ይደንቅ? ቃልን ወሰነችው ልደቱንም ዘር አልቀደመውም፣ በመወለዱም ድንግልናዋን አልለወጠውም። ቃል ከአብ ያለ ድካም ወጣ፣ ከድንግልም ያለሕማም ተወለደ። ሰብአ ሰገል ሰገዱለት፣ አምላክ ነውና ዕጣን አመጡለት፣ ንጉሥም ነውና ወርቅ አመጡለት፣ ስለኛ በፈቃዱ ለተቀበለው መዳኛችን ለሆነ ሞቱም ከርቤ አመጡለት። ቸርና ሰውን ወዳጅ የሆነ አንድ እርሱ ብቻ ነው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Hvor stort og underfullt er ikke det mysterium som ble fullbyrdet i Jomfruens morsliv! Hun fødte Gud uten mann. Engelen vitnet for Josef og sa: «Det som er unnfanget i henne, av Den Hellige Ånd, er Faderens evige Ord, som ble menneske uten forandring.» Maria fødte Ham, kilden til den fullkomne glede. Til Maria sa engelen: «Du skal føde en Sønn, og du skal gi Ham navnet Immanuel», det betyr: «Gud med oss». Han kalles også Jesus, for Han skal frelse sitt folk fra deres synder. Ham være ære i all evighet, Han som ble menneske for vår frelses skyld, utslettet våre synder ved sin kraft og forsonet oss med Faderen. Hvor underfull er ikke denne fødsel av Gud fra den utvalgte Jomfru Maria! Hun rommet det evige Ord. Ingen fødsel gikk forut for Hans fødsel i tiden, og Hans fødsel krenket ikke hennes jomfruelighet, men bevarte den ubesmittet. Ordet utgikk fra Faderen uten lidelse og ble født av Jomfruen uten smerte. De vise menn kom og tilba Ham. De bar frem røkelse, fordi Han er Gud; gull, fordi Han er Kongen; og myrra, fordi Han frivillig ville smake døden for vår frelses skyld. Han alene er god og menneskekjærlig. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 4,
+     "gez": "ኦ ዝ መንክር ነሥአ አሐደ ዐፅመ እምገቦሁ ለአዳም ወለሐኮ እምኔሁ ብእሲተ ወኵሎ ፍጥረተ ዕጓለ እመሕያው ተውህበ እግዚእ ቃለ አብ ተሰብአ እምቅድስት ድንግል ወተሰምየ አማኑኤል ወበእንተዝ ንስአል ኀቤሃ ኵሎ ጊዜ ከመ ታስተሥሪ በእንቲአነ ኀበ ፍቁር ወልዳ ኄርት ይእቲ በኀበ ኵሎሙ ቅዱሳን ወሊቃነ ጳጳሳት እስመ አምጽአት ሎሙ ዘኪያሁ ይጸንሑ ወለነቢያትኒ አምጽአት ሎሙ ለዘበእንቲአሁ ተነበዩ ወለሐዋርያትኒ ወለደት ሎሙ ዘሰበኩ በስሙ ውስተ ኵሉ አጽናፈ ዓለም ለሰማዕት ወለመሃይምናን ወጽአ እምኔሃ ዘተጋደሉ በእንቲአሁ ኢየሱስ ክርስቶስ ብዕለ ጸጋ ጥበቡ ዘኢይትዐወቅ ንኅሥሥ ዕበየ ሣህሉ እስመ መጽአ ወአድኀነነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ከአዳም ጎን አንዲት ዐፅም መንሣት ምን ይደንቅ? ከእርሱ ሴትን ፈጠረ፣ የሰው ፍጥረትንም ሁሉ ፈጠረ። ጌታ የአብ ቃል ተሰጠ። ከልዩ ድንግልም ሰው ሆነና አማኑኤል ተባለ። ስለዚህ ሁልጊዜ እርስዋን እንለምን፣ ከተወደደ ልጅዋ ታማልደን ዘንድ። በቅዱሳንና በሊቃነ ጳጳሳት ሁሉ ዘንድ ቸር ናት። ደጅ የሚጠኑትን ወልዳላቸዋለችና፤ ለነቢያትም ትንቢት የተናገሩለትን ወልዳላቸዋለችና፤ ለሐዋርያትም እስከ ዓለም ዳርቻ በስሙ ያስተማሩለትን ወልዳላቸዋለችና፣ ሰማዕታትና ምዕመናንም የተጋደሉለት የጥበቡ ጸጋ ብዛት የማይታወቅ ኢየሱስ ክርስቶስ ከእርስዋ ተወልዷልና፣ የይቅርታውን ብዛት መርምረን እንወቅ (እንፈልግ) መጥቶ አድኖናልና። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Hvor underfullt er det ikke at Gud tok et ribben fra Adams side og skapte kvinnen og hele menneskeslekten. Herren, Faderens Ord, ble gitt til oss og ble menneske gjennom den utvalgte Jomfruen og ble kalt Immanuel. Derfor påkaller vi henne til alle tider og ber om hennes forbønn hos hennes elskede Sønn. Hun er velgjørende mot alle de hellige og yppersteprestene, for hun brakte dem det de ventet på. Hun fødte Ham som profetene hadde profetert om, Ham som apostlene skulle forkynne til jordens ender, og Ham som martyrene og de troende skulle stride for: Jesus Kristus. Hans visdoms rikdom er uransakelig og uutsigelig. La oss derfor søke Hans store barmhjertighet, for Han kom og frelste oss. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 5,
+     "gez": "መሐለ እግዚአብሔር ለዳዊት በጽድቅ ወኢይኔስሕ እስመ እምፍሬ ከርሥከ አነብር ዲበ መንበርከ ወሶበ ተወክፎ ውእቱ ጻድቅ ከመ እምኔሁ ይትወለድ ክርስቶስ በሥጋ ፈቀደ ይኅሥሥ ወይርከብ ማኅደሮ ዘእግዚአብሔር ቃል ወፈጸመ ዘንተ በዐቢይ ትጋህ ወእምዝ ጸርሐ በመንፈስ ወይቤ ናሁ ሰማዕናሁ በኤፍራታ ወማኅደሮ ለአምላከ ያዕቆብ እንተ ይእቲ ቤተልሔም ዘኀረያ አማኑኤል ይትወለድ ውስቴታ በሥጋ ለመድኀኒተ ዚአነ ካዕበ ይቤላ ካልዕ እምነቢያት ወአንቲኒ ቤተልሔም ምድረ ኤፍራታ ኢትቴሐቲ እምነገሥተ ይሁዳ እስመ እምኔኪ ይወፅእ ንጉሥ ዘይርዕዮሙ ለሕዝብየ እስራኤል ኦ ዝ ነገር ለእሉ እለ ተነበዩ ዘበአሐዱ መንፈስ በእንተ ክርስቶስ ሎቱ ስብሐት ምስለ ኄር አቡሁ ወመንፈስ ቅዱስ እምይእዜ ወእስከ ለዓለም። ሰአሊ ለነ ቅድስት።",
+     "am": "እግዚአብሔር የባሕርይህን ፍሬ በዙፋንህ ላይ አኖራለሁ ብሎ ለዳዊት በእውነት ማለ፣ አይጸጸትም። ጻድቅ እርሱ ዳዊት ክርስቶስ በሥጋ ከእርሱ እንዲወለድ ባመነ ጊዜ፣ የእግዚአብሔርን ቃል ማደሪያ ፈልጎ ያገኝ ዘንድ ወደደ፣ ይህንንም በታላቅ ትጋት ፈጸመ። ከዚህም በኋላ እነሆ በኤፍራታ ሰማነው ብሎ በመንፈስ ቅዱስ አሰምቶ ተናገረ። ይህቺውም አማኑኤል እኛን ለማዳን በሥጋ ይወለድባት ዘንድ የመረጣት የያዕቆብ አምላክ ማደሪያ ናት። ዳግመኛም ከነቢያት አንዱ ሚክያስ፣ “አንቺ የኤፍራታ ክፍል የሆንሽ ቤተ ልሔም፣ ከይሁዳ ነገሥታት መሳፍንት አገር አታንሺም። ወገኖቹ እስራኤልን የሚጠብቃቸው ንጉሥ ካንች ይወጣልና።” ከዛሬ ጀምሮ እስከ ዘለዓለም ድረስ ከቸር አባቱና ከመንፈስ ቅዱስ ጋር፣ ምስጋና ስለተገባው ስለ ክርስቶስ በአንድ መንፈስ ቅዱስ ትንቢት የተናገሩት፣ የነዚህ የሚክያስና የዳዊት ነገር ምን ይረቅ? ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gud sverget i sannhet til David og vil ikke angre det: «Av ditt livs frukt vil jeg sette én på din trone.» Den rettferdige David trodde at Kristus i kjødet skulle fødes av ham, ønsket å finne et sted som kunne være en bolig for Guds ord, og dette fullførte han med stor iver. Deretter sa han, opplyst av Den Hellige Ånd: «Se, vi hørte om den i Efrata.» Dette er hun som ble utvalgt til å være bolig for Jakobs Gud, slik at Immanuel skulle fødes i kjødet fra henne for vår frelses skyld. Og videre sa en av profetene, Mika: «Du Betlehem i Efrata, liten blant Judas fyrstedømmer, fra deg skal det utgå en hersker som skal vokte mitt folk Israel.» Hvor dype er ikke ordene til Mika og David, de som ved den ene Hellige Ånd profeterte om Kristus! Ham tilkommer lovprisning, sammen med den gode Fader og Den Hellige Ånd, nå og alltid og i all evighet. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 6,
+     "gez": "ዳዊት ዘነግሠ ለእስራኤል አመ ይትነሥኡ ላዕሌሁ ዕልዋን ፈተወ ይስተይ ማየ እምዐዘቅተ ቤተልሔም ፍጡነ ተንሥኡ መላህቅተ ሐራሁ ወተቃተሉ በውስተ ትዕይንተ ዕልዋን ወአምጽኡ ሎቱ ውእተ ማየ ዘፈተወ ይስተይ ወሶበ ርእየ ውእቱ ጻድቅ ከመ አጥብዑ ወመጠዉ ነፍሶሙ ለቀትል በእንቲአሁ ከዐወ ውእተ ማየ ወኢሰትየ እምኔሁ ወእምዝ ተኆለቁ ሎቱ ጽድቅ እስከ ለዓለም አማን መነኑ ሰማዕት ጣዕማ ለዛ ዓለም ወከዐዉ ደሞሙ በእንተ እግዚአብሔር ወተዐገሡ ሞተ መሪረ በእንተ መንግሥተ ሰማያት ተሣሃለነ በከመ ዕበየ ሣህልከ። ሰአሊ ለነ ቅድስት።",
+     "am": "ለእስራኤል የነገሠ ዳዊት ጠላቶቹ በተነሱበት ጊዜ ከቤተ ልሔም ምንጭ ውኃ ይጠጣ ዘንድ ወደደ፣ የጭፍሮቹ አለቆች ፈጥነው ተነሱና በጠላቶቹ ከተማ ተዋግተው ሊጠጣ የወደደውን አመጡለት። ጻድቅ ዳዊት ግን ጨክነው ሰውነታቸውን ስለ እርሱ ለጦርነት ለሞት አሳልፈው እንደ ሰጡ ባየ ጊዜ ያን ውኃ አፈሰሰ፣ ከእርሱም አልጠጣም። ከዚህ በኋላ ለዘለዓለም ጽድቅ ሆኖ ተቆጠረለት። ሰማዕታት የዚህችን ዓለም ጣዕም በእውነት ናቁ፣ ደማቸውንም ስለ እግዚአብሔር አፈሰሱ፣ ስለ መንግስተ ሰማያትም መራራ ሞትን ታገሱ። እንደ ይቅርታህ ብዛት ይቅር በለን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Da David var konge over Israel og hans fiender stod imot ham, lengtet han etter å drikke vann fra brønnen ved Betlehem. Straks reiste hans tapre menn seg, brøt gjennom fiendens leir og hentet vannet han hadde lengtet etter. Men da den rettferdige David så at de hadde satt sine liv på spill og overgitt seg til fare og død for hans skyld, ville han ikke drikke det. Han utøste det som et offer for Herren, og dette ble regnet ham til rettferdighet for evig. Slik har også martyrene foraktet denne verdens forgjengelige sødme. De utøste sitt blod for Kristi skyld og utholdt den bitre død for himmelrikets skyld. Miskunn Deg over oss etter Din store barmhjertighet. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 7,
+     "gez": "አሐዱ ዘእምቅድስት ሥላሴ ርእዮ ትሕትናነ አጽነነ ሰማየ ሰማያት መጽአ ወኀደረ ውስተ ከርሠ ድንግል ወኮነ ሰብአ ከማነ ዘእንበለ ኀጢአት ባሕቲታ ወተወልደ በቤተልሔም በከመ ሰበኩ ነቢያት አድኀነነ ወቤዘወነ ወረሰየነ ሕዝበ ዚአሁ። ሰአሊ ለነ ቅድስት።",
+     "am": "ከቅድስት ሥላሴ አንዱ ወልድ መዋረዳችንን አይቶ፤ ከሰማየ ሰማያት ወርዶ፤ ባሕርይውን ዝቅ አደረገና መጥቶ በድንግል ማሕጸን አደረ። ከብቻዋ ከኃጢአት በቀርም እንደኛ ሰው ሆነ። ነቢያት ትንቢት እንደ ተናገሩለት በቤተ ልሔም ተወለደ። ፈጽሞ አዳነን፣ ወገኖቹም አደረገን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Sønnen, én av den hellige Treenighets personer, så vår ringhet. Han steg ned fra himlenes himmel, ydmyket seg selv og tok bolig i den hellige Jomfrus morsliv. Han ble menneske lik oss i alt, men uten synd. Han ble født i Betlehem, slik profetene hadde forkynt. Ved sin fullkomne frelse gjorde Han oss til sitt eget folk. Å hellige Maria, be for oss."
+    }
+   ]
+  },
+  {
+   "id": "fredag",
+   "tittel": {
+    "gez": "ዓርብ",
+    "am": "ዓርብ",
+    "no": "Fredag"
+   },
+   "velsignelse": {
+    "gez": "ባርክኒ ወቀድስኒ ወአንፅሕኒ በከመ ባርኪዮ ለቅዱስ ኤፍሬም ኦ እግእዝትየ ፍትሕኒ እማእሰሩ ለሰይጣን እሙ ለመድኅን ወለተ ብርሃን።",
+    "am": "የብርሃን ልጅ የምትሆኝ የመድኅን እናቱ ድንግል ማርያም ሆይ! ከሰይጣን ማሰሪያ ፍቺኝ፣ አገልጋይሽ ቅዱስ ኤፍሬምን እንደባረክሽው ባርኪኝ፣ ቀድሽኝ፣ አንጪኝ።",
+    "no": "Å, hellige Jomfru Maria, Frelserens Mor, du lysets datter, løs meg fra Satans lenker. Velsign meg slik du velsignet din tjener, den hellige Ephrem. Helliggjør meg, rens meg."
+   },
+   "overskrift": {
+    "gez": "ውዳሴሃ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ ዘይትነበብ በዕለተ ዓርብ።",
+    "am": "ዓርብ የሚጸለይ አምላክን የወለደች የእመቤታችን የቅድስት ድንግል ማርያም ምስጋና።",
+    "no": "Lovprisning til den hellige Jomfru Maria, Gudfødersken, som bes på fredager."
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "ቡርክት አንቲ እምአንስት ወቡሩክ ፍሬ ከርሥኪ ኦ ማርያም ድንግል ወላዲተ አምላክ ዘእንበለ ርኵስ ሠረቀ ለነ እምኔኪ ፀሐይ ጽድቅ ወአቅረበነ ታሕተ ክነፊሁ እስመ ውእቱ ፈጠረነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ከሴቶች ተለይተሽ የተባረክሽ ነሽ፣ የማሕጸንሽም ፍሬ የተባረከ ነው። ያለ ርኩሰት አምላክን የወለድሽ ድንግል ማርያም ሆይ! እውነተኛ ፀሐይ ከአንቺ ወጣልን (ጌታ ተወለደልን)፣ በክንፈ ረድኤቱም አቀረበን፣ እርሱ ፈጥሮናልና። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Velsignet er du blant kvinner, og velsignet er ditt livs frukt. Å Jomfru Maria, du som uten lyte fødte Gud i kjødet, fra deg er rettferdighetens Sol oppgått over oss. Under sine nådes vinger har Han samlet oss til seg, for Han er vår Skaper. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 2,
+     "gez": "ለኪ ለባሕቲትኪ ኦ እግዝእትነ ወላዲተ አምላክ እመ ብርሃን አንቲ ናዐብየኪ በስብሐት ወበውዳሴ ቡርክት አንቲ ተዐብዪ እምሰማይ ወትከብሪ እምድር ወላዕለ ኵሉ ሕሊናት መኑ ዘይክል ነቢበ ዕበየኪ ወአልቦ ዘይመስል ኪያኪ ኦ ማርያም መላእክት ያዐብዩኪ ወሱራፌል ይሴብሑኪ እስመ ዘይነብር ዲበ ኪሩቤል ወሱራፌል መጽአ ወኀደረ ውስተ ከርሥኪ መፍቀሬ ሰብእ አቅረበነ ኀቤሁ ዘዚአነ ሞተ ነሥአ ወእንቲአሁ ሕይወተ ወሀበነ ዘሎቱ ክብር ወስብሐት። ሰአሊ ለነ ቅድስት።",
+     "am": "አምላክን የወለድሽ እመቤታችን ሆይ! የብርሃን እናት ነሽና አንቺን ብቻሽን በክብር በምስጋና እናገንሻለን። የተባረክሽ አንቺ ከመላእክት ትበልጫለሽ፣ ከደቂቀ አዳምም ትበልጫለሽ፣ ከአሳቦች ሁሉ ትበልጫለሽ። ገናንነትሽን መናገር የሚቻለው ማነው? አንቺን የሚመስል የለምና ማርያም ሆይ! መላእክት ያገኑሻል፣ ሱራፌልም ያመሰግኑሻል፣ በኪሩቤልና በሱራፌል ላይ አድሮ የሚኖር ጌታ መጥቶ በማሕጸንሽ አድሯልና። ሰውን የሚወድ ወደ እርሱ አቀረበን። ክብር ምስጋና ያለው እርሱ፣ የእኛን ሞት ተቀብሎ፣ የእርሱን ሕይወት ለእኛ ሰጠን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Guds Mor, vår Frue, du er Lysets Mor. Deg opphøyer vi med ære og lovsang. Velsignet er du, opphøyet over englene, herligere enn Adams barn og hevet over all menneskelig tanke. Hvem kan verdig forkynne din storhet? Ingen kan lignes med deg. Maria, englenes hærskarer priser deg, og serafene lovsynger deg, for Herren, Han som troner over kjerubene og serafene, kom og tok bolig i ditt hellige morsliv. Han, den menneskekjærlige, samlet oss til seg; Han som eier all ære og herlighet, tok vår død på seg og gav oss sitt liv. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 3,
+     "gez": "ቡርክት አንቲ ማርያም ወቡሩክ ፍሬ ከርሥኪ ኦ ድንግል ወላዲተ አምላክ ምክሖን ለደናግል ዘእምቅድመ ዓለም ህልው ተሰብአ እምኔኪ ብሉየ መዋዕል ወፅአ እምከርሥኪ ሥጋነ ነሥአ ወመንፈሶ ቅዱሰ ወሀበነ ወረሰየነ ዕሩያነ ምስሌሁ በብዝኀ ኂሩቱ አንቲ ተዐብዪ እምብዙኃት አንስት እለ ነሥአ ጸጋ ወክብረ ኦ ማርያም ወላዲተ አምላክ ሀገር መንፈሳዊት ዘኀደረ ላዕሌሃ እግዚአብሔር ልዑል እስመ ዘይነብር ዲበ ኪሩቤል ወሱራፌል በእራኅኪ ሐቀፍኪዮ ወዘይሴሲ ለኵሉ ዘሥጋ በብዝኀ ኂሩቱ አኀዘ አጥባተኪ ወጠበወ ሐሊበ ዘውእቱ አምላክነ መድኀኔ ኵሉ ይርእየነ እስከ ለዓለም ንስግድ ሎቱ ወንሰብሖ እስመ ውእቱ ፈጠረነ። ሰአሊ ለነ ቅድስት።",
+     "am": "የደናግል መመኪያቸው፣ አምላክን የወለድሽ ድንግል ማርያም ሆይ! የተባረክሽ ነሽ፣ የማሕጸንሽም ፍሬ የተባረከ ነው። ከዓለም በፊት የነበረ እርሱ ሰው ሆኗልና። ከአንቺ የተወለደ ሥጋችንን ነሣ (ተዋሐደ)፣ መንፈስ ቅዱስንም ሰጠን፣ በቸርነቱ ብዛት መሳዮቹ አደረገን። ጸጋንና ክብርን ከተቀበሉ ብዙ ሴቶች አንቺ ትበልጫለሽ። አምላክን የወለድሽ ማርያም ሆይ! ልዑል እግዚአብሔር ያደረብሽ (የከተመብሽ) ረቂቅ ከተማ ነሽ። በኪሩቤልና በሱራፌል ላይ የሚኖረውን ጌታን በመኻል እጅሽ ይዘሽዋልና። በቸርነቱ ብዛት፣ ሥጋዊ ፍጥረትን ሁሉ የሚመግብ እርሱ፣ ጡትሽን ይዞ ጠባ። ይኸውም ሁሉን የሚያድን አምላካችን ነው። ለዘለዓለሙ ይጠብቀናል እንሰግድለትና እናመሰግነው ዘንድ እርሱ ፈጥሮናልና። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Jomfru Maria, Gudføderske, du er jomfruenes ære. Velsignet er du, og velsignet er ditt livs frukt. Han som var til før alle tider, ble menneske og tok vårt kjød av deg. Ved sin store godhet skjenket Han oss Den Hellige Ånd og gjorde oss delaktige i sitt guddommelige liv. Blant alle kvinner som har funnet nåde hos Gud, er du den mest velsignede. Maria, Guds Mor, du er den åndelige stad hvor Den Høyeste tok bolig. I dine hender bar du Ham som troner over kjerubene og serafene. Han som i sitt rike miskunn gir alt kjød liv og næring, tok næring fra ditt bryst. Han er vår Gud og alles Frelser; Han skal bevare oss til evig tid. Ham tilber og lovpriser vi, for Han er vår Skaper. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 4,
+     "gez": "ማርያም ድንግል ሙዳየ ዕፍረት ነቅዐ ፈልፈለ ማየ ሕይወት ፍሬ ከርሣ አድኀነ ኵሎ ዓለመ ወሰዐረ እምኔነ መርገመ ወገብረ ሰላመ ማእከሌነ በመስቀሉ ወበትንሣኤሁ ቅድስት አግብኦ ለብእሲ ዳግመ ውስተ ገነት። ሰአሊ ለነ ቅድስት።",
+     "am": "ድንግል ማርያም የሽቱ መኖሪያና የሕይወት ውኃ ምንጭ ናት። የማሕጸንዋ ፍሬ ሰውን ሁሉ አድኗልና። ከእኛም እርግማንን አጠፋልን። በመካከላችንም ሆኖ በመስቀሉ አስታረቀን። በልዩ ትንሣኤውም ሰውን ዳግመኛ ወደ ገነት መለሰው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Jomfru Maria er duftens bolig og kilden med det levende vann, for hennes livs frukt har frelst hele menneskeslekten. Han utslettet forbannelsen som lå over oss, og ved sitt kors skapte Han forsoning mellom Gud og mennesker. Ved sin herlige oppstandelse førte Han mennesket tilbake til Paradiset. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 5,
+     "gez": "ማርያም ንጽሕት ድንግል ወላዲተ አምላክ ማእምንት ሰአሊተ ምሕረት ለውሉደ ሰብእ ሰአሊ ለነ ኀበ ክርስቶስ ወልድኪ ይሥረይ ኀጢአተነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ንጽሕት ድንግል ማርያም የታመነች፣ አምላክን የወለደች ናት። ለሰዎች ልጆችም የምሕረት አማላጅ ናት። ኃጢአታችንን ያስተሠርይልን ዘንድ ወደ ልጅሽ ወደ ክርስቶስ ለምኚልን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Maria, den rene Jomfru, Guds Mor, ber uavlatelig med medlidenhet for menneskenes barn. Be for oss til din Sønn Kristus, at Han må tilgi oss våre synder og vise oss sin barmhjertighet. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 6,
+     "gez": "ማርያም ድንግል ትጸርሕ በቤተ መቅደስ ወትብል የአምር እግዚአብሔር ከመ አልብየ ዘአአምር ባዕድ ወኢምንትኒ ዘእንበለ ድምፀ ቃሉ ለመልአክ ዘአብሠረኒ በክብር ወይቤለኒ ሰላም ለኪ ኦ ቅድስት ድንግል። ጾርኪ ዘኢይጸወር አግመርኪ ዘኢይትገመር ወአልቦ ዘያገምሮ ምንትኒ ይበዝኅ ውዳሴኪ ኦ ምልእተ ጸጋ በኵሉ ክብር እስመ ኮንኪ አንቲ ማኅደረ ቃለ አብ አንቲ ውእቱ መንጦላዕት ስፍሕት እንተ ታስተጋብኦሙ ለመሃይምናን ሕዝበ ክርስቲያን ወትሜህሮሙ ሰጊደ ለሥሉስ ማሕየዊ አንቲ ውእቱ ዘጾርኪ ዐምደ እሳት ዘርእየ ሙሴ ዘውእቱ ወልደ እግዚአብሔር መጽአ ወኀደረ ውስተ ከርሥኪ ኮንኪ ታቦቶ ለፈጣሬ ሰማያት ወምድር ጾርኪዮ በከርሥኪ ፱ተ አውራኀ። አንቲ ማእምንት ለዘኢያገምርዎ ሰማያት ወምድር ኮንኪ ተንከተመ ለዕርገት ውስተ ሰማይ ብርሃንኪ የዐቢ እምብርሃነ ፀሐይ። አንቲ ውእቱ ምሥራቅ ዘወፅአ እምኔኪ ኮከብ ብሩህ ዘነጸርዎ ቅዱሳን በፍስሐ ወበሐሤት ዘፈትሐ ላዕለ ሔዋን ትለድ በጻዕር ወበሕማም አንቲሰ ማርያም ሰማዕኪ ዘይብል ተፈሥሒ ኦ ምልዕተ ጸጋ ወለድኪ ለነ ንጉሠ እግዚአ ኵሉ ፍጥረት መጽአ ወአድኀነነ እስመ መሐሪ ውእቱ ወመፍቀሬ ሰብእ በእንተዝ ንዌድሰኪ በከመ ገብርኤል መልአክ እንዘ ንብል ቡርክት አንቲ ማርያም ወቡሩክ ፍሬ ከርሥኪ ተፈሥሒ ኦ ምልዕተ ጸጋ እግዚአብሔር ምስሌኪ። ሰአሊ ለነ ቅድስት።",
+     "am": "ድንግል ማርያም በቤተ መቅደስ አሰምታ ትናገር ነበር፣ መልአኩ “ቅድስት ድንግል ሆይ! ሰላምታ ይገባሻል” ብሎ አክብሮ ከነገረኝ ነገር በቀር፣ ምንም ምን ሌላ የማውቀው ነገር እንደሌለኝ እግዚአብሔር ያውቃል አለች። የማይቻለውን ቻልሽ፣ የማይወሰነውንና ምንም ምን የሚወስነው የሌለውን ወሰንሽ። በክብር ሁሉ ላይ ጸጋን የተመላሽ ሆይ! ምስጋናሽ ይበዛል፣ ክብርሽ ፍጹም ነው። የአብ ቃል ማደሪያ ሆነሻልና፣ የክርስቲያን ወገኖች ምዕመናንን የምትሰበስቢያቸውና ማሕየዊ የሚያድኑን ለሆኑ ለሥላሴ ሰጊድን (መስገድን) የምታስተምሪላቸው ሰፊ መጋረጃ፣ ሙሴ ያየውን የእሳት አምድ የተሸከምሽ አንቺ ነሽ። ይኸውም መጥቶ በማሕጸንሽ ያደረው የእግዚአብሔር ልጅ ነው። ሰማይንና ምድርን ለፈጠረ ጌታ ማደሪያ ሆንሽ። ዘጠኝ ወር በማሕጸንሽ ተሸከምሽው፣ ሰማይና ምድር ለማይወስኑት የታመንሽ አንቺ ነሽ። ከምድር ወደ ሰማይ ለማረግ መሰላል ሆንሽ። ብርሃንሽ ከፀሐይ ብርሃን ይበልጣል። ቅዱሳን በፍጹም ደስታ ያዩት ኮከብ፣ ከአንቺ የተወለደ ምስራቅ አንቺ ነሽ። ይኸውም በጻዕርና በምጥ ትወልድ ዘንድ በሔዋን የፈረደባት ነው። አንቺ ማርያም ግን “ጸጋን የተመላሽ ሆይ! ደስ ይበልሽ” የሚል ቃልን ሰማሽና መጥቶ ያዳነን የፍጥረት ሁሉ ገዥ የሆነ ንጉሥን ወለድሽልን። መሐሪ ነው፣ ሰውንም ወዳጅ ነው። ስለዚህ ማርያም ሆይ! የተባረክሽ ነሽ፣ የማሕጸንሽም ፍሬ የተባረከ ነው። ጸጋን የተመላሽ ሆይ! እግዚአብሔር ከአንቺ ጋር ነውና ደስ ይበልሽ እያልን መልአኩ ገብርኤል እንዳመሰገነሽ እናመሰግንሻለን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Jomfru Maria talte med høy røst i tempelet: «Gud vet at jeg ikke kjenner til annet enn det engelen forkynte meg med ære da han sa: 'Hils deg, hellige Jomfru'.» Du rommet den Ufattelige; du begrenset Ham som er grenseløs og som ingenting kan romme. Du som er full av nåde over all ære, din lovsang er stor og din verdighet er fullkommen. Du ble en bolig for Faderens Ord; du er det vide teltet som samler de troende kristne og lærer dem å tilbe den livgivende Treenigheten. Du er den som bar ildstøtten som Moses så, for det var Guds Sønn som kom og tok bolig i ditt morsliv. Du ble en bolig for Herren som skapte himmel og jord. Du bar Ham i ni måneder; du er den trofaste som bar Ham som verken himmel eller jord kan romme. Du ble stigen som fører oss fra jorden til himmelen. Ditt lys er klarere enn solens lys. Du er Østen som stjernen steg opp fra, den som de hellige så med fullkommen glede. Eva ble dømt til å føde med smerte og nød, men du, Maria, hørte ordene: «Gled deg, du som er full av nåde!» Du fødte oss Kongen, alle skapningers Herre, som kom og frelste oss; Han er barmhjertig og elsker menneskene. Derfor, Maria, er du velsignet, og velsignet er ditt livs frukt. Vi priser deg slik engelen Gabriel priste deg: «Gled deg, du nådefulle, Herren er med deg!» Å hellige Maria, be for oss."
+    }
+   ]
+  },
+  {
+   "id": "lordag",
+   "tittel": {
+    "gez": "ቀዳሚት ሰንበት",
+    "am": "ቅዳሜ",
+    "no": "Lørdag"
+   },
+   "velsignelse": {
+    "gez": "ባርክኒ ወቀድስኒ ወአንፅሕኒ በከመ ባርኪዮ ለቅዱስ ኤፍሬም ኦ እግእዝትየ ፍትሕኒ እማእሰሩ ለሰይጣን እሙ ለመድኅን ወለተ ብርሃን።",
+    "am": "የብርሃን ልጅ የምትሆኝ የመድኅን እናቱ ድንግል ማርያም ሆይ! ከሰይጣን ማሰሪያ ፍቺኝ፣ አገልጋይሽ ቅዱስ ኤፍሬምን እንደባረክሽው ባርኪኝ፣ ቀድሽኝ፣ አንጪኝ።",
+    "no": "Å, hellige Jomfru Maria, Frelserens Mor, du lysets datter, løs meg fra Satans lenker. Velsign meg slik du velsignet din tjener, den hellige Ephrem. Helliggjør meg, rens meg."
+   },
+   "overskrift": {
+    "gez": "ውዳሴሃ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ ዘይትነበብ በዕለተ ቀዳሚት ሰንበት",
+    "am": "ቅዳሜ የሚጸለይ አምላክን የወለደች የእመቤታችን የቅድስት ድንግል ማርያም ምስጋና።",
+    "no": "Lovprisning til den hellige Jomfru Maria, Gudfødersken, som bes på lørdager."
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "ንጽሕት ወብርህት ወቅድስት በኵሉ እንተ ሐቀፈቶ ለእግዚእ በእራኃ። ወኵሉ ፍጥረት ይትፌሥሑ ምስሌሃ እንዘ ይጸርሑ ወይብሉ። ሰአሊ ለነ ቅድስት።",
+     "am": "ንጽሕት ነሽ ብርህትም ነሽ ጌታን በመኻል እጅሽ የያዝሽው ሆይ! በሁሉ የተቀደስሽ ነሽ ፍጥረቱ ሁሉ ቅድስት ሆይ! ለምኚልን ብለው እየጮሁ ከአንቺ ጋር ደስ ይላቸዋል። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Ren er du og fylt av lys, du som bar Herren i dine hender. Du er helliget over alle ting. Hele skaperverket fryder seg med deg og roper: Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 2,
+     "gez": "ተፈሥሒ ኦ ምልዕተ ጸጋ። ተፈሥሒ እስመ ረከብኪ ሞገሰ። ተፈሥሒ እግዚአብሔር ምስሌኪ። ናስተበፅዕ ዕበየኪ ኦ ግርምት ድንግል ወንፌኑ ለኪ ፍሥሓ ምስለ ገብርኤል መልአክ እስመ እምፍሬ ከርሥኪ ኮነ መድኃኒተ ዘመድነ። ወአቅረበነ ኀበ እግዚአብሔር አቡሁ። ሰአሊ ለነ ቅድስት።",
+     "am": "ጸጋን የተመላሽ ሆይ! ደስ ይበልሽ። ባለሟልነትን አግኝተሻልና ደስ ይበልሽ። እግዚአብሔር ከአንቺ ጋር ነውና ደስ ይበልሽ። ግርማ ያለሽ ድንግል ሆይ! ገናንነትሽን እናመሰግናለን፣ እናደንቃለን። እንደ መልአኩ ገብርኤልም ምስጋና እናቀርብልሻለን። የባሕርያችን መዳን በማሕጸንሽ ተገኝቷልና፣ ወደ አባቱ ወደ እግዚአብሔርም አቀረበን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gled deg, du som er fylt av nåde! Gled deg, for du har funnet velbehag hos Gud. Gled deg, for Herren er med deg! Å ulastelige Jomfru, vi priser din storhet og opphøyer deg. Med engelen Gabriels hilsen ærer vi deg, for i ditt morsliv fantes vår frelse, Han som har ført oss frem for sin Far, Gud. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 3,
+     "gez": "ከመ ከብካብ ዘአልቦ ጥልቀት መንፈስ ቅዱስ ኀደረ ላዕሌኪ ወኃይለ ልዑል ጸለለኪ ኦ ማርያም አማን ወለድኪ ቃለ ወልደ አብ ዘይነብር ለዓለም መጽአ ወአድኀነነ እምኃጢአት። ሰአሊ ለነ ቅድስት።",
+     "am": "እንደ ሠርግ ቤት ጉድፍ የሌለብሽ ነሽ። መንፈስ ቅዱስ አድሮብሻልና፣ የልዑል ኃይልም ጸልሎሻልና። ማርያም ሆይ! ለዘለዓለም የሚኖር መጥቶ ከኃጢአት ያዳነን የአብ ልጅ ቃልን በእውነት ወለድሽ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er som et uplettet brudekammer, for Den Hellige Ånd tok bolig i deg, og Den Høyestes kraft overskygget deg. Maria, du har i sannhet født Ordet, Faderens Sønn, Han som er fra evighet og som kom for å frelse oss fra synden. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 4,
+     "gez": "አንቲ ውእቱ ዘመድ ዘእምሥርወ ዳዊት ወለድኪ ለነ በሥጋ መድኃኒነ ኢየሱስ ክርስቶስ ዋሕድ ቃል ዘእምአብ ዘእምቅድመ ዓለም ህልው (ኅቡእ) ኀብአ ርእሶ። ወነሥአ እምኔኪ አርአያ ገብር። ሰአሊ ለነ ቅድስት።",
+     "am": "ከዳዊት ሥር የተገኘሽ ባሕርይ (ዘር) አንቺ ነሽ። መድኃኒታችን ኢየሱስ ክርስቶስን በሥጋ ወልደሽልናልና፣ ከአብ የተወለደ ከዓለም በፊት የነበረ አንዱ ቃል ራሱን (ባሕርዩን) ሰወረ፣ ከአንቺም የተገዥን (የሰውን) አርአያ ነሣ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er den ætt som utsprang ut av David, for du bar vår Frelser, Jesus Kristus, i kjødet. Han, det ene Ord, født av Faderen før alle tider, skjulte sin guddom og antok menneskenatur fra deg. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 5,
+     "gez": "ኮንኪ ዳግሚተ ሰማይ ዲበ ምድር ኦ ወላዲተ አምላክ ዘእንበለ ርኵስ። ሠረቀ ለነ እምኔኪ ፀሐየ ጽድቅ ወወለድኪዮ በከመ ትንቢተ ነቢያት ዘእንበለ ዘርዕ ወኢሙስና። ሰአሊ ለነ ቅድስት።",
+     "am": "አምላክን ያለርኩሰት የወለድሽው ሆይ! የምድር ሁለተኛ ሰማይን ሆንሽ፤ እውነተኛ ፀሐይ ከአንቺ ወጥቶልናልና። እንደ ነቢያት ትንቢትም ያለዘርና ያለመለወጥ ወለድሽው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du som uten lyte fødte Gud i kjødet, du ble en annen himmel på jorden, for fra deg oppgikk den sanne Rettferdighetens Sol. Slik profetene hadde forutsagt, fødte du Ham uten mann og uten forandring. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 6,
+     "gez": "አንቲ ውእቱ ደብተራ እንተ ተሰመይኪ ቅድስተ ቅዱሳን። ወውስቴታ ታቦት በወርቅ ልቡጥ እምኵለሄ ወውስቴታ ጽላተ ኪዳን። መሶበ ወርቅ እንተ መና ኅቡእ ዘውእቱ ወልደ እግዚአብሔር መጽአ ወኀደረ ኀበ ማርያም ድንግል ዘእንበለ ርኵስ ተሰብአ እምኔሃ ቃለ አብ ወወለደቶ ውስተ ዓለም ለንጉሠ ስብሐት መጽአ ወአድኃነነ ትትፌሳሕ ገነት እመ በግዕ ነባቢ ወልደ አብ ዘይነብር ለዓለም መጽአ ወአድኀነነ እምኃጢአት። ሰአሊ ለነ ቅድስት።",
+     "am": "ከተለዩ የተለየች የተባልሽ፣ የኪዳን ጽላት ያለብሽ፣ የተሠወረ መና ያለበት የወርቅ መሶብ ያለብሽ፣ ደብተራ ድንኳን አንቺ ነሽ። ይኸውም መና የተባለው መጥቶ በድንግል ማርያም ማሕጸን ያደረው የእግዚአብሔር ልጅ ነው። የአብ ቃል በእርስዋ ሰው ሆነ። መጥቶ ያዳነን የባሕርይ ንጉሥን በዓለም ውስጥ ወለደችው። የሚናገር በግ የክርስቶስ እናቱ ገነት ደስ ይላታል። ለዘለዓለም የሚኖር የአብ ልጅ እርሱ መጥቶ ከኃጢአት አድኖናልና። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er tabernaklet som kalles det Aller Helligste, hvor paktens tavler er og gullkrukken med det skjulte manna. Dette manna er Guds Sønn, som kom og tok bolig i Jomfru Marias morsliv. Faderens Ord ble kjød i henne, og hun fødte Kongen i verden, Han som kom for å frelse oss. Kristi mor, det levende lam, fryder seg som et paradis, for Faderens Sønn, Han som lever evig, kom og frelste oss fra synden. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 7,
+     "gez": "ተሰመይኪ እመ ለክርስቶስ ንጉሥ። እምድኅረ ወለድኪ ኪያሁ ነበርኪ በድንግልና በመንክር ምስጢር ወለድኪዮ ለአማኑኤል ወበእንተዝ ዐቀበኪ እንበለ ሙስና። ሰአሊ ለነ ቅድስት።",
+     "am": "የንጉሥ ክርስቶስ እናቱን ተባልሽ። እርሱን ከወለድሽ በኋላ በድንግልና ኖርሽ። ድንቅ በሆነ ምሥጢር (ተዋሕዶ) አማኑኤልን ወለድሽው፣ ስለዚህም ባለመለወጥ አጸናሽ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du ble kalt Kristi Konges mor. Etter at du hadde født Ham, forble du jomfru. Ved et underfullt mysterium fødte du Immanuel, og forble derfor uforandret. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 8,
+     "gez": "አንቲ ውእቱ ሰዋስው ዘርእየ ያዕቆብ እግዚአብሔር ላዕሌሁ። እስመ ፆርኪ በከርሥኪ ኅቱም ዘኢይትዓወቅ እምኵለሄ። ኮንኪ ለነ ሰአሊተ ኀበ እግዚእነ ኢየሱስ ክርስቶስ ዘተሰብአ እምኔኪ በእንተ መድኃኒትነ። ሰአሊ ለነ ቅድስት።",
+     "am": "እግዚአብሔር በላይዋ ተቀምጦባት ያዕቆብ ያያት መሰላል አንቺ ነሽ። በሁሉ በኩል የማይመረመር፣ እርሱን ተፈትሖ በሌለበት ማሕጸንሽ ተሸክመሽዋልና። እኛን ስለማዳን ከአንቺ ሰው በሆነ፣ በጌታችን በኢየሱስ ክርስቶስ ዘንድ አማላጅ ሆንሽን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er stigen som Jakob så, hvor Gud tronet på toppen. Du bar i ditt rene morsliv Ham som er ubegripelig i alle ting. Du er vår forbeder hos vår Herre Jesus Kristus, Han som ved deg ble menneske for vår frelses skyld. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 9,
+     "gez": "ናሁ እግዚእ ወጽአ እምኔኪ ኦ ቡርክት ጽርሕ ንጽሕት ያድኅን ኵሎ ዓለመ ዘፈጠረ በዕበየ ሣህሉ ንሰብሖ ወንወድሶ እስመ ውእቱ ኄር ወመፍቀሬ ሰብእ። ሰአሊ ለነ ቅድስት።",
+     "am": "የተባረክሽና ንጽሕት የሆንሽ አዳራሽ ሆይ! እነሆ ጌታ የፈጠረውን ዓለም ሁሉ በይቅርታው ብዛት ያድን ዘንድ ካንቺ ወጣ (ተወለደ)። ፈጽመን እናመስግነው፤ ቸርና ሰውን ወዳጅ ነውና። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Å velsignede og rene sal, se, Herren gikk ut fra deg for å frelse hele den skapte verden i sin store barmhjertighet. La oss prise Ham fullkomment, for Han er god og menneskekjærlig. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 10,
+     "gez": "ተፈሥሒ ኦ ምልዕተ ጸጋ ድንግል ዘእንበለ ርኵስ ልሕኵት ንጽሕት ክብረ ኵሉ ዓለም ብርሃን ዘኢትጠፍእ መቅደስ ዘኢትትነሠት በትረ ሃይማኖት ዘኢትጸንን ምስማኮሙ ለቅዱሳን ሰአሊ ለነ ኀበ ወልድኪ ኄር መድኃኒነ ይምሐረነ ወይሣሃለነ ይሥረይ ኃጢአተነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ያለርኩሰት ድንግል የሆንሽ ጸጋን የተመላሽ ሆይ! ደስ ይበልሽ። የዓለም ሁሉ መክበሪያ ንጽሕት ጽዋ ነሽ፤ የማትጠፊ ፋና ነሽ፤ የማትፈርሽ መቅደስ ነሽ፤ የቅዱሳን መደገፊያቸው (መጠጊያቸው) የማትለወጪ የሃይማኖት በትር ነሽ። ቸር አዳኛችን ወደ ሆነ ልጅሽ ለምኚልን፣ ፈጽሞ ይቅር ይለንና ይምረን ዘንድ፣ ኃጢአታችንንም ያስተሠርይልን ዘንድ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gled deg, du ubeflekkede Jomfru, fylt av nåde! Du er hele verdens ære, det rene beger, den uslukkelige lampe og det urokkelige tempel. Du er de helliges støtte og troens uforanderlige stav. Be for oss til din Sønn, vår Frelser, at Han må vise oss miskunn, forbarme seg over oss og forlate oss våre synder. Å hellige Maria, be for oss."
+    }
+   ]
+  },
+  {
+   "id": "sondag",
+   "tittel": {
+    "gez": "ሰንበተ ክርስቲያን",
+    "am": "እሁድ",
+    "no": "Søndag"
+   },
+   "velsignelse": {
+    "gez": "ባርክኒ ወቀድስኒ ወአንፅሕኒ በከመ ባርኪዮ ለቅዱስ ኤፍሬም ኦ እግእዝትየ ፍትሕኒ እማእሰሩ ለሰይጣን እሙ ለመድኅን ወለተ ብርሃን።",
+    "am": "የብርሃን ልጅ የምትሆኝ የመድኅን እናቱ ድንግል ማርያም ሆይ! ከሰይጣን ማሰሪያ ፍቺኝ፣ አገልጋይሽ ቅዱስ ኤፍሬምን እንደባረክሽው ባርኪኝ፣ ቀድሽኝ፣ አንጪኝ።",
+    "no": "Å, hellige Jomfru Maria, Frelserens Mor, du lysets datter, løs meg fra Satans lenker. Velsign meg slik du velsignet din tjener, den hellige Ephrem. Helliggjør meg, rens meg."
+   },
+   "overskrift": {
+    "gez": "ውዳሴሃ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ ዘይትነበብ በዕለተ ሰንበተ ክርስቲያን ቅድስት",
+    "am": "በክርስቲያን ሰንበት እሁድ የሚጸለይ አምላክን የወለደች የእመቤታችን የቅድስት ድንግል ማርያም ምስጋና።",
+    "no": "Lovprisning til den hellige Jomfru Maria, Gudfødersken, som bes på søndager, den kristne sabbat."
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "ተሰመይኪ ፍቅርተ ኦ ቡርክት እምአንስት አንቲ ውእቱ ዳግሚት ቀመር እንተ ትሰመይ ቅድስተ ቅዱሳን ወውስቴታ ጽላተ ኪዳን ፲ቱ ቃላት እለ ተጽሕፋ በአጻብዒሁ ለእግዚአብሔር ቀዲሙ ዜነወነ በየውጣ እንተ ይእቲ ቀዳሜ ስሙ ለመድኀኒነ ኢየሱስ ክርስቶስ ዘተሰብአ እምኔኪ ዘእንበለ ውላጤ ወኮነ ዐራቄ ለሐዲስ ኪዳን በውሒዘ ደሙ ቅዱስ አንጽሖሙ ለመሃይምናን ወለሕዝብ ንጹሐን። ሰአሊ ለነ ቅድስት።",
+     "am": "ከሴቶች ይልቅ ተለይተሽ የተባረክሽ ሆይ! የተወደድሽ ተባልሽ፤ ከተለዩ የተለየች፣ በውስጧም የኪዳን የሕግ ጽላት ያለባት የምትባይ ሁለተኛ ክፍል አንቺ ነሽ፤ ኪዳንም በእግዚአብሔር ጣቶች የተጻፉ ዐሥሩ ቃላት ናቸው፤ ያለመለወጥ ከአንቺ ሰው የሆነ መድኃኒታችን ኢየሱስ ክርስቶስ፣ ደገኛ ስሙን፣ መጀመሪያ ስሙን አስቀድሞ በየውጣ ነገረን፤ ለአዲስ ኪዳንም አስታራቂ ሆነ፤ በከበረ ደሙ ፈሳሽነት ወይም መፍሰስ ያመኑትንና ንጹሓን የሆኑትን ወገኖች አነጻቸው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Velsignet er du blant kvinner og høyt elsket! Du er det sanne Aller Helligste, som i sitt indre rommer paktens tavler, skrevet av Guds egen finger. Ved de ti ord kunngjorde Gud sin lov, men i deg ble vår Frelser, Jesus Kristus, menneske uten forandring. Han er forsoneren i den nye pakt, som ved sitt dyrebare blod har renset de troende og gjort dem til et hellig folk. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 2,
+     "gez": "ወበእንተዝ ናዐብየኪ ኵልነ ኦ እግዝእትነ ወላዲተ አምላክ ንጽሕት ኵሎ ጊዜ ንስእል ወናንቀዐዱ ኀቤኪ ከመ ንርከብ ሣህለ በኀበ መፍቀሬ ሰብእ፤ ታቦት በወርቅ ልቡጥ እምኵለሄ ዘግቡር እምዕፅ ዘኢይነቅዝ፤ ይትሜሰል ለነ ዘእግዚአብሔር ቃለ ዘኮነ ሰብአ ዘእንበለ ፍልጠት ወኢውላጤ መለኮት፤ ንጹሕ ዘአልቦ ሙስና፤ ዘዕሩይ ምስለ አብ ወቦቱ አብሠራ ለንጽሕት ዘእንበለ ዘርዕ ኮነ ከማነ በኪነ ጥበቡ ቅዱስ፤ ዘተሰብአ እምኔኪ ዘእንበለ ርኵስ ደመረ መለኮቶ። ሰአሊ ለነ ቅድስት።",
+     "am": "ሁል ጊዜ ንጽሕት የሆንሽ አምላክን የወለድሽ እመቤታችን ሆይ! ሁላችን ስለዚህ እናገንሻለን፤ ሰውን በሚወድ በጌታ ዘንድ ይቅርታን እናገኝ ዘንድ እንለምንሻለን፤ ወዳንቺም እናንጋጥጣለን። ከማይነቅዝ ዕንጨት የተቀረፀ፣ በውስጥና በውጭ በወርቅ የተለበጠ ታቦት፣ ያለመለየትና ያለመለወጥ ሰው የሆነ የእግዚአብሔርን ቃል ይመስልልናል። ይኸውም መለወጥ የሌለበት ንጹሕ መለኮት ነው፤ ከአብ ጋር የተካከለ ነው፤ ለንጽሕት በራሱ አበሰራት፤ በልዩ ጥበቡ ያለ ወንድ ዘር እንደ እኛ ሆነ፤ መለኮቱን አዋሕዶ ያለ ርኵሰት በአንቺ ሰው ሆነ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Å vår Frue, Guds Mor, du som alltid er ren, derfor opphøyer vi deg alle. Til deg løfter vi våre øyne og ber om miskunn hos Herren, Han som elsker menneskene. Du er lik paktkisten av uforgjengelig tre, kledd med gull både innvendig og utvendig, et bilde på Guds Ord, som ble menneske uten sammenblanding eller forandring. Han er den rene Guddom, ett med Faderen, og ved sin visdom ble Han som en av oss, uten mann. Han forente sin guddom med vår natur og ble menneske i deg, uten urenhet. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 3,
+     "gez": "መቅደስ ዘይኬልልዋ ኪሩቤል እለ ሥዑላን በሥዕለ እግዚአብሔር ቃል ዘተሰብአ እምኔኪ፤ ዘእንበለ ውላጤ ኮነ ሠራዬ ኀጢአትነ ወደምሳሴ አበሳነ። ሰአሊ ለነ ቅድስት።",
+     "am": "በእግዚአብሔር ሥዕል የተሣሉ ኪሩቤል የሚጋርዱሽ መቅደስ አንቺ ነሽ፤ ንጽሕት ሆይ! ያለመለወጥ ከአንቺ ሰው የሆነው ቃል፣ ኃጢአታችንን የሚያስተሰርይልንና አበሳችንን የሚደመስስልን ሆነ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er templet som overskygges av kjerubene, de som er skapt etter Guds bilde. Å du rene, Ordet som ved deg ble menneske uten forandring, er Han som utsletter vår skyld og skjenker oss syndenes forlatelse. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 4,
+     "gez": "አንቲ ውእቱ መሶበ ወርቅ፤ ንጹሕ እንተ ውስቴታ መና ኅቡእ፤ ኅብስት ዘወረደ እምሰማያት፤ ወሀቤ ሕይወት ለኵሉ ዓለም። ሰአሊ ለነ ቅድስት።",
+     "am": "የተሰወረ መና ያለብሽ፣ የንጹሕ ወርቅ መሶብ አንቺ ነሽ፤ መናም ከሰማይ የወረደውና ለዓለም ሁሉ ሕይወትን የሚያድለው ኅብስት ነው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er gullfatet som bærer det skjulte manna. Dette manna er det brød som kom ned fra himmelen og gir verden liv. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 5,
+     "gez": "አንቲ ውእቱ ተቅዋም ዘወርቅ እንተ ጾርኪ ማኅቶተ ጸዳል፤ ኵሎ ጊዜ ዘውእቱ ብርሃኑ ለዓለም። ብርሃን ዘእምብርሃን ዘአልቦ ጥንት አምላክ ዘእምአምላክ ዘበአማን ዘተሰብአ እምኔኪ ዘእንበለ ውላጤ፤ ወበምጽአቱ አብርሀ ላዕሌነ ለእለ ንነብር ውስተ ጽልመት፤ ወጽላሎተ ሞት ወአርትዐ እገሪነ ውስተ ፍኖተ ሰላም በምስጢረ ጥበቡ ቅዱስ። ሰአሊ ለነ ቅድስት።",
+     "am": "ሁል ጊዜ ብርሃንነት ያለውን ፋና የተሸከምሽ፣ የወርቅ መቅረዝ አንቺ ነሽ፤ ይኸውም ፋና የዓለም ብርሃን ነው፤ ጥንት ከሌለው ብርሃን የተገኘ ብርሃን ነው፤ ከእውነተኛ አምላክ የተገኘ እውነተኛ አምላክ ነው፤ ያለመለወጥም ከአንቺ ሰው የሆነው ነው፤ በመምጣቱም (ሰው በመሆኑም) በጨለማና በሞት ጥላ ውስጥ ለምንኖር ለእኛ አበራልን፤ በልዩ የጥበቡ ምሥጢር የልቡናችንን እግር ወደ ሰላም መንገድ አቀናልን። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er gullestaken som bærer det evige lys. Dette lys er verdens lys, lys av lys, uten begynnelse, sann Gud av sann Gud. Han ble menneske ved deg uten forandring, og ved sitt komme opplyste Han oss som satt i mørket og dødens skygge. Ved sin visdoms mysterium ledet Han våre føtter inn på fredens vei. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 6,
+     "gez": "አንቲ ውእቱ ማዕጠንት ዘወርቅ እንተ ጾርኪ ፍሕመ እሳት፤ ቡሩክ ዘነሥአ እመቅደስ፤ ዘይሠሪ ኀጢአተ ወይደመስስ ጌጋየ፤ ዝ ውእቱ ዘእግዚአብሔር ቃል ዘተሰብአ እምኔኪ ዘአዕረገ ለአቡሁ፤ ርዕሶ ዕጣነ ወመሥዋዕተ ሥሙረ። ሰአሊ ለነ ቅድስት።",
+     "am": "ቡሩክ ከቤተ መቅደስ ይዞሽ የወጣ፣ እሳትነት ያለውን ፍሕም የተሸከምሽ የወርቅ ማዕጠንት አንቺ ነሽ፤ ፍሕም የተባለውም ኃጢአትን የሚያስተሠርይና በደልን የሚደመስስ ነው። ይኸውም ከአንቺ ሰው የሆነና ራሱን የተወደደ መሥዋዕት አድርጎ ያሳረገ የእግዚአብሔር ቃል ነው። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du er røkelseskaret av gull, som bærer det glødende kull fra alteret i helligdommen. Dette kull er Han som utsletter våre misgjerninger og renser oss fra all synd. Det er Guds Ord, som ble menneske ved deg og frembar seg selv som et velbehagelig offer for Faderen. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 7,
+     "gez": "ተፈሥሒ ኦ ማርያም ርግብ ሠናይት፤ ዘወለድኪ ለነ ዘእግዚአብሔር ቃለ፤ አንቲ ውእቱ ጽጌ መዓዛ ሠናይ እንተ ሠረጸት እምሥርወ ዕሴይ። ሰአሊ ለነ ቅድስት።",
+     "am": "የእግዚአብሔርን ቃል የወለድሽልን መልካሟ ርግብ ማርያም ሆይ! ደስ ይበልሽ፤ ከዕሴይ ሥር የወጣሽ፣ መዐዛሽ ያማረ አበባ አንቺ ነሽ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Gled deg, Maria, du milde due, som har født oss Guds Ord! Du er den herlige og velluktende blomst som sprang frem av Isais rot. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 8,
+     "gez": "በትረ አሮን እንተ ሠረጸት ዘእንበለ ተክል ወኢሰቀይዋ ማየ ከማሃ፤ አንቲኒ ኦ ወላዲተ ክርስቶስ አምላክነ ዘበአማን ዘእንበለ ዘርእ መጽአ ወአድኀነነ። ሰአሊ ለነ ቅድስት።",
+     "am": "ሳይተክሏትና ውኃ ሳያጠጧት የለመለመች የአሮን በትር ነበረች፤ ያለ ዘር ሰው ሆኖ ያዳነን እውነተኛ አምላካችንን ክርስቶስን የወለድሽልን ሆይ! አንቺ እንደ እርስዋ ነሽ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Det var Arons stav som blomstret uten å være plantet eller vannet. Slik er også du, du som bar Kristus, vår sanne Gud: Du fødte ham som ble menneske for vår frelses skyld, uten mann. Å hellige Maria, be for oss."
+    },
+    {
+     "nr": 9,
+     "gez": "ለኪ ይደሉ ዘእምኵሎሙ ቅዱሳን ትስአሊ ለነ ኦ ምልእተ ጸጋ፤ አንቲ ተዐብዪ እምሊቃነ ጳጳሳት፤ ወፈድፋደ ትከብሪ እምነቢያት፤ ብኪ ግርማ ራእይ ዘየዐቢ እምግርማ ሱራፌል ወኪሩቤል፤ አንቲ በአማን ምክሐ ዘመድነ፤ ወሰአሊት ሕይወተ ለነፍሳቲነ፤ ሰአሊ ለነ ኀበ እግዚእነ ወመድኀኒነ ኢየሱስ ክርስቶስ፤ ያጽንዐነ በርትዕት ሃይማኖት፤ ውስተ አሚነ ዚአሁ፤ ይጸግወነ ሣሕሎ ወምሕረቶ፤ ይሥረይ ኀጢአተነ፤ በብዝኀ ምሕረቱ። ሰአሊ ለነ ቅድስት።",
+     "am": "ጸጋን የተመላሽ ሆይ! ከቅዱሳን ሁሉ ይልቅ ትለምኚልን ዘንድ ለአንቺ ይገባል። አንቺ ከሊቃነ ጳጳሳት ትበልጫለሽ፤ ከነቢያትም ከመምህራንም ትበልጫለሽ፤ ከሱራፌልና ከኪሩቤል ግርማ የሚበልጥ የመወደድ ግርማ አለሽ፤ በእውነት የባሕርያችን መመኪያ አንቺ ነሽ፤ ለሰውነታችንም ሕይወትን የምትለምኚ ነሽ፤ ወደ ጌታችንና ወደ መድኃኒታችን ወደ ኢየሱስ ክርስቶስ ለምኚልን። እርሱን በማመን በቀናች ሃይማኖት ያጸናን ዘንድ፤ ይቅርታውንና ምሕረቱን ይሰጠን ዘንድ፤ በቸርነቱ ብዛት ኃጢአታችንን ያስተሠርይልን ዘንድ። ቅድስት ሆይ! ለምኚልን።",
+     "no": "Du som er full av nåde, det sømmer seg at du ber for oss mer enn alle hellige. Du overgår erkebiskoper, profeter og lærere, og din herlighet overgår kjerubenes og serafenes glans. Sannelig, du er vår stolthet og den som ber for våre sjelers liv. Be for oss hos vår Herre og Frelser Jesus Kristus, at Han må grunnfeste oss i den sanne tro på Ham, skjenke oss sin tilgivelse og miskunn, og i sin rike kjærlighet utslette våre synder. Å hellige Maria, be for oss."
+    }
+   ]
+  },
+  {
+   "id": "englenes-lovsang",
+   "tittel": {
+    "gez": "ይዌድስዋ መላእክት",
+    "am": "የመላእክት ምስጋና",
+    "no": "Englenes lovsang"
+   },
+   "vers": [
+    {
+     "nr": 1,
+     "gez": "ይዌድስዋ መላእክት ለማርያም በውስተ ውሳጤ መንጦላዕት ወይብልዋ በሐኪ ማርያም ሐዳስዩ ጣዕዋ። ይቤላ መልአክ ለማርያም ተወከፊዮ ለቃል ኀቤኪ ይመጽእ ወበማሕፀነ ዚአኪ የኀድር እፎ ቤተ ነዳይ ኀደረ ከመ ምስኪን እምሰማያት ወረደ ላዕሌሃ ፈቲዎ ሥነ ዚአሃ ወተወልደ እምኔሃ።",
+     "am": "መላእክት ማርያምን በመንጦላዕት ውስጥ ያመሰግኗታል፤ ሐዳስ ጣዕዋ ለአንቺ ምስጋና ይገባሻል እያሉ፤ መልአክ ማርያምን ቃልን ተቀበዪው አላት፤ ከአንቺ ዘንድ ይመጣልና፤ በማሕጸንሽም ያድራል፤ እንዴት ከድኃ ቤት አደረ፣ እንደ ምስኪን? ከሰማያት ወርዶ የእርስዋን ባሕርይ ባሕርይ አድርጎ ተወለደ።",
+     "no": "Englene lovsynger Maria bak forhenget. De sier: «Du nye kvige, deg tilkommer pris og ære!» Engelen sa til Maria: «Ta imot Ordet, for Han kommer til deg og skal ta bolig i ditt morsliv.» Hvor underfullt at Han tok bolig i et fattig hjem som en ringe mann; Han som steg ned fra himmelen, gjorde hennes natur til sin egen og lot seg føde."
+    },
+    {
+     "nr": 2,
+     "gez": "ወበሳድስ ወርኅ ተፈነወ ገብርኤል መልአክ እምኀበ እግዚአብሔር ኀበ አሐቲ ሀገር ዘገሊላ እንተ ስማ ናዝሬት ኀበ ድንግል እንተ ተፍሕረት ለብእሲ ዘስሙ ዮሴፍ ዘእምቤተ ዳዊት ወስማ ለይእቲ ድንግል ማርያም ቦአ መልአክ ኀቤሃ ወይቤላ ተፈሥሒ ፍሥሕት ኦ ምልዕተ ጸጋ እግዚአብሔር ምስሌኪ ቡርክት አንቲ እምአንስት። ወርእያ ደንገፀት እምቃሉ ወሐለየት ወትቤ እፎኑ ከመዝኑ እንጋ አምኃ ይትአምኁ። ወይቤላ መልአክ ኢትፍርሂ ማርያም እስመ ረከብኪ ሞገሰ በኀበ እግዚአብሔር ወናሁ ትፀንሲ ወትወልዲ ወልደ ወትሰምይዮ ስሞ ኢየሱስ ውእቱ ዐቢይ ወይሰመይ ወልደ እግዚአብሔር ልዑል ወይሁቦ እግዚአብሔር አምላክ መንበረ ዳዊት አቡሁ ወይነግሥ ለቤተ ያዕቆብ ለዓለም ወአልቦ ማኅለቅት ለመንግሥቱ ፤ ትቤሎ ማርያም ለመልአክ እፎኑ ይከውነኒ ዝንቱ እንዘ ኢየአምር ብእሴ እፎኑ ይከውነኒ አውሥአ መልአክ ወይቤላ መንፈሰ እግዚአብሔር ቅዱስ ይመጽእ ላዕሌኪ ወኃይለ ልዑል ይጼልለኪ ዘኒ ይትወለድ እምኔኪ ቅዱስ ውእቱ ወይሰመይ ወልደ እግዚአብሔር ልዑል ወናሁ ኤልሳቤጥኒ እንተ እምአዝማድኪ ይእቲኒ ፀንሰት ወረከበት ወልደ በልሕቃቲሃ ወበርሥአቲሃ ወናሁ ሳድስ ዝንቱ ወርኅ ለእንተ ይብልዋ መካን እስመ አልቦ ነገር ዘይሰዓኖ ለእግዚአብሔር። ትቤሎ ማርያም ለመልአክ ነየ አመቱ ለእግዚአ ኵሉ ነየ አመቱ ይኩነኒ በከመ ትቤለኒ።",
+     "am": "በ፮ኛው ወር ገብርኤል መልአክ ከእግዚአብሔር አብ ዘንድ ተላከ፤ ከአንዲት ሀገር ናዝሬት ገሊላ ከምትባል፤ ለዮሴፍ እጮኛ ከሆነች ከድንግል ዘንድ፤ የዚች የድንግል ስሟ ማርያም ነው። መልአክ ወደ እርስዋ ገብቶ እንዲህ አላት “ደስታ ይገባሻል፤ እግዚአብሔር ከሥጋሽ ሥጋ ከነፍስሽ ነፍስ ነስቶ ከአንቺ ሰው ሆኗልና፤ ከሴቶች ይልቅ አንቺ ቡርክት ነሽ።” ከቃሉ አነጋገር አይታ ደነገጠች፣ እንዲህም አለች። “እንዲህ ያለ የምስጋና እጅ መንሻ ይደረግልኛልን?” መልአኩ እንዲህ አላት “ማርያም ሆይ! አትፍሪ፤ ከእግዚአብሔር ዘንድ ባለሟልነትን አግኝተሻልና፤ እነሆ ትፀንሻለሽ፣ ትወልጃለሽ ስሙንም ኢየሱስ ትይዋለሽ፤ እርሱም ታላቅ የእግዚአብሔር ልጅ ይባላል፤ እግዚአብሔር አምላክም የዳዊት የአባቱን ዙፋን ይሰጠዋል፤ እርሱም በያዕቆብ ወገን ለዘለዓለሙ ይነግሣል፤ መንግሥቱም አያልፍም።” ማርያም መልአኩን እንዲህ አለችው “ይህ ነገር እንደምን ይሆንልኛል? እንዘ ኢየአምር ብእሴ።” መልአኩም እንዲህ አላት “መንፈስ ቅዱስ ይጠብቅሻል፤ የልዑል ኃይልም ያድርብሻል፤ ይህ የሚወለደውም ከሦስቱ ቅዱስ አንዱ ቅዱስ ነው። እነሆ ኤልሳቤጥ ከአንቺ ወገን የምትሆን፤ ከሸመገለች ካረጀች በኋላ ፀነሰች፤ ልጅም አገኘች፤ እነሆ ይህ ስድስት ወር ሆነ፤ መካን ሲሏት ለእግዚአብሔር የሚሳነው ነገር የለምና።” ማርያምም መልአኩን “እንደ ቃልህ ይደረግልኝ፣ እኔ ለእግዚአብሔር ባርያው ነኝ።” አለችው።",
+     "no": "I den sjette måned ble engelen Gabriel sendt fra Gud Fader til en by i Galilea som heter Nasaret, til en jomfru som var lovet bort til Josef. Denne jomfruens navn var Maria. Engelen trådte inn til henne og sa: «Gled deg, du som har fått nåde! Gud har tatt kjøtt av ditt kjøtt og sjel av din sjel, og er blitt menneske gjennom deg. Velsignet er du blant kvinner.» Da hun hørte Hans ord, ble hun forferdet og tenkte: «Hva slags hilsen er dette?» Men engelen sa til henne: «Frykt ikke, Maria, for du har funnet nåde hos Gud. Se, du skal bli med barn og føde en sønn, og du skal gi ham navnet Jesus. Han skal være stor og kalles Den Høyestes Sønn. Gud Herren skal gi ham Hans far Davids trone, og Han skal herske over Jakobs hus til evig tid; Hans kongedømme skal være uten ende.» Da sa Maria til engelen: «Hvordan skal dette skje, da jeg ikke har vært sammen med noen mann?» Engelen svarte henne: «Den Hellige Ånd skal komme over deg, og Den Høyestes kraft skal overskygge deg. Derfor skal barnet som blir født, være hellig, en av de tre Hellige. Se, også din slektning Elisabet har unnfanget en sønn på sine eldre dager; hun som ble kalt ufruktbar, er nå i sjette måned. For ingen ting er umulig for Gud.» Da sa Maria: «Se, jeg er Herrens tjenerinne. La det skje med meg etter ditt ord.»"
+    },
+    {
+     "nr": 3,
+     "gez": "ይቤላ መልአክ — ሰላም ለኪ ይቤላ ገብርኤል — ሰላም ለኪ ማርያም ድንግል — ሰላም ለኪ ወላዲተ አምላክ — ሰላም ለኪ ማርያም ቅድስት — ሰላም ለኪ ማርያም ውድስት — ሰላም ለኪ ማኅደረ መለኮት — ሰላም ለኪ ደብተራ ፍጽምት — ሰላም ለኪ እኅተ መላእክት — ሰላም ለኪ ወእመ ኵሉ ሕዝብ — ሰላም ለኪ እግዝእትነ ማርያም — ሰላም ለኪ ሰላማዊት — ሰላም ለኪ ቀደሰኪ ለማኅደሩ ልዑል — ሰላም ለኪ አብደረኪ ወኀረየኪ ከመትኵኒዮ ማኅደሮ — ሰላም ለኪ በአልባሰ ወርቅ ዑጽፍት ወኁብርት — ሰላም ለኪ ክነፈ ርግብ በብሩር ዘግቡር — ሰላም ለኪ ወገበዋቲሃኒ በሐመልማለ ወርቅ ማርያም ስርጉት — ሰላም ለኪ ኆኅተ ምስራቅ ወእሙ ለብርሃን — ሰላም ለኪ ትበርሂ እምፀሐይ ወትትሌዐሊ እምአድባር — ሰላም ለኪ ማርያም ኅሪት ወክብርት — ሰላም ለኪ። ሰአሊ ለነ ኀበ እግዚእነ ወመድኃኒነ ኢየሱስ ክርስቶስ ከመ ያድኅነነ አመ ይመጽእ በስብሐተ አቡሁ ምስለ መላእክቲሁ ቅዱሳን አመ ያቀውም አባግዐ በየማኑ ወአጣሌ በፀጋሙ ያቁመነ በየማኑ ምስለ እስጢፋኖስ ሰማዕት ወዮሐንስ መጥምቅ ወምስለ ኵሎሙ ቅዱሳን ወሰማዕት ለዓለመ ዓለም አሜን።",
+     "am": "መልአኩ ገብርኤል ማርያም ድንግል ለአንቺ — ክብር ምስጋና ይገባሻል አላት፣ ወላዲተ አምላክ፣ — ምስጋና ይገባሻል፣ ቅድስት ነሽና፣ — ምስጋና ይገባሻል፣ የመለኮት ማደሪያ ነሽና፣ — ምስጋና ይገባሻል፣ የተሸለመች ድንኳን ነሽና፣ — ምስጋና ይገባሻል፣ የመላእክት እኅት የሕዝቡ ሁሉ እናት ነሽና፣ — ምስጋና ይገባሻል፣ የሁሉ እመቤት ማርያም፣ — ምስጋና ይገባሻል፣ የሁሉ ሰላም ማርያም፣ — ምስጋና ይገባሻል፣ ልዑል ማደሪያው ትሆኚ ዘንድ መርጦሻልና፣ — ምስጋና ይገባሻል፣ በወርቅ የተሸለምሽ የርግብ ክንፍ በብር ያጌጥሽ፣ — ምስጋና ይገባሻል፣ ጎኖችሽ በወርቅ አመልማሎ የተሸለሙ ለአንቺ፣ — ምስጋና ይገባሻል፣ የምሥራቅ ደጃፍ የብርሃን እናቱ ለአንቺ፣ — ምስጋና ይገባሻል፣ ከፀሐይ ሰባት እጅ የምታበሪ፣ ክብርሽ ከአድባራቱ ሁሉ ከፍ ከፍ ያለ ለአንቺ፣ — ምስጋና ይገባሻል፣ ማርያም ሆይ! ከተመረጡ የተመረጥሽ ከተከበሩ የተከበርሽ ለአንቺ፣ — ምስጋና ይገባሻል፣ ከጌታችን ከመድኃኒታችን ከኢየሱስ ክርስቶስ ዘንድ ለምኚልን፤ ያድነን ዘንድ፤ በአባቱ ምስጋና ከቅዱሳን መላእክቱ ጋር በመጣ ጊዜ፣ ጻድቃንን በቀኙ ኃጥአንን በግራው ባቆመ ጊዜ፣ እኛን ከሰማዕቱ እስጢፋኖስ፣ ከመጥምቁ ዮሐንስና ከሁሉ ቅዱሳን ከሰማዕታትም ጋር ያቆመን ዘንድ፣ ለምኚልን ለዓለመ ዓለም፣ አሜን፣ ለዘለዓለሙ ይቅር ይበለን።",
+     "no": "Engelen Gabriel sa: “Jomfru Maria, deg tilkommer ære og lovprisning.” — Deg tilkommer lovprisning, du Guds mor. — Deg tilkommer lovprisning, for du er hellig. — Deg tilkommer lovprisning, for du er Guddommens bolig. — Deg tilkommer lovprisning, for du er det prydede tabernakel. — Deg tilkommer lovprisning, for du er englenes søster og alle folks mor. — Deg tilkommer lovprisning, Maria, alles herskerinne. — Deg tilkommer lovprisning, Maria, alles fred. — Deg tilkommer lovprisning, for Den Høyeste har utvalgt deg til sin bolig. — Deg tilkommer lovprisning, du som er prydet med gull, som en dues vinger smykket med sølv. — Deg tilkommer lovprisning, du hvis sider er prydet med de fineste gullsmykker. — Deg tilkommer lovprisning, du Østens port, lysets mor. — Deg tilkommer lovprisning, du som stråler syv ganger klarere enn solen, du hvis ære er høyere enn alle fjell. — Deg tilkommer lovprisning, Å Maria, du utvalgte blant de utvalgte, du mest ærede blant de ærede. Be for oss til vår Herre og Frelser, Jesus Kristus, at Han må frelse oss. Når Han kommer i sin Faders herlighet med sine hellige engler. Når Han stiller de rettferdige på sin høyre side og synderne på sin venstre, be for oss, at Han må stille oss sammen med martyren Stefanus, døperen Johannes og alle hellige og martyrer. I all evighet, Amen. Må Han tilgi oss i all evindelig."
+    }
+   ]
+  }
+ ]
+}
