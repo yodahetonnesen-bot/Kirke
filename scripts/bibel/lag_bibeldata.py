@@ -19,6 +19,9 @@ Filene som lages (alle tekster er per kapittel en liste med [fra, til, tekst, ek
   no1930/<id>.json    norsk 1930
   elb/<id>.json       En Levende Bok (bare NT)
   rettelser.json      alt som er rettet automatisk, så det kan sjekkes
+
+Etterpå kjøres lag_81.py, som legger til resten av den etiopiske kanonen og ordner
+boker.json etter kirkens liste (se der for de nye feltene).
 """
 import argparse
 import html

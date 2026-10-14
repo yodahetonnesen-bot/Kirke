@@ -27,6 +27,8 @@ export default function Forside() {
   const vers = dagensVers();
   const boker = alleBoker();
   const kapitler = boker.reduce((sum, b) => sum + b.kapitler, 0);
+  // Kirken teller noen bøker sammen (46 + 35 = 81).
+  const antall = new Set(boker.map((b) => `${b.testament}${b.nr}`)).size;
 
   return (
     <>
@@ -103,9 +105,9 @@ export default function Forside() {
               Hele bibelen · <span lang="am" className="normal-case tracking-normal">መጽሐፍ ቅዱስ</span>
             </p>
             <p>
-              <span className="block font-serif text-5xl tabular-nums tracking-tight">{boker.length}</span>
+              <span className="block font-serif text-5xl tabular-nums tracking-tight">{antall}</span>
               <span className="text-dempet">
-                bøker og {kapitler.toLocaleString("nb-NO")} kapitler på amharisk og norsk
+                bøker og {kapitler.toLocaleString("nb-NO")} kapitler på amharisk, med norsk eller engelsk ved siden av
               </span>
             </p>
             <span className="inline-flex items-center gap-1 text-sm text-rubrikk">

@@ -53,6 +53,21 @@ export default function Om() {
           rapporten <code className="text-sm">data/bibel/KONTROLL.md</code> i kildekoden.
         </p>
       </Kilde>
+      <Kilde tittel="Amharisk · ሰማንያ አሐዱ (2000 E.C.)">
+        <p>
+          Bøkene utenfor de 66 (Enok, Jubileene, Esra-bøkene, Tobit, Judit, Meqabyan, Visdommens bok, Siraks bok,
+          Baruk, Sinodos, Paktens bok, Klemens’ bok, Didaskalia, Josippon og tilleggene i Ester, Daniel og Salmene) er
+          hentet fra den amhariske 81-bokbibelen, <span lang="am">መጽሐፍ ቅዱስ ሰማንያ አሐዱ</span>, 2000 E.C.-utgaven
+          (2007/08). Oversettelsen tilhører Den etiopisk-ortodokse Tewahedo-kirken og Bibelselskapet i Etiopia
+          (<span lang="am">የኢትዮጵያ መጽሐፍ ቅዱስ ማኅበር</span>). Vi har bedt om tillatelse til å bruke den.
+        </p>
+        <p>
+          Teksten er digitalisert av EOTCOpenSource (prosjektene bible_mobile_app og BibleAPI på GitHub), som oppgir
+          lisensen CC BY-NC-ND 4.0: fri til ikke-kommersiell bruk med kreditering, og teksten skal stå uendret. Vi har
+          bare satt den opp vers for vers ved siden av oversettelsen. Vers som er tomme i den digitale kilden, står
+          som «mangler». Kontrollen står i <code className="text-sm">data/bibel/KONTROLL-81.md</code> i kildekoden.
+        </p>
+      </Kilde>
       <Kilde tittel="Norsk · Bibelen 1930">
         <p>Det Norske Bibelselskaps oversettelse av 1930 (bokmål). Fri til bruk etter Bibelselskapets retningslinjer.</p>
       </Kilde>
@@ -62,6 +77,14 @@ export default function Om() {
           Copyright © 1978, 1988, 2005 by Biblica, Inc. «Biblica» is a trademark registered in the United States
           Patent and Trademark Office by Biblica, Inc. Used with permission. Lisens: CC BY-SA 4.0. Den originale
           utgaven finnes gratis på biblica.com og open.bible.
+        </p>
+      </Kilde>
+      <Kilde tittel="Engelsk · World English Bible">
+        <p>
+          For de bøkene utenfor de 66 som ikke finnes i fri norsk oversettelse (Tobit, Judit, Visdommens bok, Siraks
+          bok, Baruk, Jeremias’ brev, 3. og 4. Esrabok, Manasses’ bønn, Salme 151 og tilleggene i Ester og Daniel)
+          står engelsk tekst fra World English Bible (WEB), som er public domain. Hentet fra eBible.org. Der
+          versinndelingen er ulik, står versene side om side så langt de går.
         </p>
       </Kilde>
 

@@ -54,13 +54,15 @@ def main() -> None:
         mappe = pathlib.Path(sys.argv[sys.argv.index("--ebible-amh") + 1])
         ebible = {f.name[3:6]: les_usfm(f) for f in mappe.glob("*.usfm")}
 
-    boker = json.loads((data / "boker.json").read_text(encoding="utf-8"))
+    # boker.json har også bøkene fra lag_81.py (kontrolleres av kontroller_81.py); her bare de 66.
+    boker = {b["id"]: b for b in json.loads((data / "boker.json").read_text(encoding="utf-8"))}
     rettelser = json.loads((data / "rettelser.json").read_text(encoding="utf-8"))
     funn = {k: [] for k in ("mangler", "hull", "tomme", "rusk", "no_hull", "elb_hull", "ulikt")}
     tall = {"kapitler": 0, "am": 0, "grupper": 0, "ekstra": 0, "no": 0, "elb": 0}
     nt = {"kapitler_like": 0, "kapitler_ulike": [], "vers_like": 0, "vers_ulike": [], "bare_hos_oss": 0}
 
-    for (osis, no_navn, _a, _e, usfm), bok in zip(BOKER, boker):
+    for osis, no_navn, _a, _e, usfm in BOKER:
+        bok = boker[osis]
         les = lambda m: json.loads((data / m / f"{osis}.json").read_text(encoding="utf-8"))  # noqa: E731
         am, no = les("am"), les("no1930")
         elb = les("elb") if "elb" in bok["tekster"] else None

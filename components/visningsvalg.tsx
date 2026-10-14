@@ -45,7 +45,9 @@ function Bryter({ navn, standard, valg, etikett }: { navn: "sprak" | "norsk"; st
   );
 }
 
-export function Visningsvalg({ harElb }: { harElb: boolean }) {
+/** andre: hva som står i den andre kolonnen. Uten andre kolonne er det ingenting å velge mellom. */
+export function Visningsvalg({ harElb, andre = "no" }: { harElb: boolean; andre?: "no" | "en" | null }) {
+  if (!andre) return null;
   return (
     <div className="flex flex-wrap items-center gap-2">
       <Bryter
@@ -55,7 +57,8 @@ export function Visningsvalg({ harElb }: { harElb: boolean }) {
         valg={[
           { verdi: "begge", tekst: <>Begge · <span lang="am">ሁለቱም</span></> },
           { verdi: "am", tekst: <span lang="am">አማርኛ</span> },
-          { verdi: "no", tekst: "Norsk" },
+          // Verdien er «no» også for engelsk, så valget gjelder den andre kolonnen i alle bøkene.
+          { verdi: "no", tekst: andre === "en" ? <span lang="en">English</span> : "Norsk" },
         ]}
       />
       {harElb && (

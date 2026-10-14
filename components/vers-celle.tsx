@@ -1,7 +1,7 @@
 import type { Del } from "@/lib/bibel";
 
 /** Teksten fra én oversettelse i en rad, med versnumre når raden har flere vers. */
-export function VersCelle({ deler, lang, tom }: { deler: Del[]; lang: "am" | "nb"; tom?: React.ReactNode }) {
+export function VersCelle({ deler, lang, tom }: { deler: Del[]; lang: "am" | "nb" | "en"; tom?: React.ReactNode }) {
   if (deler.length === 0) {
     return <p className="text-sm italic text-svak">{tom ?? "—"}</p>;
   }
@@ -10,6 +10,11 @@ export function VersCelle({ deler, lang, tom }: { deler: Del[]; lang: "am" | "nb
     <p lang={lang}>
       {deler.map((d, i) => (
         <span key={`${d.fra}-${i}`}>
+          {d.overskrifter?.map((o) => (
+            <span key={o} className="mb-1.5 block font-serif text-[0.95em] font-semibold leading-snug text-dempet">
+              {o}
+            </span>
+          ))}
           {(flere || d.ref) && (
             <sup lang="nb" className="mr-0.5 font-sans text-[0.62rem] leading-none not-italic text-svak">
               {d.ref ?? (d.fra === d.til ? d.fra : `${d.fra}–${d.til}`)}
@@ -21,6 +26,8 @@ export function VersCelle({ deler, lang, tom }: { deler: Del[]; lang: "am" | "nb
                 <>
                   Mangler i den digitale kilden · <span lang="am">በዲጂታል ምንጩ ውስጥ የለም</span>
                 </>
+              ) : lang === "en" ? (
+                "Ikke med i den engelske teksten"
               ) : (
                 "Mangler"
               )}

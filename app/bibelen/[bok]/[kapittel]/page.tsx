@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { alleBoker, finnBok, kapittelRader, type Bok } from "@/lib/bibel";
+import { alleBoker, andreTekst, finnBok, kapitlene, kapittelRader, type Bok } from "@/lib/bibel";
+import { AmhariskKilde, BareAmharisk, Merknad } from "@/components/bibel-merknad";
 import { Visningsvalg } from "@/components/visningsvalg";
 import { VersCelle } from "@/components/vers-celle";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return alleBoker().flatMap((b) =>
-    Array.from({ length: b.kapitler }, (_, i) => ({ bok: b.adresse, kapittel: String(i + 1) })),
-  );
+  return alleBoker().flatMap((b) => kapitlene(b).map((k) => ({ bok: b.adresse, kapittel: String(k) })));
 }
 
 export async function generateMetadata({ params }: PageProps<"/bibelen/[bok]/[kapittel]">): Promise<Metadata> {
@@ -21,24 +20,22 @@ export async function generateMetadata({ params }: PageProps<"/bibelen/[bok]/[ka
 
 /** Forrige og neste kapittel, også over bokgrensene. */
 function naboer(bok: Bok, kapittel: number) {
-  const boker = alleBoker();
-  const i = boker.findIndex((b) => b.id === bok.id);
-  const forrige =
-    kapittel > 1 ? { bok, kap: kapittel - 1 } : i > 0 ? { bok: boker[i - 1], kap: boker[i - 1].kapitler } : null;
-  const neste =
-    kapittel < bok.kapitler ? { bok, kap: kapittel + 1 } : i < boker.length - 1 ? { bok: boker[i + 1], kap: 1 } : null;
-  return { forrige, neste };
+  const alle = alleBoker().flatMap((b) => kapitlene(b).map((kap) => ({ bok: b, kap })));
+  const i = alle.findIndex((x) => x.bok.id === bok.id && x.kap === kapittel);
+  return { forrige: alle[i - 1] ?? null, neste: alle[i + 1] ?? null };
 }
 
 export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]/[kapittel]">) {
   const { bok: adresse, kapittel: k } = await params;
   const bok = finnBok(adresse);
   const kapittel = Number(k);
-  if (!bok || !(kapittel >= 1 && kapittel <= bok.kapitler)) notFound();
+  if (!bok || !kapitlene(bok).includes(kapittel)) notFound();
 
   const rader = kapittelRader(bok, kapittel);
   const harElb = bok.tekster.includes("elb");
+  const andre = andreTekst(bok);
   const { forrige, neste } = naboer(bok, kapittel);
+  const kolonner = andre ? "md:grid-cols-[2.5rem_1fr_1fr]" : "";
 
   return (
     <article className="mx-auto max-w-6xl px-4 pb-10 pt-10 sm:px-6 sm:pt-14">
@@ -56,25 +53,46 @@ export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]
             </span>
           </h1>
         </div>
-        <Visningsvalg harElb={harElb} />
+        <Visningsvalg harElb={harElb} andre={andre} />
       </header>
 
-      <div className={`mt-2 ${harElb ? "" : "uten-elb"}`}>
-        <div className="vers-rad sticky top-16 z-10 hidden grid-cols-[2.5rem_1fr_1fr] gap-x-8 border-b border-linje/60 bg-bakgrunn/95 py-3 text-xs uppercase tracking-[0.16em] text-svak backdrop-blur md:grid">
+      {bok.merknad && <Merknad tekst={bok.merknad} />}
+      {!andre && <BareAmharisk />}
+      {bok.ulikVersdeling?.includes(kapittel) && (
+        <p className="mt-6 rounded-2xl border border-linje bg-flate/60 px-4 py-3 text-sm text-dempet">
+          Den engelske teksten har en annen versinndeling i dette kapitlet. Versene står side om side så langt de går;
+          ingen tekst er tatt bort.
+        </p>
+      )}
+
+      <div className={`mt-2 ${harElb ? "" : "uten-elb"} ${andre ? "" : "bare-am"}`}>
+        <div
+          className={`vers-rad sticky top-16 z-10 hidden gap-x-8 border-b border-linje/60 bg-bakgrunn/95 py-3 text-xs uppercase tracking-[0.16em] text-svak backdrop-blur md:grid ${
+            andre ? "grid-cols-[2.5rem_1fr_1fr]" : "grid-cols-[2.5rem_1fr]"
+          }`}
+        >
           <span />
           <span className="kun-am">
-            <span lang="am" className="normal-case tracking-normal">አማርኛ</span> · 1962
+            <span lang="am" className="normal-case tracking-normal">አማርኛ</span> ·{" "}
+            {bok.amUtgave === "1962" ? "1962" : <span lang="am" className="normal-case tracking-normal">2000 ዓ.ም.</span>}
           </span>
-          <span className="kun-no">
-            <span className="norsk-1930">Norsk · 1930</span>
-            <span className="norsk-elb">Norsk · En Levende Bok</span>
-          </span>
+          {andre === "no" && (
+            <span className="kun-no">
+              <span className="norsk-1930">Norsk · 1930</span>
+              <span className="norsk-elb">Norsk · En Levende Bok</span>
+            </span>
+          )}
+          {andre === "en" && (
+            <span className="kun-no normal-case tracking-normal" lang="en">
+              English (WEB)
+            </span>
+          )}
         </div>
         {rader.map((r) => (
           <div
             key={`${r.fra}${r.ekstra ? "+" + r.am[0]?.ref : ""}`}
             id={r.ekstra ? undefined : `v${r.fra}`}
-            className={`vers-rad grid scroll-mt-32 grid-cols-[2.5rem_1fr] gap-x-8 border-b border-linje/40 py-4 md:grid-cols-[2.5rem_1fr_1fr] ${
+            className={`vers-rad grid scroll-mt-32 grid-cols-[2.5rem_1fr] gap-x-8 border-b border-linje/40 py-4 ${kolonner} ${
               r.ekstra ? "bg-rubrikk-svak/40" : ""
             }`}
           >
@@ -94,28 +112,35 @@ export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]
             <div className="kun-am text-blekk">
               <VersCelle deler={r.am} lang="am" />
             </div>
-            <div className="kun-no col-start-2 mt-2 font-serif text-[1.05rem] leading-relaxed text-blekk md:col-start-3 md:mt-0">
-              <div className="norsk-1930">
-                <VersCelle
-                  deler={r.no}
-                  lang="nb"
-                  tom={r.ekstra ? "Dette verset finnes bare i den amhariske bibelen." : undefined}
-                />
+            {andre === "en" && (
+              <div className="kun-no col-start-2 mt-2 font-serif text-[1.05rem] leading-relaxed text-blekk md:col-start-3 md:mt-0">
+                <VersCelle deler={r.en ?? []} lang="en" />
               </div>
-              {r.elb && (
-                <div className="norsk-elb">
+            )}
+            {andre === "no" && (
+              <div className="kun-no col-start-2 mt-2 font-serif text-[1.05rem] leading-relaxed text-blekk md:col-start-3 md:mt-0">
+                <div className="norsk-1930">
                   <VersCelle
-                    deler={r.elb}
+                    deler={r.no}
                     lang="nb"
-                    tom={
-                      r.ekstra
-                        ? "Dette verset finnes bare i den amhariske bibelen."
-                        : "Dette verset er ikke med i En Levende Bok, fordi det mangler i de eldste håndskriftene. Se 1930-utgaven."
-                    }
+                    tom={r.ekstra ? "Dette verset finnes bare i den amhariske bibelen." : undefined}
                   />
                 </div>
-              )}
-            </div>
+                {r.elb && (
+                  <div className="norsk-elb">
+                    <VersCelle
+                      deler={r.elb}
+                      lang="nb"
+                      tom={
+                        r.ekstra
+                          ? "Dette verset finnes bare i den amhariske bibelen."
+                          : "Dette verset er ikke med i En Levende Bok, fordi det mangler i de eldste håndskriftene. Se 1930-utgaven."
+                      }
+                    />
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -148,8 +173,13 @@ export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]
       </nav>
 
       <p className="mt-10 text-xs leading-relaxed text-svak">
-        Amharisk tekst: መጽሐፍ ቅዱስ, © 1962 Bibelselskapet i Etiopia (Bible Society of Ethiopia).
-        Norsk tekst: Det Norske Bibelselskaps oversettelse av 1930.
+        {bok.amUtgave === "1962" ? (
+          <>Amharisk tekst: መጽሐፍ ቅዱስ, © 1962 Bibelselskapet i Etiopia (Bible Society of Ethiopia).</>
+        ) : (
+          <AmhariskKilde />
+        )}
+        {andre === "no" && <> Norsk tekst: Det Norske Bibelselskaps oversettelse av 1930.</>}
+        {andre === "en" && <> Engelsk tekst: World English Bible (WEB), public domain.</>}
         {harElb && (
           <>
             {" "}Lettlest: Biblica® Open En Levende Bok: Det Nye Testamentet™, © 1978, 1988, 2005 Biblica, Inc.,

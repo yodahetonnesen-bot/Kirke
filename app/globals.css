@@ -100,6 +100,10 @@ html:not([data-norsk="elb"]) .norsk-elb,
 html[data-norsk="elb"] .norsk-1930 {
   display: none;
 }
+/* Bøker som bare finnes på amharisk, vises alltid, uansett språkvalg. */
+html[data-sprak="no"] .bare-am .kun-am {
+  display: block;
+}
 /* I GT finnes bare 1930-utgaven, så den vises alltid der. */
 html[data-norsk="elb"] .uten-elb .norsk-1930 {
   display: block;
