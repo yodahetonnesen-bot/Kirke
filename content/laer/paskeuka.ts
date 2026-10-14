@@ -89,7 +89,7 @@ export const paskeuka: Tema = {
         {
           tekst: {
             no: "Mange som ropte «Hosianna» på søndag, ropte «Korsfest ham!» på fredag. Vi skal ta imot Jesus med et ydmykt og angrende hjerte og holde fast ved ham.",
-            am: "በእሑድ «ሆሳዕና» ያሉት ብዙዎች በዓርብ «ይሰቀል» አሉ። እኛ ግን ጌታችንን በትሕትናና በንስሐ ልብ ልንቀበለውና ልንጸናበት ይገባል።",
+            am: "በእሑድ «ሆሳዕና» ያሉት ብዙዎች በዓርብ «ስቀለው» አሉ። እኛ ግን ጌታችንን በትሕትናና በንስሐ ልብ ልንቀበለውና ልንጸናበት ይገባል።",
           },
           vers: ["Mark 15:13-14"],
         },
@@ -156,7 +156,7 @@ export const paskeuka: Tema = {
         {
           tekst: {
             no: "Mandag – አንጽሖተ ቤተ መቅደስ: Jesus renset templet og drev ut dem som solgte og kjøpte: «Mitt hus skal være et bønnens hus.» Kroppen vår er også Guds tempel, som han vil rense for synd.",
-            am: "ሰኑይ – አንጽሖተ ቤተ መቅደስ፦ ጌታችን ቤተ መቅደሱን አነጻ፤ ሻጮችንና ለዋጮችን አስወጣ፤ «ቤቴ የጸሎት ቤት ይባላል» አለ። ሰውነታችንም የእርሱ ቤተ መቅደስ ነው፤ ከኃጢአት ሊያነጻው ይፈልጋል።",
+            am: "ሰኑይ – አንጽሖተ ቤተ መቅደስ፦ ጌታችን ቤተ መቅደሱን አነጻ፤ ሻጮችንና ለዋጮችን አስወጣ፤ «ቤቴ የጸሎት ቤት ይሆናል» አለ። ሰውነታችንም የእርሱ ቤተ መቅደስ ነው፤ ከኃጢአት ሊያነጻው ይፈልጋል።",
           },
           vers: ["Luke 19:45-46"],
         },
@@ -170,7 +170,7 @@ export const paskeuka: Tema = {
         {
           tekst: {
             no: "Tirsdag – spørsmålenes og undervisningens dag: Lederne spurte Jesus: «Med hvilken rett gjør du dette?» Jesus svarte med et spørsmål om Johannes' dåp. Så underviste han lenge i templet.",
-            am: "ሠሉስ – የጥያቄና የትምህርት ቀን፦ ጸሐፍትና ፈሪሳውያን «በማን ሥልጣን ታደርጋለህ?» ብለው ጠየቁት። ጌታችንም ስለ ዮሐንስ ጥምቀት ጠየቃቸው። ከዚያም በቤተ መቅደስ ረጅም ትምህርት አስተማረ።",
+            am: "ሠሉስ – የጥያቄና የትምህርት ቀን፦ ጸሐፍትና ፈሪሳውያን «በምን ሥልጣን እነዚህን ታደርጋለህ?» ብለው ጠየቁት። ጌታችንም ስለ ዮሐንስ ጥምቀት ጠየቃቸው። ከዚያም በቤተ መቅደስ ረጅም ትምህርት አስተማረ።",
           },
           vers: ["Matt 21:23-25"],
         },
@@ -208,7 +208,7 @@ export const paskeuka: Tema = {
         {
           tekst: {
             no: "Peter ville ikke at Jesus skulle vaske føttene hans. Men Jesus svarte: «Vasker jeg deg ikke, har du ingen del med meg.»",
-            am: "ጴጥሮስ ጌታችን እግሩን እንዲያጥበው አልፈለገም። ጌታችንም «ካላጠብሁህ ከእኔ ጋር ዕድል የለህም» ብሎ መለሰለት።",
+            am: "ጴጥሮስ ጌታችን እግሩን እንዲያጥበው አልፈለገም። ጌታችንም «ካላጠብሁህ፥ ከእኔ ጋር ዕድል የለህም» ብሎ መለሰለት።",
           },
           vers: ["John 13:8"],
         },
@@ -221,7 +221,7 @@ export const paskeuka: Tema = {
         {
           tekst: {
             no: "Samme kveld tok Jesus brødet, velsignet det, brøt det og sa: «Dette er mitt legeme.» Han tok begeret og sa: «Dette er mitt blod, den nye paktens blod.» Slik innstiftet han nattverden (ምሥጢረ ቍርባን).",
-            am: "በዚያው ምሽት ጌታችን ኅብስቱን አንሥቶ ባረከ፣ ቈርሶ «ይህ ሥጋዬ ነው» አለ። ጽዋውንም አንሥቶ «ይህ የሐዲስ ኪዳን ደሜ ነው» አለ። በዚህም ምሥጢረ ቍርባንን መሠረተ።",
+            am: "በዚያው ምሽት ጌታችን ኅብስቱን አንሥቶ ባረከ፣ ቈርሶ «ይህ ሥጋዬ ነው» አለ። ጽዋውንም አንሥቶ «የአዲስ ኪዳን ደሜ ይህ ነው» አለ። በዚህም ምሥጢረ ቍርባንን መሠረተ።",
           },
           vers: ["Matt 26:26-28", "Luke 22:19-20"],
         },
@@ -281,8 +281,8 @@ export const paskeuka: Tema = {
         },
         {
           tekst: {
-            no: "Røveren på høyre side ba: «Jesus, husk på meg når du kommer i ditt rike!» Jesus svarte: «I dag skal du være med meg i paradis.»",
-            am: "በቀኝ የተሰቀለው ወንበዴ «ኢየሱስ ሆይ፥ በመንግሥትህ ስትመጣ አስበኝ» አለ። ጌታችንም «ዛሬ ከእኔ ጋር በገነት ትሆናለህ» አለው።",
+            no: "Røveren på høyre side ba: «Herre, husk på meg når du kommer i ditt rike!» Jesus svarte: «I dag skal du være med meg i paradis.»",
+            am: "በቀኝ የተሰቀለው ወንበዴ «ጌታ ሆይ፥ በመንግሥትህ በመጣህ ጊዜ አስበኝ» አለ። ጌታችንም «ዛሬ ከእኔ ጋር በገነት ትሆናለህ» አለው።",
           },
           vers: ["Luke 23:42-43"],
         },
@@ -462,8 +462,8 @@ export const paskeuka: Tema = {
         },
         {
           tekst: {
-            no: "ጰራቅሊጦስ er gresk og betyr «trøster» eller «hjelper». Jesus hadde lovet: «Jeg vil sende dere en annen trøster.» Etter pinse var apostlene modige. Peter forkynte, og omtrent tre tusen ble døpt den dagen.",
-            am: "«ጰራቅሊጦስ» የጽርዕ ቃል ነው፤ «አጽናኝ፣ ረዳት» ማለት ነው። ጌታችን «ሌላ አጽናኝ እልክላችኋለሁ» ብሎ ቃል ገብቶ ነበር። ሐዋርያት መንፈስ ቅዱስ ከወረደላቸው በኋላ ጽኑዓን ሆኑ፤ ቅዱስ ጴጥሮስ ሰበከ፤ በዚያም ቀን ሦስት ሺህ ያህል ተጠመቁ።",
+            no: "ጰራቅሊጦስ er gresk og betyr «trøster» eller «hjelper». Jesus hadde lovet at Faderen skulle gi dem en annen trøster. Etter pinse var apostlene modige. Peter forkynte, og omtrent tre tusen ble døpt den dagen.",
+            am: "«ጰራቅሊጦስ» የጽርዕ ቃል ነው፤ «አጽናኝ፣ ረዳት» ማለት ነው። ጌታችን አብ ሌላ አጽናኝ እንደሚሰጣቸው ቃል ገብቶ ነበር። ሐዋርያት መንፈስ ቅዱስ ከወረደላቸው በኋላ ጽኑዓን ሆኑ፤ ቅዱስ ጴጥሮስ ሰበከ፤ በዚያም ቀን ሦስት ሺህ ያህል ተጠመቁ።",
           },
           vers: ["John 14:16", "Acts 2:41"],
         },
