@@ -387,4 +387,430 @@ export const GT: Fortelling[] = [
       },
     ],
   },
+  {
+    slug: "josef-selges",
+    testament: "gt",
+    nr: 9,
+    tittel: { no: "Josef blir solgt av brødrene sine", am: "ዮሴፍ በወንድሞቹ ተሸጠ" },
+    ref: "Gen 37:1-36",
+    tekst: [
+      {
+        no: "Jakob, som også ble kalt Israel, hadde tolv sønner. Han elsket Josef mer enn de andre og ga ham en flott, fargerik kjortel. Derfor ble brødrene sjalu og hatet Josef.",
+        am: "እስራኤል የተባለው ያዕቆብ ዐሥራ ሁለት ወንዶች ልጆች ነበሩት። ዮሴፍን ከልጆቹ ሁሉ ይልቅ ይወደው ነበር፤ በብዙ ኅብር ያጌጠች ቀሚስም አደረገለት። ስለዚህ ወንድሞቹ ቀኑበት፤ ጠሉትም።",
+      },
+      {
+        no: "Josef drømte at kornbåndene til brødrene bøyde seg for hans kornbånd, og at solen, månen og elleve stjerner bøyde seg for ham. Da han fortalte drømmene, hatet brødrene ham enda mer.",
+        am: "ዮሴፍም የወንድሞቹ ነዶዎች ለእርሱ ነዶ ሲሰግዱ፣ ደግሞም ፀሐይና ጨረቃ ዐሥራ አንድ ከዋክብትም ሲሰግዱለት በሕልም አየ። ሕልሞቹንም በነገራቸው ጊዜ ወንድሞቹ የበለጠ ጠሉት።",
+      },
+      {
+        no: "En dag sendte Jakob Josef ut for å se til brødrene, som gjette sauer langt borte. Da de så ham komme, la de planer om å drepe ham. Ruben fikk dem til å kaste ham i en tom brønn i stedet.",
+        am: "አንድ ቀን ያዕቆብ በሩቅ በጎችን የሚጠብቁትን ወንድሞቹን እንዲያይ ዮሴፍን ላከው። ሲመጣም ባዩት ጊዜ ሊገድሉት ተማከሩ። ሮቤል ግን በምትኩ ውኃ በሌለበት ጕድጓድ እንዲጥሉት አደረጋቸው።",
+      },
+      {
+        no: "Så kom noen handelsmenn forbi. Juda sa: «La oss selge ham.» De solgte Josef for tjue sølvpenger, og han ble ført til Egypt. Brødrene dyppet kjortelen hans i blod og viste den til faren. Jakob trodde at et villdyr hadde drept Josef, og han sørget lenge.",
+        am: "ከዚያም ነጋዴዎች በዚያ አለፉ። ይሁዳም «እንሽጠው» አለ። ዮሴፍንም በሀያ ብር ሸጡት፤ ወደ ግብፅም ተወሰደ። ወንድሞቹም ቀሚሱን በደም ነክረው ለአባታቸው አሳዩት። ያዕቆብም ክፉ አውሬ ዮሴፍን የበላው መሰለው፤ ለብዙ ቀንም አለቀሰ።",
+      },
+      {
+        no: "Men Gud var med Josef i Egypt. Selv om han ble solgt som slave og senere kastet i fengsel, var Gud hos ham hele tiden.",
+        am: "እግዚአብሔር ግን በግብፅ ከዮሴፍ ጋር ነበረ። ምንም እንኳ እንደ ባሪያ ቢሸጥና በኋላም ወደ ወኅኒ ቢጣል እግዚአብሔር ሁልጊዜ ከእርሱ ጋር ነበረ።",
+      },
+    ],
+    laerdom: {
+      no: "Misunnelse fører til synd, derfor må vi vokte oss for den. Kirka ser Josef, som ble solgt for sølv av sine egne, som et bilde på Kristus, som ble forrådt for sølvpenger.",
+      am: "ቅናት ወደ ኃጢአት ይመራል፤ ስለዚህ ከእርሱ መጠበቅ አለብን። ቤተ ክርስቲያን በገዛ ወንድሞቹ በብር የተሸጠውን ዮሴፍን በብር የተሸጠው የክርስቶስ ምሳሌ አድርጋ ታየዋለች።",
+    },
+    minnevers: "Gen 39:2",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvorfor var brødrene sjalu på Josef?", am: "ወንድሞቹ ለምን በዮሴፍ ቀኑበት?" },
+        svar: {
+          no: "Fordi faren elsket ham mest, og fordi han drømte at de skulle bøye seg for ham.",
+          am: "አባታቸው ከሁሉ ይልቅ ይወደው ስለ ነበረና እንደሚሰግዱለት በሕልም ስላየ።",
+        },
+      },
+      {
+        sporsmal: { no: "Hvor mye ble Josef solgt for?", am: "ዮሴፍ በስንት ተሸጠ?" },
+        svar: { no: "Tjue sølvpenger.", am: "በሀያ ብር።" },
+      },
+    ],
+  },
+  {
+    slug: "josef-tilgir",
+    testament: "gt",
+    nr: 10,
+    tittel: { no: "Josef tilgir brødrene sine", am: "ዮሴፍ ወንድሞቹን ይቅር አለ" },
+    ref: "Gen 45:1-15",
+    tekst: [
+      {
+        no: "Gud ga Josef visdom til å tyde drømmene til farao. Farao gjorde ham til herre over hele Egypt. Josef samlet korn i sju gode år, så det fantes mat da hungersnøden kom.",
+        am: "እግዚአብሔር የፈርዖንን ሕልም እንዲተረጉም ለዮሴፍ ጥበብ ሰጠው። ፈርዖንም በግብፅ ምድር ሁሉ ላይ አለቃ አደረገው። ዮሴፍም በሰባቱ የጥጋብ ዓመታት እህል አከማቸ፤ ራብ በመጣ ጊዜም ምግብ ተገኘ።",
+      },
+      {
+        no: "Brødrene hans kom til Egypt for å kjøpe korn. De kjente ikke igjen Josef, men han kjente dem. Han prøvde dem for å se om hjertene deres hadde forandret seg.",
+        am: "ወንድሞቹም እህል ሊገዙ ወደ ግብፅ መጡ። እነርሱ ዮሴፍን አላወቁትም፤ እርሱ ግን አወቃቸው። ልባቸው ተለውጦ እንደ ሆነ ለማወቅም ፈተናቸው።",
+      },
+      {
+        no: "Til slutt klarte ikke Josef å holde seg lenger. Han gråt høyt og sa: «Jeg er Josef, broren deres, som dere solgte til Egypt.» Brødrene ble redde og klarte ikke å svare.",
+        am: "በመጨረሻም ዮሴፍ ሊታገሥ አልቻለም። ድምፁን ከፍ አድርጎ አለቀሰና «ወደ ግብፅ የሸጣችሁኝ እኔ ወንድማችሁ ዮሴፍ ነኝ» አላቸው። ወንድሞቹም ደንግጠው ሊመልሱለት አልቻሉም።",
+      },
+      {
+        no: "Men Josef sa: «Vær ikke lei dere for at dere solgte meg. Gud sendte meg hit foran dere for å berge liv.» Han kysset alle brødrene sine og gråt. Senere hentet han faren Jakob og hele familien til Egypt.",
+        am: "ዮሴፍ ግን «ወደዚህ ስለ ሸጣችሁኝ አትዘኑ፤ እግዚአብሔር ሕይወትን ለማዳን ከእናንተ በፊት ሰድዶኛልና» አላቸው። ወንድሞቹንም ሁሉ ስሞ አለቀሰ። ከዚያም በኋላ አባቱን ያዕቆብንና ቤተሰቡን ሁሉ ወደ ግብፅ አስመጣ።",
+      },
+    ],
+    laerdom: {
+      no: "Josef gjengjeldte ikke ondt med ondt, men tilga. Slik lærer Kristus oss å tilgi dem som gjør oss urett. Gud kan vende det onde mennesker gjør, til noe godt.",
+      am: "ዮሴፍ ክፉን በክፉ አልመለሰም፤ ይቅር አለ እንጂ። ክርስቶስም የበደሉንን ይቅር እንድንል ያስተምረናል። እግዚአብሔር ሰዎች ያደረጉትን ክፉ ነገር ወደ መልካም ሊለውጥ ይችላል።",
+    },
+    minnevers: "Gen 50:20",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvorfor ble Josef herre i Egypt?", am: "ዮሴፍ በግብፅ ለምን አለቃ ሆነ?" },
+        svar: {
+          no: "Fordi Gud ga ham visdom til å tyde faraos drømmer.",
+          am: "የፈርዖንን ሕልም እንዲተረጉም እግዚአብሔር ጥበብ ስለ ሰጠው።",
+        },
+      },
+      {
+        sporsmal: { no: "Hva sa Josef til brødrene om hvorfor han kom til Egypt?", am: "ዮሴፍ ወደ ግብፅ ስለ መምጣቱ ለወንድሞቹ ምን አላቸው?" },
+        svar: {
+          no: "At Gud sendte ham dit foran dem for å berge liv.",
+          am: "ሕይወትን ለማዳን እግዚአብሔር ከእነርሱ በፊት እንደ ላከው።",
+        },
+      },
+      {
+        sporsmal: { no: "Hva lærer vi av Josef?", am: "ከዮሴፍ ምን እንማራለን?" },
+        svar: { no: "Å tilgi dem som har gjort oss vondt.", am: "የበደሉንን ይቅር ማለትን።" },
+      },
+    ],
+  },
+  {
+    slug: "moses-fodes",
+    testament: "gt",
+    nr: 11,
+    tittel: { no: "Den lille Moses i sivkurven", am: "ሕፃኑ ሙሴ በሣጥን ውስጥ" },
+    ref: "Exod 2:1-10",
+    tekst: [
+      {
+        no: "Lenge etter Josef ble israelittene mange i Egypt. En ny farao ble redd for dem og gjorde dem til slaver. Han befalte at alle guttebarn som ble født hos hebreerne, skulle kastes i elva.",
+        am: "ከዮሴፍ ዘመን ብዙ ቆይቶ እስራኤላውያን በግብፅ በዙ። አዲስ ፈርዖንም ፈራቸው፤ ባሪያዎችም አደረጋቸው። ከዕብራውያን የሚወለደውንም ወንድ ልጅ ሁሉ ወደ ወንዝ እንዲጥሉ አዘዘ።",
+      },
+      {
+        no: "En kvinne av Levis stamme fødte en sønn. Hun gjemte ham i tre måneder. Da hun ikke kunne gjemme ham lenger, laget hun en kurv av siv, tettet den med bek og la gutten i den blant sivet ved elvebredden. Søsteren hans sto et stykke unna og passet på.",
+        am: "ከሌዊ ወገን የሆነች አንዲት ሴት ወንድ ልጅ ወለደች። ሦስት ወርም ሸሸገችው። ከዚያ በኋላ ልትሸሽገው ባልቻለች ጊዜ የደንገል ሣጥን ሠርታ በቅጥራን ለቀለቀችው፤ ሕፃኑንም በውስጡ አድርጋ በወንዝ ዳር በቄጠማ መካከል አስቀመጠችው። እኅቱም የሚደረግበትን ለማወቅ በሩቅ ቆማ ትጠብቅ ነበር።",
+      },
+      {
+        no: "Faraos datter kom ned til elva for å bade. Hun så kurven og åpnet den. Gutten gråt, og hun fikk medlidenhet med ham.",
+        am: "የፈርዖንም ልጅ ልትታጠብ ወደ ወንዝ ወረደች። ሣጥኑንም አይታ ከፈተችው። ሕፃኑም ያለቅስ ነበር፤ እርስዋም አዘነችለት።",
+      },
+      {
+        no: "Søsteren spurte: «Skal jeg hente en hebraisk kvinne som kan amme barnet for deg?» Hun hentet barnets egen mor! Da gutten var blitt stor, ble han sønn av faraos datter. Hun kalte ham Moses, for hun sa: «Jeg trakk ham opp av vannet.»",
+        am: "እኅቱም «ሕፃኑን የምታጠባልሽ ዕብራዊት ሴት ልጥራልሽን?» አለቻት። የሕፃኑንም የገዛ እናቱን ጠራች። ሕፃኑም ባደገ ጊዜ የፈርዖን ልጅ እንደ ልጇ አድርጋ ወሰደችው። «ከውኃ አውጥቼዋለሁና» ብላ ስሙን ሙሴ ብላ ጠራችው።",
+      },
+    ],
+    laerdom: {
+      no: "Gud beskytter de små og har en plan for hvert barn. Kirka ser at Moses, som ble reddet da farao drepte guttebarna, ligner på Jesus, som ble reddet da Herodes drepte barna i Betlehem. Moses ble senere den som førte folket ut av slaveriet.",
+      am: "እግዚአብሔር ሕፃናትን ይጠብቃል፤ ለእያንዳንዱም ልጅ ዕቅድ አለው። ፈርዖን ወንዶች ሕፃናትን ሲያስገድል የዳነው ሙሴ፣ ሄሮድስ በቤተ ልሔም ሕፃናትን ሲያስገድል ከዳነው ከጌታችን ጋር እንደሚመሳሰል ቤተ ክርስቲያን ታስተምራለች። ሙሴም በኋላ ሕዝቡን ከባርነት ያወጣ ሆነ።",
+    },
+    minnevers: "Ps 34:7",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvor la moren Moses?", am: "እናቱ ሙሴን የት አስቀመጠችው?" },
+        svar: {
+          no: "I en kurv av siv blant sivet ved elva.",
+          am: "በደንገል ሣጥን ውስጥ አድርጋ በወንዝ ዳር በቄጠማ መካከል።",
+        },
+      },
+      {
+        sporsmal: { no: "Hvem fant Moses?", am: "ሙሴን ያገኘችው ማን ናት?" },
+        svar: { no: "Faraos datter.", am: "የፈርዖን ልጅ።" },
+      },
+      {
+        sporsmal: { no: "Hva betyr navnet Moses?", am: "ሙሴ የሚለው ስም ትርጉሙ ምንድን ነው?" },
+        svar: { no: "At han ble trukket opp av vannet.", am: "ከውኃ የወጣ ማለት ነው።" },
+      },
+    ],
+  },
+  {
+    slug: "den-brennende-busken",
+    testament: "gt",
+    nr: 12,
+    tittel: { no: "Den brennende busken", am: "የሚነድደው ቍጥቋጦ" },
+    ref: "Exod 3:1-15",
+    tekst: [
+      {
+        no: "Moses voktet sauene til svigerfaren Jetro. En dag kom han til Guds fjell, Horeb. Der så han en tornebusk som brant, men busken brant ikke opp.",
+        am: "ሙሴ የአማቱን የዮቶርን በጎች ይጠብቅ ነበር። አንድ ቀንም ወደ እግዚአብሔር ተራራ ወደ ኮሬብ መጣ። በዚያም ቍጥቋጦ በእሳት ሲነድድ፣ ቍጥቋጦው ግን ሳይቃጠል አየ።",
+      },
+      {
+        no: "Moses gikk nærmere for å se. Da ropte Gud fra busken: «Moses, Moses! Kom ikke nærmere. Ta skoene av føttene dine, for stedet du står på, er hellig jord.»",
+        am: "ሙሴም ይህን ታላቅ ራእይ ለማየት ቀረበ። እግዚአብሔርም ከቍጥቋጦው ውስጥ «ሙሴ፥ ሙሴ ሆይ፤ ወደዚህ አትቅረብ፤ የቆምህባት ስፍራ የተቀደሰች መሬት ናትና ጫማህን ከእግርህ አውጣ» ብሎ ጠራው።",
+      },
+      {
+        no: "Gud sa: «Jeg er Abrahams, Isaks og Jakobs Gud. Jeg har sett hvordan folket mitt lider i Egypt. Nå sender jeg deg til farao for at du skal føre folket mitt ut.» Moses dekket ansiktet, for han var redd for å se på Gud.",
+        am: "እግዚአብሔርም «እኔ የአብርሃም አምላክ የይስሐቅም አምላክ የያዕቆብም አምላክ ነኝ። የሕዝቤን መከራ በግብፅ አየሁ። አሁንም ሕዝቤን እንድታወጣ ወደ ፈርዖን እልክሃለሁ» አለው። ሙሴም እግዚአብሔርን ለማየት ፈርቶ ፊቱን ሸፈነ።",
+      },
+      {
+        no: "Moses spurte hva Guds navn var. Gud svarte: «Jeg er den jeg er.» Han lovet å være med Moses.",
+        am: "ሙሴም የእግዚአብሔርን ስም ጠየቀ። እግዚአብሔርም «ያለና የሚኖር እኔ ነኝ» አለው። ከሙሴ ጋር እንደሚሆንም ተስፋ ሰጠው።",
+      },
+    ],
+    laerdom: {
+      no: "Kirka ser busken som et bilde på Jomfru Maria: ilden brant i busken uten å brenne den opp, og slik bar Maria Guds Sønn, guddommens ild, i sitt morsliv uten å bli skadet. Hun ble født mor og forble jomfru.",
+      am: "ቤተ ክርስቲያን ቍጥቋጦውን የድንግል ማርያም ምሳሌ አድርጋ ታየዋለች። እሳቱ ቍጥቋጦውን እንዳላቃጠለው ሁሉ እመቤታችንም የመለኮትን እሳት የእግዚአብሔርን ልጅ በማኅፀኗ ተሸክማ አልተቃጠለችም። እናት ሆና በድንግልናዋ ጸናች።",
+    },
+    minnevers: "Exod 3:5",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hva var rart med busken Moses så?", am: "ሙሴ ባየው ቍጥቋጦ ላይ የሚደንቀው ምን ነበር?" },
+        svar: { no: "Den brant, men brant ikke opp.", am: "በእሳት ይነድድ ነበር፤ ነገር ግን አልተቃጠለም።" },
+      },
+      {
+        sporsmal: { no: "Hvorfor måtte Moses ta av seg skoene?", am: "ሙሴ ጫማውን ለምን ማውለቅ ነበረበት?" },
+        svar: { no: "Fordi stedet var hellig jord.", am: "ስፍራው የተቀደሰች መሬት ስለ ነበረች።" },
+      },
+      {
+        sporsmal: { no: "Hvem er busken et bilde på?", am: "ቍጥቋጦው የማን ምሳሌ ነው?" },
+        svar: {
+          no: "Jomfru Maria, som bar Guds Sønn uten å bli skadet.",
+          am: "የእግዚአብሔርን ልጅ ተሸክማ ያልተቃጠለችው የድንግል ማርያም።",
+        },
+      },
+    ],
+  },
+  {
+    slug: "gjennom-sivhavet",
+    testament: "gt",
+    nr: 13,
+    tittel: { no: "Gjennom Det røde hav", am: "የኤርትራን ባሕር መሻገር" },
+    ref: "Exod 14:10-31",
+    tekst: [
+      {
+        no: "Etter mange under lot farao endelig israelittene gå. Men snart angret han og jaget etter dem med vogner og soldater. Folket sto ved havet og ble svært redde.",
+        am: "ከብዙ ተአምራት በኋላ ፈርዖን እስራኤላውያንን ለቀቃቸው። ብዙም ሳይቆይ ግን ተጸጸተ፤ በሰረገሎችና በሠራዊት አሳደዳቸው። ሕዝቡም በባሕሩ ዳር ቆመው እጅግ ፈሩ።",
+      },
+      {
+        no: "Moses sa: «Vær ikke redde! Herren skal stride for dere.» Skystøtten flyttet seg og sto mellom israelittene og egypterne hele natten.",
+        am: "ሙሴም «አትፍሩ፤ እግዚአብሔር ስለ እናንተ ይዋጋል» አላቸው። የደመናውም ዓምድ ተንቀሳቅሶ ሌሊቱን ሁሉ በእስራኤልና በግብፃውያን መካከል ቆመ።",
+      },
+      {
+        no: "Moses rakte hånden ut over havet. Herren sendte en sterk østavind hele natten, og vannet delte seg. Israelittene gikk gjennom havet på tørr grunn, med vannet som en mur på høyre og venstre side.",
+        am: "ሙሴም እጁን በባሕሩ ላይ ዘረጋ። እግዚአብሔርም ሌሊቱን ሁሉ ጽኑ የምሥራቅ ነፋስ አምጥቶ ውኃውን ከፈለው። የእስራኤልም ልጆች በባሕሩ መካከል በየብስ ሄዱ፤ ውኃውም በቀኛቸውና በግራቸው እንደ ግድግዳ ሆነላቸው።",
+      },
+      {
+        no: "Egypterne fulgte etter dem. Da rakte Moses hånden ut igjen, og vannet vendte tilbake og dekket hele faraos hær. Folket så hva Herren hadde gjort, og trodde på ham. Moses og Mirjam sang en lovsang til Gud.",
+        am: "ግብፃውያንም ተከተሏቸው። ሙሴም እንደ ገና እጁን ዘረጋ፤ ውኃውም ተመልሶ የፈርዖንን ሠራዊት ሁሉ ከደነ። ሕዝቡም እግዚአብሔር ያደረገውን አይተው በእርሱ አመኑ። ሙሴና ማርያምም ለእግዚአብሔር የምስጋና መዝሙር ዘመሩ።",
+      },
+    ],
+    laerdom: {
+      no: "Apostelen Paulus sier at israelittene ble «døpt» i skyen og i havet. Kirka ser derfor ferden gjennom havet som et bilde på dåpen: i dåpen blir vi fridd fra syndens slaveri, slik folket ble fridd fra farao.",
+      am: "ሐዋርያው ጳውሎስ እስራኤላውያን በደመናና በባሕር እንደ ተጠመቁ ይናገራል። ስለዚህ ቤተ ክርስቲያን ባሕሩን መሻገራቸውን የጥምቀት ምሳሌ አድርጋ ታየዋለች፤ ሕዝቡ ከፈርዖን እጅ እንደ ዳኑ እኛም በጥምቀት ከኃጢአት ባርነት ነጻ እንወጣለን።",
+    },
+    minnevers: "Exod 14:14",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hva skjedde da Moses rakte hånden ut over havet?", am: "ሙሴ እጁን በባሕሩ ላይ በዘረጋ ጊዜ ምን ሆነ?" },
+        svar: {
+          no: "Vannet delte seg, og folket gikk over på tørr grunn.",
+          am: "ውኃው ተከፈለ፤ ሕዝቡም በየብስ ተሻገሩ።",
+        },
+      },
+      {
+        sporsmal: { no: "Hva er ferden gjennom havet et bilde på?", am: "ባሕሩን መሻገር የምን ምሳሌ ነው?" },
+        svar: { no: "Dåpen.", am: "የጥምቀት።" },
+      },
+    ],
+  },
+  {
+    slug: "de-ti-bud",
+    testament: "gt",
+    nr: 14,
+    tittel: { no: "De ti bud", am: "ዐሥርቱ ቃላት" },
+    ref: "Exod 20:1-17",
+    tekst: [
+      {
+        no: "Tre måneder etter at de dro fra Egypt, kom israelittene til Sinaifjellet. Gud kom ned på fjellet i ild og sky, og det tordnet og lynte. Folket skalv av frykt.",
+        am: "እስራኤላውያን ከግብፅ ከወጡ ከሦስት ወር በኋላ ወደ ሲና ተራራ ደረሱ። እግዚአብሔርም በእሳትና በደመና በተራራው ላይ ወረደ፤ ነጐድጓድና መብረቅም ሆነ። ሕዝቡም ፈርተው ተንቀጠቀጡ።",
+      },
+      {
+        no: "Gud sa: «Jeg er Herren din Gud, som førte deg ut av Egypt, ut av slavehuset. Du skal ikke ha andre guder enn meg.» Så ga han dem ti bud.",
+        am: "እግዚአብሔርም «ከግብፅ ምድር ከባርነት ቤት ያወጣሁህ እግዚአብሔር አምላክህ እኔ ነኝ። ከእኔ በቀር ሌሎች አማልክት አይሁኑልህ» አለ። ዐሥሩንም ትእዛዛት ሰጣቸው።",
+      },
+      {
+        no: "De første budene handler om å elske Gud: ikke tilbe andre guder eller bilder av dem, ikke misbruke Guds navn, og holde hviledagen hellig.",
+        am: "የመጀመሪያዎቹ ትእዛዛት እግዚአብሔርን ስለ መውደድ ናቸው፤ ሌሎችን አማልክትና ምስሎቻቸውን አለማምለክ፣ የእግዚአብሔርን ስም በከንቱ አለመጥራት፣ የሰንበትንም ቀን መቀደስ።",
+      },
+      {
+        no: "De andre budene handler om å elske hverandre: hedre far og mor, ikke drepe, ikke bryte ekteskapet, ikke stjele, ikke lyve om andre og ikke begjære det som tilhører andre.",
+        am: "ሌሎቹ ትእዛዛት ባልንጀራን ስለ መውደድ ናቸው፤ አባትንና እናትን ማክበር፣ አለመግደል፣ አለማመንዘር፣ አለመስረቅ፣ በሐሰት አለመመስከርና የሰውን ገንዘብ አለመመኘት።",
+      },
+      {
+        no: "Gud skrev budene med sin egen finger på to steintavler. Tavlene ble senere lagt i paktens ark.",
+        am: "እግዚአብሔርም ትእዛዛቱን በገዛ ጣቱ በሁለት የድንጋይ ጽላቶች ላይ ጻፈ። ጽላቶቹም በኋላ በታቦቱ ውስጥ ተቀመጡ።",
+      },
+    ],
+    laerdom: {
+      no: "Budene viser oss hvordan vi skal leve. Jesus sier at alle budene samles i to: å elske Gud av hele hjertet og å elske nesten som seg selv. Kristus kom ikke for å oppheve loven, men for å oppfylle den.",
+      am: "ትእዛዛቱ እንዴት መኖር እንዳለብን ያሳዩናል። ጌታችን ትእዛዛቱ ሁሉ በሁለት እንደሚጠቃለሉ አስተማረ፤ እግዚአብሔርን በፍጹም ልብ መውደድና ባልንጀራን እንደ ራስ መውደድ። ክርስቶስ ሕግን ሊፈጽም እንጂ ሊሽር አልመጣም።",
+    },
+    minnevers: "Exod 20:12",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvor fikk Moses de ti bud?", am: "ሙሴ ዐሥርቱን ቃላት የት ተቀበለ?" },
+        svar: { no: "På Sinaifjellet.", am: "በሲና ተራራ።" },
+      },
+      {
+        sporsmal: { no: "Hva skrev Gud budene på?", am: "እግዚአብሔር ትእዛዛቱን በምን ላይ ጻፈ?" },
+        svar: { no: "På to steintavler.", am: "በሁለት የድንጋይ ጽላቶች ላይ።" },
+      },
+      {
+        sporsmal: { no: "Hvilke to bud samler alle budene, ifølge Jesus?", am: "እንደ ጌታችን ትምህርት ትእዛዛቱ ሁሉ በየትኞቹ ሁለት ይጠቃለላሉ?" },
+        svar: {
+          no: "Å elske Gud av hele hjertet og å elske nesten som seg selv.",
+          am: "እግዚአብሔርን በፍጹም ልብ መውደድና ባልንጀራን እንደ ራስ መውደድ።",
+        },
+      },
+    ],
+  },
+  {
+    slug: "paktens-ark",
+    testament: "gt",
+    nr: 15,
+    tittel: { no: "Paktens ark", am: "የቃል ኪዳኑ ታቦት" },
+    ref: "Exod 25:8-22",
+    tekst: [
+      {
+        no: "På Sinaifjellet sa Gud til Moses: «De skal lage en helligdom for meg, så jeg kan bo midt iblant dem.» Gud viste Moses nøyaktig hvordan alt skulle lages.",
+        am: "በሲና ተራራ እግዚአብሔር ሙሴን «በመካከላቸው አድር ዘንድ መቅደስ ይሥሩልኝ» አለው። ሁሉም እንዴት መሠራት እንዳለበት እግዚአብሔር ለሙሴ አሳየው።",
+      },
+      {
+        no: "Det viktigste var arken, ታቦት: en kiste av akasietre, kledd med rent gull innvendig og utvendig. Den hadde gullringer og stenger, så prestene kunne bære den.",
+        am: "ከሁሉ የሚበልጠው ታቦቱ ነበረ፤ ከግራር እንጨት የተሠራ፣ በውስጥና በውጭ በጥሩ ወርቅ የተለበጠ ሣጥን ነው። ካህናቱ እንዲሸከሙትም የወርቅ ቀለበቶችና መሎጊያዎች ነበሩት።",
+      },
+      {
+        no: "Over arken var et lokk av rent gull med to keruber som bredte ut vingene sine. Inne i arken skulle Moses legge steintavlene med de ti bud.",
+        am: "በታቦቱ ላይ ከጥሩ ወርቅ የተሠራ የስርየት መክደኛ ነበረ፤ በላዩም ክንፎቻቸውን የዘረጉ ሁለት ኪሩቤል ነበሩ። በታቦቱ ውስጥ ሙሴ ዐሥርቱ ቃላት የተጻፉባቸውን ጽላቶች ያኖር ነበር።",
+      },
+      {
+        no: "Gud sa: «Der vil jeg møte deg og tale med deg, fra stedet mellom de to kerubene.» Arken var tegnet på at Gud var midt iblant folket sitt.",
+        am: "እግዚአብሔርም «በዚያ ከአንተ ጋር እገናኛለሁ፤ በሁለቱ ኪሩቤል መካከል ሆኜ እናገርሃለሁ» አለ። ታቦቱ እግዚአብሔር በሕዝቡ መካከል የመኖሩ ምልክት ነበረ።",
+      },
+    ],
+    laerdom: {
+      no: "Hver Tewahedo-kirke har en ታቦት, en hellig tavle som biskopen har velsignet, med navnet til Gud, Maria, en engel eller en helgen. Den minner oss om paktens ark, og på den feires den hellige nattverden. Kirka kaller også Maria en ny ark, for hun bar Guds Ord i seg.",
+      am: "እያንዳንዱ የተዋሕዶ ቤተ ክርስቲያን በኤጲስ ቆጶስ የተባረከ፣ የእግዚአብሔር ወይም የእመቤታችን ወይም የመልአክ ወይም የቅዱስ ስም የተጻፈበት ታቦት አለው። ታቦቱ የቃል ኪዳኑን ታቦት ያሳስበናል፤ በእርሱም ላይ ቅዳሴ ይቀደሳል። ቤተ ክርስቲያን እመቤታችንን ቃለ እግዚአብሔርን በማኅፀኗ ስለ ተሸከመች ታቦት ብላ ትጠራታለች።",
+    },
+    minnevers: "Exod 25:8",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hva lå inne i paktens ark?", am: "በቃል ኪዳኑ ታቦት ውስጥ ምን ነበረ?" },
+        svar: { no: "Steintavlene med de ti bud.", am: "ዐሥርቱ ቃላት የተጻፉባቸው የድንጋይ ጽላቶች።" },
+      },
+      {
+        sporsmal: { no: "Hva var arken et tegn på?", am: "ታቦቱ የምን ምልክት ነበረ?" },
+        svar: {
+          no: "At Gud bodde midt iblant folket sitt.",
+          am: "እግዚአብሔር በሕዝቡ መካከል የመኖሩ።",
+        },
+      },
+      {
+        sporsmal: { no: "Hva har hver Tewahedo-kirke som minner om arken?", am: "እያንዳንዱ የተዋሕዶ ቤተ ክርስቲያን ታቦቱን የሚያሳስብ ምን አለው?" },
+        svar: { no: "En ታቦት, som nattverden feires på.", am: "ቅዳሴ የሚቀደስበት ታቦት።" },
+      },
+    ],
+  },
+  {
+    slug: "jeriko",
+    testament: "gt",
+    nr: 16,
+    tittel: { no: "Murene i Jeriko faller", am: "የኢያሪኮ ቅጥር ወደቀ" },
+    ref: "Josh 6:1-27",
+    tekst: [
+      {
+        no: "Etter at Moses døde, ble Josva leder for folket. Byen Jeriko hadde høye murer, og portene var stengt. Men Herren sa til Josva: «Jeg har gitt Jeriko i din hånd.»",
+        am: "ሙሴ ከሞተ በኋላ ኢያሱ የሕዝቡ መሪ ሆነ። የኢያሪኮ ከተማ ረጃጅም ቅጥሮች ነበሯት፤ በሮቿም ተዘግተው ነበር። እግዚአብሔር ግን ኢያሱን «ኢያሪኮን በእጅህ ሰጥቼአለሁ» አለው።",
+      },
+      {
+        no: "Gud ga en merkelig plan: Soldatene skulle gå rundt byen én gang hver dag i seks dager. Sju prester med horn skulle gå foran arken.",
+        am: "እግዚአብሔርም የሚደንቅ ትእዛዝ ሰጠ። ሰልፈኞቹ ከተማይቱን ስድስት ቀን በየቀኑ አንድ ጊዜ ይዙሯት። ሰባት ካህናትም ሰባት ቀንደ መለከት ይዘው በታቦቱ ፊት ይሂዱ።",
+      },
+      {
+        no: "Den sjuende dagen gikk de rundt byen sju ganger. Prestene blåste i hornene, og hele folket ropte høyt. Da falt murene sammen, og folket gikk rett inn i byen.",
+        am: "በሰባተኛውም ቀን ከተማይቱን ሰባት ጊዜ ዞሩ። ካህናቱ ቀንደ መለከቱን ነፉ፤ ሕዝቡም ሁሉ ታላቅ ጩኸት ጮኹ። የከተማይቱም ቅጥር ወደቀ፤ ሕዝቡም በቀጥታ ወደ ከተማይቱ ገቡ።",
+      },
+      {
+        no: "Rahab, som hadde gjemt de to speiderne, ble reddet sammen med hele familien sin fordi hun trodde på Israels Gud.",
+        am: "ሁለቱን ሰላዮች የሸሸገችው ረዓብ ግን በእስራኤል አምላክ ስላመነች ከቤተሰቧ ሁሉ ጋር ዳነች።",
+      },
+    ],
+    laerdom: {
+      no: "Murene falt ikke på grunn av våpen, men fordi folket trodde og lød Gud. Bibelen sier at det var ved tro murene falt. Også Rahab ble frelst ved tro, og hun er nevnt i Jesu slektstavle.",
+      am: "ቅጥሩ የወደቀው በጦር መሣሪያ አይደለም፤ ሕዝቡ እግዚአብሔርን አምነው ስለ ታዘዙ ነው እንጂ። መጽሐፍ ቅዱስ የኢያሪኮ ቅጥር በእምነት እንደ ወደቀ ይናገራል። ረዓብም በእምነት ዳነች፤ በጌታችን የትውልድ ሐረግም ተጠቅሳለች።",
+    },
+    minnevers: "Heb 11:30",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvor mange ganger gikk folket rundt Jeriko den sjuende dagen?", am: "በሰባተኛው ቀን ሕዝቡ ኢያሪኮን ስንት ጊዜ ዞሩ?" },
+        svar: { no: "Sju ganger.", am: "ሰባት ጊዜ።" },
+      },
+      {
+        sporsmal: { no: "Hvorfor falt murene?", am: "ቅጥሩ ለምን ወደቀ?" },
+        svar: {
+          no: "Fordi folket trodde på Gud og gjorde som han sa.",
+          am: "ሕዝቡ በእግዚአብሔር አምነው እንዳዘዛቸው ስላደረጉ።",
+        },
+      },
+      {
+        sporsmal: { no: "Hvem ble reddet i Jeriko?", am: "በኢያሪኮ የዳነችው ማን ናት?" },
+        svar: { no: "Rahab og familien hennes.", am: "ረዓብና ቤተሰቧ።" },
+      },
+    ],
+  },
+  {
+    slug: "rut",
+    testament: "gt",
+    nr: 17,
+    tittel: { no: "Rut blir hos Noomi", am: "ሩት ከኑኃሚን ጋር ቀረች" },
+    ref: "Ruth 1:1-22",
+    tekst: [
+      {
+        no: "Det var hungersnød i Israel. Noomi og mannen hennes dro fra Betlehem til landet Moab med de to sønnene sine. Sønnene giftet seg med to kvinner fra Moab, Orpa og Rut.",
+        am: "በእስራኤል ራብ ሆነ። ኑኃሚንና ባልዋ ከሁለቱ ልጆቻቸው ጋር ከቤተ ልሔም ወደ ሞዓብ ምድር ሄዱ። ልጆቹም ዖርፋና ሩት የተባሉ ሞዓባውያን ሴቶችን አገቡ።",
+      },
+      {
+        no: "Så døde mannen til Noomi, og begge sønnene døde også. Noomi bestemte seg for å dra hjem til Betlehem. Hun sa til svigerdøtrene: «Gå hjem til mødrene deres.»",
+        am: "ከዚያም የኑኃሚን ባል ሞተ፤ ሁለቱ ልጆችዋም ሞቱ። ኑኃሚንም ወደ ቤተ ልሔም ልትመለስ ወሰነች። ምራቶችዋንም «ወደ እናቶቻችሁ ቤት ተመለሱ» አለቻቸው።",
+      },
+      {
+        no: "Orpa kysset henne og dro hjem. Men Rut ville ikke gå fra Noomi. Hun sa: «Dit du går, går jeg. Ditt folk er mitt folk, og din Gud er min Gud.»",
+        am: "ዖርፋ አማትዋን ስማ ተመለሰች። ሩት ግን ከኑኃሚን አልተለየችም። «ወደምትሄጅበት እሄዳለሁ፤ ሕዝብሽ ሕዝቤ፣ አምላክሽም አምላኬ ይሆናል» አለቻት።",
+      },
+      {
+        no: "De kom til Betlehem da bygghøsten begynte. Rut arbeidet hardt på åkeren for å skaffe mat til Noomi. Senere giftet hun seg med Boas, og de fikk sønnen Obed. Obed ble farfar til kong David.",
+        am: "የገብስ መከር በተጀመረ ጊዜ ወደ ቤተ ልሔም ደረሱ። ሩትም ለኑኃሚን ምግብ ለማግኘት በእርሻ ተግታ ሠራች። ከጊዜ በኋላ ቦዔዝን አገባች፤ ኢዮቤድ የተባለ ወንድ ልጅም ወለዱ። ኢዮቤድም የንጉሥ ዳዊት አያት ሆነ።",
+      },
+    ],
+    laerdom: {
+      no: "Rut var trofast mot svigermoren sin og valgte Israels Gud. Selv om hun var fra et annet folk, tok Gud imot henne, og hun ble stammor til David og til Kristus. Gud kaller alle folk til seg.",
+      am: "ሩት ለአማትዋ ታማኝ ነበረች፤ የእስራኤልንም አምላክ መረጠች። ከሌላ ሕዝብ ብትሆንም እግዚአብሔር ተቀበላት፤ የዳዊትና የክርስቶስ ቅድመ አያትም ሆነች። እግዚአብሔር አሕዛብን ሁሉ ወደ ራሱ ይጠራል።",
+    },
+    minnevers: "Ruth 1:16",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hva sa Rut til Noomi?", am: "ሩት ለኑኃሚን ምን አለቻት?" },
+        svar: {
+          no: "«Ditt folk er mitt folk, og din Gud er min Gud.»",
+          am: "«ሕዝብሽ ሕዝቤ፣ አምላክሽም አምላኬ ይሆናል።»",
+        },
+      },
+      {
+        sporsmal: { no: "Hvem giftet Rut seg med?", am: "ሩት ማንን አገባች?" },
+        svar: { no: "Boas.", am: "ቦዔዝን።" },
+      },
+      {
+        sporsmal: { no: "Hvilken berømt konge kom fra Rut?", am: "ከሩት ዘር የተወለደው ታዋቂ ንጉሥ ማን ነው?" },
+        svar: { no: "Kong David.", am: "ንጉሥ ዳዊት።" },
+      },
+    ],
+  },
 ];
