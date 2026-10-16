@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Search } from "lucide-react";
 import { Kors } from "./kors";
 import { Hovedmeny, Mobilmeny } from "./hovedmeny";
 import { TemaKnapp } from "./tema-knapp";
@@ -18,6 +19,9 @@ export function Topp() {
         </Link>
         <Hovedmeny />
         <div className="flex items-center gap-1">
+          <Link href="/sok/" aria-label="Søk" className="grid size-9 place-items-center rounded-full text-dempet hover:bg-linje/60 hover:text-blekk">
+            <Search className="size-[1.1rem]" aria-hidden="true" />
+          </Link>
           <TemaKnapp />
           <Mobilmeny />
         </div>

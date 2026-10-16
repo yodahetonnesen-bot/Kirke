@@ -3,7 +3,7 @@
 import { alleBoker, kapittelRader, type Del } from "./bibel";
 
 // Forkortelser for henvisninger: norsk og amharisk.
-const FORKORTELSER: Record<string, [string, string]> = {
+export const FORKORTELSER: Record<string, [string, string]> = {
   Gen: ["1 Mos", "ዘፍ"], Exod: ["2 Mos", "ዘጸ"], Lev: ["3 Mos", "ዘሌ"], Num: ["4 Mos", "ዘኍ"], Deut: ["5 Mos", "ዘዳ"],
   Josh: ["Jos", "ኢያ"], Judg: ["Dom", "መሳ"], Ruth: ["Rut", "ሩት"], "1Sam": ["1 Sam", "1ኛ ሳሙ"], "2Sam": ["2 Sam", "2ኛ ሳሙ"],
   "1Kgs": ["1 Kong", "1ኛ ነገ"], "2Kgs": ["2 Kong", "2ኛ ነገ"], "1Chr": ["1 Krøn", "1ኛ ዜና"], "2Chr": ["2 Krøn", "2ኛ ዜና"],
