@@ -6,6 +6,7 @@ Kjøres etter lag_bibeldata.py, som lager de 66 bøkene:
       --a2000 <json-mappe fra EOTCOpenSource/bible_mobile_app (am-2000)> \
       --api <80-weahadu.json fra EOTCOpenSource/BibleAPI> \
       --web <mappe med eng-web_usfm fra eBible> \
+      --norsk1887 <norsk1887.json fra les_norsk1887.py> \
       --ut data/bibel
 
 Kilder:
@@ -13,6 +14,10 @@ Kilder:
             Bok-ID-ene i A2000 er feilmerket: «1ES» er ዕዝራ ሱቱኤል, «2ES» er ዕዝራ ካልዕ,
             «4MA» er ተግሣጽ og «BAR» er ተረፈ ባሮክ.
   Engelsk:  World English Bible (WEB, public domain) for apokryfene.
+  Norsk 1887: Det Gamle Testaments apokryfiske Bøger (Det norske Bibelselskab, Christiania 1887, public domain),
+            lest med OCR av les_norsk1887.py og koblet til de amhariske versene med kart_norsk1887.py
+            (data/bibel/kart-no1887.json). Brukes i stedet for WEB der den finnes; vers som ikke står der
+            (f.eks. den hebraiske delen av Ester), står fortsatt på engelsk (WEB), merket kilde «WEB».
   Norsk:    ተግሣጽ er Ordspråkene 25–29 og 31,10–31; den norske teksten hentes fra no1930/Prov.json.
 
 Teksten står uendret (lisensen er CC BY-NC-ND). Tomme vers i kilden blir merket «mangler»,
@@ -25,8 +30,12 @@ Nye felt i boker.json:
   kanon       «66» (de 66), «81» (resten av den trykte 81-bokbibelen) eller «bred» (bred kanon)
   amUtgave    «1962» eller «2000» (E.C.)
   kapittelnr  kapittelnumrene når de ikke er 1, 2, 3 … (tilleggene i Daniel: 3, 13, 14)
-  ulikVersdeling  kapitler der den andre kolonnen er satt side om side uten versnøkkel
+  ulikVersdeling  kapitler der den andre kolonnen er satt side om side uten versnøkkel, eller (norsk 1887)
+              har en annen versinndeling enn den amhariske
   merknad     kort norsk merknad som vises over teksten
+
+Den andre kolonnen kan ha rader som dekker flere amhariske vers med flere vers fra kilden (blokker). Da står
+versene fra kilden i ekstra.vers som [[henvisning eller null, tekst], …], og tekst er dem satt sammen.
 """
 import argparse
 import json
@@ -127,6 +136,29 @@ NYE = {
                 kanon="bred", am=("A2000", "XXB", None)),
     "Did": dict(adresse="didesqelya", am_navn="መጽሐፈ ዲድስቅልያ", no="Didaskalia (Didesqelya)", en="Didascalia",
                 kanon="bred", am=("A2000", "XXC", None)),
+}
+
+# Norsk 1887 i stedet for WEB: {id: (bok i norsk1887.json, {kapittel der: kapittelnummer slik det står trykt},
+# merknad)}. Versnøkkelen står i kart-no1887.json (kart_norsk1887.py).
+_ULIK = "Den deler versene annerledes enn den amhariske bibelen; de norske versnumrene står med små tall."
+NO1887 = {
+    "PrMan": ("PrMan", {}, "I den amhariske bibelen står bønnen inne i 2. Krønikebok 33 (vers 14–26). "
+                           "Den norske teksten er fra 1887."),
+    "Tob": ("Tob", {}, f"Den norske teksten er fra 1887. {_ULIK}"),
+    "Jdt": ("Jdt", {}, f"Den norske teksten er fra 1887. {_ULIK}"),
+    "EsthGr": ("EstAdd", {}, "Ester slik den står i den amhariske 81-bokbibelen, med de greske tilleggene flettet "
+                             "inn. Tilleggene står på norsk fra 1887, der de er samlet bakerst som kapittel 10–16 "
+                             "(de norske versnumrene står med små tall). Resten av Ester er ikke med i 1887-utgaven "
+                             "av de apokryfe bøkene og står på engelsk (WEB)."),
+    "Wis": ("Wis", {}, "Den norske teksten er fra 1887."),
+    "Bar": ("Bar", {}, "Den norske teksten er fra 1887."),
+    "EpJer": ("EpJer", {1: 6}, "Den norske teksten er fra 1887. Der er Jeremias' brev kapittel 6 i Baruks bok."),
+    "DanGr": ("DanAdd", {}, "Kapittel 3 med bønnen og lovsangen i ildovnen (3,24–90), Susanna (13) og Bel og dragen "
+                            "(14), slik de står i den amhariske bibelen. Tilleggene står på norsk fra 1887; resten "
+                            "av kapittel 3 står på engelsk (WEB)."),
+    "Sir": ("Sir", {}, f"Den norske teksten er fra 1887. {_ULIK} I kapittel 30–36 følger den amhariske teksten den "
+                       "greske rekkefølgen og 1887-utgaven den latinske; de norske versene er flyttet så de står "
+                       "ved siden av de amhariske."),
 }
 
 # Bare disse versene tas med fra boka i kilden: {id: {kapittel: (fra, til)}}.
@@ -327,13 +359,109 @@ def legg_side_om_side(antall_am: int, kilde: dict, kildekap: int, biter, ett_kap
     return grupper, ulik
 
 
+def lag_no1887(id: str, kolonne_en: list, norsk: dict, kart: list, visnr: list[int]) -> tuple[list, list[int]]:
+    """Den norske kolonnen (1887): blokkene fra kart-no1887.json, og WEB der den norske teksten mangler.
+    Gir (kolonne, kapitler der versinndelingen er ulik)."""
+    kilde, kapnavn, _ = NO1887[id]
+    vers = {(int(k), int(v)): t for k, vs in norsk[kilde].items() for v, t in vs.items()}
+
+    def henvisning(nr: str) -> str:
+        k, v = map(int, nr.split(","))
+        return f"{kapnavn.get(k, k)}, overskrift" if v == 0 else f"{kapnavn.get(k, k)},{v}"
+
+    kolonne, ulike = [], []
+    for k, en in enumerate(kolonne_en, 1):
+        # Blokker: [fra, til, [norske vers]]; blokker som overlapper, slås sammen.
+        blokker: list[list] = []
+        for b in sorted((b for b in kart if b["am"][0] == k), key=lambda b: b["am"][1]):
+            _, fra, til = b["am"]
+            if blokker and fra <= blokker[-1][1]:
+                blokker[-1][1] = max(blokker[-1][1], til)
+                blokker[-1][2] += b["no"]
+            else:
+                blokker.append([fra, til, list(b["no"])])
+        # WEB-rader som delvis overlapper en blokk, gjør blokken større (teksten er den samme).
+        endret = True
+        while endret:
+            endret = False
+            for g in en:
+                for bl in blokker:
+                    if g[0] <= bl[1] and g[1] >= bl[0] and (g[0] < bl[0] or g[1] > bl[1]):
+                        bl[0], bl[1] = min(bl[0], g[0]), max(bl[1], g[1])
+                        endret = True
+            blokker.sort(key=lambda b: b[0])
+            for i in range(len(blokker) - 1, 0, -1):
+                if blokker[i][0] <= blokker[i - 1][1]:
+                    blokker[i - 1][1] = max(blokker[i - 1][1], blokker[i][1])
+                    blokker[i - 1][2] += blokker.pop(i)[2]
+                    endret = True
+        grupper = []
+        for fra, til, nv in blokker:
+            # Henvisningen vises bare når den norske nummereringen er en annen enn den amhariske.
+            deler = [[henvisning(n), vers[tuple(map(int, n.split(",")))]] for n in nv]
+            if len(nv) == 1 and fra == til and deler[0][0] == f"{visnr[k - 1]},{fra}":
+                deler[0][0] = None
+            else:
+                if k not in ulike:
+                    ulike.append(k)
+            grupper.append([fra, til, " ".join(t for _, t in deler), {"vers": deler}])
+        for g in en:
+            if not any(g[0] <= bl[1] and g[1] >= bl[0] for bl in blokker):
+                ekstra = dict(g[3]) if len(g) > 3 else {}
+                ekstra["kilde"] = "WEB"
+                grupper.append([g[0], g[1], g[2], ekstra])
+        grupper.sort(key=lambda g: g[0])
+        kolonne.append(grupper)
+    return kolonne, ulike
+
+
+def lag_engelsk(id: str, antall: list[int], enheter: dict, spes_kart: dict) -> tuple[list, list[int]]:
+    """Den engelske kolonnen fra kart-engelsk.json: blokker med enheter (kanoner, vers, avsnitt) fra kilden ved
+    siden av amhariske vers. Amhariske vers uten engelsk tekst blir «mangler». Hver enhet brukes nøyaktig én gang."""
+    etikett = spes_kart.get("etikett", "{}")
+    brukt: list[str] = []
+    kolonne: list[list] = [[] for _ in antall]
+    ulike: set[int] = set()
+    for b in spes_kart["blokker"]:
+        k, fra, til = b["am"]
+        deler = [[etikett.format(r), enheter[r]] for r in b["en"]]
+        if len(deler) == 1 and fra == til and b["en"][0] == f"{fra}" and len(antall) == 1:
+            deler[0][0] = None  # samme nummer som det amhariske verset
+        else:
+            ulike.add(k)
+        ekstra = {"vers": deler}
+        if b.get("overskrift"):
+            ekstra["overskrifter"] = [enheter[r] for r in b["overskrift"]]
+        kolonne[k - 1].append([fra, til, " ".join(t for _, t in deler), ekstra])
+        brukt += b["en"] + b.get("overskrift", [])
+    if sorted(brukt) != sorted(enheter) or len(brukt) != len(set(brukt)):
+        raise SystemExit(f"{id}: kart-engelsk.json bruker ikke hver engelske enhet nøyaktig én gang "
+                         f"(mangler {sorted(set(enheter) - set(brukt))[:8]}, dobbelt "
+                         f"{sorted({r for r in brukt if brukt.count(r) > 1})[:8]})")
+    for k, kap in enumerate(kolonne, 1):
+        kap.sort(key=lambda g: g[0])
+        dekket = {v for g in kap for v in range(g[0], g[1] + 1)}
+        for v in range(1, antall[k - 1] + 1):
+            if v not in dekket:
+                kap.append([v, v, "", {"mangler": True}])
+        kap.sort(key=lambda g: g[0])
+    return kolonne, sorted(ulike)
+
+
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--a2000", required=True)
     p.add_argument("--api", required=True)
     p.add_argument("--web", required=True)
+    p.add_argument("--norsk1887", help="norsk1887.json fra les_norsk1887.py (uten den brukes WEB)")
+    p.add_argument("--engelsk", help="engelsk.json fra les_engelsk.py (Schodde, Charles, Harden)")
     p.add_argument("--ut", required=True)
     a = p.parse_args()
+    norsk1887 = json.loads(pathlib.Path(a.norsk1887).read_text(encoding="utf-8"))["bøker"] if a.norsk1887 else None
+    kart1887 = json.loads((pathlib.Path(a.ut) / "kart-no1887.json").read_text(encoding="utf-8")) if a.norsk1887 else {}
+    (pathlib.Path(a.ut) / "no1887").mkdir(exist_ok=True)
+    engelsk = json.loads(pathlib.Path(a.engelsk).read_text(encoding="utf-8")) if a.engelsk else {}
+    kart_en = json.loads((pathlib.Path(a.ut) / "kart-engelsk.json").read_text(encoding="utf-8")) if a.engelsk else {}
 
     ut = pathlib.Path(a.ut)
     (ut / "en").mkdir(exist_ok=True)
@@ -375,6 +503,14 @@ def main() -> None:
                 norsk = json.loads((ut / "no1930" / f"{osis}.json").read_text(encoding="utf-8"))
                 kilde_no = {k: [(g[0], g[2], []) for g in kap] for k, kap in enumerate(norsk, 1)}
                 andre = (kart, kilde_no, "no1930", ",")
+            if id in kart_en and id in engelsk:
+                enheter = {r: t for r, t in engelsk[id]["enheter"]}
+                kolonne, ulike = lag_engelsk(id, [max(g[1] for g in kap) for kap in am], enheter, kart_en[id])
+                (ut / "en" / f"{id}.json").write_text(json.dumps(kolonne, ensure_ascii=False), encoding="utf-8")
+                tekster.append("en")
+                spes = {**spes, "merknad": kart_en[id]["merknad"], "enKilde": kart_en[id]["kilde"]}
+                if ulike:
+                    logg["ulik_versdeling"].append(f"{spes['no']}: kapittel {', '.join(map(str, ulike))}")
             if andre:
                 kart, kilde_andre, mappe, skille = andre
                 ett = len(kilde_andre) == 1
@@ -386,8 +522,19 @@ def main() -> None:
                     if ulik:
                         ulike.append(spes["kapittelnr"][k - 1] if "kapittelnr" in spes else k)
                     kolonne.append(grupper)
+                merknad = spes.get("merknad")
+                if norsk1887 is not None and id in NO1887:
+                    # Norsk 1887 i stedet for WEB; WEB står bare der den norske teksten mangler.
+                    visnr = spes.get("kapittelnr") or list(range(1, len(kolonne) + 1))
+                    kolonne, ulike = lag_no1887(id, kolonne, norsk1887, kart1887[id], visnr)
+                    if "kapittelnr" in spes:
+                        ulike = [spes["kapittelnr"][k - 1] for k in ulike]
+                    mappe, merknad = "no1887", NO1887[id][2]
+                    (ut / "en" / f"{id}.json").unlink(missing_ok=True)
                 (ut / mappe / f"{id}.json").write_text(json.dumps(kolonne, ensure_ascii=False), encoding="utf-8")
                 tekster.append(mappe)
+                if merknad:
+                    spes = {**spes, "merknad": merknad}
                 if ulike:
                     logg["ulik_versdeling"].append(f"{spes['no']}: kapittel {', '.join(map(str, ulike))}")
             bok = {"id": id, "nr": nr, "testament": testament, "adresse": spes["adresse"],
@@ -399,6 +546,8 @@ def main() -> None:
                 bok["ulikVersdeling"] = ulike
             if "merknad" in spes:
                 bok["merknad"] = spes["merknad"]
+            if "enKilde" in spes:
+                bok["enKilde"] = spes["enKilde"]
             boker.append(bok)
     (ut / "boker.json").write_text(json.dumps(boker, ensure_ascii=False, indent=1), encoding="utf-8")
     (ut / "rettelser-81.json").write_text(json.dumps(logg, ensure_ascii=False, indent=1), encoding="utf-8")

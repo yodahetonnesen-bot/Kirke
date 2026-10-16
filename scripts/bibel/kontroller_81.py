@@ -1,12 +1,16 @@
 """Kontrollerer de nye bøkene fra lag_81.py mot kildene, og skriver data/bibel/KONTROLL-81.md.
 
-Bruk: python3 -I scripts/bibel/kontroller_81.py data/bibel --a2000 <json-mappe> --api <80-weahadu.json> --web <mappe>
+Bruk: python3 -I scripts/bibel/kontroller_81.py data/bibel --a2000 <json-mappe> --api <80-weahadu.json> --web <mappe> \
+          --norsk1887 <norsk1887.json> --engelsk <engelsk.json>
 
 Kontrollene (stopper med feil hvis noe ikke stemmer):
   1. Hvert ord i den amhariske kilden står i dataene, i samme rekkefølge, kapittel for kapittel.
      Kilden leses direkte, uavhengig av lag_81.py. Overskriftene sammenlignes for seg.
   2. Hvert versnummer i kilden har en plass i dataene, med tekst eller merket «mangler».
   3. Hvert ord i de engelske (WEB) og norske kapitlene som brukes, står i den andre kolonnen.
+  5. Engelsk (Schodde, Charles, Harden): hver enhet i kilden står nøyaktig én gang i kolonnen.
+  4. Norsk 1887: hvert vers i kilden (norsk1887.json) står nøyaktig én gang i den norske kolonnen, ord for ord,
+     og de engelske versene som står der den norske teksten mangler, er hentet uendret fra WEB.
 """
 import collections
 import json
@@ -15,7 +19,7 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from lag_81 import KAPITTELMERKE, KART, NYE, UTVALG, les_usfm  # noqa: E402
+from lag_81 import KAPITTELMERKE, KART, NO1887, NYE, UTVALG, les_usfm  # noqa: E402
 
 
 def arg(navn: str) -> pathlib.Path:
@@ -49,6 +53,67 @@ def kilde_am(spes: dict, id: str, a2000: dict, api: list):
     return ut
 
 
+KILDENAVN = {"schodde1885": "Schodde 1885", "charles1917": "Charles 1917", "harden1920": "Harden 1920",
+             "charles1902": "Charles 1902"}
+
+
+def kontroller_engelsk(id: str, navn: str, data: pathlib.Path, engelsk: dict, feil: list) -> str:
+    """Hver enhet i den engelske kilden står nøyaktig én gang i kolonnen, ord for ord."""
+    kart = json.loads((data / "kart-engelsk.json").read_text(encoding="utf-8"))[id]
+    kilde = KILDENAVN.get(kart["kilde"], kart["kilde"])
+    if id not in engelsk:
+        feil.append(f"{navn}: engelsk tekst fra {kilde}, men --engelsk er ikke oppgitt")
+        return kilde
+    enheter = engelsk[id]["enheter"]
+    kolonne = json.loads((data / "en" / f"{id}.json").read_text(encoding="utf-8"))
+    funnet = [t for kap in kolonne for g in kap if len(g) > 3
+              for t in [d[1] for d in g[3].get("vers", [])] + g[3].get("overskrifter", [])]
+    forventet = [t for _, t in enheter]
+    if collections.Counter(forventet) != collections.Counter(funnet):
+        feil.append(f"{navn}: enhetene fra {kilde} står ikke nøyaktig én gang i kolonnen "
+                    f"({len(forventet)} i kilden, {len(funnet)} i dataene)")
+    ord_k, ord_d = len(ord_(forventet)), len(ord_(funnet))
+    if ord_k != ord_d:
+        feil.append(f"{navn}: {ord_k} engelske ord i kilden, {ord_d} i dataene")
+    plasser = sum(g[1] - g[0] + 1 for kap in kolonne for g in kap if len(g) > 3 and "vers" in g[3])
+    alle = sum(g[1] - g[0] + 1 for kap in kolonne for g in kap)
+    return f"{kilde}: {len(enheter)} enheter ({ord_d} ord) på {plasser} av {alle} versplasser"
+
+
+def kontroller_1887(id: str, spes: dict, data: pathlib.Path, web: dict, norsk: dict, feil: list) -> str:
+    """Hvert norsk vers står én gang; WEB-versene der den norske teksten mangler, er uendret fra WEB."""
+    navn = spes["no"]
+    kilde, _, _ = NO1887[id]
+    if not norsk:
+        feil.append(f"{navn}: har norsk 1887, men --norsk1887 er ikke oppgitt")
+        return "Norsk 1887"
+    kart = json.loads((data / "kart-no1887.json").read_text(encoding="utf-8"))[id]
+    kolonne = json.loads((data / "no1887" / f"{id}.json").read_text(encoding="utf-8"))
+    i_kart = [n for b in kart for n in b["no"]]
+    alle = {f"{k},{v}" for k, vs in norsk[kilde].items() for v in vs}
+    if len(i_kart) != len(set(i_kart)) or set(i_kart) != alle:
+        feil.append(f"{navn}: versnøkkelen har ikke hvert norske vers nøyaktig én gang "
+                    f"(mangler {sorted(alle - set(i_kart))[:5]}, dobbelt {[n for n in i_kart if i_kart.count(n) > 1][:5]})")
+    forventet = ord_(norsk[kilde][n.split(",")[0]][n.split(",")[1]] for n in i_kart)
+    norske = [d for kap in kolonne for g in kap if len(g) > 3 and "vers" in g[3] for d in g[3]["vers"]]
+    funnet = ord_(t for _, t in norske)
+    samlet = ord_(g[2] for kap in kolonne for g in kap if len(g) > 3 and "vers" in g[3])
+    # Rekkefølgen kan være en annen (Sir 30–36), men hvert ord skal stå like mange ganger.
+    if collections.Counter(forventet) != collections.Counter(funnet) or funnet != samlet:
+        feil.append(f"{navn}: ordene i norsk 1887 stemmer ikke ({len(forventet)} i kilden, {len(funnet)} i dataene)")
+    # WEB der den norske teksten mangler.
+    kode, _ = spes["en_kilde"]
+    web_ord = collections.Counter(ord_(v[1] for liste in les_usfm(web[kode]).values() for v in liste))
+    engelsk = [g for kap in kolonne for g in kap if len(g) > 3 and g[3].get("kilde") == "WEB"]
+    rest = collections.Counter(ord_(g[2] for g in engelsk)) - web_ord
+    if rest:
+        feil.append(f"{navn}: engelske ord som ikke står i WEB: {list(rest)[:5]}")
+    plasser_no = sum(g[1] - g[0] + 1 for kap in kolonne for g in kap if len(g) > 3 and "vers" in g[3])
+    plasser_en = sum(g[1] - g[0] + 1 for g in engelsk if not g[3].get("mangler"))
+    return (f"Norsk 1887: {len(i_kart)} vers ({len(funnet)} ord) på {plasser_no} versplasser"
+            + (f"; WEB på {plasser_en} versplasser" if plasser_en else ""))
+
+
 def ord_(tekster) -> list[str]:
     return " ".join(t or "" for t in tekster).split()
 
@@ -60,6 +125,8 @@ def main() -> None:
     web = {f.name.split("-")[1][:3]: f for f in arg("--web").glob("*eng-web.usfm")}
     boker = {b["id"]: b for b in json.loads((data / "boker.json").read_text(encoding="utf-8"))}
     rettelser = json.loads((data / "rettelser-81.json").read_text(encoding="utf-8"))
+    norsk1887 = json.loads(arg("--norsk1887").read_text(encoding="utf-8"))["bøker"] if "--norsk1887" in sys.argv else {}
+    engelsk = json.loads(arg("--engelsk").read_text(encoding="utf-8")) if "--engelsk" in sys.argv else {}
 
     feil: list[str] = []
     rader = []
@@ -90,7 +157,11 @@ def main() -> None:
         mangler = sum(g[1] - g[0] + 1 for kap in am for g in kap if len(g) > 3 and g[3].get("mangler"))
 
         andre = "–"
-        if "en_kilde" in spes or "no_kilde" in spes:
+        if bok.get("enKilde"):
+            andre = kontroller_engelsk(id, navn, data, engelsk, feil)
+        elif "no1887" in bok["tekster"]:
+            andre = kontroller_1887(id, spes, data, web, norsk1887, feil)
+        elif "en_kilde" in spes or "no_kilde" in spes:
             if "en_kilde" in spes:
                 kode, kart = spes["en_kilde"]
                 kilde2 = {k: {v[0]: v[1] for v in liste} for k, liste in les_usfm(web[kode]).items()}
@@ -139,6 +210,21 @@ def main() -> None:
     l += ["### Kapitler der den andre kolonnen har en annen versinndeling", "",
           "Versene står side om side etter nummer så langt de går; ingen tekst er tatt bort.", ""]
     l += [f"- {x}" for x in rettelser["ulik_versdeling"]] + [""]
+    r1887 = data / "rettelser-1887.json"
+    if r1887.exists():
+        r = json.loads(r1887.read_text(encoding="utf-8"))
+        usikre = r["usikre_ord"]
+        l += ["## Norsk 1887: må korrekturleses", "",
+              "Teksten er lest med OCR (tesseract, fraktur) fra Nasjonalbibliotekets skann og er ikke korrekturlest i sin "
+              "helhet. Alt som er rettet automatisk, står i `data/bibel/rettelser-1887.json`:", "",
+              f"- rettet for hånd etter sidebildet: {len(r['for_hånd'])}",
+              f"- ord rettet med ordlisten fra Nasjonalbibliotekets OCR (ø/æ, lang s o.l.): {len(r['ordlisten'])}",
+              f"- versnumre som OCR leste feil eller ikke så, rettet ut fra rekkefølgen: {len(r['versnummer'])}",
+              f"- ord satt inn fra linjelesingen: {len(r['ord_fra_linjelesingen'])}",
+              f"- parallellhenvisninger, fotnoter og innholdsoversikter fjernet: {len(r['fjernet'])}",
+              f"- vers med ord som ikke finnes i Nasjonalbibliotekets OCR (mulige lesefeil, ofte navn): {len(usikre)} "
+              f"vers, {sum(len(v) for v in usikre.values())} ord", "",
+              "### Å se på først", ""] + [f"- {x}" for x in r["sjekk"]] + [""]
     (data / "KONTROLL-81.md").write_text("\n".join(l), encoding="utf-8")
     print(f"{len(rader)} bøker kontrollert, {sum(r[4] for r in rader)} amhariske ord, {len(feil)} feil")
     if feil:

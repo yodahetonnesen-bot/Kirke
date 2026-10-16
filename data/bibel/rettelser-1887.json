@@ -1,0 +1,4333 @@
+{
+ "for_hånd": [
+  "Tob 1,1: rettet for hånd: «istorien om Tobias, en Søn aff Tobiel» → «Historien om Tobias, en Søn af Tobiel»",
+  "Tob 4,12: rettet for hånd: «Offergave for den Høiestes» → «Offergave for den Høiestes Ansigt.»",
+  "Jdt 1,1: rettet for hånd: «O det tolvte Aar» → «J det tolvte Aar»",
+  "Wis 1,1: rettet for hånd: «lsker Retfærdighed, IJ Jordens» → «Elsker Retfærdighed, J Jordens»",
+  "Bar 1,1: rettet for hånd: «g disse ere den Bogs Ord» → «Og disse ere den Bogs Ord»",
+  "DanAdd 3,24: rettet for hånd: «gude gik omkring» → «Og de gik omkring»",
+  "Sir 10,3: rettet for hånd: « J Herrens Haand er Magten over Lard,» → « 4. J Herrens Haand er Magten over Landet,»",
+  "Sir 10,3: rettet for hånd: « JI Herrens Haand er en Mands Lykke,» → « 5. J Herrens Haand er en Mands Lykke,»",
+  "Jdt 6,2: rettet for hånd: «fordi deres 3 vil Lien dem? Hvo er vel Gud uden Nabuchonn n. Han» → «fordi deres Gud vil beskjerme dem? 3. Hvo er vel Gud uden Nabuchodonosor? Han»",
+  "Jdt 6,2: rettet for hånd: «thi vi 0 træde dem med dem.» → «thi vi skulle nedtræde dem med dem.»",
+  "Jdt 6,4: rettet for hånd: «vorde Dneit af» → «vorde drukne af»",
+  "Sir 38,5: rettet for hånd: «Mennesket? Og han har givet» → «Mennesket? 6. Og han har givet»",
+  "EpJer 1,0: lagt til for hånd: «Afskrift af et Brev, som Jeremias sendte til dem, der skulde føres fangne til Babylon af Babyloniernes Konge, for at kundgjøre dem, hvad der var ham befalet af Gud.»"
+ ],
+ "sjekk": [
+  "side 18a: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 32",
+  "side 45a: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 27",
+  "side 48b: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 21",
+  "side 51a: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 27",
+  "side 53a: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 31",
+  "side 69b: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 41",
+  "side 78b: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 32",
+  "Tob 3: SJEKK: innholdsoversikten går til vers 23, teksten har 26 vers («…udsender Rafael for at hjælpe dem, 2426.»)",
+  "Tob 13: SJEKK: innholdsoversikten går til vers 14, teksten har 28 vers («…g Jeru- salem vorde saare herligt, 1528.»)",
+  "Jdt 9: SJEKK: innholdsoversikten går til vers 6, teksten har 16 vers («…il at udfoͤre, hvad hun har isinde, 1¹6.»)",
+  "Jdt 12: SJEKK: innholdsoversikten går til vers 16, teksten har 22 vers («…hed 1— 2 drikker langt over sin Sædvane,»)",
+  "EstAdd 10: SJEKK: innholdsoversikten går til vers 11, teksten har 14 vers («…b og Haman og om sit Folks Frelse, 7-11,»)",
+  "EstAdd 12: SJEKK: innholdsoversikten går til vers 6, teksten har 7 vers («…t, 6. (Fortsættelse af det Foregagende.)»)",
+  "Sir 8: SJEKK: innholdsoversikten går til vers 14, teksten har 24 vers («…ller aabne sit Hjerte for Enhver, 15⁴½4.»)",
+  "Sir 10: SJEKK: innholdsoversikten går til vers 20, teksten har 34 vers («… giver selv den Fattige Wre,‚, 21-11, 1.»)",
+  "Sir 16: SJEKK: innholdsoversikten går til vers 30, teksten har 33 vers («…Begyndelsen har ftabt og ordnet Alt, 30.»)",
+  "Sir 19: SJEKK: innholdsoversikten går til vers 30, teksten har 31 vers («…et Menneste kjendes paa sit Mdre, 22-30.»)",
+  "Sir 22: SJEKK: innholdsoversikten går til vers 31, teksten har 32 vers («…standige Mand, 19-21, om Venskab, 22-31.»)",
+  "Sir 26: SJEKK: innholdsoversikten går til vers 34, teksten har 35 vers («…r tre Ting, der volde Bedrøvelse, 32-34.»)",
+  "Sir 27: SJEKK: innholdsoversikten går til vers 30, teksten har 31 vers («…else, og en Kræmmer holdes fri for Synd.»)",
+  "Sir 41: SJEKK: innholdsoversikten går til vers 42, teksten har 29 vers («… hvad man stal flamme sig ved, 17-42, 2.»)",
+  "Sir 42: SJEKK: innholdsoversikten går til vers 20, teksten har 35 vers («…iser Herrens Gjerninger og hans Storhed,»)",
+  "Sir 48: SJEKK: innholdsoversikten går til vers 47, teksten har 33 vers («…ng Ezechias og Pro- feten Esaias, 22-33.»)",
+  "DanAdd 3: SJEKK: innholdsoversikten går til vers 50, teksten har 90 vers («…, 46-50. (Er at henføre til Dan. 3, 23.)»)"
+ ],
+ "versnummer": [
+  "side 8a: første vers i Tob 3: versnummeret lest som «227*»",
+  "side 14b: første vers i Tob 11 uten versnummer: «à. Og Rafael ſagde til Tobias: Ved»",
+  "side 22b: første vers i Jdt 6 uten versnummer: «Og da Larmen af de Mænd, ſom»",
+  "side 29a: første vers i Jdt 11: versnummeret lest som «11»",
+  "side 40a: første vers i Wis 1: versnummeret lest som «I.»",
+  "side 55b: første vers i Wis 17 uten versnummer: «Thi ſtore og uforklarlige ere dine»",
+  "side 63a: første vers i Sir 5: versnummeret lest som «40»",
+  "side 74a: første vers i Sir 17: versnummeret lest som «*»",
+  "side 93b: første vers i Sir 36: versnummeret lest som «*»",
+  "side 104a: første vers i Sir 46: versnummeret lest som «.»",
+  "side 105a: første vers i Sir 47: versnummeret lest som «*.»",
+  "side 109a: første vers i Sir 51: versnummeret lest som «20»",
+  "side 6a: versnummer lest som 4, satt til 1 (Tob 1)",
+  "side 17a: versnummer lest som 4, satt til 1 (Tob 14)",
+  "Jdt 7,11: versnummeret «11.» funnet inne i vers 10; delt der",
+  "Jdt 9,5: versnummeret «5.Wog» funnet inne i vers 4; delt der",
+  "side 30a: versnummer lest som 2, satt til 1 (Jdt 12)",
+  "side 60b: versnummer lest som 3, satt til 8 (Sir 2)",
+  "Sir 5,14: versnummeret «14.» funnet inne i vers 13; delt der",
+  "Sir 8,23: versnummeret «23.» funnet inne i vers 22; delt der",
+  "side 67b: versnummer lest som 14, satt til 15 (Sir 10)",
+  "Sir 17,7: versnummeret «7J.» funnet inne i vers 6; delt der",
+  "side 75a: versnummer lest som 4, satt til 1 (Sir 18)",
+  "Sir 22,3: versnummeret «3.» funnet inne i vers 2; delt der",
+  "Sir 26,14: versnummeret «14» funnet inne i vers 13; delt der",
+  "Sir 34,21: versnummeret «21.» funnet inne i vers 20; delt der",
+  "Sir 46,28: versnummeret «28.» funnet inne i vers 27; delt der",
+  "Sir 48,5: versnummeret «5.» funnet inne i vers 4; delt der",
+  "side 107b: versnummer lest som 4, satt til 1 (Sir 49)",
+  "Bar 4,6: versnummeret «66.» funnet inne i vers 5; delt der",
+  "side 116a: versnummer lest som 4, satt til 1 (EpJer 1)",
+  "EpJer 1,24: versnummeret «24.» funnet inne i vers 23; delt der",
+  "DanAdd 3,30: versnummeret «630.» funnet inne i vers 29; delt der",
+  "DanAdd 3,63: versnummeret «63.» funnet inne i vers 62; delt der",
+  "DanAdd 13,35: versnummeret «35.» funnet inne i vers 34; delt der"
+ ],
+ "ord_fra_linjelesingen": [
+  "side 0009b: ord fra linjelesingen satt inn: «12.» i «12. thi Barmhjertighed er alle dem,»",
+  "side 0068a: ord fra linjelesingen satt inn: «Hyilken» i «neſkets Hyilken Sloegt. Hvilken Slegt er i»",
+  "side 0073a: ord fra linjelesingen satt inn: «ſra Begyndelſen» i «ſra Begyndelſen har ftabt og ordnet Alt,»",
+  "side 0079b: ord fra linjelesingen satt inn: «3.» i «3. Det er Skam for en Fader at»"
+ ],
+ "ordlisten": [
+  "Tob 1,11: «Sjel» → «Sjæl» (ordlisten)",
+  "Tob 1,12: «Sjel» → «Sjæl» (ordlisten)",
+  "Tob 2,1: «aede» → «æde» (ordlisten)",
+  "Tob 2,11: «Oine» → «Øine» (ordlisten)",
+  "Tob 2,12: «Oine» → «Øine» (ordlisten)",
+  "Tob 3,9: «syy» → «syv» (ordlisten)",
+  "Tob 3,21: «fkulde» → «skulde» (ordlisten)",
+  "Tob 4,2: «ikte» → «ikke» (ordlisten)",
+  "Tob 4,3: «ÄAer» → «Ær» (ordlisten)",
+  "Tob 4,7: «fkal» → «skal» (ordlisten)",
+  "Tob 4,11: «Doden» → «Døden» (ordlisten)",
+  "Tob 4,12: «ove» → «øve» (ordlisten)",
+  "Tob 4,19: «Mennefkes» → «Menneskes» (ordlisten)",
+  "Tob 4,23: «Klaeder» → «Klæder» (ordlisten)",
+  "Tob 4,23: «Hie» → «Øie» (ordlisten)",
+  "Tob 5,4: «Menneste» → «Menneske» (ordlisten)",
+  "Tob 5,5: «Mennefke» → «Menneske» (ordlisten)",
+  "Tob 5,28: «Bine» → «Øine» (ordlisten)",
+  "Tob 6,3: «Vnglingen» → «Ynglingen» (ordlisten)",
+  "Tob 6,8: «Fifkens» → «Fiskens» (ordlisten)",
+  "Tob 6,10: «Oinene» → «Øinene» (ordlisten)",
+  "Tob 6,11: «Frende» → «Frænde» (ordlisten)",
+  "Tob 6,18: «stulde» → «skulde» (ordlisten)",
+  "Tob 6,20: «fkal» → «skal» (ordlisten)",
+  "Tob 7,7: «edle» → «ædle» (ordlisten)",
+  "Tob 7,10: «Forste» → «Første» (ordlisten)",
+  "Tob 7,12: «bende» → «hende» (ordlisten)",
+  "Tob 7,20: «Glaede» → «Glæde» (ordlisten)",
+  "Tob 8,2: «Fifken» → «Fisken» (ordlisten)",
+  "Tob 8,13: «hyis» → «hvis» (ordlisten)",
+  "Tob 11,2: «Fifkens» → «Fiskens» (ordlisten)",
+  "Tob 11,8: «do» → «dø» (ordlisten)",
+  "Tob 11,11: «Bine» → «Øine» (ordlisten)",
+  "Tob 12,6: «Aere» → «Ære» (ordlisten)",
+  "Tob 12,13: «Doden» → «Døden» (ordlisten)",
+  "Tob 12,20: «forfaerdede» → «forfærdede» (ordlisten)",
+  "Tob 12,24: «fkriver» → «skriver» (ordlisten)",
+  "Tob 13,6: «fkal» → «skal» (ordlisten)",
+  "Tob 13,7: «Sjal» → «Sjæl» (ordlisten)",
+  "Tob 13,22: «Retfaerdiges» → «Retfærdiges» (ordlisten)",
+  "Tob 13,24: «fkulle» → «skulle» (ordlisten)",
+  "Tob 13,24: «fkulle» → «skulle» (ordlisten)",
+  "Tob 13,26: «stal» → «skal» (ordlisten)",
+  "Tob 14,14: «fkulle» → «skulle» (ordlisten)",
+  "Tob 14,15: «fkal» → «skal» (ordlisten)",
+  "Tob 14,26: «Wre» → «Ære» (ordlisten)",
+  "Tob 14,29: «dode» → «døde» (ordlisten)",
+  "Jdt 1,12: «Groendser» → «Grændser» (ordlisten)",
+  "Jdt 2,5: «stulle» → «skulle» (ordlisten)",
+  "Jdt 2,6: «fkaane» → «skaane» (ordlisten)",
+  "Jdt 4,1: «overste» → «øverste» (ordlisten)",
+  "Jdt 4,5: «ö» → «ø» (ordlisten)",
+  "Jdt 4,8: «strͤede» → «strøede» (ordlisten)",
+  "Jdt 5,4: «fkal» → «skal» (ordlisten)",
+  "Jdt 5,9: «fkulde» → «skulde» (ordlisten)",
+  "Jdt 5,13: «AEgyptens» → «Ægyptens» (ordlisten)",
+  "Jdt 5,21: «ö» → «ø» (ordlisten)",
+  "Jdt 6,1: «assyrifke» → «assyriske» (ordlisten)",
+  "Jdt 6,2: «fkulle» → «skulle» (ordlisten)",
+  "Jdt 6,4: «fkulle» → «skulle» (ordlisten)",
+  "Jdt 6,4: «fkulle» → «skulle» (ordlisten)",
+  "Jdt 6,5: «fkal» → «skal» (ordlisten)",
+  "Jdt 6,5: «fkal» → «skal» (ordlisten)",
+  "Jdt 6,6: «fkal» → «skal» (ordlisten)",
+  "Jdt 6,11: «Overster» → «Øverster» (ordlisten)",
+  "Jdt 6,12: «Aeldste» → «Ældste» (ordlisten)",
+  "Jdt 6,17: «Aeldste» → «Ældste» (ordlisten)",
+  "Jdt 7,7: «Krigsmaend» → «Krigsmænd» (ordlisten)",
+  "Jdt 7,9: «ikte» → «ikke» (ordlisten)",
+  "Jdt 7,10: «fkulle» → «skulle» (ordlisten)",
+  "Jdt 7,13: «Bverster» → «Øverster» (ordlisten)",
+  "Jdt 7,13: «Aeldste» → «Ældste» (ordlisten)",
+  "Jdt 7,16: «Traelle» → «Trælle» (ordlisten)",
+  "Jdt 7,19: «hyilke» → «hvilke» (ordlisten)",
+  "Jdt 8,9: «bleyne» → «blevne» (ordlisten)",
+  "Jdt 8,11: «ö» → «ø» (ordlisten)",
+  "Jdt 8,14: «stulle» → «skulle» (ordlisten)",
+  "Jdt 8,16: «soger» → «søger» (ordlisten)",
+  "Jdt 8,16: «Menneste» → «Menneske» (ordlisten)",
+  "Jdt 8,16: «Mennefkes» → «Menneskes» (ordlisten)",
+  "Jdt 8,20: «fkulle» → «skulle» (ordlisten)",
+  "Jdt 8,23: «provede» → «prøvede» (ordlisten)",
+  "Jdt 8,26: «fkal» → «skal» (ordlisten)",
+  "Jdt 8,29: «forste» → «første» (ordlisten)",
+  "Jdt 9,1: «Afke» → «Aske» (ordlisten)",
+  "Jdt 9,2: «Befkjoemmelse» → «Beskjæmmelse» (ordlisten)",
+  "Jdt 9,3: «fkal» → «skal» (ordlisten)",
+  "Jdt 9,4: «ö» → «ø» (ordlisten)",
+  "Jdt 9,5: «Fangenfkab» → «Fangenskab» (ordlisten)",
+  "Jdt 9,5: «elfkede» → «elskede» (ordlisten)",
+  "Jdt 9,7: «fkede» → «skede» (ordlisten)",
+  "Jdt 10,3: «baere» → «bære» (ordlisten)",
+  "Jdt 10,5: «Bine» → «Øine» (ordlisten)",
+  "Jdt 10,7: «Wldste» → «Ældste» (ordlisten)",
+  "Jdt 10,17: «fkulle» → «skulle» (ordlisten)",
+  "Jdt 11,1: «Menneste» → «Menneske» (ordlisten)",
+  "Jdt 11,2: «fkulde» → «skulde» (ordlisten)",
+  "Jdt 11,3: «loben» → «løben» (ordlisten)",
+  "Jdt 11,7: «Mennefker» → «Mennesker» (ordlisten)",
+  "Jdt 13,13: «Aeldste» → «Ældste» (ordlisten)",
+  "Jdt 13,14: «ganste» → «ganske» (ordlisten)",
+  "Jdt 13,19: «Haers» → «Hærs» (ordlisten)",
+  "Jdt 14,1: «Horer» → «Hører» (ordlisten)",
+  "Jdt 14,2: «fkal» → «skal» (ordlisten)",
+  "Jdt 14,2: «fkulle» → «skulle» (ordlisten)",
+  "Jdt 14,3: «fkulle» → «skulle» (ordlisten)",
+  "Jdt 14,16: «Klader» → «Klæder» (ordlisten)",
+  "Jdt 15,1: «fkeet» → «skeet» (ordlisten)",
+  "Jdt 15,16: «Wre» → «Ære» (ordlisten)",
+  "Jdt 16,18: «stulle» → «skulle» (ordlisten)",
+  "Jdt 16,18: «stulle» → «skulle» (ordlisten)",
+  "Jdt 16,19: «fkal» → «skal» (ordlisten)",
+  "Jdt 16,23: «hayde» → «havde» (ordlisten)",
+  "Jdt 16,29: «sorgede» → «sørgede» (ordlisten)",
+  "EstAdd 10,8: «Jodernes» → «Jødernes» (ordlisten)",
+  "EstAdd 10,14: «fkulle» → «skulle» (ordlisten)",
+  "EstAdd 12,6: «sogte» → «søgte» (ordlisten)",
+  "EstAdd 13,2: «Mennefker» → «Mennesker» (ordlisten)",
+  "EstAdd 13,7: «fkulle» → «skulle» (ordlisten)",
+  "EstAdd 13,14: «fkulde» → «skulde» (ordlisten)",
+  "EstAdd 13,14: «Wre» → «Ære» (ordlisten)",
+  "EstAdd 13,19: «Oine» → «Øine» (ordlisten)",
+  "EstAdd 14,7: «Haender» → «Hænder» (ordlisten)",
+  "EstAdd 14,11: «affkyr» → «afskyr» (ordlisten)",
+  "EstAdd 14,11: «affkyr» → «afskyr» (ordlisten)",
+  "EstAdd 14,12: «Rost» → «Røst» (ordlisten)",
+  "EstAdd 15,2: «Hie» → «Øie» (ordlisten)",
+  "EstAdd 15,4: «forfoerdelig» → «forfærdelig» (ordlisten)",
+  "EstAdd 15,5: «oploftede» → «opløftede» (ordlisten)",
+  "EstAdd 15,8: «foelles» → «fælles» (ordlisten)",
+  "EstAdd 16,1: «Bverster» → «Øverster» (ordlisten)",
+  "EstAdd 16,2: «Wresbevisninger» → «Æresbevisninger» (ordlisten)",
+  "EstAdd 16,5: «Bie» → «Øie» (ordlisten)",
+  "EstAdd 16,8: «Joder» → «Jøder» (ordlisten)",
+  "EstAdd 16,11: «fkulle» → «skulle» (ordlisten)",
+  "Wis 1,1: «Retfoerdighed» → «Retfærdighed» (ordlisten)",
+  "Wis 1,8: «fkjult» → «skjult» (ordlisten)",
+  "Wis 1,14: «fkabte» → «skabte» (ordlisten)",
+  "Wis 1,14: «Gayn» → «Gavn» (ordlisten)",
+  "Wis 1,14: «Herredomme» → «Herredømme» (ordlisten)",
+  "Wis 2,1: «Mennefkes» → «Menneskes» (ordlisten)",
+  "Wis 2,24: «hore» → «høre» (ordlisten)",
+  "Wis 3,1: «Retfeerdiges» → «Retfærdiges» (ordlisten)",
+  "Wis 3,2: «Bine» → «Øine» (ordlisten)",
+  "Wis 3,5: «fkal» → «skal» (ordlisten)",
+  "Wis 3,6: «provede» → «prøvede» (ordlisten)",
+  "Wis 3,7: «fkulle» → «skulle» (ordlisten)",
+  "Wis 4,1: «Mennester» → «Mennesker» (ordlisten)",
+  "Wis 4,3: «fkal» → «skal» (ordlisten)",
+  "Wis 4,7: «Hyile» → «Hvile» (ordlisten)",
+  "Wis 4,10: «elfket» → «elsket» (ordlisten)",
+  "Wis 4,17: «befluttet» → «besluttet» (ordlisten)",
+  "Wis 4,19: «fkulle» → «skulle» (ordlisten)",
+  "Wis 4,19: «fkulle» → «skulle» (ordlisten)",
+  "Wis 4,20: «fkulle» → «skulle» (ordlisten)",
+  "Wis 5,2: «forfoerdes» → «forfærdes» (ordlisten)",
+  "Wis 5,18: «fkal» → «skal» (ordlisten)",
+  "Wis 5,21: «fkal» → «skal» (ordlisten)",
+  "Wis 5,23: «stulle» → «skulle» (ordlisten)",
+  "Wis 6,1: «Groendser» → «Grændser» (ordlisten)",
+  "Wis 6,6: «fkal» → «skal» (ordlisten)",
+  "Wis 6,8: «sorger» → «sørger» (ordlisten)",
+  "Wis 6,10: «Herfkere» → «Herskere» (ordlisten)",
+  "Wis 6,11: «fkulle» → «skulle» (ordlisten)",
+  "Wis 6,12: «laenges» → «længes» (ordlisten)",
+  "Wis 6,13: «elfke» → «elske» (ordlisten)",
+  "Wis 6,15: «fkal» → «skal» (ordlisten)",
+  "Wis 6,19: «Kjoerlighed» → «Kjærlighed» (ordlisten)",
+  "Wis 6,22: «Herfkere» → «Herskere» (ordlisten)",
+  "Wis 6,27: «fkulle» → «skulle» (ordlisten)",
+  "Wis 6,27: «Gayn» → «Gavn» (ordlisten)",
+  "Wis 7,15: «Onske» → «Ønske» (ordlisten)",
+  "Wis 7,23: «trenger» → «trænger» (ordlisten)",
+  "Wis 8,7: «Mennefkene» → «Menneskene» (ordlisten)",
+  "Wis 8,9: «befluttede» → «besluttede» (ordlisten)",
+  "Wis 8,10: «Wre» → «Ære» (ordlisten)",
+  "Wis 8,13: «fkal» → «skal» (ordlisten)",
+  "Wis 9,6: «Mennefkenes» → «Menneskenes» (ordlisten)",
+  "Wis 9,9: «Hine» → «Øine» (ordlisten)",
+  "Wis 9,12: «stulle» → «skulle» (ordlisten)",
+  "Wis 10,1: «fkabt» → «skabt» (ordlisten)",
+  "Wis 10,4: «Retferdige» → «Retfærdige» (ordlisten)",
+  "Wis 10,8: «Daarfkab» → «Daarskab» (ordlisten)",
+  "Wis 10,17: «ö» → «ø» (ordlisten)",
+  "Wis 10,20: «Retferdige» → «Retfærdige» (ordlisten)",
+  "Wis 11,2: «Orken» → «Ørken» (ordlisten)",
+  "Wis 11,25: «elfker» → «elsker» (ordlisten)",
+  "Wis 11,26: «bvorledes» → «hvorledes» (ordlisten)",
+  "Wis 11,26: «fkulde» → «skulde» (ordlisten)",
+  "Wis 12,12: «uretfaerdige» → «uretfærdige» (ordlisten)",
+  "Wis 12,13: «fkulde» → «skulde» (ordlisten)",
+  "Wis 12,14: «Bine» → «Øine» (ordlisten)",
+  "Wis 13,1: «Kundstab» → «Kundskab» (ordlisten)",
+  "Wis 13,6: «maafke» → «maaske» (ordlisten)",
+  "Wis 13,13: «Mennefke» → «Menneske» (ordlisten)",
+  "Wis 14,5: «Mennefkene» → «Menneskene» (ordlisten)",
+  "Wis 14,8: «Tra» → «Træ» (ordlisten)",
+  "Wis 14,9: «Voerk» → «Værk» (ordlisten)",
+  "Wis 14,11: «Mennefkers» → «Menneskers» (ordlisten)",
+  "Wis 14,17: «Oine» → «Øine» (ordlisten)",
+  "Wis 14,18: «Aergjerrighed» → «Ærgjerrighed» (ordlisten)",
+  "Wis 15,7: «Moie» → «Møie» (ordlisten)",
+  "Wis 15,7: «fkal» → «skal» (ordlisten)",
+  "Wis 15,15: «Oren» → «Øren» (ordlisten)",
+  "Wis 15,18: «affkyeligste» → «afskyeligste» (ordlisten)",
+  "Wis 16,3: «fkulde» → «skulde» (ordlisten)",
+  "Wis 16,3: «uscedvanlig» → «usædvanlig» (ordlisten)",
+  "Wis 16,14: «Mennefke» → «Menneske» (ordlisten)",
+  "Wis 16,17: «Retföerdige» → «Retfærdige» (ordlisten)",
+  "Wis 17,14: «Soyn» → «Søvn» (ordlisten)",
+  "Wis 17,19: «sode» → «søde» (ordlisten)",
+  "Wis 18,2: «Fiendfkab» → «Fiendskab» (ordlisten)",
+  "Wis 18,4: «Born» → «Børn» (ordlisten)",
+  "Wis 18,5: «dreebe» → «dræbe» (ordlisten)",
+  "Wis 18,24: «üdskaarne» → «udskaarne» (ordlisten)",
+  "Wis 19,8: «hyilket» → «hvilket» (ordlisten)",
+  "Wis 19,10: «Udlaendighed» → «Udlændighed» (ordlisten)",
+  "Wis 19,16: «sogte» → «søgte» (ordlisten)",
+  "Wis 19,20: «Kjodet» → «Kjødet» (ordlisten)",
+  "Sir 1,8: «elfke» → «elske» (ordlisten)",
+  "Sir 1,9: «Wre» → «Ære» (ordlisten)",
+  "Sir 1,13: «Mennefkene» → «Menneskene» (ordlisten)",
+  "Sir 1,16: «Loegedom» → «Lægedom» (ordlisten)",
+  "Sir 1,16: «elfke» → «elske» (ordlisten)",
+  "Sir 1,17: «Wre» → «Ære» (ordlisten)",
+  "Sir 1,27: «Mennefkene» → «Menneskene» (ordlisten)",
+  "Sir 2,2: «staerk» → «stærk» (ordlisten)",
+  "Sir 2,9: «Glaede» → «Glæde» (ordlisten)",
+  "Sir 2,11: «mifkundelig» → «miskundelig» (ordlisten)",
+  "Sir 2,11: «Troengsels» → «Trængsels» (ordlisten)",
+  "Sir 2,16: «soge» → «søge» (ordlisten)",
+  "Sir 3,9: «Wre» → «Ære» (ordlisten)",
+  "Sir 3,14: «fkal» → «skal» (ordlisten)",
+  "Sir 3,16: «elfket» → «elsket» (ordlisten)",
+  "Sir 3,22: «Mennefkes» → «Menneskes» (ordlisten)",
+  "Sir 3,24: «Kundfkab» → «Kundskab» (ordlisten)",
+  "Sir 3,26: «Moie» → «Møie» (ordlisten)",
+  "Sir 3,26: «laeegger» → «lægger» (ordlisten)",
+  "Sir 4,1: «Bine» → «Øine» (ordlisten)",
+  "Sir 4,2: «ikte» → «ikke» (ordlisten)",
+  "Sir 4,5: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 4,8: «Ore» → «Øre» (ordlisten)",
+  "Sir 4,13: «elfker» → «elsker» (ordlisten)",
+  "Sir 4,15: «elfker» → «elsker» (ordlisten)",
+  "Sir 4,17: «setter» → «sætter» (ordlisten)",
+  "Sir 4,24: «AÄere» → «Ære» (ordlisten)",
+  "Sir 4,31: «fkal» → «skal» (ordlisten)",
+  "Sir 5,5: «laegger» → «lægger» (ordlisten)",
+  "Sir 5,14: «Neesten» → «Næsten» (ordlisten)",
+  "Sir 6,6: «fkaffer» → «skaffer» (ordlisten)",
+  "Sir 6,13: «Nod» → «Nød» (ordlisten)",
+  "Sir 6,17: «fkulle» → «skulle» (ordlisten)",
+  "Sir 6,28: «ganste» → «ganske» (ordlisten)",
+  "Sir 7,1: «Gjor» → «Gjør» (ordlisten)",
+  "Sir 7,4: «Herredomme» → «Herredømme» (ordlisten)",
+  "Sir 7,10: «ikte» → «ikke» (ordlisten)",
+  "Sir 7,21: «gjor» → «gjør» (ordlisten)",
+  "Sir 7,21: «Trofkab» → «Troskab» (ordlisten)",
+  "Sir 7,22: «Elfk» → «Elsk» (ordlisten)",
+  "Sir 7,30: «Wre» → «Ære» (ordlisten)",
+  "Sir 7,37: «fkal» → «skal» (ordlisten)",
+  "Sir 8,5: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 8,7: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 8,16: «voeͤr» → «vær» (ordlisten)",
+  "Sir 9,7: «Hine» → «Øine» (ordlisten)",
+  "Sir 9,8: «Oiet» → «Øiet» (ordlisten)",
+  "Sir 9,16: «fkal» → «skal» (ordlisten)",
+  "Sir 10,2: «Herfker» → «Hersker» (ordlisten)",
+  "Sir 10,3: «Wre» → «Ære» (ordlisten)",
+  "Sir 10,7: «Mennester» → «Mennesker» (ordlisten)",
+  "Sir 10,11: «Loeegen» → «Lægen» (ordlisten)",
+  "Sir 10,12: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 10,13: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 10,15: «ganfke» → «ganske» (ordlisten)",
+  "Sir 10,21: «Hyilken» → «Hvilken» (ordlisten)",
+  "Sir 10,21: «Sloegt» → «Slægt» (ordlisten)",
+  "Sir 10,27: «fkal» → «skal» (ordlisten)",
+  "Sir 10,31: «Voerd» → «Værd» (ordlisten)",
+  "Sir 10,32: «Sjael» → «Sjæl» (ordlisten)",
+  "Sir 11,5: «fkjulte» → «skjulte» (ordlisten)",
+  "Sir 11,7: «Maegtige» → «Mægtige» (ordlisten)",
+  "Sir 11,12: «ikte» → «ikke» (ordlisten)",
+  "Sir 11,20: «fkabte» → «skabte» (ordlisten)",
+  "Sir 11,36: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 12,6: «fkal» → «skal» (ordlisten)",
+  "Sir 12,7: «fkal» → «skal» (ordlisten)",
+  "Sir 12,13: «Ondfkab» → «Ondskab» (ordlisten)",
+  "Sir 13,14: «udforfke» → «udforske» (ordlisten)",
+  "Sir 13,15: «fkal» → «skal» (ordlisten)",
+  "Sir 13,18: «Elfk» → «Elsk» (ordlisten)",
+  "Sir 13,19: «elfker» → «elsker» (ordlisten)",
+  "Sir 13,30: «hyilken» → «hvilken» (ordlisten)",
+  "Sir 14,3: «fkal» → «skal» (ordlisten)",
+  "Sir 14,9: «Bie» → «Øie» (ordlisten)",
+  "Sir 14,10: «Oie» → «Øie» (ordlisten)",
+  "Sir 14,17: «fkal» → «skal» (ordlisten)",
+  "Sir 14,24: «soger» → «søger» (ordlisten)",
+  "Sir 15,5: «fkal» → «skal» (ordlisten)",
+  "Sir 15,6: «fkal» → «skal» (ordlisten)",
+  "Sir 15,6: «fkal» → «skal» (ordlisten)",
+  "Sir 15,7: «Mennefker» → «Mennesker» (ordlisten)",
+  "Sir 15,7: «fkulle» → «skulle» (ordlisten)",
+  "Sir 15,8: «fkulle» → «skulle» (ordlisten)",
+  "Sir 15,10: «fkal» → «skal» (ordlisten)",
+  "Sir 15,14: «Mennefket» → «Mennesket» (ordlisten)",
+  "Sir 15,17: «hyilket» → «hvilket» (ordlisten)",
+  "Sir 15,19: «Mennefkets» → «Menneskets» (ordlisten)",
+  "Sir 16,8: «Daarfkab» → «Daarskab» (ordlisten)",
+  "Sir 16,9: «affkyede» → «afskyede» (ordlisten)",
+  "Sir 16,15: «fkal» → «skal» (ordlisten)",
+  "Sir 16,17: «fkulde» → «skulde» (ordlisten)",
+  "Sir 16,18: «fkilt» → «skilt» (ordlisten)",
+  "Sir 16,21: «stulle» → «skulle» (ordlisten)",
+  "Sir 16,24: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 16,25: «Retfoerdigheds» → «Retfærdigheds» (ordlisten)",
+  "Sir 16,26: «betoenker» → «betænker» (ordlisten)",
+  "Sir 16,28: «Kundfkab» → «Kundskab» (ordlisten)",
+  "Sir 17,3: «fkabte» → «skabte» (ordlisten)",
+  "Sir 17,4: «Herredomme» → «Herredømme» (ordlisten)",
+  "Sir 17,10: «fkulle» → «skulle» (ordlisten)",
+  "Sir 17,11: «fkulde» → «skulde» (ordlisten)",
+  "Sir 17,15: «Oine» → «Øine» (ordlisten)",
+  "Sir 17,16: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 17,23: «fkal» → «skal» (ordlisten)",
+  "Sir 18,7: «udforfke» → «udforske» (ordlisten)",
+  "Sir 18,9: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 18,25: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 19,2: «Kyinder» → «Kvinder» (ordlisten)",
+  "Sir 19,14: «fkal» → «skal» (ordlisten)",
+  "Sir 19,22: «Klogfkab» → «Klogskab» (ordlisten)",
+  "Sir 19,26: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 20,1: «veͤre» → «være» (ordlisten)",
+  "Sir 20,10: «Wrens» → «Ærens» (ordlisten)",
+  "Sir 20,15: «Mennefker» → «Mennesker» (ordlisten)",
+  "Sir 20,24: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 20,27: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 20,29: «Bine» → «Øine» (ordlisten)",
+  "Sir 21,4: «Legedom» → «Lægedom» (ordlisten)",
+  "Sir 21,6: «Hre» → «Ære» (ordlisten)",
+  "Sir 21,13: «Klogfkab» → «Klogskab» (ordlisten)",
+  "Sir 21,15: «Kundfkab» → «Kundskab» (ordlisten)",
+  "Sir 21,24: «set» → «sæt» (ordlisten)",
+  "Sir 21,26: «ö» → «ø» (ordlisten)",
+  "Sir 22,1: «Enhyer» → «Enhver» (ordlisten)",
+  "Sir 22,18: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 22,20: «hyiler» → «hviler» (ordlisten)",
+  "Sir 22,22: «Biet» → «Øiet» (ordlisten)",
+  "Sir 23,3: «stulle» → «skulle» (ordlisten)",
+  "Sir 23,10: «fkal» → «skal» (ordlisten)",
+  "Sir 23,10: «Daarfkab» → «Daarskab» (ordlisten)",
+  "Sir 23,10: «fkulle» → «skulle» (ordlisten)",
+  "Sir 23,15: «fkal» → «skal» (ordlisten)",
+  "Sir 23,22: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 23,27: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 23,29: «Mennefkers» → «Menneskers» (ordlisten)",
+  "Sir 23,29: «Oine» → «Øine» (ordlisten)",
+  "Sir 23,29: «Bine» → «Øine» (ordlisten)",
+  "Sir 23,31: «fkal» → «skal» (ordlisten)",
+  "Sir 23,33: «veret» → «været» (ordlisten)",
+  "Sir 23,35: «fkulle» → «skulle» (ordlisten)",
+  "Sir 23,36: «fkal» → «skal» (ordlisten)",
+  "Sir 23,37: «fkulle» → «skulle» (ordlisten)",
+  "Sir 24,6: «Bolger» → «Bølger» (ordlisten)",
+  "Sir 24,7: «bvis» → «hvis» (ordlisten)",
+  "Sir 24,10: «fkal» → «skal» (ordlisten)",
+  "Sir 24,12: «Hyilested» → «Hvilested» (ordlisten)",
+  "Sir 25,2: «Mennefker» → «Mennesker» (ordlisten)",
+  "Sir 25,8: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 25,14: «Ondfkab» → «Ondskab» (ordlisten)",
+  "Sir 25,14: «Ondfkab» → «Ondskab» (ordlisten)",
+  "Sir 25,15: «Tilfkikkelse» → «Tilskikkelse» (ordlisten)",
+  "Sir 25,21: «ö» → «ø» (ordlisten)",
+  "Sir 26,7: «Kyinde» → «Kvinde» (ordlisten)",
+  "Sir 26,10: «fraekke» → «frække» (ordlisten)",
+  "Sir 26,12: «Oie» → «Øie» (ordlisten)",
+  "Sir 26,17: «Sjel» → «Sjæl» (ordlisten)",
+  "Sir 26,19: «ö» → «ø» (ordlisten)",
+  "Sir 26,34: «fkal» → «skal» (ordlisten)",
+  "Sir 27,1: «soger» → «søger» (ordlisten)",
+  "Sir 27,4: «Mennefkes» → «Menneskes» (ordlisten)",
+  "Sir 27,8: «fkal» → «skal» (ordlisten)",
+  "Sir 27,18: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 27,18: «Venfkab» → «Venskab» (ordlisten)",
+  "Sir 28,1: «heyner» → «hevner» (ordlisten)",
+  "Sir 28,3: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 28,4: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 28,18: «fkal» → «skal» (ordlisten)",
+  "Sir 28,26: «fkulle» → «skulle» (ordlisten)",
+  "Sir 28,27: «fkal» → «skal» (ordlisten)",
+  "Sir 28,30: «fkal» → «skal» (ordlisten)",
+  "Sir 29,3: «fkal» → «skal» (ordlisten)",
+  "Sir 29,10: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 30,5: «gledede» → «glædede» (ordlisten)",
+  "Sir 30,17: «Gleͤde» → «Glæde» (ordlisten)",
+  "Sir 30,24: «Elfk» → «Elsk» (ordlisten)",
+  "Sir 30,24: «trost» → «trøst» (ordlisten)",
+  "Sir 31,1: «Kjodet» → «Kjødet» (ordlisten)",
+  "Sir 31,24: «fkal» → «skal» (ordlisten)",
+  "Sir 31,26: «stal» → «skal» (ordlisten)",
+  "Sir 31,27: «Mennefkers» → «Menneskers» (ordlisten)",
+  "Sir 31,30: «prover» → «prøver» (ordlisten)",
+  "Sir 31,33: «Sjelens» → «Sjælens» (ordlisten)",
+  "Sir 31,35: «fkaffer» → «skaffer» (ordlisten)",
+  "Sir 32,2: «set» → «sæt» (ordlisten)",
+  "Sir 32,18: «Menneste» → «Menneske» (ordlisten)",
+  "Sir 32,22: «Anstod» → «Anstød» (ordlisten)",
+  "Sir 33,8: «forfkjellige» → «forskjellige» (ordlisten)",
+  "Sir 33,14: «fkal» → «skal» (ordlisten)",
+  "Sir 33,20: «Belcerelse» → «Belærelse» (ordlisten)",
+  "Sir 33,23: «stal» → «skal» (ordlisten)",
+  "Sir 33,25: «fkal» → «skal» (ordlisten)",
+  "Sir 33,26: «Wre» → «Ære» (ordlisten)",
+  "Sir 33,31: «stal» → «skal» (ordlisten)",
+  "Sir 34,18: «Binene» → «Øinene» (ordlisten)",
+  "Sir 34,24: «Moie» → «Møie» (ordlisten)",
+  "Sir 35,7: «Bie» → «Øie» (ordlisten)",
+  "Sir 35,9: «Bie» → «Øie» (ordlisten)",
+  "Sir 35,22: «Mennefkenes» → «Menneskenes» (ordlisten)",
+  "Sir 36,4: «loere» → «lære» (ordlisten)",
+  "Sir 36,8: «soger» → «søger» (ordlisten)",
+  "Sir 36,17: «fkulle» → «skulle» (ordlisten)",
+  "Sir 37,2: «Doden» → «Døden» (ordlisten)",
+  "Sir 37,6: «flaa» → «slaa» (ordlisten)",
+  "Sir 37,15: «soge» → «søge» (ordlisten)",
+  "Sir 37,18: «ö» → «ø» (ordlisten)",
+  "Sir 37,25: «ö» → «ø» (ordlisten)",
+  "Sir 38,5: «Mennefket» → «Mennesket» (ordlisten)",
+  "Sir 38,13: «fkulle» → «skulle» (ordlisten)",
+  "Sir 38,34: «Bren» → «Øren» (ordlisten)",
+  "Sir 38,44: «Retfeerdighed» → «Retfærdighed» (ordlisten)",
+  "Sir 38,45: «fkabte» → «skabte» (ordlisten)",
+  "Sir 39,5: «Mennefkene» → «Menneskene» (ordlisten)",
+  "Sir 39,12: «stulle» → «skulle» (ordlisten)",
+  "Sir 39,12: «fkal» → «skal» (ordlisten)",
+  "Sir 39,14: «fkulle» → «skulle» (ordlisten)",
+  "Sir 39,15: «Hyile» → «Hvile» (ordlisten)",
+  "Sir 39,19: «Wre» → «Ære» (ordlisten)",
+  "Sir 39,26: «Hine» → «Øine» (ordlisten)",
+  "Sir 39,30: «fkal» → «skal» (ordlisten)",
+  "Sir 39,38: «Fordeervelse» → «Fordærvelse» (ordlisten)",
+  "Sir 39,43: «Loysang» → «Lovsang» (ordlisten)",
+  "Sir 40,4: «Wrens» → «Ærens» (ordlisten)",
+  "Sir 40,14: «fkal» → «skal» (ordlisten)",
+  "Sir 40,16: «fkulle» → «skulle» (ordlisten)",
+  "Sir 40,21: «Nayn» → «Navn» (ordlisten)",
+  "Sir 40,26: «Traengsels» → «Trængsels» (ordlisten)",
+  "Sir 40,29: «soge» → «søge» (ordlisten)",
+  "Sir 41,9: «fkal» → «skal» (ordlisten)",
+  "Sir 41,13: «Fordoervelse» → «Fordærvelse» (ordlisten)",
+  "Sir 41,18: «stjult» → «skjult» (ordlisten)",
+  "Sir 41,19: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 41,19: «Daarfkab» → «Daarskab» (ordlisten)",
+  "Sir 41,19: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 42,2: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 42,18: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 42,23: «ö» → «ø» (ordlisten)",
+  "Sir 43,1: «fkinnende» → «skinnende» (ordlisten)",
+  "Sir 43,5: «Oinene» → «Øinene» (ordlisten)",
+  "Sir 43,11: «Skjoͤnhed» → «Skjønhed» (ordlisten)",
+  "Sir 43,18: «bleser» → «blæser» (ordlisten)",
+  "Sir 43,28: «Oren» → «Øren» (ordlisten)",
+  "Sir 44,15: «udflettes» → «udslettes» (ordlisten)",
+  "Sir 44,17: «fkal» → «skal» (ordlisten)",
+  "Sir 44,25: «stadfoestede» → «stadfæstede» (ordlisten)",
+  "Sir 44,26: «Saed» → «Sæd» (ordlisten)",
+  "Sir 45,1: «Oine» → «Øine» (ordlisten)",
+  "Sir 45,3: «Wre» → «Ære» (ordlisten)",
+  "Sir 45,6: «Trofkab» → «Troskab» (ordlisten)",
+  "Sir 45,19: «udfkaarne» → «udskaarne» (ordlisten)",
+  "Sir 45,23: «voeret» → «været» (ordlisten)",
+  "Sir 45,25: «Brendoffere» → «Brændoffere» (ordlisten)",
+  "Sir 45,33: «Orkenen» → «Ørkenen» (ordlisten)",
+  "Sir 45,37: «Wre» → «Ære» (ordlisten)",
+  "Sir 45,40: «ü» → «u» (ordlisten)",
+  "Sir 45,41: «Son» → «Søn» (ordlisten)",
+  "Sir 45,48: «ö» → «ø» (ordlisten)",
+  "Sir 46,24: «Trofkab» → «Troskab» (ordlisten)",
+  "Sir 46,25: «traeengte» → «trængte» (ordlisten)",
+  "Sir 46,29: «Mennefke» → «Menneske» (ordlisten)",
+  "Sir 47,2: «fkilt» → «skilt» (ordlisten)",
+  "Sir 47,11: «ganfke» → «ganske» (ordlisten)",
+  "Sir 47,12: «fkulde» → «skulde» (ordlisten)",
+  "Sir 47,22: «Oer» → «Ær» (ordlisten)",
+  "Sir 47,27: «Wre» → «Ære» (ordlisten)",
+  "Sir 48,4: «hyo» → «hvo» (ordlisten)",
+  "Sir 48,5: «Doden» → «Døden» (ordlisten)",
+  "Sir 49,9: «ö» → «ø» (ordlisten)",
+  "Sir 49,15: «fkulle» → «skulle» (ordlisten)",
+  "Sir 49,21: «Mennefkene» → «Menneskene» (ordlisten)",
+  "Sir 50,7: «praegtige» → «prægtige» (ordlisten)",
+  "Sir 50,39: «fke» → «ske» (ordlisten)",
+  "Sir 51,10: «Sjal» → «Sjæl» (ordlisten)",
+  "Sir 51,12: «Mennefkers» → «Menneskers» (ordlisten)",
+  "Sir 51,24: «Wre» → «Ære» (ordlisten)",
+  "Sir 51,25: «tilfkamme» → «tilskamme» (ordlisten)",
+  "Sir 51,27: «sorgede» → «sørgede» (ordlisten)",
+  "Sir 51,35: «Beleerelse» → «Belærelse» (ordlisten)",
+  "Sir 51,36: «Bine» → «Øine» (ordlisten)",
+  "Sir 51,39: «fkal» → «skal» (ordlisten)",
+  "Bar 1,3: «Oren» → «Øren» (ordlisten)",
+  "Bar 1,4: «Bren» → «Øren» (ordlisten)",
+  "Bar 1,12: «Bine» → «Øine» (ordlisten)",
+  "Bar 1,12: «fkulle» → «skulle» (ordlisten)",
+  "Bar 1,19: «hyilken» → «hvilken» (ordlisten)",
+  "Bar 1,20: «Faedre» → «Fædre» (ordlisten)",
+  "Bar 1,22: «Bine» → «Øine» (ordlisten)",
+  "Bar 2,9: «stulde» → «skulde» (ordlisten)",
+  "Bar 2,11: «Wgyptens» → «Ægyptens» (ordlisten)",
+  "Bar 2,16: «taenk» → «tænk» (ordlisten)",
+  "Bar 2,16: «Ore» → «Øre» (ordlisten)",
+  "Bar 2,17: «Wre» → «Ære» (ordlisten)",
+  "Bar 2,18: «Hine» → «Øine» (ordlisten)",
+  "Bar 2,18: «fkulle» → «skulle» (ordlisten)",
+  "Bar 2,18: «Wre» → «Ære» (ordlisten)",
+  "Bar 2,32: «fkulle» → «skulle» (ordlisten)",
+  "Bar 2,33: «fkulle» → «skulle» (ordlisten)",
+  "Bar 2,33: «fkulle» → «skulle» (ordlisten)",
+  "Bar 2,34: «fkulle» → «skulle» (ordlisten)",
+  "Bar 3,17: «Mennefkene» → «Menneskene» (ordlisten)",
+  "Bar 3,37: «Mennefkene» → «Menneskene» (ordlisten)",
+  "Bar 4,3: «Wre» → «Ære» (ordlisten)",
+  "Bar 4,12: «glaede» → «glæde» (ordlisten)",
+  "Bar 4,23: «Glaede» → «Glæde» (ordlisten)",
+  "Bar 4,24: «Naboerfker» → «Naboersker» (ordlisten)",
+  "Bar 4,29: «fkal» → «skal» (ordlisten)",
+  "Bar 4,35: «stal» → «skal» (ordlisten)",
+  "Bar 5,1: «Klaeedning» → «Klædning» (ordlisten)",
+  "Bar 5,6: «Aere» → «Ære» (ordlisten)",
+  "Bar 5,8: «hyert» → «hvert» (ordlisten)",
+  "Bar 5,8: «stulle» → «skulle» (ordlisten)",
+  "EpJer 1,2: «fkulle» → «skulle» (ordlisten)",
+  "EpJer 1,16: «Hine» → «Øine» (ordlisten)",
+  "EpJer 1,26: «tilfkamme» → «tilskamme» (ordlisten)",
+  "EpJer 1,29: «fkulle» → «skulle» (ordlisten)",
+  "EpJer 1,36: «Mennefke» → «Menneske» (ordlisten)",
+  "EpJer 1,38: «forsolvede» → «forsølvede» (ordlisten)",
+  "EpJer 1,38: «tilfkamme» → «tilskamme» (ordlisten)",
+  "EpJer 1,51: «stulde» → «skulde» (ordlisten)",
+  "EpJer 1,56: «Rovere» → «Røvere» (ordlisten)",
+  "EpJer 1,56: «forsolvede» → «forsølvede» (ordlisten)",
+  "EpJer 1,70: «Treꝛ» → «Træ» (ordlisten)",
+  "EpJer 1,72: «Menneste» → «Menneske» (ordlisten)",
+  "EpJer 1,72: «Beskjcemmelse» → «Beskjæmmelse» (ordlisten)",
+  "DanAdd 3,40: «fkulle» → «skulle» (ordlisten)",
+  "DanAdd 3,40: «tilfkamme» → «tilskamme» (ordlisten)",
+  "DanAdd 3,41: «ganfke» → «ganske» (ordlisten)",
+  "DanAdd 3,43: «Aere» → «Ære» (ordlisten)",
+  "DanAdd 3,70: «Morke» → «Mørke» (ordlisten)",
+  "DanAdd 3,89: «Mifkundhed» → «Miskundhed» (ordlisten)",
+  "DanAdd 13,4: «Joderne» → «Jøderne» (ordlisten)",
+  "DanAdd 13,5: «Aeldste» → «Ældste» (ordlisten)",
+  "DanAdd 13,5: «Aeldste» → «Ældste» (ordlisten)",
+  "DanAdd 13,9: «Bine» → «Øine» (ordlisten)",
+  "DanAdd 13,15: «fkede» → «skede» (ordlisten)",
+  "DanAdd 13,24: «Wldste» → «Ældste» (ordlisten)",
+  "DanAdd 13,27: «Aeldste» → «Ældste» (ordlisten)",
+  "DanAdd 13,36: «Aüeldste» → «Ældste» (ordlisten)",
+  "DanAdd 13,37: «stjult» → «skjult» (ordlisten)",
+  "DanAdd 13,41: «Äeldste» → «Ældste» (ordlisten)",
+  "DanAdd 13,55: «fkal» → «skal» (ordlisten)",
+  "DanAdd 13,62: «draebte» → «dræbte» (ordlisten)",
+  "DanAdd 14,4: «Hyorfor» → «Hvorfor» (ordlisten)",
+  "DanAdd 14,4: «fkabt» → «skabt» (ordlisten)",
+  "DanAdd 14,4: «Herredomme» → «Herredømme» (ordlisten)",
+  "DanAdd 14,13: «fkede» → «skede» (ordlisten)",
+  "DanAdd 14,13: «Afke» → «Aske» (ordlisten)",
+  "DanAdd 14,15: «ufkadte» → «uskadte» (ordlisten)",
+  "DanAdd 14,25: «fkal» → «skal» (ordlisten)",
+  "DanAdd 14,28: «Hyis» → «Hvis» (ordlisten)",
+  "PrMan 1,1: «Faedres» → «Fædres» (ordlisten)",
+  "PrMan 1,1: «retfaerdige» → «retfærdige» (ordlisten)",
+  "PrMan 1,3: «zen» → «gen» (ordlisten)",
+  "PrMan 1,6: «Mennefkene» → «Menneskene» (ordlisten)"
+ ],
+ "sammenslått_orddeling": [],
+ "fjernet": [
+  "side 6a: henvisning fjernet: «16 fg.»",
+  "side 6b: henvisning fjernet: «Dan. 1, 8.»",
+  "side 6b: henvisning fjernet: «3.»",
+  "side 7b: henvisning fjernet: «Am. 8, 10.»",
+  "side 7b: henvisning fjernet: «1 Makk. 1, 41.»",
+  "side 7b: henvisning fjernet: «10.»",
+  "side 8a: henvisning fjernet: «Pſ. 25, 7; 79, 8.»",
+  "side 8a: henvisning fjernet: «5 Moſ. 28, 37.»",
+  "side 8a: henvisning fjernet: «Præd. 12, 5.»",
+  "side 8b: henvisning fjernet: «1 Moſ. 44, 31.»",
+  "side 8b: henvisning fjernet: «Dan. 9, 20 fg.»",
+  "side 9a: henvisning fjernet: «36, 7⸗9.»",
+  "side 9a: henvisning fjernet: «14, 7 fg. 2 Moſ. 20, 12.»",
+  "side 9a: henvisning fjernet: «14, 19.»",
+  "side 9a: henvisning fjernet: «Luk. 6, 30. Sir. 4, 1.»",
+  "side 9b: henvisning fjernet: «1 Kor. 6, 18. 1 Thesſ. 4, 3.»",
+  "side 10a: henvisning fjernet: «1 Sam. 2, 7.»",
+  "side 10a: henvisning fjernet: «1, 12.»",
+  "side 10a: henvisning fjernet: «22.»",
+  "side 10a: henvisning fjernet: «3, 25.»",
+  "side 10b: henvisning fjernet: «1, 6 fg.»",
+  "side 11a: henvisning fjernet: «20 fg.»",
+  "side 11b: henvisning fjernet: «8, 2. 3.»",
+  "side 11b: innrykket linje uten tekst tatt bort: «11, 7. 1Uſg⸗»",
+  "side 11b: henvisning fjernet: «7.»",
+  "side 11b: innrykket linje uten tekst tatt bort: «3, % % 5.»",
+  "side 12a: henvisning fjernet: «8, 4.»",
+  "side 12a: henvisning fjernet: «1, 1 fg.»",
+  "side 12b: henvisning fjernet: «3, 9; 6, 15.»",
+  "side 12b: henvisning fjernet: «4 Moſ. 36, 7⸗9.»",
+  "side 13a: henvisning fjernet: «6, 9. 20.»",
+  "side 13a: henvisning fjernet: «Pſ. 148, 1 fg.»",
+  "side 13a: henvisning fjernet: «1 Moſ. 2, 7. 22. Ap. G. 17, 26.»",
+  "side 13a: henvisning fjernet: «1 Moſ. 2, 18.»",
+  "side 13a: henvisning fjernet: «14, 28.»",
+  "side 13b: henvisning fjernet: «6, 12. 15.»",
+  "side 13b: henvisning fjernet: «1, 14; 4, 29.»",
+  "side 13b: henvisning fjernet: «5, 3.»",
+  "side 14a: henvisning fjernet: «9, 4.»",
+  "side 14a: henvisning fjernet: «4.»",
+  "side 14a: henvisning fjernet: «5, 26.»",
+  "side 14a: henvisning fjernet: «1 Moſ. 37, 33 fg.»",
+  "side 14a: henvisning fjernet: «8, 23.»",
+  "side 14b: henvisning fjernet: «9. 20—»",
+  "side 15a: henvisning fjernet: «Pſ. 118, 18.»",
+  "side 15b: henvisning fjernet: «Iſ. 2, 2.»",
+  "side 15b: innrykket linje uten tekst tatt bort: «Ordſp. 16, S.»",
+  "side 15b: henvisning fjernet: «8.»",
+  "side 15b: henvisning fjernet: «2, 1fg.»",
+  "side 16a: henvisning fjernet: «Dom. 13, 20. 21.»",
+  "side 16b: henvisning fjernet: «Eſ. 61, 10.»",
+  "side 16b: henvisning fjernet: «1 Moſ. 12, 3; 27, 29.»",
+  "side 16b: henvisning fjernet: «Pf. 122, 6.»",
+  "side 16b: henvisning fjernet: «Pſ. 103, 1. 2. Luk. 1, 46 fg.»",
+  "side 17a: henvisning fjernet: «Jon. 3, 4.»",
+  "side 17a: henvisning fjernet: «Esr. 3, 12. Hag. 2, 3.»",
+  "side 17b: henvisning fjernet: «Zef. 2, 11. 1 Moſ. 35, 4.»",
+  "side 17b: henvisning fjernet: «26. 27; 4, 5.»",
+  "side 17b: henvisning fjernet: «Dan. 4, 27.»",
+  "side 17b: henvisning fjernet: «19.»",
+  "side 18a: henvisning fjernet: «9.»",
+  "side 18a: henvisning fjernet: «Gods. 8, 23.»",
+  "side 18a: innrykket linje uten tekst tatt bort: «1 it»",
+  "side 18a: kapitteloverskriften ikke lest; nytt kapittel Jdt 1, fjernet «Nabuchodonoſor, Asſyrernes Konge, ruſter / ſig til Krig mod Arfaxad, Konge i Medien, / ſom havde befæstet Ekbatana meget stærkt, 1⸗6. / Han opfordrer flere Folkeſlag og deriblandt / ogſaa Israels Folk til at komme ſig til Hjælp, / og da de ikke foͤlge denne Opfordring, truer / han dem med Hevn, 7⸗12. Han overvinder / Arfaxad, 13⸗16.»",
+  "side 19a: henvisning fjernet: «1, 12.»",
+  "side 20a: innrykket linje uten tekst tatt bort: «Donmi. 6, 9½ 7, 12.»",
+  "side 20a: innrykket linje uten tekst tatt bort: «. pi.»",
+  "side 20a: henvisning fjernet: «1012.»",
+  "side 20a: kapitteloverskriften ikke lest; nytt kapittel Jdt 3, fjernet «Og han rykkede ned paa Damaſks / Slette i Hvedehøstens Dage og afbrændte / alle deres Agre og ødelagde deres Hjorde / af ſmaat og ſtort Kvæg og plyndrede de— / res Stæder og hærjede deres Marker og / ſlog alle deres unge Karle med Svær- / dets Eg. Og Frygt og Reldsel for ham / faldt paa dem, ſom boede paa Kyſtlan⸗ / det, dem, ſom vare i Sidon og i Tyrus, / og dem, ſom boede i Sur og Okina, / og alle dem, ſom boede i Jemnaͤ'an; / og de, ſom boede i Asdod og Afkalon, / frygtede ham ſaare. / Kyſtlandets Folk underkaſte ſig Holofernes, / 1⸗9; dog ødelægger han deres Land, omhug⸗ / ger deres hellige Lunde og rykker frem hen⸗ / imod Judæas Grændser,»",
+  "side 20b: henvisning fjernet: «6, 3.»",
+  "side 21a: henvisning fjernet: «Jon. 3, 7 fg. Jak. 5, 16.»",
+  "side 21b: henvisning fjernet: «1 Moſ. 11,31.»",
+  "side 22a: henvisning fjernet: «2 Moſ. 1, 8 fg.»",
+  "side 22a: henvisning fjernet: «2 Moſ. 12, 31 fg. 14, 21 fg.»",
+  "side 22a: henvisning fjernet: «4 Moſ. 21, 25.»",
+  "side 22a: henvisning fjernet: «Joſ. 12,7 fg.»",
+  "side 23a: henvisning fjernet: «44, 5.»",
+  "side 23b: henvisning fjernet: «5, 4 fg. 6, 2 fg.»",
+  "side 23b: henvisning fjernet: «2 Kong. 19, 15. 16.»",
+  "side 23b: kapitteloverskriften ikke lest; nytt kapittel Jdt 7, fjernet «Kn üt sil, / Holofernes beleirer Betulua med en ſtor / Hær, 1⸗6, og bemægtiger ſig dets Vandkilder / for at tvinge det til Overgivelſe, 7⸗12. Sta⸗ / dens Indbyggere raabe forfærdede til Gud / og ville, at Ozias ſkal overgive Staden, 13⸗18. / Ozias opmuntrer dem til at holde ud i fem / Dage; hvis Gud ikke inden denne Tid hjierl- / per dem, vil han overgive Staden, 19⸗21.»",
+  "side 25a: kapitteloverskriften ikke lest; nytt kapittel Jdt 8, fjernet «3. Ra pit el. / Judith, en ſktign og gudfrygtig Enke i Be⸗ / tulna, hører om det Lofte, Ozias havde givet / Folket, at ville overgive Staden, hvis der ikke / kom Hjælp inden fem Dage, 110. Hun til⸗ / retteviſer ham og de andre Aeldste, formaner / dem til ikke at friſte Gud, men forlade ſig / paa ham og minder dem om, hvorledes Gud / havde prøvet Fædrene, 11⸗24. Ozias und⸗ / ſkylder ſig og opfordrer hende til at bede for / dem; hun lover at udføre en ſtor Gjerning / til Stadens Befrielſe, 25⸗30.»",
+  "side 25b: henvisning fjernet: «7, 19.»",
+  "side 25b: henvisning fjernet: «6, 11.»",
+  "side 25b: henvisning fjernet: «7, 20.»",
+  "side 26b: henvisning fjernet: «5.»",
+  "side 26b: henvisning fjernet: «4080. O.»",
+  "side 28a: henvisning fjernet: «8, 28.»",
+  "side 29b: henvisning fjernet: «7, 13.»",
+  "side 30a: henvisning fjernet: «10, 8. 15. 26.»",
+  "side 34b: henvisning fjernet: «10, 8. 15. 26.»",
+  "side 38b: henvisning fjernet: «Est. 5, 1.»",
+  "side 38b: henvisning fjernet: «Est. 5, 2.»",
+  "side 38b: henvisning fjernet: «13, 6.»",
+  "side 38b: innrykket linje uten tekst tatt bort: «16. HKoptel.»",
+  "side 39a: kapitteloverskriften ikke lest; nytt kapittel EstAdd 16, fjernet «Artaxerxes fkriver til alle Landfkabernes / Øverster og klager over, at Mange viſe ſig / hovmodige, utaknemmelige 2 ſvigfulde, naar / de ere komne til Gre, 1⸗5; isder klager han / over Haman og forbyder at udføre den forhen / givne Befaling imod Joderne, efterat Haman / nu er hængt, 6⸗10; han byder, at man ſkal / lade Jøderne i Fred og hjælpe dem mod / deres Fiender, ſamt at der ſkal høitidelig- / holdes en særegen Feſtdag i Anledning af / denne Begivenhed, 11⸗15. (Slutter ſig til / Est. 8, 13.)»",
+  "side 40a: henvisning fjernet: «Eſ. 56, 1. Sir. 1, 26.»",
+  "side 40a: henvisning fjernet: «Eſ. 59, 2.»",
+  "side 40a: henvisning fjernet: «Præd. 2, 26.»",
+  "side 40b: innrykket linje uten tekst tatt bort: «Pf. 94, 9.»",
+  "side 40b: henvisning fjernet: «Jal. 4, 11.»",
+  "side 40b: henvisning fjernet: «2, 23. Ezech. 18, 23; 33, 11.»",
+  "side 40b: kapitteloverskriften ikke lest; nytt kapittel Wis 2, fjernet «Vismanden ſtildrer, hvorledes de Ugude⸗ / lige, ſom ikke tro paa noget Liv efter dette, / tragte efter at tilbringe ſit korte Liv i ſand⸗ / ſelige Nydelſer, og hvorledes de hade og / forfølge de Gudfrygtige, ſom i Ord og Levnet / aflægge Vidnesbyrd mod deres Ugudelighed, / 1⸗20. Et ſaadant Sind have de, fordi de ere / aandelig forblindede, 21⸗24.»",
+  "side 41a: henvisning fjernet: «Hab. 1, 2 fg.»",
+  "side 41a: henvisning fjernet: «Pſ. 37, 37.»",
+  "side 41b: innrykket linje uten tekst tatt bort: «1 Moſ. 3, Ifg.»",
+  "side 42a: henvisning fjernet: «Sir. 2, 5.»",
+  "side 42a: henvisning fjernet: «4, 15.»",
+  "side 42a: henvisning fjernet: «Matth. 25, 41.»",
+  "side 42a: henvisning fjernet: «Sir. 41, 8.»",
+  "side 42a: henvisning fjernet: «Pſ. 37, 38.»",
+  "side 42b: henvisning fjernet: «2 Tim. 4, 7. 8. Aab. 2, 10.»",
+  "side 42b: henvisning fjernet: «Sir. 23, 35.»",
+  "side 42b: henvisning fjernet: «Cſ. 3, 2»",
+  "side 42b: henvisning fjernet: «1 Moſ. 5, 24.»",
+  "side 43a: henvisning fjernet: «10.»",
+  "side 43a: henvisning fjernet: «Eſ. 57, 1. Visd. 3, 9.»",
+  "side 43a: henvisning fjernet: «Pſ. 2, 4.»",
+  "side 43a: henvisning fjernet: «2 Thesſ. 1, 6. 7.»",
+  "side 43b: henvisning fjernet: «2, 5.»",
+  "side 44a: henvisning fjernet: «59, 17 fg. Visd. 16, 24. Sir. 39, 37 fg.»",
+  "side 44a: henvisning fjernet: «Pſ. 2, 1 ig.»",
+  "side 44a: henvisning fjernet: «Joh. 19, 11.»",
+  "side 44b: henvisning fjernet: «12, 188.»",
+  "side 44b: henvisning fjernet: «Jak. 1, 5.»",
+  "side 44b: henvisning fjernet: «14.»",
+  "side 44b: henvisning fjernet: «Ordſp. 4, 7.»",
+  "side 45a: henvisning fjernet: «Jak. 3, 14 fg.»",
+  "side 45a: henvisning fjernet: «Ordſp. 11, 14; 15, 22.»",
+  "side 45a: henvisning fjernet: «1.»",
+  "side 45a: kapitteloverskriften ikke lest; nytt kapittel Wis 7, fjernet «Vismanden, ſom er født og opfoſtret ſom / andre Menneſter, der alle have ſamme Ind⸗ / gang i Livet og ſamme Udgang, har bedet / om Visdom og faaet den, 1⸗21; dennes / herlige Egenſkaber og høie Værd ftildres / udførlig, 22⸗8,»",
+  "side 45b: henvisning fjernet: «1 Kong. 3, 9. 2 Krøn. 1, 10.»",
+  "side 45b: henvisning fjernet: «1 Kong. 4, 29.»",
+  "side 45b: henvisning fjernet: «1 Kong. 4, 33.»",
+  "side 46a: henvisning fjernet: «10.»",
+  "side 46b: henvisning fjernet: «9, 11.»",
+  "side 46b: henvisning fjernet: «2.»",
+  "side 46b: henvisning fjernet: «1 Kong. 3, 28.»",
+  "side 46b: henvisning fjernet: «8. 9. 21.»",
+  "side 47a: innrykket linje uten tekst tatt bort: «Ior. , .»",
+  "side 47b: henvisning fjernet: «1 Kong. 8, N.»",
+  "side 47b: henvisning fjernet: «8, 8.»",
+  "side 47b: henvisning fjernet: «Eſ. 40, 13.14. Rom. 11, 34.»",
+  "side 47b: henvisning fjernet: «Jer. 17, 9.»",
+  "side 47b: henvisning fjernet: «2 Kor. 5, 4.»",
+  "side 47b: henvisning fjernet: «13.»",
+  "side 48a: henvisning fjernet: «9, 2. 1 Moſ. 1, 26. 28.»",
+  "side 48a: henvisning fjernet: «1 Moſ. 7, 6.7.»",
+  "side 48a: henvisning fjernet: «1 Moſ. 11, 1 fg.»",
+  "side 48a: henvisning fjernet: «1 Moſ. 19, 15 fg. 2 Pet. 2, 7.»",
+  "side 48a: henvisning fjernet: «1 Moſ. 31, 41. 42.»",
+  "side 48b: innrykket linje uten tekst tatt bort: «Ap. Gj. 7,9. 10.»",
+  "side 48b: henvisning fjernet: «2 Moſ. 14, 29 fg. 1, 11 fg.»",
+  "side 48b: henvisning fjernet: «2 Moſ. Kap. 7 fg.»",
+  "side 48b: henvisning fjernet: «2 Moſ. 13, 21.22; 14, 20. Pſ. 78, 14.»",
+  "side 48b: henvisning fjernet: «2 Moſ. 14, 22. Pf. 77, 20; 78, 13.»",
+  "side 48b: henvisning fjernet: «2 Moſ. 15, 1 fg.»",
+  "side 48b: kapitteloverskriften ikke lest; nytt kapittel Wis 11, fjernet «»",
+  "side 48b: innrykket linje uten tekst tatt bort: «d. e. Moſes. Hoſ. 12, 14.»",
+  "side 48b: henvisning fjernet: «5 Moſ. 8, 15. Jer. 2, 6.»",
+  "side 48b: henvisning fjernet: «2 Moſ. 17, 8 fg.»",
+  "side 49a: henvisning fjernet: «2 Moſ. 2, 3;5, 2; 10, 11. 28; 11, 3.»",
+  "side 49a: henvisning fjernet: «12, 24; 15, 18. Rom. 1, 21fg.»",
+  "side 49a: henvisning fjernet: «16, 1.»",
+  "side 49b: henvisning fjernet: «1 Moſ. 1, 2 fg. 3 Moſ. 26, 22.»",
+  "side 49b: henvisning fjernet: «9.»",
+  "side 49b: henvisning fjernet: «Eſ. 40, 15.»",
+  "side 49b: henvisning fjernet: «Pſ. 145, 9.»",
+  "side 49b: henvisning fjernet: «4»",
+  "side 50a: innrykket linje uten tekst tatt bort: «Josv. 24, 12.»",
+  "side 50a: henvisning fjernet: «11, 18 fg.»",
+  "side 50b: henvisning fjernet: «Hebr. 6, 13. 17.»",
+  "side 51a: henvisning fjernet: «2 Moſ. 5, 2; 8, S. 19; 9, 27fg.»",
+  "side 51a: kapitteloverskriften ikke lest; nytt kapittel Wis 13, fjernet «Uden Undſtyldning ere de, ſom holde nogen / Skabning for Gud iſtedetfor at ſlutte fra / Skabningen til Skaberen, 1⸗9. Men endnu / mindre at undſkylde ere de, ſom holde et / Værk af Mennefkehænder for Gud, 10⸗19.»",
+  "side 51a: henvisning fjernet: «Rom. 1, 19⸗21.»",
+  "side 51a: henvisning fjernet: «5 Moſ. 4, 19.»",
+  "side 51b: henvisning fjernet: «Ap. G. 17, 29.»",
+  "side 51b: henvisning fjernet: «Eſ. 41, 7.»",
+  "side 51b: henvisning fjernet: «26. Ap. G. 17, 25.»",
+  "side 52a: henvisning fjernet: «Pf. 115, 4 fg.»",
+  "side 52a: henvisning fjernet: «Eſ. 46, 1. 2. Jer. 46, 25.»",
+  "side 52b: henvisning fjernet: «Eſ. 42, 8.»",
+  "side 52b: henvisning fjernet: «12, 4⸗6.»",
+  "side 53a: innrykket linje uten tekst tatt bort: «13 e.»",
+  "side 53a: kapitteloverskriften ikke lest; nytt kapittel Wis 15, fjernet «Mod ſit Folk viſer Gud ſtor Trofaſthed og / Barmhjertighed og bevarer det fra Afguderi, / 1⸗5. Daarlige og elendige ere de, ſom gjøre / og tjene Afguder og dyrke endog de afſtye⸗ / ligſte Dyr, 6⸗-19.»",
+  "side 53a: innrykket linje uten tekst tatt bort: «2 Moſ. 34, 6 fg. Pf. 103, Sfg.»",
+  "side 53a: henvisning fjernet: «1 Sam. 12, 22.»",
+  "side 53b: henvisning fjernet: «13, 10, 1, 16.»",
+  "side 53b: henvisning fjernet: «Eſ. 44,14 fg.»",
+  "side 53b: henvisning fjernet: «13, 10.»",
+  "side 53b: henvisning fjernet: «1 Moſ. 2, 7.»",
+  "side 54a: henvisning fjernet: «14. 8.»",
+  "side 54a: henvisning fjernet: «11, 16; 12, 24.»",
+  "side 54a: innrykket linje uten tekst tatt bort: «»gypterne. I1, 16. 17.»",
+  "side 54a: henvisning fjernet: «19, 11. 2 Moſ. 16, 13.»",
+  "side 54b: henvisning fjernet: «7.»",
+  "side 54b: henvisning fjernet: «Pſ. 107, 20.»",
+  "side 54b: henvisning fjernet: «0.»",
+  "side 55a: henvisning fjernet: «2 Moſ. 9, 24. 25.»",
+  "side 55a: henvisning fjernet: «V. 21.»",
+  "side 55b: henvisning fjernet: «Rom. 11, 33.»",
+  "side 56a: henvisning fjernet: «2 Moſ. 10, 21fg.»",
+  "side 56b: henvisning fjernet: «13, 21. Pf. 78,14: 105,39; 121,6.»",
+  "side 56b: henvisning fjernet: «2 Moſ. 12,3 fg. 28.»",
+  "side 56b: innrykket linje uten tekst tatt bort: «2 Moſ. 7, 12.13. 22.23. 4, 22.»",
+  "side 57a: henvisning fjernet: «4 Moſ. 16, 48.»",
+  "side 57b: innrykket linje uten tekst tatt bort: «2 Moſ. 14, 19.21.22.»",
+  "side 58a: henvisning fjernet: «1 Moſ. 19, 1 fg. 2 58 5.»",
+  "side 59a: henvisning fjernet: «Rom. 11, 34.»",
+  "side 59b: innrykket linje uten tekst tatt bort: «Ordſp. 3, 1.2 10,27.»",
+  "side 60a: henvisning fjernet: «1 Moſ. 39,9.»",
+  "side 60a: henvisning fjernet: «Visd. 1, 1.»",
+  "side 60b: henvisning fjernet: «2 Tim. ,12.»",
+  "side 60b: henvisning fjernet: «Ordſp. 17,3. Visd. 3, 6. 1 Pet. 1, 7.»",
+  "side 60b: henvisning fjernet: «Pſ. 37,5.»",
+  "side 60b: henvisning fjernet: «Ordſp. 28, 18.»",
+  "side 61a: henvisning fjernet: «2 Sam. 24, 14.»",
+  "side 61a: henvisning fjernet: «5 Moſ. 5, 16.»",
+  "side 61a: henvisning fjernet: «2 Moſ. 20, 12.»",
+  "side 61a: henvisning fjernet: «Ef. 6,2.»",
+  "side 61a: henvisning fjernet: «1 Moſ. 9, 22. 25.»",
+  "side 61a: henvisning fjernet: «4.»",
+  "side 61b: henvisning fjernet: «Jak. 4, 6. 1 Pet. 5, 5. Ordſp. 3, 34.»",
+  "side 61b: henvisning fjernet: «Matth. 11, 25.»",
+  "side 61b: henvisning fjernet: «1 Thesſ. 411.»",
+  "side 62a: henvisning fjernet: «2 Moſ. 22, 22.23.»",
+  "side 62a: innrykket linje uten tekst tatt bort: «Job , 1 „3% 8.»",
+  "side 62a: henvisning fjernet: «Ordſp. 3, 35.»",
+  "side 62b: henvisning fjernet: «Aab. 2, 10.»",
+  "side 63a: henvisning fjernet: «32, 22 fg.»",
+  "side 63a: henvisning fjernet: «18, 23.24.»",
+  "side 63a: henvisning fjernet: «Jak. 1,19.»",
+  "side 63a: henvisning fjernet: «Ordſp. 12,13.»",
+  "side 63b: henvisning fjernet: «37, 4. 5.»",
+  "side 64b: innrykket linje uten tekst tatt bort: «Joſv. 1, S. Pſ. 1, 2.»",
+  "side 65a: henvisning fjernet: «Matth. 6,7.»",
+  "side 65a: henvisning fjernet: «Ordſp. 31,10.»",
+  "side 65a: henvisning fjernet: «53, 34. 35.»",
+  "side 65a: henvisning fjernet: «3 Moſ. 19, 29.»",
+  "side 65b: henvisning fjernet: «5 Moſ. 14, 29; 15, 7. 8.»",
+  "side 66a: henvisning fjernet: «2 Kor. 2,6 fg. Gal. 6, I.»",
+  "side 66a: henvisning fjernet: «3 Moſ. 19, 32.»",
+  "side 66a: henvisning fjernet: «Ordſp. 22,24.»",
+  "side 66b: innrykket linje uten tekst tatt bort: «I Moſ. 34, 1. 2. Job 31, 1. Matth. 5, 28.»",
+  "side 66b: henvisning fjernet: «Ordſp. 7, 8.»",
+  "side 66b: henvisning fjernet: «Ordſp. 7, 26 fg.»",
+  "side 67a: henvisning fjernet: «Pſ. 37, 1fg.»",
+  "side 67a: henvisning fjernet: «Ordſp. 20, 8.»",
+  "side 67a: innrykket linje uten tekst tatt bort: «2 Kong. 21,9⸗11.»",
+  "side 67b: henvisning fjernet: «Pſ. 80, 9fg.»",
+  "side 67b: henvisning fjernet: «1 Moſ. 19,25.»",
+  "side 68a: henvisning fjernet: «Pſ. 9, 6.7.»",
+  "side 68a: henvisning fjernet: «19.»",
+  "side 68b: innrykket linje uten tekst tatt bort: «Ap. G. 12,2123.»",
+  "side 68b: henvisning fjernet: «Eſ. 47, 1.»",
+  "side 68b: henvisning fjernet: «Pſ. 127, 1. 2.»",
+  "side 69a: henvisning fjernet: «Pſ. 113, 7.»",
+  "side 69a: innrykket linje uten tekst tatt bort: «98 1„,½½.»",
+  "side 69b: henvisning fjernet: «Visd. 3, 12. 16 fg.»",
+  "side 69b: henvisning fjernet: «Vak. 3,5.»",
+  "side 69b: innrykket linje uten tekst tatt bort: «12. Kahnötef.»",
+  "side 69b: kapitteloverskriften ikke lest; nytt kapittel Sir 12, fjernet «Man ſkal gjøre vel alene mod de Gud⸗ / frygtige, 1⸗10. Hvorledes man kan lære ſin / Ven og ſin Fiende at kjende; denne bør man / ikke tro, 11⸗18. Man fſtal ikke have Sam⸗ / kvem med de Ugudelige; disſe hykle Ven⸗ / ſkab, men tænke kun paa at ſtyrte i For⸗ / dærvelse, 19⸗25.»",
+  "side 70a: innrykket linje uten tekst tatt bort: «Pf. 5,5fg.»",
+  "side 70a: henvisning fjernet: «2 Pet. 2, 9.»",
+  "side 70a: henvisning fjernet: «Ordſp. 19,4.»",
+  "side 70a: henvisning fjernet: «Ordſp. 26,24 fg.»",
+  "side 70a: henvisning fjernet: «Jer. 41, 6.»",
+  "side 70b: henvisning fjernet: «12, 25.»",
+  "side 71a: henvisning fjernet: «6, 14.»",
+  "side 71b: henvisning fjernet: «Præd. 9, 16.»",
+  "side 71b: henvisning fjernet: «Ordſp. 15, 13.»",
+  "side 71b: henvisning fjernet: «25, 9.0»",
+  "side 71b: henvisning fjernet: «1 Joh. 3, 21.»",
+  "side 71b: innrykket linje uten tekst tatt bort: «Prexd. 6, 2.»",
+  "side 71b: henvisning fjernet: «Ordſp. 27,20.»",
+  "side 72a: henvisning fjernet: «Ordſp. 3, 28. Tob. 4, 8.»",
+  "side 72a: henvisning fjernet: «Ordſp. 2, 2 fg.»",
+  "side 72b: henvisning fjernet: «Visd. 1, 4.»",
+  "side 72b: henvisning fjernet: «Pſ. 33,1; 50, 16.»",
+  "side 72b: henvisning fjernet: «Jak. 1,13.»",
+  "side 72b: henvisning fjernet: «Pſ. 5, 5.»",
+  "side 73a: henvisning fjernet: «5 Moſ. 30, 15.19.»",
+  "side 73a: innrykket linje uten tekst tatt bort: «23,29fg. Hebr. 4, 13.»",
+  "side 73a: henvisning fjernet: «1 Moſ. 6, 1 fg. Bar. 3, 26 fg.»",
+  "side 73b: henvisning fjernet: «4 Moſ. 11,21: 14,30.»",
+  "side 73b: henvisning fjernet: «Pſ. 9, 19.»",
+  "side 73b: henvisning fjernet: «14.»",
+  "side 73b: innrykket linje uten tekst tatt bort: «25, . Pſ. 10, A. 11.13.»",
+  "side 73b: henvisning fjernet: «Pſ. 104, 32.»",
+  "side 74a: henvisning fjernet: «1 Moſ. 1, 27. Visd. 2, 23.»",
+  "side 74a: henvisning fjernet: «1 Moſ. 9, 2. Visd. 9, 2.»",
+  "side 74a: henvisning fjernet: «Ordſp. 20, 12.»",
+  "side 74b: henvisning fjernet: «23, 29 39, 25. Jer. 10, 17.»",
+  "side 74b: henvisning fjernet: «5 Moſ. 32, 8. 9. 1 Sam. 8, 57.»",
+  "side 74b: henvisning fjernet: «2 Moſ. 4, 22.»",
+  "side 74b: henvisning fjernet: «Pſ. 90, S.»",
+  "side 75a: innrykket linje uten tekst tatt bort: «, .»",
+  "side 75a: henvisning fjernet: «Pſ. 103, 14 fg.»",
+  "side 75a: henvisning fjernet: «1 Moſ. 8, 21.»",
+  "side 75a: henvisning fjernet: «1 Moſ. 1,1.»",
+  "side 75a: henvisning fjernet: «Eſ. 40, 12.»",
+  "side 75b: henvisning fjernet: «42, 24.»",
+  "side 75b: henvisning fjernet: «Pſ. 106, 2.»",
+  "side 75b: henvisning fjernet: «Pſ. 40, 6; 139, 17fg.»",
+  "side 75b: henvisning fjernet: «6. 7.»",
+  "side 75b: innrykket linje uten tekst tatt bort: «PBi. 30, 10.»",
+  "side 75b: henvisning fjernet: «Pf. 90, A.»",
+  "side 75b: henvisning fjernet: «Luk. 13,7 fg. 2 Pet. 3, 9.»",
+  "side 75b: henvisning fjernet: «20, 13fg.»",
+  "side 76a: henvisning fjernet: «5, S.»",
+  "side 76a: henvisning fjernet: «28, 0.»",
+  "side 76a: henvisning fjernet: «12. 1 Pet. 2, 1I.»",
+  "side 76b: henvisning fjernet: «1 Kong. 11,4. Sir. 9,9.»",
+  "side 76b: henvisning fjernet: «2, I.»",
+  "side 77a: henvisning fjernet: «Wak. 3, 2.»",
+  "side 77b: henvisning fjernet: «Præd. 3,7.»",
+  "side 78a: henvisning fjernet: «4, 24.»",
+  "side 78a: henvisning fjernet: «7, 13.14.»",
+  "side 78a: henvisning fjernet: «Pſ. 5, 7. Aab. 21, 27.»",
+  "side 78b: kapitteloverskriften ikke lest; nytt kapittel Sir 21, fjernet «Man ftal ikke fremture i at ſynde, ikke / være haard og ſtolt, ikke foragte Tilrettevis⸗ / ning, ikke bygge Hus for fremmede Penge / eller have Samkvem med Ugudelige, 1⸗11. / Man ſtal frygte Herren og holde hans Lov, / deri beſtaar den ſande Visdom; Daarens og / den Viſes forfkjellige Væsen, 12⸗30.»",
+  "side 78b: henvisning fjernet: «10, 16.17.»",
+  "side 78b: innrykket linje uten tekst tatt bort: «Cſ. 1,31. Mal. 4,1.»",
+  "side 78b: henvisning fjernet: «Matth. 7, 13.»",
+  "side 79a: henvisning fjernet: «Præd. 7,6.»",
+  "side 79b: innrykket linje uten tekst tatt bort: «Ordſp. 17,21.25.»",
+  "side 79b: henvisning fjernet: «50, 10.»",
+  "side 80a: henvisning fjernet: «Ordſp. 27,3.»",
+  "side 80a: henvisning fjernet: «Matth. 7, 24. 25.»",
+  "side 80a: henvisning fjernet: «27, 21.»",
+  "side 80b: henvisning fjernet: «1 Moſ. 6,2.»",
+  "side 81a: innrykket linje uten tekst tatt bort: «17, 15.19.20; 39, 26.27. Ordſp. 15, 3.»",
+  "side 81b: henvisning fjernet: «Ap. Gj. 15, 18.»",
+  "side 81b: henvisning fjernet: «5, 27.»",
+  "side 82b: henvisning fjernet: «5 Moſ. 33,4.»",
+  "side 82b: henvisning fjernet: «Eſ. 43, 11.»",
+  "side 82b: innrykket linje uten tekst tatt bort: «Koven. 1 Moſ. 2, 11.»",
+  "side 82b: henvisning fjernet: «833, 20.»",
+  "side 83a: innrykket linje uten tekst tatt bort: «Pi. 18.„ I.»",
+  "side 83b: henvisning fjernet: «Ordſp. 21, 9. 19.»",
+  "side 83b: henvisning fjernet: «1 Moſ. 3,6. 1 Tim. 2, 14.»",
+  "side 84a: henvisning fjernet: «Eſ. 3, 16.»",
+  "side 84b: henvisning fjernet: «Ordſp. 5,8 fg. 31,3.»",
+  "side 85a: henvisning fjernet: «Ezech. 18,24.»",
+  "side 85b: henvisning fjernet: «Ordſp. 6, 12 fg. 10, 10.»",
+  "side 86a: henvisning fjernet: «Rom. 12, 19fg.»",
+  "side 86a: henvisning fjernet: «18, 26.»",
+  "side 87a: henvisning fjernet: «21.»",
+  "side 87a: henvisning fjernet: «5 Moſ. 15, 7fg.»",
+  "side 87a: henvisning fjernet: «Jak. 5,3.»",
+  "side 87b: henvisning fjernet: «Tob. 4, 11. Luk. 16,9.»",
+  "side 88b: henvisning fjernet: «Pſ. 115,5. 6.»",
+  "side 88b: innrykket linje uten tekst tatt bort: «Droſp. 15, 15.19 4, .»",
+  "side 89b: henvisning fjernet: «37, 34 fg.»",
+  "side 89b: henvisning fjernet: «Pf. 104, 15.»",
+  "side 90a: henvisning fjernet: «5 Moſ. 8, 10.»",
+  "side 90b: henvisning fjernet: «28, 30.»",
+  "side 91a: henvisning fjernet: «1 Moſ. 2,7.»",
+  "side 91a: henvisning fjernet: «24, 40.»",
+  "side 92a: henvisning fjernet: «Pſ. 112, 1.»",
+  "side 92a: henvisning fjernet: «Pſ. 33, 18; 34, 16.»",
+  "side 92a: henvisning fjernet: «Eſ. 4,6; 25,4.»",
+  "side 92a: henvisning fjernet: «Eſ. 66,3.»",
+  "side 92b: henvisning fjernet: «1 Moſ. 8,21.»",
+  "side 92b: henvisning fjernet: «4, 4. Hebr. 11, 4.»",
+  "side 93a: henvisning fjernet: «2 Moſ. 22, 22 fg.»",
+  "side 93b: henvisning fjernet: «Eſ. 47, 8. 10. Zef. 2, 15.»",
+  "side 93b: henvisning fjernet: «2 Moſ. 4, 22.»",
+  "side 93b: henvisning fjernet: «5 Moſ. 32, 6.»",
+  "side 94a: henvisning fjernet: «4 Moſ. 6, 24 fg.»",
+  "side 94a: innrykket linje uten tekst tatt bort: «6, Ifg.»",
+  "side 94b: henvisning fjernet: «Pf. 119, 63.»",
+  "side 95a: henvisning fjernet: «Matth. 15, 18. 19.»",
+  "side 95a: henvisning fjernet: «31, 18.19.»",
+  "side 95b: henvisning fjernet: «2 Moſ. 15, 25.»",
+  "side 95b: henvisning fjernet: «Eſ. 1, 16.»",
+  "side 95b: henvisning fjernet: «3 Moſ. 2, Ifg.»",
+  "side 96a: henvisning fjernet: «2 Sam. 12, 20fg.»",
+  "side 97a: henvisning fjernet: «44, 17.»",
+  "side 97a: henvisning fjernet: «Pſ. 1,3.»",
+  "side 97b: henvisning fjernet: «1, 31. Visd. 1, 14.»",
+  "side 97b: henvisning fjernet: «17, 15; 23, 29.»",
+  "side 97b: henvisning fjernet: «Pſ. 107, 34.»",
+  "side 97b: henvisning fjernet: «Visd. 16, 24.»",
+  "side 98a: henvisning fjernet: «Ver. 1,8.»",
+  "side 98a: henvisning fjernet: «21.»",
+  "side 98b: henvisning fjernet: «14.»",
+  "side 99a: innrykket linje uten tekst tatt bort: «29,15fg. Tob. 4, 11fg.»",
+  "side 99a: henvisning fjernet: «Pſ. 49, Sfg. 89,49.»",
+  "side 99b: henvisning fjernet: «Visd. 3, 12.»",
+  "side 99b: henvisning fjernet: «Visd. 3, 16.»",
+  "side 99b: henvisning fjernet: «Matth. 25, 18. 26 fg.»",
+  "side 100a: henvisning fjernet: «27, 16. 17. 21.»",
+  "side 100b: henvisning fjernet: «25, 22.»",
+  "side 100b: henvisning fjernet: «Pſ. 33,9.»",
+  "side 100b: henvisning fjernet: «1339, J. 2. Drodſp. 3, 21 15, 14. Jer. 1, . 10.»",
+  "side 100b: innrykket linje uten tekst tatt bort: «Pi. 139, 4.»",
+  "side 101a: henvisning fjernet: «Eſ. 40, 13 fg.»",
+  "side 101a: henvisning fjernet: «14.»",
+  "side 101a: innrykket linje uten tekst tatt bort: «1Moſ 1,14fg. Pſ. 19,5fg. 136,8.»",
+  "side 101b: henvisning fjernet: «Eſ. 40, 26.»",
+  "side 101b: henvisning fjernet: «1 Moſ. 9, 13.»",
+  "side 101b: innrykket linje uten tekst tatt bort: «Job 38, 22 fg. Pf. 148,S.»",
+  "side 101b: henvisning fjernet: «Pſ. 147, 16fg.»",
+  "side 101b: henvisning fjernet: «9.»",
+  "side 101b: henvisning fjernet: «Pſ. 107, 23 fg.»",
+  "side 102b: henvisning fjernet: «1 Moſ. 6, 9.»",
+  "side 102b: henvisning fjernet: «1 Moſ. 17,2 fg.»",
+  "side 102b: henvisning fjernet: «1 Moſ. 22, 16. 18.»",
+  "side 103a: henvisning fjernet: «15, 18. Pſ. 72,8. Sach. 9, 10. Rom. 4, 13.»",
+  "side 103a: henvisning fjernet: «1 Moſ. 26, 3fg.»",
+  "side 103a: henvisning fjernet: «1 Moſ. 27, 28 fg. 28, 3fg.»",
+  "side 103a: henvisning fjernet: «4 Moſ. 12,3.7.»",
+  "side 103a: henvisning fjernet: «2 Moſ. 4, 14; 28, 1.»",
+  "side 103b: henvisning fjernet: «2 Moſ. 28, 4. 33 fg.»",
+  "side 103b: henvisning fjernet: «2 Moſ. 28, 36.»",
+  "side 103b: henvisning fjernet: «Bar. 1, 11.»",
+  "side 103b: henvisning fjernet: «4 Moſ. 6, 23fg.»",
+  "side 104a: henvisning fjernet: «4 Moſ. 16, 31 fg.»",
+  "side 104b: innrykket linje uten tekst tatt bort: «Joſ. 10,I1.»",
+  "side 105a: henvisning fjernet: «49, 15.»",
+  "side 105a: henvisning fjernet: «1 Sam. 10, 1; 16, 13.»",
+  "side 105a: henvisning fjernet: «1 Sam. 3, 19.20.»",
+  "side 105a: henvisning fjernet: «1 Sam. 7, Nfg.»",
+  "side 105a: henvisning fjernet: «1 Sam. 12,3.»",
+  "side 105a: henvisning fjernet: «1 Sam. 28, 3 fg.»",
+  "side 105a: henvisning fjernet: «1 Sam. 17, 4. 48 fg.»",
+  "side 105b: henvisning fjernet: «1 Sam. 18, 7fg.»",
+  "side 105b: henvisning fjernet: «1 Kong. 4, 24. 25.»",
+  "side 105b: henvisning fjernet: «1 Kong. 5, 3fg. 6, Ifg.»",
+  "side 105b: innrykket linje uten tekst tatt bort: «IKong. 3, 12; 4, 29fg. 5, 12.»",
+  "side 106a: henvisning fjernet: «1 Kong. 10, 1. Matth. 12,42.»",
+  "side 106a: henvisning fjernet: «1 Kong. 10,27.»",
+  "side 106a: henvisning fjernet: «1 Kong. 11, 1.»",
+  "side 106a: henvisning fjernet: «1 Kong. 12, 16. 17. 20.»",
+  "side 106a: henvisning fjernet: «1 Kong. 12, 13 fg.»",
+  "side 106a: henvisning fjernet: «1 Kong. 12, 28fg.»",
+  "side 106a: henvisning fjernet: «2 Kong. 17,6. 18.»",
+  "side 106b: henvisning fjernet: «1 Kong. 17, 22.»",
+  "side 107a: innrykket linje uten tekst tatt bort: «2 Kong. 18,3fg. 2 Krøn. 29,2fg.»",
+  "side 107a: innrykket linje uten tekst tatt bort: «2 Kong. 20,9fg. 5fg.»",
+  "side 107a: henvisning fjernet: «Eſ. 40⸗66.»",
+  "side 107b: henvisning fjernet: «Ver. 1, 10.»",
+  "side 107b: henvisning fjernet: «Ezech. 1,4 fg.»",
+  "side 107b: henvisning fjernet: «2, 23»",
+  "side 108a: innrykket linje uten tekst tatt bort: «Nehem. 2, 17 fg. 3, 1 fg. 7, I fg.»",
+  "side 108a: innrykket linje uten tekst tatt bort: «TMoſ. 5, 24. Sir. 44, 18.»",
+  "side 108b: henvisning fjernet: «3 Moſ. 9, 22.»",
+  "side 109b: henvisning fjernet: «Pſ. 88, 4.»",
+  "side 110b: henvisning fjernet: «Gal. 6, 9.»",
+  "side 111a: innrykket linje uten tekst tatt bort: «ö e. ,.»",
+  "side 111b: henvisning fjernet: «5 Moſ. 28, 13. 43 fg.»",
+  "side 111b: henvisning fjernet: «4, 13.»",
+  "side 111b: henvisning fjernet: «Dan. 9, 13 fg.»",
+  "side 112a: henvisning fjernet: «Dan. 9, 15 fg.»",
+  "side 112a: henvisning fjernet: «1 Kong. 8, 47. Pſ. 106, 6.»",
+  "side 112a: henvisning fjernet: «5 Moſ. 28, 62. Jer. 42, 2.»",
+  "side 112a: henvisning fjernet: «5 Moſ. 26, 15.»",
+  "side 112a: henvisning fjernet: «Jer. 27, 11.»",
+  "side 112b: henvisning fjernet: «Jer. 8, 1.»",
+  "side 112b: henvisning fjernet: «Jer. 36,30.»",
+  "side 113a: henvisning fjernet: «Pſ. 102, 12.13.»",
+  "side 113a: henvisning fjernet: «Pſ. 88,4 fg. 143, 7.»",
+  "side 113b: henvisning fjernet: «1 Moſ. 6, 4.»",
+  "side 113b: henvisning fjernet: «5 Moſ. 30, 12.»",
+  "side 114a: henvisning fjernet: «23.»",
+  "side 114a: henvisning fjernet: «Pſ. 40, 26.»",
+  "side 114b: innrykket linje uten tekst tatt bort: «Begr. 1,1.»",
+  "side 114b: henvisning fjernet: «Eſ. 47, 6.»",
+  "side 115a: innrykket linje uten tekst tatt bort: «Ei. 13, 2L.»",
+  "side 115b: henvisning fjernet: «Eſ. 52, 1.»",
+  "side 115b: henvisning fjernet: «Eſ. 61, 10.»",
+  "side 115b: henvisning fjernet: «Eſ. 1, 26.»",
+  "side 115b: henvisning fjernet: «Eſ. 43,5 fg. 49, 18; 60, 4.»",
+  "side 115b: henvisning fjernet: «Eſ. 49, 22; 66, 20.»",
+  "side 115b: henvisning fjernet: «Eſ. 42, 16; 49, 11.»",
+  "side 115b: henvisning fjernet: «Eſ. 41, 19.»",
+  "side 115b: henvisning fjernet: «2 Moſ. 13, 21.»",
+  "side 116a: henvisning fjernet: «Eſ. 63, 9.»",
+  "side 116a: henvisning fjernet: «Pſ. 115, 4 fg.»",
+  "side 116b: henvisning fjernet: «Eſ. 46, 7.»",
+  "side 116b: henvisning fjernet: «Pſ. 97,7. Eſ. 42, 17.»",
+  "side 117a: henvisning fjernet: «3 Moſ. 21,5.»",
+  "side 117a: henvisning fjernet: «Dan. 2, 21.»",
+  "side 117b: henvisning fjernet: «Jer. 14, 22.»",
+  "side 119a: henvisning fjernet: «Pſ. 44, 24; 74, 19.»",
+  "side 119a: henvisning fjernet: «5 Moſ. 28, 62.»",
+  "side 119a: henvisning fjernet: «Pf. 74, 9. Hoſ. 3, 4.»",
+  "side 119a: henvisning fjernet: «Pf. 51, 19.»",
+  "side 119b: mellomtittel tatt bort: «De tre Mænds Sang.»",
+  "side 119b: henvisning fjernet: «Pſ. 148, 1 fg.»",
+  "side 120b: innrykket linje uten tekst tatt bort: «Pf. 118,1; 136, 1 fg.»",
+  "side 121a: henvisning fjernet: «Wer. 29, 28.»",
+  "side 121b: henvisning fjernet: «Sir. 23, 27 fg.»",
+  "side 121b: henvisning fjernet: «1 Moſ. 39, 9.»",
+  "side 122b: henvisning fjernet: «Ordſp. 5, 22.»",
+  "side 122b: henvisning fjernet: «2 Moſ. 23, 7.»",
+  "side 122b: henvisning fjernet: «Ezech. 16, 3.»",
+  "side 123b: henvisning fjernet: «Bar. 6, 27.»",
+  "side 124a: henvisning fjernet: «5 Moſ. 6, 13; 10, 20.»",
+  "side 124a: henvisning fjernet: «3»",
+  "side 124b: henvisning fjernet: «7»",
+  "side 124b: henvisning fjernet: «Dan. 6, 20 fg.»",
+  "side 188b: henvisning fjernet: «13.»",
+  "side 189b: henvisning fjernet: «2 Kron. 33, 12 fg.»",
+  "Tob 5,29: henvisning fjernet fra teksten: «11,5.»",
+  "Tob 12,17: henvisning fjernet fra teksten: «1,17 fg.»",
+  "Tob 12,19: henvisning fjernet fra teksten: «3,24.»",
+  "Jdt 7,2: henvisning fjernet fra teksten: «2,5.»",
+  "Wis 4,1: henvisning fjernet fra teksten: «112,0»",
+  "Wis 4,7: henvisning fjernet fra teksten: «3,1.»",
+  "Wis 7,13: henvisning fjernet fra teksten: «6,24.»",
+  "Wis 11,21: henvisning fjernet fra teksten: «2 Mos. 15, 8. 10.»",
+  "Wis 12,6: henvisning fjernet fra teksten: «14,8.»",
+  "Wis 19,2: henvisning fjernet fra teksten: «2Mos. 12,31-33; 14,5fg.»",
+  "Wis 19,15: henvisning fjernet fra teksten: «1 Mos. 45, 17. 18; 47, 5.»",
+  "Sir 3,5: henvisning fjernet fra teksten: «2Mos. 20,12.»",
+  "Sir 7,16: henvisning fjernet fra teksten: «2.8. 2,»",
+  "Sir 7,28: henvisning fjernet fra teksten: «3,7.»",
+  "Sir 10,27: henvisning fjernet fra teksten: «25, 11.»",
+  "Sir 11,30: henvisning fjernet fra teksten: «5,1.»",
+  "Sir 11,35: henvisning fjernet fra teksten: «41,8-10.»",
+  "Sir 12,25: henvisning fjernet fra teksten: «13,0.»",
+  "Sir 20,14: henvisning fjernet fra teksten: «18,203 41,29.»",
+  "Sir 25,28: henvisning fjernet fra teksten: «5Mos. 24,1.»",
+  "Sir 26,11: henvisning fjernet fra teksten: «7,25; 42,16.»",
+  "Sir 28,4: henvisning fjernet fra teksten: «Matth. 18,28fg.»",
+  "Sir 30,22: henvisning fjernet fra teksten: «38,21.»",
+  "Sir 30,25: henvisning fjernet fra teksten: «38,18»",
+  "Sir 34,16: henvisning fjernet fra teksten: «15,19.»",
+  "Sir 34,27: henvisning fjernet fra teksten: «2 Pet. 2,20fg.»",
+  "Sir 36,24: henvisning fjernet fra teksten: «1Mos.2, 18.20.»",
+  "Sir 39,23: henvisning fjernet fra teksten: «28.42.»",
+  "Sir 39,30: henvisning fjernet fra teksten: «1Mos. 19,24 fg.»",
+  "Sir 39,33: henvisning fjernet fra teksten: «20,25.»",
+  "Sir 40,11: henvisning fjernet fra teksten: «39,37.38.»",
+  "Sir 40,12: henvisning fjernet fra teksten: «1 MRoi. 6, 2. 13,»",
+  "Sir 40,22: henvisning fjernet fra teksten: «31,31fg.»",
+  "Sir 41,6: henvisning fjernet fra teksten: «38,23.»",
+  "Sir 41,18: henvisning fjernet fra teksten: «20,30fg.»",
+  "Sir 41,20: henvisning fjernet fra teksten: «4,24.»",
+  "Sir 41,25: henvisning fjernet fra teksten: «42,9.»",
+  "Sir 42,7: henvisning fjernet fra teksten: «30, 1 fg. 33,30fg.»",
+  "Sir 42,18: henvisning fjernet fra teksten: «9,8 fg.»",
+  "Sir 42,32: henvisning fjernet fra teksten: «39, 21; 43,37.»",
+  "Sir 44,17: henvisning fjernet fra teksten: «39,14.»",
+  "Sir 45,1: henvisning fjernet fra teksten: «2 Mos. 2,1fg. 11,3.»",
+  "Sir 45,12: henvisning fjernet fra teksten: «2 Mos. 28,2fg.»",
+  "Sir 47,2: henvisning fjernet fra teksten: «3 Mos. 3,3fg. 16fg.»",
+  "Sir 49,15: henvisning fjernet fra teksten: «4776.909.»",
+  "Sir 50,5: henvisning fjernet fra teksten: «3 Mos. 16,2 fg.»",
+  "EpJer 1,3: henvisning fjernet fra teksten: «Jer.10, 2fg.»",
+  "PrMan 1,6: henvisning fjernet fra teksten: «Pf. 103, 8 fg.»"
+ ],
+ "annet": [
+  "side 6a: innrykket linje tatt med som tekst: «aff Tobiel, Søn af Ananiel,»",
+  "side 8a: kapitteloverskrift lest som 35, ventet 3 (Tob 3)",
+  "side 12b: kapitteloverskrift lest som 85, ventet 8 (Tob 8)",
+  "side 15a: kapitteloverskrift lest som 42, ventet 12 (Tob 12)",
+  "side 17a: kapitteloverskrift lest som 124, ventet 14 (Tob 14)",
+  "side 18a: innrykket linje tatt med som tekst: «donoſors Regjering, ſom re—»",
+  "side 21a: innrykket linje tatt med som tekst: «ö Fienderne.»",
+  "side 22b: innrykket linje tatt med som tekst: «Hvo er vel Gud uden Nabucho⸗»",
+  "side 23b: innrykket linje tatt med som tekst: «Kn üt sil,»",
+  "side 25a: innrykket linje tatt med som tekst: «3. Ra pit el.»",
+  "side 28b: kapitteloverskrift lest som 44, ventet 11 (Jdt 11)",
+  "side 35b: «Kap. 11, 1» står ved EstAdd 10; lagt i kapittel 11",
+  "side 35b: innrykket linje tatt med som tekst: «til Agypten.»",
+  "side 36b: «Kap. 12, 7» står ved EstAdd 13; lagt i kapittel 12",
+  "side 40a: innrykket linje tatt med som tekst: «Dommere, tænker paa Herren»",
+  "side 40a: innrykket linje tatt med som tekst: «d. e. Aanden.»",
+  "side 40b: innrykket linje tatt med som tekst: «af Længsel efter den.»",
+  "side 40b: innrykket linje tatt med som tekst: «2.npit el.»",
+  "side 41b: kapitteloverskrift lest som 53, ventet 3 (Wis 3)",
+  "side 44a: kapitteloverskrift lest som 65, ventet 6 (Wis 6)",
+  "side 46a: «Kap. 8, 1» står ved Wis 7; lagt i kapittel 8",
+  "side 46a: kapitteloverskrift lest som 3, ventet 8 (Wis 8)",
+  "side 47b: kapitteloverskrift lest som 120, ventet 10 (Wis 10)",
+  "side 49a: innrykket linje tatt med som tekst: «Oehr. e, . T.»",
+  "side 49b: kapitteloverskrift lest som 1, ventet 12 (Wis 12)",
+  "side 52a: innrykket linje tatt med som tekst: «til et Afgudsbillede, Pf. 115, 4 fg.»",
+  "side 52b: innrykket linje tatt med som tekst: «ſom var afbildet.»",
+  "side 54a: kapitteloverskrift lest som 36, ventet 16 (Wis 16)",
+  "side 55a: kapitteloverskrift lest som 4, ventet 17 (Wis 17)",
+  "side 59a: kapitteloverskrift lest som 4, ventet 1 (Sir 1)",
+  "side 67b: innrykket linje tatt med som tekst: «J Herrens Haand er Magten over»",
+  "side 67b: innrykket linje tatt med som tekst: «JI Herrens Haand er en Mands»",
+  "side 68a: «Kap. 11, 1» står ved Sir 10; lagt i kapittel 11",
+  "side 68b: kapitteloverskrift lest som 14, ventet 11 (Sir 11)",
+  "side 74a: kapitteloverskrift lest som 4, ventet 17 (Sir 17)",
+  "side 77b: «Kap. 19, 31» står ved Sir 20; lagt i kapittel 19",
+  "side 80b: «Kap. 22, 32» står ved Sir 23; lagt i kapittel 22",
+  "side 85a: kapitteloverskrift lest som 2, ventet 27 (Sir 27)",
+  "side 85a: «Kap. 26, 35» står ved Sir 27; lagt i kapittel 26",
+  "side 85a: innrykket linje tatt med som tekst: «»nemlig fra det, ſom er Ret.»",
+  "side 85b: innrykket linje tatt med som tekst: «»den Svigefulde.»",
+  "side 86a: «Kap. 27, 31» står ved Sir 28; lagt i kapittel 27",
+  "side 90a: innrykket linje tatt med som tekst: «d. e. Gjæsterne.»",
+  "side 92a: innrykket linje tatt med som tekst: «d. e. mine Erfaringer.»",
+  "side 95a: innrykket linje tatt med som tekst: «nemlig af Hjertet. Matth. 15, 18. 19.»",
+  "side 95b: innrykket linje tatt med som tekst: «Og han har givet Menneſkene»",
+  "side 96b: «Kap. 38, 46» står ved Sir 39; lagt i kapittel 38",
+  "side 98b: innrykket linje tatt med som tekst: «»den Redelige, v. 14.»",
+  "side 99b: innrykket linje tatt med som tekst: «d. e. hvor langt det har været.»",
+  "side 100a: «Kap. 42, 1» står ved Sir 41; lagt i kapittel 42",
+  "side 100a: vers 42,2 står før kapitteloverskriften; lagt i kapittel 42",
+  "side 103a: kapitteloverskrift lest som 4, ventet 45 (Sir 45)",
+  "side 110a: kapitteloverskrift lest som 4, ventet 1 (Bar 1)",
+  "side 110a: innrykket linje tatt med som tekst: «ſom Baruch“, en Søn af»",
+  "side 114b: innrykket linje tatt med som tekst: «»Jeruſalem indfsres talende.»",
+  "side 118a: innrykket linje tatt med som tekst: «Luen, priſende Gud og lo—»",
+  "side 124a: innrykket linje tatt med som tekst: «Om Dragen i Babylon.»",
+  "Jdt 6: vers 3 ikke funnet",
+  "Sir 10: vers 4, 5 ikke funnet",
+  "Sir 38: vers 6 ikke funnet"
+ ],
+ "usikre_ord": {
+  "Tob 1,1": [
+   "Asiels"
+  ],
+  "Tob 1,2": [
+   "Kydios",
+   "Aser"
+  ],
+  "Tob 1,4": [
+   "op,Hhygget"
+  ],
+  "Tob 1,9": [
+   "Fædreneslaeegts"
+  ],
+  "Tob 1,13": [
+   "Yndest"
+  ],
+  "Tob 1,22": [
+   "Regnfkabsfører"
+  ],
+  "Tob 2,6": [
+   "grad"
+  ],
+  "Tob 2,7": [
+   "gaaget",
+   "groo"
+  ],
+  "Tob 2,21": [
+   "Barmhfertigheds"
+  ],
+  "Tob 3,2": [
+   "Barmhjertigged"
+  ],
+  "Tob 3,7": [
+   "ds"
+  ],
+  "Tob 3,12": [
+   "Dodsoriget"
+  ],
+  "Tob 3,22": [
+   "Vilie"
+  ],
+  "Tob 4,1": [
+   "ihun"
+  ],
+  "Tob 4,4": [
+   "üudstaaet"
+  ],
+  "Tob 4,6": [
+   "sonde"
+  ],
+  "Tob 4,8": [
+   "Barmhfjertighed",
+   "nidst",
+   "ikze"
+  ],
+  "Tob 4,9": [
+   "ev"
+  ],
+  "Tob 4,11": [
+   "gag"
+  ],
+  "Tob 4,15": [
+   "Sefd"
+  ],
+  "Tob 4,16": [
+   "elst"
+  ],
+  "Tob 4,17": [
+   "Thisi"
+  ],
+  "Tob 4,20": [
+   "sfkal"
+  ],
+  "Tob 4,22": [
+   "Drukkenfskab"
+  ],
+  "Tob 4,28": [
+   "udsflettes"
+  ],
+  "Tob 5,20": [
+   "visi",
+   "Feallesskab"
+  ],
+  "Tob 5,21": [
+   "adel"
+  ],
+  "Tob 5,22": [
+   "J"
+  ],
+  "Tob 5,25": [
+   "gredtog"
+  ],
+  "Tob 5,28": [
+   "J"
+  ],
+  "Tob 6,2": [
+   "Fist"
+  ],
+  "Tob 6,3": [
+   "opfluge"
+  ],
+  "Tob 6,5": [
+   "Fifsken"
+  ],
+  "Tob 6,6": [
+   "Skfer"
+  ],
+  "Tob 6,8": [
+   "Hoortil"
+  ],
+  "Tob 6,9": [
+   "Hfjertet",
+   "Djavel"
+  ],
+  "Tob 6,18": [
+   "Sleelgt"
+  ],
+  "Tob 6,20": [
+   "Hfjerte"
+  ],
+  "Tob 7,3": [
+   "J"
+  ],
+  "Tob 7,5": [
+   "J"
+  ],
+  "Tob 7,6": [
+   "frise"
+  ],
+  "Tob 7,11": [
+   "J",
+   "99770"
+  ],
+  "Tob 7,16": [
+   "sfkrev",
+   "Wgteskabsbrev"
+  ],
+  "Tob 7,20": [
+   "Værr",
+   "Værr"
+  ],
+  "Tob 8,1": [
+   "harde"
+  ],
+  "Tob 8,2": [
+   "Rogelsen"
+  ],
+  "Tob 8,3": [
+   "Asgypten"
+  ],
+  "Tob 8,7": [
+   "Slérgt"
+  ],
+  "Tob 8,8": [
+   "Mennestet"
+  ],
+  "Tob 8,11": [
+   "Uen"
+  ],
+  "Tob 8,19": [
+   "Barmphjertighed"
+  ],
+  "Tob 8,21": [
+   "fjiorten"
+  ],
+  "Tob 9,3": [
+   "sporet"
+  ],
+  "Tob 9,6": [
+   "Poserne"
+  ],
+  "Tob 10,2": [
+   "9j"
+  ],
+  "Tob 10,4": [
+   "Oines"
+  ],
+  "Tob 10,11": [
+   "Syvigerfader",
+   "fral"
+  ],
+  "Tob 10,13": [
+   "Kooeg"
+  ],
+  "Tob 10,14": [
+   "giore"
+  ],
+  "Tob 10,15": [
+   "Ur"
+  ],
+  "Tob 11,1": [
+   "à"
+  ],
+  "Tob 11,12": [
+   "affkalledes"
+  ],
+  "Tob 11,13": [
+   "grad"
+  ],
+  "Tob 11,19": [
+   "nærr"
+  ],
+  "Tob 12,2": [
+   "migz"
+  ],
+  "Tob 12,5": [
+   "J"
+  ],
+  "Tob 12,6": [
+   "bwad"
+  ],
+  "Tob 12,7": [
+   "Are"
+  ],
+  "Tob 12,23": [
+   "J"
+  ],
+  "Tob 13,6": [
+   "J"
+  ],
+  "Tob 13,7": [
+   "J"
+  ],
+  "Tob 13,8": [
+   "J",
+   "giere"
+  ],
+  "Tob 13,11": [
+   "J",
+   "gjosrer"
+  ],
+  "Tob 13,15": [
+   "010"
+  ],
+  "Tob 13,16": [
+   "5585"
+  ],
+  "Tob 13,21": [
+   "elste"
+  ],
+  "Tob 13,22": [
+   "Glad"
+  ],
+  "Tob 13,23": [
+   "sskulle"
+  ],
+  "Tob 13,27": [
+   "brolægges"
+  ],
+  "Tob 14,3": [
+   "Forlsb"
+  ],
+  "Tob 14,4": [
+   "Barmphfertighed"
+  ],
+  "Tob 14,5": [
+   "2332"
+  ],
+  "Tob 14,13": [
+   "sfkal"
+  ],
+  "Tob 14,17": [
+   "Thisi"
+  ],
+  "Tob 14,18": [
+   "Barmhfjertighed"
+  ],
+  "Tob 14,20": [
+   "gjengioeldte"
+  ],
+  "Tob 14,22": [
+   "Barmhfertighed"
+  ],
+  "Tob 14,26": [
+   "hand"
+  ],
+  "Tob 14,28": [
+   "CEkbatana"
+  ],
+  "Tob 14,29": [
+   "Ärre"
+  ],
+  "Tob 14,32": [
+   "L"
+  ],
+  "Jdt 1,1": [
+   "J"
+  ],
+  "Jdt 1,6": [
+   "Hydaspes"
+  ],
+  "Jdt 1,7": [
+   "Damast"
+  ],
+  "Jdt 1,8": [
+   "Ovre-Galilæa"
+  ],
+  "Jdt 1,10": [
+   "Agypten"
+  ],
+  "Jdt 1,12": [
+   "Landemeeker",
+   "Agypten",
+   "Haves"
+  ],
+  "Jdt 1,13": [
+   "Hærr"
+  ],
+  "Jdt 1,14": [
+   "bemerggtigede"
+  ],
+  "Jdt 2,3": [
+   "delægge"
+  ],
+  "Jdt 2,6": [
+   "gjre",
+   "sfkal",
+   "tvve"
+  ],
+  "Jdt 2,7": [
+   "Hærr"
+  ],
+  "Jdt 2,8": [
+   "Äsler",
+   "Muldesler"
+  ],
+  "Jdt 2,11": [
+   "sfjule"
+  ],
+  "Jdt 3,3": [
+   "gijør"
+  ],
+  "Jdt 3,5": [
+   "Stexder"
+  ],
+  "Jdt 3,12": [
+   "Dotaka",
+   "maafte"
+  ],
+  "Jdt 4,1": [
+   "haͤrde"
+  ],
+  "Jdt 4,2": [
+   "Fangenfskabet"
+  ],
+  "Jdt 4,5": [
+   "Upperstepræsten",
+   "snoever"
+  ],
+  "Jdt 4,6": [
+   "Oppersteprolsten"
+  ],
+  "Jdt 4,7": [
+   "kjsbt"
+  ],
+  "Jdt 4,12": [
+   "Opperstepræsten"
+  ],
+  "Jdt 5,3": [
+   "J"
+  ],
+  "Jdt 5,4": [
+   "borsi"
+  ],
+  "Jdt 5,11": [
+   "Sloergt"
+  ],
+  "Jdt 5,12": [
+   "Agyptens"
+  ],
+  "Jdt 5,14": [
+   "Agypterne"
+  ],
+  "Jdt 5,21": [
+   "Stolder"
+  ],
+  "Jdt 6,2": [
+   "J"
+  ],
+  "Jdt 6,3": [
+   "ødelkegge"
+  ],
+  "Jdt 6,5": [
+   "Mgypten",
+   "igien",
+   "Tienere",
+   "delagt"
+  ],
+  "Jdt 6,6": [
+   "nedslaͤaet"
+  ],
+  "Jdt 6,17": [
+   "hiem"
+  ],
+  "Jdt 7,1": [
+   "Biergegnen"
+  ],
+  "Jdt 7,7": [
+   "bemerggtigede"
+  ],
+  "Jdt 7,10": [
+   "undgicelde"
+  ],
+  "Jdt 7,13": [
+   "J"
+  ],
+  "Jdt 7,14": [
+   "Hjellper",
+   "Heennder"
+  ],
+  "Jdt 7,20": [
+   "hvyis"
+  ],
+  "Jdt 8,1": [
+   "Orxr"
+  ],
+  "Jdt 8,2": [
+   "Fedreneslægt"
+  ],
+  "Jdt 8,6": [
+   "For-Nymaaneder"
+  ],
+  "Jdt 8,11": [
+   "Ubpldste"
+  ],
+  "Jdt 8,12": [
+   "J",
+   "Byerster",
+   "J",
+   "J",
+   "J",
+   "J"
+  ],
+  "Jdt 8,13": [
+   "J"
+  ],
+  "Jdt 8,14": [
+   "J",
+   "J",
+   "J",
+   "J",
+   "udgranfke",
+   "stijønne"
+  ],
+  "Jdt 8,15": [
+   "bestytte"
+  ],
+  "Jdt 8,19": [
+   "Sværdd"
+  ],
+  "Jdt 8,20": [
+   "Fangenstab"
+  ],
+  "Jdt 8,24": [
+   "udforfske"
+  ],
+  "Jdt 8,25": [
+   "giore"
+  ],
+  "Jdt 8,26": [
+   "vansmeggte"
+  ],
+  "Jdt 8,28": [
+   "JI",
+   "J",
+   "J"
+  ],
+  "Jdt 8,29": [
+   "JI",
+   "kkulle",
+   "giore"
+  ],
+  "Jdt 9,2": [
+   "haͤvde"
+  ],
+  "Jdt 9,3": [
+   "giorde"
+  ],
+  "Jdt 9,6": [
+   "Nidkfoerhed"
+  ],
+  "Jdt 9,12": [
+   "Koindes"
+  ],
+  "Jdt 10,6": [
+   "Læderflafke"
+  ],
+  "Jdt 10,8": [
+   "omfkiftet"
+  ],
+  "Jdt 10,9": [
+   "Abre"
+  ],
+  "Jdt 10,10": [
+   "J"
+  ],
+  "Jdt 11,3": [
+   "J"
+  ],
+  "Jdt 11,5": [
+   "forkonde"
+  ],
+  "Jdt 11,11": [
+   "Slengt"
+  ],
+  "Jdt 11,14": [
+   "befsluttet",
+   "Kvefg"
+  ],
+  "Jdt 11,18": [
+   "sfkal"
+  ],
+  "Jdt 12,4": [
+   "Tienerinde",
+   "gior"
+  ],
+  "Jdt 12,11": [
+   "Bestillingsmennd",
+   "hebraifske"
+  ],
+  "Jdt 12,15": [
+   "sfkynde",
+   "gisre"
+  ],
+  "Jdt 12,17": [
+   "Koindestads",
+   "faaget",
+   "laͤgde"
+  ],
+  "Jdt 12,18": [
+   "selb"
+  ],
+  "Jdt 13,5": [
+   "hvyverken"
+  ],
+  "Jdt 13,10": [
+   "Madpose"
+  ],
+  "Jdt 14,2": [
+   "J",
+   "J",
+   "J"
+  ],
+  "Jdt 14,5": [
+   "J"
+  ],
+  "Jdt 14,6": [
+   "J"
+  ],
+  "Jdt 14,14": [
+   "Ve)k"
+  ],
+  "Jdt 14,16": [
+   "stjød"
+  ],
+  "Jdt 14,17": [
+   "trolsst"
+  ],
+  "Jdt 14,18": [
+   "Sjdeel"
+  ],
+  "Jdt 15,1": [
+   "Baven"
+  ],
+  "Jdt 15,4": [
+   "tilintetgjre"
+  ],
+  "Jdt 15,7": [
+   "Galiléæa",
+   "overflsiede",
+   "tilfsiede",
+   "Damast"
+  ],
+  "Jdt 15,8": [
+   "Oyrige"
+  ],
+  "Jdt 15,10": [
+   "Uppersteproesten"
+  ],
+  "Jdt 15,12": [
+   "Slolgts"
+  ],
+  "Jdt 15,15": [
+   "Sølotøi",
+   "Bohave"
+  ],
+  "Jdt 16,6": [
+   "ihjelslaga"
+  ],
+  "Jdt 16,7": [
+   "Almagtige",
+   "giorde"
+  ],
+  "Jdt 16,8": [
+   "Kicemper"
+  ],
+  "Jdt 16,9": [
+   "Betraengte"
+  ],
+  "Jdt 16,10": [
+   "besnaeere"
+  ],
+  "Jdt 16,14": [
+   "Kvinde--Sønner",
+   "giennemborede",
+   "S8"
+  ],
+  "EstAdd 10,5": [
+   "gagen",
+   "uopfyldt"
+  ],
+  "EstAdd 11,1": [
+   "J",
+   "Purim",
+   "Agypten"
+  ],
+  "EstAdd 11,2": [
+   "J",
+   "Artaxerxes's",
+   "jodinj"
+  ],
+  "EstAdd 11,9": [
+   "opflugte"
+  ],
+  "EstAdd 11,10": [
+   "forstaͤa"
+  ],
+  "EstAdd 12,5": [
+   "haͤvde"
+  ],
+  "EstAdd 12,6": [
+   "giore"
+  ],
+  "EstAdd 13,1": [
+   "Athiopien"
+  ],
+  "EstAdd 13,2": [
+   "onskes"
+  ],
+  "EstAdd 13,3": [
+   "Raaͤdgivere",
+   "kil",
+   "1.0"
+  ],
+  "EstAdd 13,4": [
+   "Modfcetning",
+   "bestaati"
+  ],
+  "EstAdd 13,5": [
+   "Modscetning",
+   "forffjelligt",
+   "Regjiering",
+   "stjændigste"
+  ],
+  "EstAdd 13,6": [
+   "bestikket",
+   "sdelægges"
+  ],
+  "EstAdd 13,12": [
+   "Argjerrighed",
+   "giort"
+  ],
+  "EstAdd 13,14": [
+   "Ure"
+  ],
+  "EstAdd 13,15": [
+   "jes"
+  ],
+  "EstAdd 13,17": [
+   "selb",
+   "Agyptens"
+  ],
+  "EstAdd 14,2": [
+   "Aste",
+   "speergede",
+   "Glædes--Smykker"
+  ],
+  "EstAdd 14,4": [
+   "Hicelper"
+  ],
+  "EstAdd 14,7": [
+   "stoppe",
+   "Are"
+  ],
+  "EstAdd 14,8": [
+   "Seepter",
+   "gior"
+  ],
+  "EstAdd 14,9": [
+   "Trehngsels",
+   "Løvens",
+   "Ligesindedes"
+  ],
+  "EstAdd 14,10": [
+   "hjæly",
+   "Hjælyer"
+  ],
+  "EstAdd 15,1": [
+   "Pragtkloedning"
+  ],
+  "EstAdd 15,9": [
+   "Guldspiret"
+  ],
+  "EstAdd 15,14": [
+   "Tjenerfkab"
+  ],
+  "EstAdd 16,1": [
+   "Artaxerres",
+   "Ästhiopien"
+  ],
+  "EstAdd 16,2": [
+   "tilfsie"
+  ],
+  "EstAdd 16,4": [
+   "ubodelige"
+  ],
+  "EstAdd 16,5": [
+   "J",
+   "J"
+  ],
+  "EstAdd 16,6": [
+   "giestfrit",
+   "Menneskekserlighed",
+   "kille"
+  ],
+  "EstAdd 16,8": [
+   "haieste"
+  ],
+  "EstAdd 16,9": [
+   "J",
+   "giore"
+  ],
+  "EstAdd 16,11": [
+   "J"
+  ],
+  "EstAdd 16,14": [
+   "J"
+  ],
+  "EstAdd 16,15": [
+   "utilgfeengeligt",
+   "Affky"
+  ],
+  "Wis 1,1": [
+   "Elsker",
+   "J",
+   "Retfkaffenhed"
+  ],
+  "Wis 1,10": [
+   "sfjult"
+  ],
+  "Wis 1,16": [
+   "2.npit"
+  ],
+  "Wis 2,3": [
+   "udflukt"
+  ],
+  "Wis 2,5": [
+   "beseglet"
+  ],
+  "Wis 2,7": [
+   "fyͤlde"
+  ],
+  "Wis 2,16": [
+   "Udstud"
+  ],
+  "Wis 2,20": [
+   "fordomme"
+  ],
+  "Wis 2,22": [
+   "ALrespris"
+  ],
+  "Wis 2,24": [
+   "Djavelens"
+  ],
+  "Wis 3,1": [
+   "ereni",
+   "sfkal"
+  ],
+  "Wis 3,4": [
+   "Mennesters"
+  ],
+  "Wis 3,8": [
+   "herste",
+   "fral"
+  ],
+  "Wis 3,9": [
+   "Besogelse"
+  ],
+  "Wis 3,16": [
+   "Sesd"
+  ],
+  "Wis 3,17": [
+   "Are"
+  ],
+  "Wis 3,18": [
+   "Afgjerelsens"
+  ],
+  "Wis 4,2": [
+   "bestaͤaet"
+  ],
+  "Wis 4,3": [
+   "styde"
+  ],
+  "Wis 4,4": [
+   "opn"
+  ],
+  "Wis 4,5": [
+   "Kyiste"
+  ],
+  "Wis 4,8": [
+   "Thisen",
+   "herderlig"
+  ],
+  "Wis 4,16": [
+   "fordommer"
+  ],
+  "Wis 4,19": [
+   "maallsse",
+   "Yderste",
+   "fral"
+  ],
+  "Wis 5,2": [
+   "gruͤelig"
+  ],
+  "Wis 5,3": [
+   "frulle"
+  ],
+  "Wis 5,7": [
+   "giennem"
+  ],
+  "Wis 5,9": [
+   "Budfkab"
+  ],
+  "Wis 5,13": [
+   "gjennemfkaarne"
+  ],
+  "Wis 5,15": [
+   "Rogsaf",
+   "Gjest"
+  ],
+  "Wis 5,17": [
+   "stjønne",
+   "bestjerme"
+  ],
+  "Wis 5,18": [
+   "Nidkferhed",
+   "giere",
+   "Cs"
+  ],
+  "Wis 5,19": [
+   "paasdeette",
+   "Hfjelm"
+  ],
+  "Wis 5,23": [
+   "sfkal"
+  ],
+  "Wis 5,25": [
+   "fral"
+  ],
+  "Wis 6,1": [
+   "J"
+  ],
+  "Wis 6,2": [
+   "herste"
+  ],
+  "Wis 6,4": [
+   "J",
+   "J"
+  ],
+  "Wis 6,5": [
+   "J"
+  ],
+  "Wis 6,10": [
+   "J",
+   "J"
+  ],
+  "Wis 6,12": [
+   "frulle",
+   "J"
+  ],
+  "Wis 6,19": [
+   "Stadfsestelse"
+  ],
+  "Wis 6,22": [
+   "J",
+   "J",
+   "ÄArre",
+   "J"
+  ],
+  "Wis 6,24": [
+   "7,(10"
+  ],
+  "Wis 6,27": [
+   "J"
+  ],
+  "Wis 7,1": [
+   "Wtling"
+  ],
+  "Wis 7,4": [
+   "J"
+  ],
+  "Wis 7,11": [
+   "Hernnder"
+  ],
+  "Wis 7,14": [
+   "uundtømmelig",
+   "Belckrelse"
+  ],
+  "Wis 7,16": [
+   "si"
+  ],
+  "Wis 7,19": [
+   "Omfkiftelser"
+  ],
+  "Wis 7,20": [
+   "Krafter"
+  ],
+  "Wis 7,23": [
+   "mennefskekjærlig"
+  ],
+  "Wis 7,24": [
+   "bevageligere"
+  ],
+  "Wis 7,29": [
+   "Luyset"
+  ],
+  "Wis 8,2": [
+   "elstede"
+  ],
+  "Wis 8,5": [
+   "onskelig"
+  ],
+  "Wis 8,8": [
+   "Lssning"
+  ],
+  "Wis 8,12": [
+   "stule",
+   "dez",
+   "veute"
+  ],
+  "Wis 8,16": [
+   "Gleade"
+  ],
+  "Wis 8,18": [
+   "adel"
+  ],
+  "Wis 9,3": [
+   "Retfærdighhed"
+  ],
+  "Wis 10,2": [
+   "herste"
+  ],
+  "Wis 10,3": [
+   "brodermorderfke"
+  ],
+  "Wis 10,4": [
+   "oversvommet"
+  ],
+  "Wis 10,5": [
+   "bevegedes"
+  ],
+  "Wis 10,7": [
+   "Traeer",
+   "Saltststte"
+  ],
+  "Wis 10,8": [
+   "erkjsendte"
+  ],
+  "Wis 10,14": [
+   "AÄore"
+  ],
+  "Wis 10,19": [
+   "overfkyllede"
+  ],
+  "Wis 11,2": [
+   "gjennemvandrede",
+   "opfloge"
+  ],
+  "Wis 11,8": [
+   "uforhaaͤbet"
+  ],
+  "Wis 11,11": [
+   "Oehr"
+  ],
+  "Wis 11,12": [
+   "nærverende"
+  ],
+  "Wis 11,14": [
+   "meekede"
+  ],
+  "Wis 11,18": [
+   "stabte"
+  ],
+  "Wis 11,20": [
+   "skrekende"
+  ],
+  "Wis 11,23": [
+   "Vægtskaaͤlen"
+  ],
+  "Wis 11,25": [
+   "giort"
+  ],
+  "Wis 12,1": [
+   "uforkrankelige",
+   "iAlt"
+  ],
+  "Wis 12,6": [
+   "ødeldegge"
+  ],
+  "Wis 12,8": [
+   "Mennesfker"
+  ],
+  "Wis 12,9": [
+   "CEet"
+  ],
+  "Wis 12,10": [
+   "langsomt"
+  ],
+  "Wis 12,12": [
+   "hoo"
+  ],
+  "Wis 12,19": [
+   "mennestekforlig"
+  ],
+  "Wis 12,20": [
+   "sryldige"
+  ],
+  "Wis 13,1": [
+   "formaaget"
+  ],
+  "Wis 13,2": [
+   "5Ilden"
+  ],
+  "Wis 13,4": [
+   "sfkjønnet"
+  ],
+  "Wis 13,9": [
+   "udgranfke"
+  ],
+  "Wis 13,13": [
+   "gijer"
+  ],
+  "Wis 13,16": [
+   "sorget"
+  ],
+  "Wis 13,17": [
+   "Agteskab"
+  ],
+  "Wis 13,19": [
+   "Heennder"
+  ],
+  "Wis 14,1": [
+   "Tref"
+  ],
+  "Wis 14,8": [
+   "Mennefkehænder"
+  ],
+  "Wis 14,9": [
+   "forkraeenkeligt"
+  ],
+  "Wis 14,11": [
+   "sfkjnt"
+  ],
+  "Wis 14,16": [
+   "Herfkeres"
+  ],
+  "Wis 14,17": [
+   "Hersterne"
+  ],
+  "Wis 14,20": [
+   "Unde"
+  ],
+  "Wis 14,22": [
+   "Kundstaben",
+   "endstjønt",
+   "Ufred"
+  ],
+  "Wis 14,24": [
+   "lumst"
+  ],
+  "Wis 14,25": [
+   "Ahhert"
+  ],
+  "Wis 14,26": [
+   "Agteskaber"
+  ],
+  "Wis 14,28": [
+   "falst"
+  ],
+  "Wis 14,29": [
+   "spvoret"
+  ],
+  "Wis 15,2": [
+   "ikkte"
+  ],
+  "Wis 15,3": [
+   "erkfende"
+  ],
+  "Wis 15,4": [
+   "forffjellige"
+  ],
+  "Wis 15,6": [
+   "Elstere"
+  ],
+  "Wis 15,7": [
+   "blsde"
+  ],
+  "Wis 15,9": [
+   "Are"
+  ],
+  "Wis 15,10": [
+   "Hfjerte"
+  ],
+  "Wis 15,11": [
+   "indblaest"
+  ],
+  "Wis 15,16": [
+   "Thin"
+  ],
+  "Wis 15,19": [
+   "fjiernede"
+  ],
+  "Wis 16,12": [
+   "hyverken",
+   "laegte"
+  ],
+  "Wis 16,16": [
+   "5,%½",
+   "3j/2"
+  ],
+  "Wis 16,17": [
+   "4919"
+  ],
+  "Wis 16,20": [
+   "formaagede",
+   "stemtemed"
+  ],
+  "Wis 16,21": [
+   "ønfkede",
+   "Ps.34",
+   "L"
+  ],
+  "Wis 16,24": [
+   "anspernnder"
+  ],
+  "Wis 16,25": [
+   "Ønfke"
+  ],
+  "Wis 16,28": [
+   "trade"
+  ],
+  "Wis 17,3": [
+   "stjulte",
+   "forfdcerdede"
+  ],
+  "Wis 17,9": [
+   "opskraemte"
+  ],
+  "Wis 17,11": [
+   "Thisen",
+   "dengstet"
+  ],
+  "Wis 17,14": [
+   "kraftlose"
+  ],
+  "Wis 17,16": [
+   "iset"
+  ],
+  "Wis 17,17": [
+   "overrasfket"
+  ],
+  "Wis 17,19": [
+   "inuteœtte"
+  ],
+  "Wis 18,3": [
+   "ubeksendte",
+   "nankundige"
+  ],
+  "Wis 18,19": [
+   "harde"
+  ],
+  "Wis 18,22": [
+   "Legemsstyrke",
+   "Odelæggeren"
+  ],
+  "Wis 18,23": [
+   "affkar"
+  ],
+  "Wis 19,3": [
+   "hvim"
+  ],
+  "Wis 19,4": [
+   "Skfcebne",
+   "Yderlighed"
+  ],
+  "Wis 19,7": [
+   "overfkyggede"
+  ],
+  "Wis 19,8": [
+   "giennem",
+   "besksermet",
+   "stuende"
+  ],
+  "Wis 19,10": [
+   "istedetfoy"
+  ],
+  "Wis 19,12": [
+   "Straffene"
+  ],
+  "Wis 19,13": [
+   "Andred"
+  ],
+  "Wis 19,16": [
+   "giennem"
+  ],
+  "Wis 19,17": [
+   "paaset"
+  ],
+  "Wis 19,19": [
+   "slukkende"
+  ],
+  "Wis 19,20": [
+   "Luerne"
+  ],
+  "Sir 1,8": [
+   "frabte",
+   "achs",
+   "lötilkommer",
+   "seld",
+   "formhed",
+   "es",
+   "Betydsk",
+   "prooprindelige",
+   "ergetes",
+   "Agypten",
+   "idlændigheden"
+  ],
+  "Sir 1,14": [
+   "fryͤgte"
+  ],
+  "Sir 1,19": [
+   "saaldenge"
+  ],
+  "Sir 1,21": [
+   "Glade"
+  ],
+  "Sir 1,28": [
+   "Vandere"
+  ],
+  "Sir 2,4": [
+   "tilfkikkes",
+   "Udmygelses",
+   "Omsfkiftelser"
+  ],
+  "Sir 2,5": [
+   "Ydmygelsens"
+  ],
+  "Sir 2,6": [
+   "sral",
+   "Gijør"
+  ],
+  "Sir 2,7": [
+   "J"
+  ],
+  "Sir 2,8": [
+   "J",
+   "sem",
+   "sfrygte"
+  ],
+  "Sir 2,14": [
+   "hyvad",
+   "J",
+   "giore"
+  ],
+  "Sir 2,18": [
+   "Barmhfjertighed"
+  ],
+  "Sir 3,1": [
+   "JIkunne"
+  ],
+  "Sir 3,4": [
+   "bonhert"
+  ],
+  "Sir 3,8": [
+   "befoester"
+  ],
+  "Sir 3,9": [
+   "Are"
+  ],
+  "Sir 3,10": [
+   "Abre"
+  ],
+  "Sir 3,11": [
+   "1i"
+  ],
+  "Sir 3,18": [
+   "sfjult"
+  ],
+  "Sir 3,21": [
+   "sfjult"
+  ],
+  "Sir 3,24": [
+   "Oiesten"
+  ],
+  "Sir 3,27": [
+   "Tilstikkelse"
+  ],
+  "Sir 3,28": [
+   "Ønste"
+  ],
+  "Sir 3,30": [
+   "Understsottelse"
+  ],
+  "Sir 4,3": [
+   "4j7%7"
+  ],
+  "Sir 4,4": [
+   "Afvis"
+  ],
+  "Sir 4,6": [
+   "Sjdels"
+  ],
+  "Sir 4,14": [
+   "UNre"
+  ],
+  "Sir 4,16": [
+   "fral",
+   "S8"
+  ],
+  "Sir 4,21": [
+   "agabenbare"
+  ],
+  "Sir 4,32": [
+   "dorst",
+   "Gierninger"
+  ],
+  "Sir 5,2": [
+   "vandreridit"
+  ],
+  "Sir 5,5": [
+   "Vear"
+  ],
+  "Sir 5,8": [
+   "Tov"
+  ],
+  "Sir 5,10": [
+   "fskal"
+  ],
+  "Sir 5,11": [
+   "gior"
+  ],
+  "Sir 5,12": [
+   "Værr",
+   "sfkal"
+  ],
+  "Sir 5,15": [
+   "Are",
+   "Mennestes"
+  ],
+  "Sir 5,16": [
+   "Oretuder"
+  ],
+  "Sir 6,4": [
+   "seld"
+  ],
+  "Sir 6,5": [
+   "gior"
+  ],
+  "Sir 6,13": [
+   "stjule"
+  ],
+  "Sir 6,18": [
+   "vælger"
+  ],
+  "Sir 6,22": [
+   "Hoor"
+  ],
+  "Sir 6,32": [
+   "vavet"
+  ],
+  "Sir 6,34": [
+   "oplaert"
+  ],
+  "Sir 7,7": [
+   "maaste"
+  ],
+  "Sir 7,8": [
+   "selvened"
+  ],
+  "Sir 7,10": [
+   "kil"
+  ],
+  "Sir 7,11": [
+   "Barmhfjertighed"
+  ],
+  "Sir 7,12": [
+   "Sjoells"
+  ],
+  "Sir 7,15": [
+   "Værr"
+  ],
+  "Sir 7,22": [
+   "Hfjerte"
+  ],
+  "Sir 7,23": [
+   "Kooeg"
+  ],
+  "Sir 7,28": [
+   "Gr"
+  ],
+  "Sir 7,30": [
+   "ganfske"
+  ],
+  "Sir 7,31": [
+   "Elst"
+  ],
+  "Sir 7,32": [
+   "Forstegrode",
+   "Helliggierelses-Offer"
+  ],
+  "Sir 7,33": [
+   "udreet"
+  ],
+  "Sir 7,34": [
+   "seld"
+  ],
+  "Sir 7,36": [
+   "Tov"
+  ],
+  "Sir 7,37": [
+   "J"
+  ],
+  "Sir 8,3": [
+   "Hierter"
+  ],
+  "Sir 8,4": [
+   "99.33"
+  ],
+  "Sir 8,5": [
+   "uvopdragent"
+  ],
+  "Sir 8,11": [
+   "lorrt"
+  ],
+  "Sir 8,13": [
+   "forbraendes"
+  ],
+  "Sir 8,16": [
+   "Eone",
+   "bethenkt"
+  ],
+  "Sir 8,19": [
+   "Daaͤrfkab"
+  ],
+  "Sir 8,23": [
+   "sfjult"
+  ],
+  "Sir 9,3": [
+   "Koinde",
+   "fral"
+  ],
+  "Sir 9,4": [
+   "Omgaages"
+  ],
+  "Sir 9,5": [
+   "Begioerlighed"
+  ],
+  "Sir 9,7": [
+   "Vrager"
+  ],
+  "Sir 9,8": [
+   "Koinde"
+  ],
+  "Sir 9,11": [
+   "digsi"
+  ],
+  "Sir 9,16": [
+   "svoeve"
+  ],
+  "Sir 9,19": [
+   "Udgranst",
+   "Neasste"
+  ],
+  "Sir 10,1": [
+   "Herster"
+  ],
+  "Sir 10,4": [
+   "J"
+  ],
+  "Sir 10,5": [
+   "J"
+  ],
+  "Sir 10,7": [
+   "skyldigt"
+  ],
+  "Sir 10,8": [
+   "Pengebegjerlighed"
+  ],
+  "Sir 10,16": [
+   "Herfkeres"
+  ],
+  "Sir 10,18": [
+   "ødeldegger"
+  ],
+  "Sir 10,20": [
+   "medskaͤbt"
+  ],
+  "Sir 10,21": [
+   "Are"
+  ],
+  "Sir 10,23": [
+   "J",
+   "gret"
+  ],
+  "Sir 10,24": [
+   "Opnaagelse"
+  ],
+  "Sir 10,25": [
+   "Wrede"
+  ],
+  "Sir 10,27": [
+   "Meagtig"
+  ],
+  "Sir 10,31": [
+   "Wr",
+   "Abre"
+  ],
+  "Sir 11,2": [
+   "affky"
+  ],
+  "Sir 11,3": [
+   "yyperst"
+  ],
+  "Sir 11,6": [
+   "Herstere"
+  ],
+  "Sir 11,14": [
+   "Hjælv",
+   "paa.0"
+  ],
+  "Sir 11,20": [
+   "giore"
+  ],
+  "Sir 11,21": [
+   "bestaͤndig"
+  ],
+  "Sir 11,24": [
+   "efterlaͤde"
+  ],
+  "Sir 11,27": [
+   "Cet"
+  ],
+  "Sir 12,2": [
+   "Gjengioeld"
+  ],
+  "Sir 12,3": [
+   "sver"
+  ],
+  "Sir 12,11": [
+   "J"
+  ],
+  "Sir 12,15": [
+   "sfkal"
+  ],
+  "Sir 13,2": [
+   "magtigere"
+  ],
+  "Sir 13,3": [
+   "søndersflaaet"
+  ],
+  "Sir 13,5": [
+   "gjosre"
+  ],
+  "Sir 13,7": [
+   "stamfuld"
+  ],
+  "Sir 13,11": [
+   "Glorde"
+  ],
+  "Sir 13,12": [
+   "Magtig"
+  ],
+  "Sir 13,21": [
+   "Ulven"
+  ],
+  "Sir 13,23": [
+   "Lovers"
+  ],
+  "Sir 13,29": [
+   "ovenikjsbet"
+  ],
+  "Sir 13,30": [
+   "klaeber"
+  ],
+  "Sir 13,31": [
+   "Mennefskets"
+  ],
+  "Sir 14,2": [
+   "fordommer"
+  ],
+  "Sir 14,3": [
+   "nidst"
+  ],
+  "Sir 14,7": [
+   "gjior",
+   "gior"
+  ],
+  "Sir 14,8": [
+   "nidst"
+  ],
+  "Sir 14,10": [
+   "nidst"
+  ],
+  "Sir 14,13": [
+   "Eone"
+  ],
+  "Sir 14,25": [
+   "opflaar"
+  ],
+  "Sir 15,1": [
+   "faget"
+  ],
+  "Sir 15,8": [
+   "Meennd"
+  ],
+  "Sir 15,10": [
+   "fral"
+  ],
+  "Sir 16,1": [
+   "Onst",
+   "glord"
+  ],
+  "Sir 16,2": [
+   "SHerrens"
+  ],
+  "Sir 16,3": [
+   "paͤa"
+  ],
+  "Sir 16,11": [
+   "Hfjerters"
+  ],
+  "Sir 16,13": [
+   "Barmhjertigged",
+   "udoser"
+  ],
+  "Sir 16,16": [
+   "Enhyver"
+  ],
+  "Sir 16,22": [
+   "fkjælve"
+  ],
+  "Sir 16,23": [
+   "værtdigt"
+  ],
+  "Sir 16,26": [
+   "vildfarende"
+  ],
+  "Sir 16,27": [
+   "leer"
+  ],
+  "Sir 16,29": [
+   "J"
+  ],
+  "Sir 17,8": [
+   "OBie"
+  ],
+  "Sir 17,10": [
+   "Naon"
+  ],
+  "Sir 17,11": [
+   "sjionne"
+  ],
+  "Sir 17,16": [
+   "gisre"
+  ],
+  "Sir 17,22": [
+   "bedarer"
+  ],
+  "Sir 17,23": [
+   "Gjengieldelse"
+  ],
+  "Sir 17,28": [
+   "karst"
+  ],
+  "Sir 17,29": [
+   "Hoor"
+  ],
+  "Sir 17,32": [
+   "overstuer"
+  ],
+  "Sir 18,4": [
+   "fkiller"
+  ],
+  "Sir 18,5": [
+   "udforste"
+  ],
+  "Sir 18,8": [
+   "Mennefske",
+   "kemmet"
+  ],
+  "Sir 18,12": [
+   "udoser"
+  ],
+  "Sir 18,14": [
+   "Barmhfertighed"
+  ],
+  "Sir 18,17": [
+   "kraenkende"
+  ],
+  "Sir 18,18": [
+   "kjoler"
+  ],
+  "Sir 18,19": [
+   "vennesoel"
+  ],
+  "Sir 18,24": [
+   "frigjort"
+  ],
+  "Sir 18,25": [
+   "gjoer"
+  ],
+  "Sir 18,34": [
+   "sra"
+  ],
+  "Sir 18,35": [
+   "Sjell"
+  ],
+  "Sir 19,2": [
+   "froek"
+  ],
+  "Sir 19,3": [
+   "skͤulle"
+  ],
+  "Sir 19,4": [
+   "Süal"
+  ],
+  "Sir 19,5": [
+   "fordommes"
+  ],
+  "Sir 19,6": [
+   "behersfker"
+  ],
+  "Sir 19,14": [
+   "giore"
+  ],
+  "Sir 19,15": [
+   "Bagvafkelse"
+  ],
+  "Sir 19,17": [
+   "Neaste"
+  ],
+  "Sir 19,25": [
+   "fkarpsindig",
+   "Treiskhed"
+  ],
+  "Sir 19,27": [
+   "dov"
+  ],
+  "Sir 19,30": [
+   "Kloldedragt"
+  ],
+  "Sir 20,5": [
+   "Sevaldrer"
+  ],
+  "Sir 20,6": [
+   "afstyet"
+  ],
+  "Sir 20,12": [
+   "selb"
+  ],
+  "Sir 20,15": [
+   "kraver"
+  ],
+  "Sir 20,19": [
+   "J"
+  ],
+  "Sir 20,26": [
+   "Mennefskes"
+  ],
+  "Sir 20,30": [
+   "giemt"
+  ],
+  "Sir 21,1": [
+   "gjar"
+  ],
+  "Sir 21,5": [
+   "kkulle"
+  ],
+  "Sir 21,14": [
+   "voxer"
+  ],
+  "Sir 21,20": [
+   "uforstagelige"
+  ],
+  "Sir 22,8": [
+   "dedle"
+  ],
+  "Sir 22,19": [
+   "gicelder"
+  ],
+  "Sir 22,30": [
+   "Stkjeldsord"
+  ],
+  "Sir 22,31": [
+   "bestytte"
+  ],
+  "Sir 23,4": [
+   "overflodige"
+  ],
+  "Sir 23,5": [
+   "Barmhjfertighed"
+  ],
+  "Sir 23,11": [
+   "sperrge"
+  ],
+  "Sir 23,15": [
+   "speerger"
+  ],
+  "Sir 23,25": [
+   "Mennefske",
+   "Kiods"
+  ],
+  "Sir 23,27": [
+   "Agteseng",
+   "selb"
+  ],
+  "Sir 23,38": [
+   "Abre"
+  ],
+  "Sir 24,2": [
+   "J"
+  ],
+  "Sir 24,3": [
+   "sfjulte"
+  ],
+  "Sir 24,6": [
+   "J"
+  ],
+  "Sir 24,7": [
+   "Hoilested",
+   "J"
+  ],
+  "Sir 24,11": [
+   "J",
+   "Tieneste"
+  ],
+  "Sir 24,12": [
+   "J"
+  ],
+  "Sir 24,18": [
+   "Tabernaͤklet"
+  ],
+  "Sir 24,20": [
+   "Vintra"
+  ],
+  "Sir 24,23": [
+   "J",
+   "begicere"
+  ],
+  "Sir 24,24": [
+   "Voxkagens"
+  ],
+  "Sir 24,27": [
+   "gielder"
+  ],
+  "Sir 24,30": [
+   "Pison"
+  ],
+  "Sir 24,31": [
+   "Daged"
+  ],
+  "Sir 24,32": [
+   "Gihon"
+  ],
+  "Sir 24,39": [
+   "üudstrømme",
+   "profetist"
+  ],
+  "Sir 25,1": [
+   "Mennesfkene"
+  ],
+  "Sir 25,7": [
+   "Hfjerte"
+  ],
+  "Sir 25,13": [
+   "elste"
+  ],
+  "Sir 25,15": [
+   "Tilsrikkelse"
+  ],
+  "Sir 25,18": [
+   "Koindes"
+  ],
+  "Sir 25,20": [
+   "Ondfskab"
+  ],
+  "Sir 25,23": [
+   "forsorge"
+  ],
+  "Sir 26,6": [
+   "Bagvafkelse"
+  ],
+  "Sir 26,8": [
+   "Orxer"
+  ],
+  "Sir 26,10": [
+   "Koindes"
+  ],
+  "Sir 26,13": [
+   "Nærnheden"
+  ],
+  "Sir 26,17": [
+   "blufoerdig",
+   "kyst"
+  ],
+  "Sir 26,23": [
+   "fral",
+   "dedle"
+  ],
+  "Sir 26,28": [
+   "vanetrer"
+  ],
+  "Sir 26,29": [
+   "K"
+  ],
+  "Sir 26,35": [
+   "Vanfskelig"
+  ],
+  "Sir 27,2": [
+   "drives"
+  ],
+  "Sir 27,4": [
+   "granfsket"
+  ],
+  "Sir 27,5": [
+   "Oonen"
+  ],
+  "Sir 27,6": [
+   "Mennefkehjertets"
+  ],
+  "Sir 27,8": [
+   "Aresdragt"
+  ],
+  "Sir 27,13": [
+   "Yppighed"
+  ],
+  "Sir 27,14": [
+   "Haarer"
+  ],
+  "Sir 27,17": [
+   "Elst"
+  ],
+  "Sir 27,18": [
+   "tilintetgior"
+  ],
+  "Sir 27,20": [
+   "undlsben"
+  ],
+  "Sir 27,23": [
+   "sod"
+  ],
+  "Sir 27,26": [
+   "volderd"
+  ],
+  "Sir 27,28": [
+   "voelter"
+  ],
+  "Sir 28,1": [
+   "giemme"
+  ],
+  "Sir 28,6": [
+   "blivei"
+  ],
+  "Sir 28,10": [
+   "lerngges"
+  ],
+  "Sir 28,17": [
+   "stilt"
+  ],
+  "Sir 28,21": [
+   "besfjermet"
+  ],
+  "Sir 28,27": [
+   "Odelægge"
+  ],
+  "Sir 28,29": [
+   "22.—2"
+  ],
+  "Sir 29,1": [
+   "Barmhfertighed",
+   "understøtter"
+  ],
+  "Sir 29,8": [
+   "hvyis",
+   "faaget"
+  ],
+  "Sir 29,9": [
+   "Äre"
+  ],
+  "Sir 29,16": [
+   "Skfjold"
+  ],
+  "Sir 29,18": [
+   "Tijenester",
+   "gagen"
+  ],
+  "Sir 29,19": [
+   "odelægger"
+  ],
+  "Sir 29,21": [
+   "delagt"
+  ],
+  "Sir 29,23": [
+   "overtrader"
+  ],
+  "Sir 29,24": [
+   "Naste"
+  ],
+  "Sir 29,26": [
+   "proeggtige"
+  ],
+  "Sir 30,1": [
+   "eltker"
+  ],
+  "Sir 30,5": [
+   "J"
+  ],
+  "Sir 30,10": [
+   "Stkjemt"
+  ],
+  "Sir 30,14": [
+   "Skfendsel"
+  ],
+  "Sir 30,24": [
+   "trøst"
+  ],
+  "Sir 30,26": [
+   "Hferte",
+   "sral"
+  ],
+  "Sir 31,1": [
+   "Soonløshed"
+  ],
+  "Sir 31,2": [
+   "Sovnløs"
+  ],
+  "Sir 31,3": [
+   "hyviler"
+  ],
+  "Sir 31,8": [
+   "gaaget"
+  ],
+  "Sir 31,12": [
+   "Godgisrenhed"
+  ],
+  "Sir 31,14": [
+   "nidst"
+  ],
+  "Sir 31,15": [
+   "nidst"
+  ],
+  "Sir 31,16": [
+   "Udro"
+  ],
+  "Sir 31,17": [
+   "Neaste"
+  ],
+  "Sir 31,21": [
+   "Hoor",
+   "tilstrerkkeligt"
+  ],
+  "Sir 31,26": [
+   "rast"
+  ],
+  "Sir 31,28": [
+   "sfkal"
+  ],
+  "Sir 31,29": [
+   "fordeervet"
+  ],
+  "Sir 31,30": [
+   "Staalet"
+  ],
+  "Sir 31,36": [
+   "Neaste"
+  ],
+  "Sir 32,1": [
+   "Kjogemestere"
+  ],
+  "Sir 32,2": [
+   "paaligger"
+  ],
+  "Sir 32,4": [
+   "værr"
+  ],
+  "Sir 32,5": [
+   "Hoor"
+  ],
+  "Sir 32,8": [
+   "kraves"
+  ],
+  "Sir 32,9": [
+   "Befked"
+  ],
+  "Sir 32,10": [
+   "snak"
+  ],
+  "Sir 32,13": [
+   "gier"
+  ],
+  "Sir 32,18": [
+   "21f7"
+  ],
+  "Sir 32,22": [
+   "Ken"
+  ],
+  "Sir 32,23": [
+   "J"
+  ],
+  "Sir 33,5": [
+   "Vognaxel"
+  ],
+  "Sir 33,7": [
+   "staäar"
+  ],
+  "Sir 33,11": [
+   "J"
+  ],
+  "Sir 33,12": [
+   "nærs"
+  ],
+  "Sir 33,18": [
+   "vaaget"
+  ],
+  "Sir 33,21": [
+   "IJ",
+   "J"
+  ],
+  "Sir 33,24": [
+   "afhoengigzaf"
+  ],
+  "Sir 33,27": [
+   "dos"
+  ],
+  "Sir 34,1": [
+   "falste"
+  ],
+  "Sir 34,5": [
+   "gior"
+  ],
+  "Sir 34,8": [
+   "Usovigelig"
+  ],
+  "Sir 34,9": [
+   "oplaert"
+  ],
+  "Sir 34,10": [
+   "Klogfkfab"
+  ],
+  "Sir 34,14": [
+   "2/,L"
+  ],
+  "Sir 34,16": [
+   "HBine"
+  ],
+  "Sir 34,21": [
+   "flagter"
+  ],
+  "Sir 34,23": [
+   "Naste"
+  ],
+  "Sir 34,26": [
+   "tveeter",
+   "Tocet"
+  ],
+  "Sir 34,27": [
+   "gior"
+  ],
+  "Sir 35,3": [
+   "Ondsrab"
+  ],
+  "Sir 35,4": [
+   "sre"
+  ],
+  "Sir 35,7": [
+   "Gr"
+  ],
+  "Sir 35,10": [
+   "Giengjælder"
+  ],
+  "Sir 35,17": [
+   "igiennem"
+  ],
+  "Sir 35,19": [
+   "sral",
+   "ÜUbarmhfertige"
+  ],
+  "Sir 35,24": [
+   "Barmhiertighed",
+   "Trangsels",
+   "Regnfkyer",
+   "Terkens"
+  ],
+  "Sir 36,3": [
+   "OBine"
+  ],
+  "Sir 36,12": [
+   "Hoiles"
+  ],
+  "Sir 36,18": [
+   "alflags"
+  ],
+  "Sir 36,21": [
+   "byilkensomhelst"
+  ],
+  "Sir 36,22": [
+   "Koindes",
+   "gjior"
+  ],
+  "Sir 36,25": [
+   "Hoor"
+  ],
+  "Sir 37,3": [
+   "voltet",
+   "dekke"
+  ],
+  "Sir 37,13": [
+   "Nidst"
+  ],
+  "Sir 37,14": [
+   "Veek"
+  ],
+  "Sir 37,19": [
+   "Vægtere"
+  ],
+  "Sir 37,23": [
+   "fremkomme"
+  ],
+  "Sir 37,30": [
+   "Livsdage"
+  ],
+  "Sir 37,31": [
+   "Ure"
+  ],
+  "Sir 37,32": [
+   "sfkadeligt"
+  ],
+  "Sir 37,35": [
+   "Umattelighed"
+  ],
+  "Sir 38,1": [
+   "tilborlige",
+   "Are"
+  ],
+  "Sir 38,3": [
+   "Beundeing"
+  ],
+  "Sir 38,9": [
+   "Værr"
+  ],
+  "Sir 38,10": [
+   "Hennder"
+  ],
+  "Sir 38,13": [
+   "Heennder"
+  ],
+  "Sir 38,14": [
+   "Hovo"
+  ],
+  "Sir 38,20": [
+   "Liget"
+  ],
+  "Sir 38,30": [
+   "Syssel"
+  ],
+  "Sir 38,39": [
+   "kettet"
+  ],
+  "Sir 38,40": [
+   "Enhoer"
+  ],
+  "Sir 39,6": [
+   "agarle"
+  ],
+  "Sir 39,13": [
+   "Sloelgt"
+  ],
+  "Sir 39,15": [
+   "Nan"
+  ],
+  "Sir 39,17": [
+   "J",
+   "voxer"
+  ],
+  "Sir 39,21": [
+   "J",
+   "1IMos"
+  ],
+  "Sir 39,26": [
+   "stjule"
+  ],
+  "Sir 39,32": [
+   "sfkabt"
+  ],
+  "Sir 39,33": [
+   "behsves",
+   "Mennestets"
+  ],
+  "Sir 39,38": [
+   "Bilde"
+  ],
+  "Sir 39,42": [
+   "ilte"
+  ],
+  "Sir 40,1": [
+   "hyviler"
+  ],
+  "Sir 40,6": [
+   "Dødsfrygt",
+   "Forbitrelse"
+  ],
+  "Sir 40,9": [
+   "J",
+   "Dieblik"
+  ],
+  "Sir 40,10": [
+   "saaz"
+  ],
+  "Sir 40,17": [
+   "kyder",
+   "paauen"
+  ],
+  "Sir 40,23": [
+   "sod"
+  ],
+  "Sir 40,24": [
+   "Skijønhed"
+  ],
+  "Sir 40,26": [
+   "Barmhfjertighed"
+  ],
+  "Sir 40,29": [
+   "Hieelp"
+  ],
+  "Sir 40,33": [
+   "IJ"
+  ],
+  "Sir 41,3": [
+   "hois"
+  ],
+  "Sir 41,9": [
+   "Skfeendsel"
+  ],
+  "Sir 41,10": [
+   "Bestjæmmelse"
+  ],
+  "Sir 41,11": [
+   "J"
+  ],
+  "Sir 41,12": [
+   "J",
+   "J",
+   "J",
+   "J",
+   "J",
+   "J"
+  ],
+  "Sir 41,14": [
+   "uUdslettes"
+  ],
+  "Sir 41,21": [
+   "Magtig"
+  ],
+  "Sir 42,2": [
+   "Yndest"
+  ],
+  "Sir 42,9": [
+   "fkriv"
+  ],
+  "Sir 42,19": [
+   "Kvindeondfkab"
+  ],
+  "Sir 42,26": [
+   "udgranfket"
+  ],
+  "Sir 42,32": [
+   "Hoor"
+  ],
+  "Sir 43,4": [
+   "braender"
+  ],
+  "Sir 43,6": [
+   "frabt"
+  ],
+  "Sir 43,13": [
+   "stjøn"
+  ],
+  "Sir 43,19": [
+   "skjælvbe"
+  ],
+  "Sir 43,21": [
+   "Hfjertet"
+  ],
+  "Sir 43,29": [
+   "Souhyrernes",
+   "Slergt"
+  ],
+  "Sir 43,34": [
+   "J"
+  ],
+  "Sir 43,35": [
+   "ophseier"
+  ],
+  "Sir 43,37": [
+   "sfjult"
+  ],
+  "Sir 43,38": [
+   "frabt"
+  ],
+  "Sir 44,3": [
+   "herfkede"
+  ],
+  "Sir 44,15": [
+   "Wretfral"
+  ],
+  "Sir 44,16": [
+   "begrayne"
+  ],
+  "Sir 44,18": [
+   "Sleeggterne"
+  ],
+  "Sir 44,22": [
+   "Arre"
+  ],
+  "Sir 44,24": [
+   "Proevelsen"
+  ],
+  "Sir 44,26": [
+   "üt"
+  ],
+  "Sir 44,27": [
+   "1IMos"
+  ],
+  "Sir 45,7": [
+   "Merket"
+  ],
+  "Sir 45,8": [
+   "Kundfkabens"
+  ],
+  "Sir 45,12": [
+   "Wreskjortel"
+  ],
+  "Sir 45,19": [
+   "Stenfkjærer-Arbeide"
+  ],
+  "Sir 45,22": [
+   "Abresprydelse"
+  ],
+  "Sir 45,26": [
+   "Heennder"
+  ],
+  "Sir 45,36": [
+   "gijorde",
+   "fortarede"
+  ],
+  "Sir 45,38": [
+   "Fyldez"
+  ],
+  "Sir 45,41": [
+   "Eleasars",
+   "Abre"
+  ],
+  "Sir 45,42": [
+   "bedle"
+  ],
+  "Sir 45,44": [
+   "Preksterne"
+  ],
+  "Sir 45,45": [
+   "Prestedommets",
+   "Verrdighed"
+  ],
+  "Sir 45,48": [
+   "Preasterne"
+  ],
+  "Sir 46,3": [
+   "sraffe"
+  ],
+  "Sir 46,11": [
+   "Ogsaasi"
+  ],
+  "Sir 46,25": [
+   "mergtige"
+  ],
+  "Sir 47,7": [
+   "ophsie"
+  ],
+  "Sir 47,16": [
+   "Arens"
+  ],
+  "Sir 47,22": [
+   "formedelstt"
+  ],
+  "Sir 47,24": [
+   "J"
+  ],
+  "Sir 48,2": [
+   "giorde",
+   "Nidkicerhed"
+  ],
+  "Sir 48,6": [
+   "Ure"
+  ],
+  "Sir 48,8": [
+   "Gjengiceld"
+  ],
+  "Sir 48,16": [
+   "speer"
+  ],
+  "Sir 48,17": [
+   "giorde",
+   "endnuei"
+  ],
+  "Sir 48,24": [
+   "J"
+  ],
+  "Sir 48,31": [
+   "J"
+  ],
+  "Sir 49,10": [
+   "ophygge"
+  ],
+  "Sir 49,12": [
+   "Plaskregn"
+  ],
+  "Sir 49,13": [
+   "styde"
+  ],
+  "Sir 49,19": [
+   "sfkabt"
+  ],
+  "Sir 50,1": [
+   "OYpperstepræsten"
+  ],
+  "Sir 50,3": [
+   "J"
+  ],
+  "Sir 50,5": [
+   "Forhaeengets"
+  ],
+  "Sir 50,8": [
+   "Viraktraeets"
+  ],
+  "Sir 50,9": [
+   "Rogelsekar"
+  ],
+  "Sir 50,11": [
+   "Abreskjortelen"
+  ],
+  "Sir 50,17": [
+   "udgiod"
+  ],
+  "Sir 50,18": [
+   "sod"
+  ],
+  "Sir 50,20": [
+   "meggtig"
+  ],
+  "Sir 50,25": [
+   "Tijeneste"
+  ],
+  "Sir 50,37": [
+   "Altz"
+  ],
+  "Sir 51,2": [
+   "Bestjermer"
+  ],
+  "Sir 51,3": [
+   "bagtalerst"
+  ],
+  "Sir 51,6": [
+   "Trængfler"
+  ],
+  "Sir 51,10": [
+   "nedentil"
+  ],
+  "Sir 51,14": [
+   "Udfrielse"
+  ],
+  "Sir 51,15": [
+   "hjdeelpeløs"
+  ],
+  "Sir 51,21": [
+   "gladede"
+  ],
+  "Sir 51,26": [
+   "granfkede"
+  ],
+  "Sir 51,28": [
+   "faͤndt"
+  ],
+  "Sir 51,32": [
+   "J"
+  ],
+  "Sir 51,33": [
+   "J"
+  ],
+  "Sir 51,34": [
+   "kjsber"
+  ],
+  "Sir 51,37": [
+   "J"
+  ],
+  "Bar 1,3": [
+   "Jechonjas"
+  ],
+  "Bar 1,4": [
+   "Aldstes"
+  ],
+  "Bar 1,6": [
+   "fkjøde"
+  ],
+  "Bar 1,7": [
+   "Pretster"
+  ],
+  "Bar 1,8": [
+   "Sølokar"
+  ],
+  "Bar 1,14": [
+   "JI",
+   "kkulle",
+   "forelaese",
+   "J",
+   "kulle"
+  ],
+  "Bar 1,15": [
+   "J"
+  ],
+  "Bar 1,18": [
+   "haͤvde"
+  ],
+  "Bar 1,19": [
+   "Agyptens"
+  ],
+  "Bar 1,20": [
+   "flhder"
+  ],
+  "Bar 2,2": [
+   "skeedeei"
+  ],
+  "Bar 2,4": [
+   "Odelcefggelse"
+  ],
+  "Bar 2,12": [
+   "giorde"
+  ],
+  "Bar 2,21": [
+   "J"
+  ],
+  "Bar 2,22": [
+   "Jikke",
+   "J"
+  ],
+  "Bar 2,23": [
+   "Glaedes"
+  ],
+  "Bar 2,25": [
+   "Pest"
+  ],
+  "Bar 2,27": [
+   "Barmhfjertighed"
+  ],
+  "Bar 2,29": [
+   "J"
+  ],
+  "Bar 2,31": [
+   "kulle"
+  ],
+  "Bar 2,32": [
+   "kulle"
+  ],
+  "Bar 2,34": [
+   "tildet"
+  ],
+  "Bar 3,5": [
+   "Feddres",
+   "ihuti"
+  ],
+  "Bar 3,8": [
+   "forfkyldt"
+  ],
+  "Bar 3,13": [
+   "vaa"
+  ],
+  "Bar 3,23": [
+   "Kjosbmænd"
+  ],
+  "Bar 3,26": [
+   "naonkundige"
+  ],
+  "Bar 3,28": [
+   "Daarfkabs"
+  ],
+  "Bar 3,32": [
+   "firfsddede"
+  ],
+  "Bar 3,34": [
+   "Stjiernerne"
+  ],
+  "Bar 3,37": [
+   "Tiener"
+  ],
+  "Bar 4,6": [
+   "J",
+   "J"
+  ],
+  "Bar 4,7": [
+   "J",
+   "Dioevle"
+  ],
+  "Bar 4,8": [
+   "J"
+  ],
+  "Bar 4,9": [
+   "J"
+  ],
+  "Bar 4,14": [
+   "J"
+  ],
+  "Bar 4,17": [
+   "indfsres"
+  ],
+  "Bar 4,20": [
+   "Bens"
+  ],
+  "Bar 4,24": [
+   "Fangensfkab"
+  ],
+  "Bar 4,26": [
+   "kjaelne"
+  ],
+  "Bar 4,27": [
+   "J"
+  ],
+  "Bar 5,6": [
+   "kilfods"
+  ],
+  "Bar 5,7": [
+   "Bierg"
+  ],
+  "EpJer 1,1": [
+   "J",
+   "J"
+  ],
+  "EpJer 1,2": [
+   "J",
+   "J"
+  ],
+  "EpJer 1,4": [
+   "kulle"
+  ],
+  "EpJer 1,8": [
+   "giore"
+  ],
+  "EpJer 1,11": [
+   "Purpurkloetder"
+  ],
+  "EpJer 1,12": [
+   "afviske"
+  ],
+  "EpJer 1,14": [
+   "selb"
+  ],
+  "EpJer 1,17": [
+   "bagde"
+  ],
+  "EpJer 1,18": [
+   "selds"
+  ],
+  "EpJer 1,22": [
+   "J"
+  ],
+  "EpJer 1,28": [
+   "Koinde",
+   "J"
+  ],
+  "EpJer 1,29": [
+   "Koinder"
+  ],
+  "EpJer 1,30": [
+   "Skfeg"
+  ],
+  "EpJer 1,31": [
+   "fkrige"
+  ],
+  "EpJer 1,34": [
+   "krave"
+  ],
+  "EpJer 1,36": [
+   "hjellpe"
+  ],
+  "EpJer 1,41": [
+   "Meäle",
+   "enosffjønt"
+  ],
+  "EpJer 1,45": [
+   "Træskjcrere"
+  ],
+  "EpJer 1,47": [
+   "Skfjændsel"
+  ],
+  "EpJer 1,49": [
+   "skjnne"
+  ],
+  "EpJer 1,50": [
+   "Mennefkehænder"
+  ],
+  "EpJer 1,54": [
+   "opèhraendte"
+  ],
+  "EpJer 1,58": [
+   "falfte"
+  ],
+  "EpJer 1,65": [
+   "J",
+   "fryͤgter"
+  ],
+  "EpJer 1,69": [
+   "Fugleskraemsel",
+   "Tornebust"
+  ],
+  "EpJer 1,71": [
+   "J"
+  ],
+  "DanAdd 3,33": [
+   "Stkjændsel"
+  ],
+  "DanAdd 3,35": [
+   "Barmhfjertighed"
+  ],
+  "DanAdd 3,40": [
+   "Efterfølgelse"
+  ],
+  "DanAdd 3,44": [
+   "befkjæmmede"
+  ],
+  "DanAdd 3,46": [
+   "Riskviste"
+  ],
+  "DanAdd 3,48": [
+   "naͤaede"
+  ],
+  "DanAdd 3,49": [
+   "Oonen"
+  ],
+  "DanAdd 3,50": [
+   "gijorde",
+   "Besvor"
+  ],
+  "DanAdd 3,52": [
+   "ophsiede"
+  ],
+  "DanAdd 3,54": [
+   "sfkuer",
+   "ophsiet"
+  ],
+  "DanAdd 3,57": [
+   "J",
+   "ophsier"
+  ],
+  "DanAdd 3,58": [
+   "J"
+  ],
+  "DanAdd 3,59": [
+   "J",
+   "ophsier"
+  ],
+  "DanAdd 3,60": [
+   "JVande"
+  ],
+  "DanAdd 3,63": [
+   "J",
+   "Stierner"
+  ],
+  "DanAdd 3,66": [
+   "ophsier"
+  ],
+  "DanAdd 3,70": [
+   "ophsier"
+  ],
+  "DanAdd 3,71": [
+   "ophsier"
+  ],
+  "DanAdd 3,73": [
+   "ophsier"
+  ],
+  "DanAdd 3,76": [
+   "Veexter"
+  ],
+  "DanAdd 3,77": [
+   "Löover",
+   "J"
+  ],
+  "DanAdd 3,79": [
+   "JI",
+   "ophsier"
+  ],
+  "DanAdd 3,80": [
+   "IJ"
+  ],
+  "DanAdd 3,81": [
+   "ophsier"
+  ],
+  "DanAdd 3,82": [
+   "J",
+   "Mennefskenes"
+  ],
+  "DanAdd 3,83": [
+   "J"
+  ],
+  "DanAdd 3,84": [
+   "J"
+  ],
+  "DanAdd 3,85": [
+   "J"
+  ],
+  "DanAdd 3,86": [
+   "J",
+   "Retfeediges"
+  ],
+  "DanAdd 3,87": [
+   "IJ"
+  ],
+  "DanAdd 3,90": [
+   "IJ"
+  ],
+  "DanAdd 13,8": [
+   "Wüldste"
+  ],
+  "DanAdd 13,14": [
+   "uud",
+   "kiltes",
+   "Begicerlighed"
+  ],
+  "DanAdd 13,16": [
+   "Abldste"
+  ],
+  "DanAdd 13,18": [
+   "Uldstez"
+  ],
+  "DanAdd 13,19": [
+   "W)ldste"
+  ],
+  "DanAdd 13,20": [
+   "Begjærrlighed"
+  ],
+  "DanAdd 13,21": [
+   "hvyis"
+  ],
+  "DanAdd 13,22": [
+   "gior",
+   "gier"
+  ],
+  "DanAdd 13,26": [
+   "derz"
+  ],
+  "DanAdd 13,28": [
+   "Weldste"
+  ],
+  "DanAdd 13,32": [
+   "affløres"
+  ],
+  "DanAdd 13,34": [
+   "Wldoste"
+  ],
+  "DanAdd 13,39": [
+   "fkjønt",
+   "agabnede"
+  ],
+  "DanAdd 13,42": [
+   "ske,x"
+  ],
+  "DanAdd 13,48": [
+   "faget",
+   "J"
+  ],
+  "DanAdd 13,50": [
+   "Wüldste",
+   "Aeldstes"
+  ],
+  "DanAdd 13,53": [
+   "Ufkyldige",
+   "endstjønt"
+  ],
+  "DanAdd 13,57": [
+   "JI"
+  ],
+  "DanAdd 13,59": [
+   "fkjære"
+  ],
+  "DanAdd 13,61": [
+   "Vloste"
+  ],
+  "DanAdd 13,62": [
+   "giore"
+  ],
+  "DanAdd 14,7": [
+   "Prefster",
+   "J",
+   "J"
+  ],
+  "DanAdd 14,8": [
+   "J"
+  ],
+  "DanAdd 14,13": [
+   "gaagede"
+  ],
+  "DanAdd 14,16": [
+   "ustadte"
+  ],
+  "DanAdd 14,25": [
+   "LJov"
+  ],
+  "DanAdd 14,32": [
+   "brukket"
+  ],
+  "DanAdd 14,38": [
+   "satke"
+  ],
+  "PrMan 1,4": [
+   "sfjælver"
+  ],
+  "PrMan 1,6": [
+   "barmhfjertig",
+   "mistundelig",
+   "tilfkikker"
+  ],
+  "PrMan 1,7": [
+   "bestikket"
+  ],
+  "PrMan 1,8": [
+   "Retfærrdige"
+  ],
+  "PrMan 1,10": [
+   "nedbsiet",
+   "Hyoile",
+   "giorde"
+  ],
+  "PrMan 1,11": [
+   "Misgierninger"
+  ],
+  "PrMan 1,14": [
+   "Aren"
+  ]
+ }
+}

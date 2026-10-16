@@ -28,10 +28,19 @@ export function VersCelle({ deler, lang, tom }: { deler: Del[]; lang: "am" | "nb
                 </>
               ) : lang === "en" ? (
                 "Ikke med i den engelske teksten"
+              ) : d.kilde === "WEB" ? (
+                "Ikke med i den norske eller den engelske teksten"
               ) : (
                 "Mangler"
               )}
             </span>
+          ) : d.kilde === "WEB" && lang !== "en" ? (
+            <>
+              <span lang="en">{d.tekst}</span>{" "}
+              <span lang="nb" className="whitespace-nowrap font-sans text-xs not-italic text-svak">
+                (engelsk, WEB)
+              </span>
+            </>
           ) : (
             d.tekst
           )}

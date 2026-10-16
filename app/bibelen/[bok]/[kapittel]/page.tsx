@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { alleBoker, andreTekst, finnBok, kapitlene, kapittelRader, type Bok } from "@/lib/bibel";
+import { alleBoker, andreTekst, engelskKilde, finnBok, kapitlene, kapittelRader, type Bok } from "@/lib/bibel";
 import { AmhariskKilde, BareAmharisk, Merknad } from "@/components/bibel-merknad";
 import { Visningsvalg } from "@/components/visningsvalg";
 import { VersCelle } from "@/components/vers-celle";
@@ -34,6 +34,7 @@ export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]
   const rader = kapittelRader(bok, kapittel);
   const harElb = bok.tekster.includes("elb");
   const andre = andreTekst(bok);
+  const engelsk = engelskKilde(bok);
   const { forrige, neste } = naboer(bok, kapittel);
   const kolonner = andre ? "md:grid-cols-[2.5rem_1fr_1fr]" : "";
 
@@ -60,8 +61,22 @@ export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]
       {!andre && <BareAmharisk />}
       {bok.ulikVersdeling?.includes(kapittel) && (
         <p className="mt-6 rounded-2xl border border-linje bg-flate/60 px-4 py-3 text-sm text-dempet">
-          Den engelske teksten har en annen versinndeling i dette kapitlet. Versene står side om side så langt de går;
-          ingen tekst er tatt bort.
+          {andre === "no1887" ? (
+            <>
+              Den norske teksten fra 1887 deler versene annerledes i dette kapitlet. Der står de norske versnumrene med
+              små tall ved siden av de amhariske versene de svarer til; ingen tekst er tatt bort.
+            </>
+          ) : bok.enKilde ? (
+            <>
+              Den engelske teksten ({engelsk.kort}) er delt inn annerledes i dette kapitlet. Der står kildens egne numre
+              med små tall ved siden av de amhariske versene de svarer til; ingen tekst er tatt bort.
+            </>
+          ) : (
+            <>
+              Den engelske teksten har en annen versinndeling i dette kapitlet. Versene står side om side så langt de
+              går; ingen tekst er tatt bort.
+            </>
+          )}
         </p>
       )}
 
@@ -84,9 +99,10 @@ export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]
           )}
           {andre === "en" && (
             <span className="kun-no normal-case tracking-normal" lang="en">
-              English (WEB)
+              English ({engelsk.kort})
             </span>
           )}
+          {andre === "no1887" && <span className="kun-no">Norsk · 1887</span>}
         </div>
         {rader.map((r) => (
           <div
@@ -115,6 +131,11 @@ export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]
             {andre === "en" && (
               <div className="kun-no col-start-2 mt-2 font-serif text-[1.05rem] leading-relaxed text-blekk md:col-start-3 md:mt-0">
                 <VersCelle deler={r.en ?? []} lang="en" />
+              </div>
+            )}
+            {andre === "no1887" && (
+              <div className="kun-no col-start-2 mt-2 font-serif text-[1.05rem] leading-relaxed text-blekk md:col-start-3 md:mt-0">
+                <VersCelle deler={r.no1887 ?? []} lang="nb" />
               </div>
             )}
             {andre === "no" && (
@@ -179,7 +200,14 @@ export default async function KapittelSide({ params }: PageProps<"/bibelen/[bok]
           <AmhariskKilde />
         )}
         {andre === "no" && <> Norsk tekst: Det Norske Bibelselskaps oversettelse av 1930.</>}
-        {andre === "en" && <> Engelsk tekst: World English Bible (WEB), public domain.</>}
+        {andre === "en" && <> Engelsk tekst: {engelsk.kreditt}</>}
+        {andre === "no1887" && (
+          <>
+            {" "}Norsk tekst: Det Gamle Testaments apokryfiske Bøger, Det norske Bibelselskab, Christiania 1887 (public
+            domain), etter Nasjonalbibliotekets skann. Der den mangler, står engelsk tekst fra World English Bible (WEB),
+            public domain.
+          </>
+        )}
         {harElb && (
           <>
             {" "}Lettlest: Biblica® Open En Levende Bok: Det Nye Testamentet™, © 1978, 1988, 2005 Biblica, Inc.,

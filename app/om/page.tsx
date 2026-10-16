@@ -58,6 +58,22 @@ export default function Om() {
       <Kilde tittel="Norsk · Bibelen 1930">
         <p>Det Norske Bibelselskaps oversettelse av 1930 (bokmål). Fri til bruk etter Bibelselskapets retningslinjer.</p>
       </Kilde>
+      <Kilde tittel="Norsk · De apokryfiske bøkene (1887)">
+        <p>
+          Tobit, Judit, Visdommens bok, Siraks bok, Baruk, Jeremias’ brev, Manasses’ bønn og de greske tilleggene i
+          Ester og Daniel står på norsk fra <i>Det Gamle Testaments apokryfiske Bøger, oversatte efter Foranstaltning
+          af det norske Bibelselskab</i> (Christiania 1887). Utgaven er falt i det fri (public domain). Teksten er
+          lest med OCR fra Nasjonalbibliotekets skann (nb.no, URN:NBN:no-nb_digibok_2014031808003) og gjengitt med
+          rettskrivingen fra 1887. Parallellhenvisninger, fotnoter og innholdsoversiktene foran kapitlene er tatt bort.
+        </p>
+        <p>
+          Utgaven deler versene som den danske og lutherske tradisjonen, så versene er koblet til den amhariske
+          inndelingen etter innholdet. Der versene ikke svarer én til én, står de norske versnumrene med små tall.
+          Vers som ikke er med i 1887-utgaven (blant annet den hebraiske delen av Ester), står på engelsk (WEB).
+          OCR-teksten er ikke korrekturlest i sin helhet ennå; kontrollen står i{" "}
+          <code className="text-sm">data/bibel/KONTROLL-81.md</code>.
+        </p>
+      </Kilde>
       <Kilde tittel="Norsk lettlest · En Levende Bok">
         <p>
           Biblica® Open En Levende Bok: Det Nye Testamentet™. Biblica® Open Norwegian Living New Testament™.
@@ -68,11 +84,26 @@ export default function Om() {
       </Kilde>
       <Kilde tittel="Engelsk · World English Bible">
         <p>
-          For de bøkene utenfor de 66 som ikke finnes i fri norsk oversettelse (Tobit, Judit, Visdommens bok, Siraks
-          bok, Baruk, Jeremias’ brev, 3. og 4. Esrabok, Manasses’ bønn, Salme 151 og tilleggene i Ester og Daniel)
-          står engelsk tekst fra World English Bible (WEB), som er public domain. Hentet fra eBible.org. Der
-          versinndelingen er ulik, står versene side om side så langt de går.
+          For 3. og 4. Esrabok og Salme 151, som ikke finnes i fri norsk oversettelse, står engelsk tekst fra World
+          English Bible (WEB), som er public domain. WEB brukes også for de versene i Ester og Daniel som ikke er med i
+          den norske utgaven fra 1887. Hentet fra eBible.org. Der versinndelingen er ulik, står versene side om side
+          så langt de går.
         </p>
+      </Kilde>
+      <Kilde tittel="Engelsk · eldre oversettelser fra etiopisk">
+        <p>
+          For noen av bøkene i kirkens brede kanon finnes det ingen fri norsk tekst, men en eldre engelsk oversettelse
+          fra etiopisk som er falt i det fri (public domain). Inndelingen er en annen enn i den amhariske bibelen, så
+          teksten står i blokker ved siden av de amhariske versene den svarer til, med kildens egne numre. Ingen tekst er
+          tatt bort.
+        </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>
+            Befalingene (Tizaz): G. H. Schodde, «The Apostolic Canons, Translated from the Ethiopic», <i>Journal of the
+            Society of Biblical Literature and Exegesis</i> 5 (1885), s. 61–72. Hentet fra archive.org (JSTOR Early
+            Journal Content, jstor-3268629).
+          </li>
+        </ul>
       </Kilde>
 
       <h2 className="mt-14 text-sm uppercase tracking-[0.18em] text-dempet">

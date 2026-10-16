@@ -30,6 +30,14 @@ Bøkene står i `boker.json` i kirkens rekkefølge. Skriptene i `scripts/bibel/`
    (se `data/bibel/rettelser-81.json`)
 6. `kontroller_81.py` sjekker ord for ord at hele kildeteksten er med, og skriver `data/bibel/KONTROLL-81.md`
 
+Den norske teksten fra 1887 til apokryfene (Tobit, Judit, Visdommen, Sirak, Baruk, Jeremias' brev, Manasses' bønn
+og tilleggene i Ester og Daniel) lages før steg 5:
+
+- `ocr_norsk1887.py` henter sidebildene fra nb.no og leser frakturen med tesseract (modellen frak2021)
+- `les_norsk1887.py` renser OCR-teksten og deler den i vers (logg: `data/bibel/rettelser-1887.json`)
+- `kart_norsk1887.py` kobler de norske versene til de amhariske etter innholdet (`data/bibel/kart-no1887.json`)
+- `lag_81.py --norsk1887 …` legger teksten i `data/bibel/no1887/`, med WEB der den norske mangler
+
 Rapportene viser alt som er rettet, og det som fortsatt må sjekkes av et menneske.
 Kildene og lisensene står på siden `/om/`.
 
@@ -41,6 +49,8 @@ Kildene og lisensene står på siden `/om/`.
   Oversettelsen © Den etiopisk-ortodokse Tewahedo-kirken / Bibelselskapet i Etiopia; vi har bedt om tillatelse.
   Teksten står uendret (ND); den er bare satt opp vers for vers ved siden av oversettelsen.
 - Engelsk: World English Bible (WEB), public domain, fra eBible.org.
+- Norsk 1887 (apokryfene): Det Gamle Testaments apokryfiske Bøger, Det norske Bibelselskab 1887, public domain,
+  skannet av Nasjonalbiblioteket.
 - Norsk 1930 og En Levende Bok: se `/om/`.
 
 ## Bilder

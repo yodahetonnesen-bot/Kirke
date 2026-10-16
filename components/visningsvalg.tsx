@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import type { AndreTekst } from "@/lib/bibel";
 
 type Valg = { verdi: string; tekst: React.ReactNode };
 
@@ -46,7 +47,7 @@ function Bryter({ navn, standard, valg, etikett }: { navn: "sprak" | "norsk"; st
 }
 
 /** andre: hva som står i den andre kolonnen. Uten andre kolonne er det ingenting å velge mellom. */
-export function Visningsvalg({ harElb, andre = "no" }: { harElb: boolean; andre?: "no" | "en" | null }) {
+export function Visningsvalg({ harElb, andre = "no" }: { harElb: boolean; andre?: AndreTekst | null }) {
   if (!andre) return null;
   return (
     <div className="flex flex-wrap items-center gap-2">

@@ -7,7 +7,7 @@ import path from "node:path";
 const mappe = path.join(import.meta.dirname, "..", "data", "bibel");
 const boker = JSON.parse(fs.readFileSync(path.join(mappe, "boker.json"), "utf8"));
 const feil = [];
-const tall = { vers: 0, mangler: 0, en: 0 };
+const tall = { vers: 0, mangler: 0, en: 0, no1887: 0 };
 
 // Kirkens liste: 46 bøker i GT og 35 i NT, nummerert uten hull og i rekkefølge.
 for (const [testament, antall] of [["gt", 46], ["nt", 35]]) {
@@ -50,6 +50,7 @@ for (const bok of boker) {
       }
       if (tekst === "am") tall.vers += dekket.size;
       if (tekst === "en") tall.en += dekket.size;
+      if (tekst === "no1887") tall.no1887 += dekket.size;
     });
   }
 }
@@ -61,5 +62,5 @@ const telt = (k) => boker.filter((b) => b.kanon === k).length;
 console.log(
   `Bibeldataene er i orden: ${boker.length} bøker (${telt("66")} + ${telt("81")} fra 81-bokbibelen + ${telt("bred")} ` +
     `fra den brede kanonen; 46 + 35 = 81 etter kirkens telling), ${tall.vers} amhariske versplasser ` +
-    `(${tall.mangler} merket «mangler»), ${tall.en} engelske.`,
+    `(${tall.mangler} merket «mangler»), ${tall.en} engelske og ${tall.no1887} med norsk 1887.`,
 );

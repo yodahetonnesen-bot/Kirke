@@ -11,7 +11,7 @@ export type Bok = {
   adresse: string;
   navn: { am: string; no: string; en: string };
   kapitler: number;
-  /** am, og no1930 (+ elb) eller en (WEB) i den andre kolonnen */
+  /** am, og no1930 (+ elb), no1887 (norsk 1887, med WEB der den mangler) eller en (engelsk) i den andre kolonnen */
   tekster: string[];
   /** «66»: de 66 bøkene, «81»: resten av den trykte 81-bokbibelen, «bred»: den brede kanonen */
   kanon: "66" | "81" | "bred";
@@ -21,11 +21,44 @@ export type Bok = {
   /** kapitler der den andre kolonnen har en annen versinndeling */
   ulikVersdeling?: number[];
   merknad?: string;
+  /** hvor den engelske teksten er hentet fra, når det ikke er WEB (se ENGELSKE_KILDER) */
+  enKilde?: string;
 };
 
+/** De engelske oversettelsene: kort navn i kolonneoverskriften og kreditering under teksten. */
+export const ENGELSKE_KILDER: Record<string, { kort: string; kreditt: string }> = {
+  web: { kort: "WEB", kreditt: "World English Bible (WEB), public domain." },
+  schodde1885: {
+    kort: "Schodde 1885",
+    kreditt:
+      "G. H. Schodde, «The Apostolic Canons, Translated from the Ethiopic», Journal of the Society of Biblical " +
+      "Literature and Exegesis 5 (1885), public domain.",
+  },
+  charles1917: {
+    kort: "Charles 1917",
+    kreditt: "R. H. Charles, The Book of Enoch (SPCK 1917), oversatt fra etiopisk, public domain.",
+  },
+  harden1920: {
+    kort: "Harden 1920",
+    kreditt: "J. M. Harden, The Ethiopic Didascalia (SPCK 1920), oversatt fra etiopisk, public domain.",
+  },
+  charles1902: {
+    kort: "Charles 1902",
+    kreditt: "R. H. Charles, The Book of Jubilees or the Little Genesis (1902), oversatt fra etiopisk, public domain.",
+  },
+};
+
+export function engelskKilde(bok: Bok) {
+  return ENGELSKE_KILDER[bok.enKilde ?? "web"] ?? ENGELSKE_KILDER.web;
+}
+
+export type AndreTekst = "no" | "no1887" | "en";
+
 /** Hva som står i den andre kolonnen. */
-export function andreTekst(bok: Bok): "no" | "en" | null {
-  return bok.tekster.includes("no1930") ? "no" : bok.tekster.includes("en") ? "en" : null;
+export function andreTekst(bok: Bok): AndreTekst | null {
+  if (bok.tekster.includes("no1930")) return "no";
+  if (bok.tekster.includes("no1887")) return "no1887";
+  return bok.tekster.includes("en") ? "en" : null;
 }
 
 /** Kapittelnumrene i boka, slik de står i adressen og i kapitteloversikten. */
@@ -40,6 +73,8 @@ type Ekstra = {
   ekstra?: boolean;
   kilde?: string;
   overskrifter?: string[];
+  /** blokker: versene fra kilden som [henvisning eller null, tekst] */
+  vers?: [string | null, string][];
 };
 type Gruppe = [number, number, string, Ekstra?];
 
@@ -54,6 +89,8 @@ export type Del = {
   mangler?: boolean;
   /** overskrifter som står foran verset i kilden */
   overskrifter?: string[];
+  /** «WEB» når den norske teksten (1887) mangler og verset står på engelsk */
+  kilde?: string;
 };
 
 export type Rad = {
@@ -63,8 +100,10 @@ export type Rad = {
   no: Del[];
   /** null i GT, der En Levende Bok ikke finnes */
   elb: Del[] | null;
-  /** engelsk (WEB) for bøkene uten fri norsk tekst; ellers null */
+  /** engelsk for bøkene uten fri norsk tekst; ellers null */
   en: Del[] | null;
+  /** norsk 1887 (apokryfene), med engelsk (WEB) der den mangler; ellers null */
+  no1887: Del[] | null;
   /** amharisk vers uten norsk motstykke */
   ekstra?: boolean;
 };
@@ -95,7 +134,20 @@ const tilDel = (g: Gruppe): Del => ({
   ...(g[3]?.noter && { noter: g[3].noter }),
   ...(g[3]?.mangler && { mangler: true }),
   ...(g[3]?.overskrifter && { overskrifter: g[3].overskrifter }),
+  ...(g[3]?.kilde === "WEB" && { kilde: "WEB" }),
 });
+
+/** En blokk (flere vers fra kilden ved siden av ett eller flere amhariske vers) blir én del per vers. */
+const tilDeler = (g: Gruppe): Del[] =>
+  g[3]?.vers
+    ? g[3].vers.map(([ref, tekst], i) => ({
+        fra: g[0],
+        til: g[1],
+        tekst,
+        ...(ref && { ref }),
+        ...(i === 0 && g[3]?.overskrifter && { overskrifter: g[3].overskrifter }),
+      }))
+    : [tilDel(g)];
 
 /**
  * Setter sammen radene i et kapittel. Når en oversettelse har slått sammen vers,
@@ -108,10 +160,11 @@ export function kapittelRader(bok: Bok, kapittel: number): Rad[] {
   const no = tekst("no1930") ?? [];
   const elb = tekst("elb");
   const en = tekst("en");
+  const no1887 = tekst("no1887");
 
   const amVanlige = am.filter((g) => !g[3]?.ekstra);
   const amEkstra = am.filter((g) => g[3]?.ekstra);
-  const alle = [...amVanlige, ...no, ...(elb ?? []), ...(en ?? [])];
+  const alle = [...amVanlige, ...no, ...(elb ?? []), ...(en ?? []), ...(no1887 ?? [])];
   const siste = Math.max(0, ...alle.map((g) => g[1]));
 
   // Slå sammen versplasser som overlapper i minst én oversettelse.
@@ -132,7 +185,7 @@ export function kapittelRader(bok: Bok, kapittel: number): Rad[] {
   }
 
   const innenfor = (liste: Gruppe[], fra: number, til: number) =>
-    liste.filter((g) => g[0] >= fra && g[1] <= til).map(tilDel);
+    liste.filter((g) => g[0] >= fra && g[1] <= til).flatMap(tilDeler);
 
   const rader: Rad[] = [];
   for (const [fra, til] of grenser) {
@@ -143,9 +196,19 @@ export function kapittelRader(bok: Bok, kapittel: number): Rad[] {
       no: innenfor(no, fra, til),
       elb: elb ? innenfor(elb, fra, til) : null,
       en: en ? innenfor(en, fra, til) : null,
+      no1887: no1887 ? innenfor(no1887, fra, til) : null,
     });
     for (const g of amEkstra.filter((x) => x[0] >= fra && x[0] <= til)) {
-      rader.push({ fra: g[0], til: g[0], am: [tilDel(g)], no: [], elb: elb ? [] : null, en: null, ekstra: true });
+      rader.push({
+        fra: g[0],
+        til: g[0],
+        am: [tilDel(g)],
+        no: [],
+        elb: elb ? [] : null,
+        en: null,
+        no1887: null,
+        ekstra: true,
+      });
     }
   }
   return rader;

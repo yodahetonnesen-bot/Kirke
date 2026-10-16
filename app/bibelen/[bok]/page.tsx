@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { alleBoker, andreTekst, finnBok, kapitlene } from "@/lib/bibel";
+import { alleBoker, andreTekst, engelskKilde, finnBok, kapitlene } from "@/lib/bibel";
 import { BareAmharisk, Merknad } from "@/components/bibel-merknad";
 
 export const dynamicParams = false;
@@ -31,7 +31,9 @@ export default async function BokSide({ params }: PageProps<"/bibelen/[bok]">) {
           {bok.kanon === "81" ? "Med i den etiopiske 81-bokbibelen" : "Med i kirkens brede kanon"}
           {" · "}
           {andre === "en" ? (
-            <>Amharisk (2000 E.C.) og engelsk (WEB)</>
+            <>Amharisk (2000 E.C.) og engelsk ({engelskKilde(bok).kort})</>
+          ) : andre === "no1887" ? (
+            <>Amharisk (2000 E.C.) og norsk (1887)</>
           ) : andre === "no" ? (
             <>Amharisk (2000 E.C.) og norsk (1930)</>
           ) : (
