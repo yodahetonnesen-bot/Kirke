@@ -375,6 +375,19 @@ Kapitler der den andre kolonnen har en annen versinndeling (81-bokbibelen, sjekk
 
 ## Bibelfortellingene
 
+### Det gamle testamentet
+
+`content/fortellinger/gt.ts`
+
+- [ ] Ordlyden om ኪዳነ አዳም («etter fem og en halv dag», dvs. 5500 år) er kirkas lære, ikke bibeltekst. Bør kontrolleres av en prest.
+- [ ] At ሐምሌ ሥላሴ (7. ሐምሌ) minnes Abrahams gjestfrihet mot de tre gjestene, bør kontrolleres.
+- [ ] At kirka minnes erkeengelen Gabriel som reddet de tre unge mennene fra ovnen (ታኅሣሥ ገብርኤል, 19. ታኅሣሥ), bør kontrolleres.
+- [ ] Tradisjonen fra ክብረ ነገሥት om dronningen av Saba (ማክዳ), Menelik I og ታቦተ ጽዮን i Aksum er fortalt som tradisjon, ikke som bibeltekst. Ordlyden bør kontrolleres av en prest.
+- [ ] At Jakobs stige og den brennende busken er bilder på Maria, er hentet fra ውዳሴ ማርያም / ቅዳሴ ማርያም; bør kontrolleres om formuleringen er presis nok.
+- [ ] Kirkas lære om at Enok og Elia kommer igjen før verdens ende, at Maria vokste opp i templet, og at Maria kalles ታቦት, er tatt med som kirkas lære; formuleringene bør kontrolleres.
+- [ ] David som bilde på Kristus som seiret over djevelen er oppgitt som «ሊቃውንት» uten konkret kilde.
+- [ ] ዕፀ ሳቤቅ (busken der væren satt fast) brukes slik den amhariske bibelen har det.
+
 ### Det nye testamentet
 
 `content/fortellinger/nt.ts`
@@ -384,6 +397,9 @@ Kapitler der den andre kolonnen har en annen versinndeling (81-bokbibelen, sjekk
 - [ ] at fjellet i Matt 17 er Tabor, er kirkas tradisjon (bibelen sier bare «et høyt fjell»).
 - [ ] skikkene ved ቡሄ (barn som synger, brødet ሙልሙል, fakler/ችቦ) – kan variere fra sted til sted.
 - [ ] tradisjonen om at hoffmannen (ጃንደረባው) het ባኮስ og forkynte i Etiopia. Prest bør bekrefte.
+- [ ] skikken med ዘንባባ på ሆሣዕና (knyttes rundt finger/panne) beskrevet forenklet.
+- [ ] ጾመ ሐዋርያት begynner dagen etter ጰራቅሊጦስ; ዕርገት på 40. dag – bør bekreftes.
+- [ ] «Kirkefedrene ser Kristus i samaritanen» er skrevet generelt, uten bestemt kilde.
 - [ ] ገና/ልደት ታኅሣሥ 29 (ታኅሣሥ 28 i noen år), ጥምቀት ጥር 11, ደብረ ታቦር ነሐሴ 13 – vanlige datoer, men bør sjekkes.
 
 ## Venter på innhold

@@ -4,7 +4,7 @@
 // «timket», «timkat» og «ጥምቀት» finner hverandre.
 import { BOKSTAVER } from "./fidel";
 
-export type SokType = "side" | "tema" | "avsnitt" | "bonn" | "hoytid" | "bok";
+export type SokType = "side" | "tema" | "avsnitt" | "fortelling" | "bonn" | "hoytid" | "bok";
 
 export type SokDok = {
   type: SokType;
@@ -151,7 +151,7 @@ export function forbered(indeks: SokIndeks) {
 
 export type Treff = { dok: SokDok; poeng: number; utdrag: string };
 
-const TYPEVEKT: Record<SokType, number> = { side: 3, tema: 2.5, bok: 1.2, hoytid: 1.5, bonn: 1.2, avsnitt: 1 };
+const TYPEVEKT: Record<SokType, number> = { side: 3, tema: 2.5, fortelling: 1.8, bok: 1.2, hoytid: 1.5, bonn: 1.2, avsnitt: 1 };
 
 /** Søker i den forberedte indeksen. Alle ordene i søket må finnes, eksakt eller omtrent. */
 export function sok(forberedt: Forberedt[], sporring: string, maks = 60): Treff[] {

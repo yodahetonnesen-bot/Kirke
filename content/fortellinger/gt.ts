@@ -13,6 +13,9 @@ import type { Fortelling } from "./typer";
 //   som tradisjon, ikke som bibeltekst. Ordlyden bør kontrolleres av en prest.
 // Usikkert: At Jakobs stige og den brennende busken er bilder på Maria, er hentet fra ውዳሴ ማርያም / ቅዳሴ ማርያም;
 //   bør kontrolleres om formuleringen er presis nok.
+// Usikkert: Kirkas lære om at Enok og Elia kommer igjen før verdens ende, at Maria vokste opp i templet,
+//   og at Maria kalles ታቦት, er tatt med som kirkas lære; formuleringene bør kontrolleres.
+// Usikkert: David som bilde på Kristus som seiret over djevelen er oppgitt som «ሊቃውንት» uten konkret kilde.
 // Usikkert: ዕፀ ሳቤቅ (busken der væren satt fast) brukes slik den amhariske bibelen har det.
 export const GT: Fortelling[] = [
   {
@@ -512,7 +515,7 @@ export const GT: Fortelling[] = [
       no: "Gud beskytter de små og har en plan for hvert barn. Kirka ser at Moses, som ble reddet da farao drepte guttebarna, ligner på Jesus, som ble reddet da Herodes drepte barna i Betlehem. Moses ble senere den som førte folket ut av slaveriet.",
       am: "እግዚአብሔር ሕፃናትን ይጠብቃል፤ ለእያንዳንዱም ልጅ ዕቅድ አለው። ፈርዖን ወንዶች ሕፃናትን ሲያስገድል የዳነው ሙሴ፣ ሄሮድስ በቤተ ልሔም ሕፃናትን ሲያስገድል ከዳነው ከጌታችን ጋር እንደሚመሳሰል ቤተ ክርስቲያን ታስተምራለች። ሙሴም በኋላ ሕዝቡን ከባርነት ያወጣ ሆነ።",
     },
-    minnevers: "Ps 34:7",
+    minnevers: "Ps 34:8",
     sporsmal: [
       {
         sporsmal: { no: "Hvor la moren Moses?", am: "እናቱ ሙሴን የት አስቀመጠችው?" },
@@ -599,7 +602,7 @@ export const GT: Fortelling[] = [
       },
       {
         no: "Egypterne fulgte etter dem. Da rakte Moses hånden ut igjen, og vannet vendte tilbake og dekket hele faraos hær. Folket så hva Herren hadde gjort, og trodde på ham. Moses og Mirjam sang en lovsang til Gud.",
-        am: "ግብፃውያንም ተከተሏቸው። ሙሴም እንደ ገና እጁን ዘረጋ፤ ውኃውም ተመልሶ የፈርዖንን ሠራዊት ሁሉ ከደነ። ሕዝቡም እግዚአብሔር ያደረገውን አይተው በእርሱ አመኑ። ሙሴና ማርያምም ለእግዚአብሔር የምስጋና መዝሙር ዘመሩ።",
+        am: "ግብፃውያንም ተከተሏቸው። ሙሴም እንደ ገና እጁን ዘረጋ፤ ውኃውም ተመልሶ የፈርዖንን ሠራዊት ሁሉ ከደነ። ሕዝቡም እግዚአብሔር ያደረገውን አይተው በእርሱ አመኑ። ሙሴና ማሪያምም ለእግዚአብሔር የምስጋና መዝሙር ዘመሩ።",
       },
     ],
     laerdom: {
@@ -689,7 +692,7 @@ export const GT: Fortelling[] = [
       },
       {
         no: "Over arken var et lokk av rent gull med to keruber som bredte ut vingene sine. Inne i arken skulle Moses legge steintavlene med de ti bud.",
-        am: "በታቦቱ ላይ ከጥሩ ወርቅ የተሠራ የስርየት መክደኛ ነበረ፤ በላዩም ክንፎቻቸውን የዘረጉ ሁለት ኪሩቤል ነበሩ። በታቦቱ ውስጥ ሙሴ ዐሥርቱ ቃላት የተጻፉባቸውን ጽላቶች ያኖር ነበር።",
+        am: "በታቦቱ ላይ ከጥሩ ወርቅ የተሠራ የስርየት መክደኛ ነበረ፤ በላዩም ክንፎቻቸውን የዘረጉ ሁለት ኪሩቤል ነበሩ። ሙሴም ዐሥርቱ ቃላት የተጻፉባቸውን ጽላቶች በታቦቱ ውስጥ እንዲያኖር ታዘዘ።",
       },
       {
         no: "Gud sa: «Der vil jeg møte deg og tale med deg, fra stedet mellom de to kerubene.» Arken var tegnet på at Gud var midt iblant folket sitt.",
@@ -810,6 +813,363 @@ export const GT: Fortelling[] = [
       {
         sporsmal: { no: "Hvilken berømt konge kom fra Rut?", am: "ከሩት ዘር የተወለደው ታዋቂ ንጉሥ ማን ነው?" },
         svar: { no: "Kong David.", am: "ንጉሥ ዳዊት።" },
+      },
+    ],
+  },
+  {
+    slug: "samuel-kalles",
+    testament: "gt",
+    nr: 18,
+    tittel: { no: "Gud kaller den unge Samuel", am: "እግዚአብሔር ብላቴናውን ሳሙኤልን ጠራው" },
+    ref: "1Sam 3:1-21",
+    tekst: [
+      {
+        no: "Hanna hadde bedt Gud om en sønn, og Gud hørte bønnen hennes. Hun kalte ham Samuel. Da han var liten, ga hun ham til Herren, og han bodde hos presten Eli i Guds hus i Silo.",
+        am: "ሐና ወንድ ልጅ እንዲሰጣት ወደ እግዚአብሔር ጸለየች፤ እግዚአብሔርም ጸሎትዋን ሰማ። ስሙንም ሳሙኤል ብላ ጠራችው። ገና ሕፃን ሳለ ለእግዚአብሔር ሰጠችው፤ እርሱም በሴሎ በእግዚአብሔር ቤት ከካህኑ ከዔሊ ጋር ይኖር ነበር።",
+      },
+      {
+        no: "En natt lå Samuel og sov i templet, der Guds ark sto. Da ropte Herren: «Samuel!» Samuel svarte: «Her er jeg!» og løp til Eli. Men Eli sa: «Jeg ropte ikke på deg. Gå og legg deg igjen.»",
+        am: "አንድ ሌሊት ሳሙኤል የእግዚአብሔር ታቦት ባለበት በቤተ መቅደስ ተኝቶ ነበር። እግዚአብሔርም «ሳሙኤል» ብሎ ጠራው። ሳሙኤልም «እነሆኝ» ብሎ ወደ ዔሊ ሮጠ። ዔሊ ግን «አልጠራሁህም፤ ተመልሰህ ተኛ» አለው።",
+      },
+      {
+        no: "Dette skjedde tre ganger. Da forsto Eli at det var Herren som kalte gutten. Han sa: «Hvis han roper igjen, skal du si: Tal, Herre, for din tjener hører.»",
+        am: "ይህ ሦስት ጊዜ ሆነ። ዔሊም ብላቴናውን የጠራው እግዚአብሔር እንደ ሆነ አስተዋለ። «ደግሞ ቢጠራህ ‹አቤቱ፥ ባሪያህ ይሰማልና ተናገር› በለው» አለው።",
+      },
+      {
+        no: "Herren kom og ropte som før: «Samuel, Samuel!» Samuel svarte: «Tal, for din tjener hører.» Fra den dagen talte Gud til Samuel, og han vokste opp og ble en stor profet for hele Israel.",
+        am: "እግዚአብሔርም መጥቶ እንደ ቀድሞው «ሳሙኤል ሳሙኤል» ብሎ ጠራው። ሳሙኤልም «ባሪያህ ይሰማልና ተናገር» አለ። ከዚያ ቀን ጀምሮ እግዚአብሔር ለሳሙኤል ይናገር ነበር፤ እርሱም አድጎ ለእስራኤል ሁሉ ታላቅ ነቢይ ሆነ።",
+      },
+    ],
+    laerdom: {
+      no: "Gud taler også til barn, og barn kan tjene Gud i kirka. Som Samuel skal vi lytte når Gud taler til oss gjennom Bibelen og kirka. Kirka lærer at også Jomfru Maria ble gitt til Gud som barn og vokste opp i templet.",
+      am: "እግዚአብሔር ለሕፃናትም ይናገራል፤ ሕፃናትም በቤተ ክርስቲያን እግዚአብሔርን ማገልገል ይችላሉ። እንደ ሳሙኤል እግዚአብሔር በመጽሐፍ ቅዱስና በቤተ ክርስቲያን ሲናገረን ልንሰማ ይገባናል። እመቤታችንም በሕፃንነቷ ለእግዚአብሔር ተሰጥታ በቤተ መቅደስ እንዳደገች ቤተ ክርስቲያን ታስተምራለች።",
+    },
+    minnevers: "1Sam 3:10",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvem trodde Samuel ropte på ham?", am: "ሳሙኤል የጠራው ማን መሰለው?" },
+        svar: { no: "Presten Eli.", am: "ካህኑ ዔሊ።" },
+      },
+      {
+        sporsmal: { no: "Hva lærte Eli Samuel å svare?", am: "ዔሊ ሳሙኤልን ምን ብሎ እንዲመልስ አስተማረው?" },
+        svar: { no: "«Tal, Herre, for din tjener hører.»", am: "«አቤቱ፥ ባሪያህ ይሰማልና ተናገር።»" },
+      },
+    ],
+  },
+  {
+    slug: "david-og-goliat",
+    testament: "gt",
+    nr: 19,
+    tittel: { no: "David og Goliat", am: "ዳዊትና ጎልያድ" },
+    ref: "1Sam 17:1-51",
+    tekst: [
+      {
+        no: "Israelittene og filisterne sto klare til krig. Hver dag kom en kjempe fra filisterne fram. Han het Goliat og var over to og en halv meter høy. Han hånet Israels hær, og alle var redde for ham.",
+        am: "እስራኤላውያንና ፍልስጥኤማውያን ለጦርነት ተሰልፈው ነበር። ከፍልስጥኤማውያንም ሰፈር ጎልያድ የተባለ ስድስት ክንድ ከስንዝር ቁመት ያለው ጀግና በየቀኑ ይወጣ ነበር። የእስራኤልን ሠራዊት ይገዳደር ነበር፤ ሁሉም ፈሩት።",
+      },
+      {
+        no: "Den unge gjeteren David kom med mat til brødrene sine. Han sa til kong Saul: «Herren som reddet meg fra løven og bjørnen, vil redde meg fra denne filisteren også.»",
+        am: "ብላቴናው እረኛ ዳዊት ለወንድሞቹ ስንቅ ይዞ መጣ። ንጉሡን ሳኦልንም «ከአንበሳና ከድብ እጅ ያስጣለኝ እግዚአብሔር ከዚህ ፍልስጥኤማዊ እጅ ያስጥለኛል» አለው።",
+      },
+      {
+        no: "David tok ikke rustningen til Saul. Han tok bare staven sin, en slynge og fem glatte steiner fra bekken. Til Goliat sa han: «Du kommer mot meg med sverd og spyd, men jeg kommer i Herrens navn.»",
+        am: "ዳዊት የሳኦልን የጦር ልብስ አልወሰደም። በትሩንና ወንጭፉን ብቻ ይዞ ከወንዝ አምስት ድብልብል ድንጋዮችን መረጠ። ጎልያድንም «አንተ ሰይፍና ጦር ይዘህ ትመጣብኛለህ፤ እኔ ግን በሠራዊት ጌታ በእግዚአብሔር ስም እመጣብሃለሁ» አለው።",
+      },
+      {
+        no: "David slynget en stein som traff Goliat i pannen, og kjempen falt til jorden. Slik vant Herren over filisterne. Alle skjønte at det ikke er med sverd og spyd Herren frelser.",
+        am: "ዳዊትም በወንጭፉ ድንጋይ ወረወረ፤ ጎልያድንም ግምባሩን መታው፤ ጀግናውም በምድር ላይ ወደቀ። እንዲህም እግዚአብሔር ፍልስጥኤማውያንን አሸነፈ። እግዚአብሔር በሰይፍና በጦር እንደማያድን ሁሉም አወቁ።",
+      },
+    ],
+    laerdom: {
+      no: "Seieren kommer fra Gud, ikke fra styrke eller våpen. Kirkefedrene ser David, som var fra Betlehem, som et bilde på Kristus, Davids sønn, som vant over djevelen for å frelse oss.",
+      am: "ድል ከእግዚአብሔር ነው እንጂ ከኃይል ወይም ከጦር መሣሪያ አይደለም። ሊቃውንት የቤተ ልሔሙን ዳዊትን ዲያብሎስን ድል አድርጎ ያዳነን የዳዊት ልጅ የክርስቶስ ምሳሌ አድርገው ያዩታል።",
+    },
+    minnevers: "1Sam 17:45",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvor mange steiner tok David fra bekken?", am: "ዳዊት ከወንዝ ስንት ድንጋዮች መረጠ?" },
+        svar: { no: "Fem.", am: "አምስት።" },
+      },
+      {
+        sporsmal: { no: "I hvems navn gikk David mot Goliat?", am: "ዳዊት በማን ስም ወደ ጎልያድ ሄደ?" },
+        svar: { no: "I Herrens navn.", am: "በእግዚአብሔር ስም።" },
+      },
+      {
+        sporsmal: { no: "Hvem hadde reddet David fra løven og bjørnen?", am: "ዳዊትን ከአንበሳና ከድብ ያዳነው ማን ነው?" },
+        svar: { no: "Herren.", am: "እግዚአብሔር።" },
+      },
+    ],
+  },
+  {
+    slug: "salomos-visdom",
+    testament: "gt",
+    nr: 20,
+    tittel: { no: "Salomo ber om visdom", am: "ሰሎሞን ጥበብን ለመነ" },
+    ref: "1Kgs 3:5-28",
+    tekst: [
+      {
+        no: "Salomo, Davids sønn, ble konge. En natt i Gibeon viste Gud seg for ham i en drøm og sa: «Be om hva du vil, så skal jeg gi deg det.»",
+        am: "የዳዊት ልጅ ሰሎሞን ነገሠ። በገባዖንም እግዚአብሔር በሌሊት በሕልም ተገለጠለትና «ምን እንድሰጥህ ለምን» አለው።",
+      },
+      {
+        no: "Salomo sa: «Jeg er bare ung. Gi meg et forstandig hjerte, så jeg kan dømme folket ditt og skjelne mellom godt og ondt.» Dette gledet Herren. Han ga Salomo visdom, og i tillegg rikdom og ære som han ikke hadde bedt om.",
+        am: "ሰሎሞንም «እኔ ገና ብላቴና ነኝ፤ በሕዝብህ ላይ መፍረድ እችል ዘንድ መልካሙንና ክፉውንም እለይ ዘንድ አስተዋይ ልቡና ስጠኝ» አለ። ይህም እግዚአብሔርን ደስ አሰኘው። ጥበብን ሰጠው፤ ያልለመነውንም ባለጠግነትና ክብር ጨመረለት።",
+      },
+      {
+        no: "Snart kom to kvinner til kongen. De bodde i samme hus og hadde begge fått en baby. Den ene babyen døde om natten. Nå sa begge kvinnene: «Det levende barnet er mitt!»",
+        am: "ብዙም ሳይቆይ ሁለት ሴቶች ወደ ንጉሡ መጡ። በአንድ ቤት ይኖሩ ነበር፤ ሁለቱም ወልደው ነበር። የአንደኛዋ ልጅ በሌሊት ሞተ። አሁን ሁለቱም «ደኅነኛው ልጅ የእኔ ነው» አሉ።",
+      },
+      {
+        no: "Salomo sa: «Hent et sverd og del barnet i to.» Da ropte den virkelige moren: «Nei, gi henne barnet, men drep det ikke!» Da visste Salomo hvem som var moren, og ga henne barnet. Hele Israel så at Guds visdom var i ham.",
+        am: "ሰሎሞንም «ሰይፍ አምጡና ሕፃኑን ለሁለት ክፈሉት» አለ። እውነተኛዋ እናትም «ጌታዬ ሆይ፥ ሕፃኑን ለእርስዋ ስጣት እንጂ አትግደለው» ብላ ጮኸች። ሰሎሞንም እናቱ ማን እንደ ሆነች አውቆ ሕፃኑን ሰጣት። እስራኤልም ሁሉ የእግዚአብሔር ጥበብ በእርሱ እንዳለ አዩ።",
+      },
+    ],
+    laerdom: {
+      no: "Visdom er en gave fra Gud, og vi kan be ham om den. Salomo ba ikke om rikdom for seg selv, men om å kunne tjene andre godt. Kirka lærer at ekte visdom begynner med å frykte Gud.",
+      am: "ጥበብ የእግዚአብሔር ስጦታ ናት፤ ልንለምነውም እንችላለን። ሰሎሞን ለራሱ ባለጠግነትን አልለመነም፤ ሌሎችን በመልካም ማገልገል እንዲችል ለመነ እንጂ። ቤተ ክርስቲያን የእውነተኛ ጥበብ መጀመሪያ እግዚአብሔርን መፍራት እንደ ሆነ ታስተምራለች።",
+    },
+    minnevers: "1Kgs 3:9",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hva ba Salomo Gud om?", am: "ሰሎሞን እግዚአብሔርን ምን ለመነ?" },
+        svar: {
+          no: "Et forstandig hjerte, så han kunne dømme folket rett.",
+          am: "በሕዝቡ ላይ በትክክል እንዲፈርድ አስተዋይ ልቡና።",
+        },
+      },
+      {
+        sporsmal: { no: "Hvordan fant Salomo ut hvem som var den virkelige moren?", am: "ሰሎሞን እውነተኛዋን እናት እንዴት አወቀ?" },
+        svar: {
+          no: "Hun ville heller gi bort barnet enn at det skulle dø.",
+          am: "ሕፃኑ ከሚሞት ይልቅ ለሌላዋ እንዲሰጥ ስለ መረጠች።",
+        },
+      },
+    ],
+  },
+  {
+    slug: "dronningen-av-saba",
+    testament: "gt",
+    nr: 21,
+    tittel: { no: "Dronningen av Saba besøker Salomo", am: "ንግሥተ ሳባ ሰሎሞንን ጐበኘች" },
+    ref: "1Kgs 10:1-13",
+    tekst: [
+      {
+        no: "Dronningen av Saba hørte hvor vis Salomo var, og hvor stor Herrens navn var hos ham. Hun reiste til Jerusalem for å prøve ham med vanskelige spørsmål. Hun kom med kameler fulle av krydder, gull og edelsteiner.",
+        am: "የሳባ ንግሥት በእግዚአብሔር ስም የወጣለትን የሰሎሞንን ዝና ሰማች። በእንቆቅልሽ ልትፈትነውም ወደ ኢየሩሳሌም መጣች። ሽቱ፣ ብዙ ወርቅና የከበረ ዕንቍ በግመሎች ላይ አስጭና መጣች።",
+      },
+      {
+        no: "Hun spurte Salomo om alt hun hadde på hjertet, og han svarte på alle spørsmålene hennes. Hun så visdommen hans, huset han hadde bygd og ofrene i Herrens hus.",
+        am: "በልብዋ ያለውን ሁሉ ጠየቀችው፤ ሰሎሞንም የጠየቀችውን ሁሉ ፈታላት። ጥበቡን፣ የሠራውን ቤትና በእግዚአብሔር ቤት የሚቀርበውን መሥዋዕት አየች።",
+      },
+      {
+        no: "Hun sa: «Jeg trodde ikke det jeg hørte før jeg kom og så det med egne øyne. Ikke engang halvparten var fortalt meg! Lovet være Herren din Gud!» Hun ga kongen store gaver, og Salomo ga henne alt hun ønsket. Så dro hun hjem til landet sitt.",
+        am: "እርስዋም «መጥቼ በዓይኔ እስካይ ድረስ የሰማሁትን አላመንሁም ነበር፤ እነሆም እኩሌታውን አልነገሩኝም ነበር። አምላክህ እግዚአብሔር የተባረከ ይሁን» አለች። ለንጉሡም ብዙ ስጦታ ሰጠችው፤ ሰሎሞንም የወደደችውን ሁሉ ሰጣት። ከዚያም ወደ አገርዋ ተመለሰች።",
+      },
+      {
+        no: "Jesus nevner henne i evangeliet og kaller henne «dronningen fra Sør», ንግሥተ ዓዜብ, som kom fra jordens ende for å høre Salomos visdom.",
+        am: "ጌታችን በወንጌል የሰሎሞንን ጥበብ ለመስማት ከምድር ዳር የመጣች ንግሥተ ዓዜብ ብሎ ጠቅሷታል።",
+      },
+    ],
+    laerdom: {
+      no: "Etter etiopisk tradisjon, fortalt i boka ክብረ ነገሥት, var dronningen av Saba fra Etiopia og het ማክዳ. Tradisjonen forteller at hun og Salomo fikk sønnen ምኒልክ, som senere kom til Jerusalem og tok med seg ታቦተ ጽዮን til Aksum. Dette er tradisjon, ikke bibeltekst, men Bibelen viser oss en dronning som søkte visdom og lovet Israels Gud.",
+      am: "በክብረ ነገሥት በተጻፈው የኢትዮጵያ ትውፊት መሠረት ንግሥተ ሳባ ከኢትዮጵያ የነበረችና ማክዳ የምትባል ናት። ከሰሎሞንም ምኒልክን እንደ ወለደችና ምኒልክም በኋላ ወደ ኢየሩሳሌም ሄዶ ታቦተ ጽዮንን ወደ አክሱም እንዳመጣ ትውፊቱ ይናገራል። ይህ ትውፊት እንጂ የመጽሐፍ ቅዱስ ቃል አይደለም፤ መጽሐፍ ቅዱስ ግን ጥበብን የፈለገችና የእስራኤልን አምላክ ያመሰገነች ንግሥት ያሳየናል።",
+    },
+    minnevers: "Matt 12:42",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvorfor reiste dronningen av Saba til Salomo?", am: "ንግሥተ ሳባ ወደ ሰሎሞን ለምን ሄደች?" },
+        svar: {
+          no: "For å prøve visdommen hans med vanskelige spørsmål.",
+          am: "ጥበቡን በእንቆቅልሽ ልትፈትን።",
+        },
+      },
+      {
+        sporsmal: { no: "Hva kaller Jesus henne?", am: "ጌታችን ምን ብሎ ይጠራታል?" },
+        svar: { no: "Dronningen fra Sør, ንግሥተ ዓዜብ.", am: "ንግሥተ ዓዜብ።" },
+      },
+      {
+        sporsmal: { no: "Hva forteller ክብረ ነገሥት om sønnen hennes?", am: "ክብረ ነገሥት ስለ ልጅዋ ምን ይናገራል?" },
+        svar: {
+          no: "At han het ምኒልክ og tok med seg ታቦተ ጽዮን til Aksum. Dette er tradisjon.",
+          am: "ስሙ ምኒልክ እንደ ሆነና ታቦተ ጽዮንን ወደ አክሱም እንዳመጣ ይናገራል። ይህ ትውፊት ነው።",
+        },
+      },
+    ],
+  },
+  {
+    slug: "elia-pa-karmel",
+    testament: "gt",
+    nr: 22,
+    tittel: { no: "Elia på Karmelfjellet", am: "ኤልያስ በቀርሜሎስ ተራራ" },
+    ref: "1Kgs 18:17-39",
+    tekst: [
+      {
+        no: "Kong Akab og dronning Jesabel hadde fått Israel til å tilbe avguden Baal. Profeten Elia ba, og det kom ikke regn i landet på tre og et halvt år.",
+        am: "ንጉሡ አክዓብና ንግሥቲቱ ኤልዛቤል እስራኤልን ጣዖቱን በኣልን እንዲያመልኩ አደረጓቸው። ነቢዩ ኤልያስም ጸለየ፤ በምድሪቱም ሦስት ዓመት ከስድስት ወር ዝናብ አልዘነበም።",
+      },
+      {
+        no: "Elia samlet folket og 450 Baals-profeter på Karmelfjellet. Han sa: «Hvor lenge vil dere halte til begge sider? Er Herren Gud, så følg ham!» Hver side skulle legge en okse på et alter og be. Den guden som svarte med ild, var den sanne Gud.",
+        am: "ኤልያስም ሕዝቡንና አራት መቶ አምሳውን የበኣል ነቢያት በቀርሜሎስ ተራራ ሰበሰበ። «እስከ መቼ ድረስ በሁለት አሳብ ታነክሳላችሁ? እግዚአብሔር አምላክ ቢሆን ተከተሉት» አላቸው። እያንዳንዱ ወገን ወይፈን በመሠዊያ ላይ አኑሮ ይጸልይ፤ በእሳት የሚመልስ አምላክ እርሱ እውነተኛ አምላክ ነው።",
+      },
+      {
+        no: "Baals-profetene ropte fra morgen til kveld, men ingen svarte. Elia bygde et alter av tolv steiner og lot dem helle vann over offeret tre ganger, så til og med grøfta rundt ble full.",
+        am: "የበኣል ነቢያት ከጠዋት እስከ ማታ ጮኹ፤ የሚመልስላቸው ግን አልነበረም። ኤልያስም ከዐሥራ ሁለት ድንጋዮች መሠዊያ ሠራ፤ በመሥዋዕቱም ላይ ሦስት ጊዜ ውኃ እንዲያፈስሱ አደረገ፤ በዙሪያውም ያለው ጕድጓድ በውኃ ተሞላ።",
+      },
+      {
+        no: "Så ba Elia: «Herre, la folket få vite at du er Gud!» Da falt Herrens ild ned og brente opp offeret, veden, steinene og vannet. Folket falt på ansiktet og ropte: «Herren, han er Gud!» Senere ble Elia tatt opp til himmelen i en ildvogn.",
+        am: "ኤልያስም «አቤቱ፥ አንተ አምላክ እንደ ሆንህ ይህ ሕዝብ ያውቅ ዘንድ ስማኝ» ብሎ ጸለየ። የእግዚአብሔርም እሳት ወርዳ መሥዋዕቱን፣ እንጨቱን፣ ድንጋዮቹንና ውኃውን በላች። ሕዝቡም በግምባራቸው ተደፍተው «እግዚአብሔር እርሱ አምላክ ነው» አሉ። ኤልያስም ከጊዜ በኋላ በእሳት ሰረገላ ወደ ሰማይ ወጣ።",
+      },
+    ],
+    laerdom: {
+      no: "Det finnes bare én sann Gud, og vi kan ikke tjene både ham og avguder. Elia viser hvor sterk bønnen til et rettferdig menneske er. Fordi Elia ble tatt opp levende til himmelen, lærer kirka at han, sammen med Enok, skal komme igjen før verdens ende.",
+      am: "እውነተኛ አምላክ አንድ ብቻ ነው፤ እርሱንና ጣዖታትን በአንድነት ማምለክ አንችልም። ኤልያስ የጻድቅ ሰው ጸሎት ምን ያህል ኃይል እንዳለው ያሳየናል። ኤልያስ በሕይወት ሳለ ወደ ሰማይ ስለ ተወሰደ ከሄኖክ ጋር በዓለም መጨረሻ ተመልሶ እንደሚመጣ ቤተ ክርስቲያን ታስተምራለች።",
+    },
+    minnevers: "1Kgs 18:39",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvordan skulle de finne ut hvem som var den sanne Gud?", am: "እውነተኛውን አምላክ በምን ሊያውቁ ነበር?" },
+        svar: { no: "Den som svarte med ild, var Gud.", am: "በእሳት የሚመልስ እርሱ አምላክ ነው።" },
+      },
+      {
+        sporsmal: { no: "Hva ropte folket da ilden falt?", am: "እሳቱ በወረደ ጊዜ ሕዝቡ ምን ብለው ጮኹ?" },
+        svar: { no: "«Herren, han er Gud!»", am: "«እግዚአብሔር እርሱ አምላክ ነው።»" },
+      },
+    ],
+  },
+  {
+    slug: "ildovnen",
+    testament: "gt",
+    nr: 23,
+    tittel: { no: "De tre unge mennene i ildovnen", am: "ሦስቱ ወጣቶች በእሳት እቶን" },
+    ref: "Dan 3:1-30",
+    tekst: [
+      {
+        no: "Kong Nebukadnesar i Babylon laget et stort gullbilde. Han befalte at alle skulle falle ned og tilbe bildet når musikken spilte. Den som ikke gjorde det, skulle kastes i en brennende ovn.",
+        am: "የባቢሎን ንጉሥ ናቡከደነፆር ታላቅ የወርቅ ምስል አሠራ። የመለከቱንና የመሰንቆውን ድምፅ በሰሙ ጊዜ ሁሉም ወድቀው ለምስሉ እንዲሰግዱ አዘዘ። ያልሰገደ ሁሉ ወደሚነድድ የእሳት እቶን ይጣላል።",
+      },
+      {
+        no: "Tre unge jøder ville ikke bøye seg. På hebraisk het de Hananja, Asarja og Misael, men i Babylon ble de kalt Sadrak, Mesak og Abed-Nego. De sa til kongen: «Vår Gud kan redde oss. Men selv om han ikke gjør det, vil vi ikke tilbe gullbildet ditt.»",
+        am: "ሦስት አይሁድ ወጣቶች ግን አልሰገዱም። ስማቸው አናንያ፣ አዛርያና ሚሳኤል ነበረ፤ በባቢሎን ግን ሲድራቅ፣ ሚሳቅና አብደናጎ ተብለው ተጠሩ። ንጉሡንም «የምናመልከው አምላካችን ሊያድነን ይችላል። ባያድነን እንኳ ላቆምኸው የወርቅ ምስል አንሰግድም» አሉት።",
+      },
+      {
+        no: "Kongen ble rasende. Han lot ovnen fyre opp sju ganger varmere enn vanlig, og de tre ble bundet og kastet inn i ilden.",
+        am: "ንጉሡም እጅግ ተቈጣ። እቶኑ ከልማዱ ሰባት እጥፍ እንዲነድድ አዘዘ፤ ሦስቱም ታስረው ወደ እሳቱ ተጣሉ።",
+      },
+      {
+        no: "Men da kongen så inn, ble han forferdet: «Jeg ser fire menn som går fritt omkring i ilden, og de er ikke skadet!» Han ropte dem ut. Ikke et hår var svidd, og klærne luktet ikke engang røyk. Kongen lovpriste Gud, som hadde sendt sin engel og reddet dem.",
+        am: "ንጉሡ ግን ወደ እቶኑ ሲመለከት ተደነቀ፤ «እነሆ፥ በእሳቱ መካከል የተፈቱ የሚመላለሱ አራት ሰዎች አያለሁ፤ ምንም አላቈሰላቸውም» አለ። ከእሳቱም እንዲወጡ ጠራቸው። ከራሳቸው አንድ ጠጕር አልተቃጠለም፤ የእሳትም ሽታ በልብሳቸው አልነበረም። ንጉሡም መልአኩን ልኮ ያዳናቸውን አምላክ አመሰገነ።",
+      },
+    ],
+    laerdom: {
+      no: "De tre unge mennene var trofaste mot Gud selv om de kunne dø. Kirka lærer at det var erkeengelen Gabriel som ble sendt for å redde dem, og minnes dette på ታኅሣሥ ገብርኤል. Ilden som ikke brente dem, ser kirka også som et bilde på Maria, som bar guddommens ild uten å brenne opp.",
+      am: "ሦስቱ ወጣቶች ሞት ቢመጣባቸውም ለእግዚአብሔር ታማኝ ሆኑ። ሊያድናቸው የተላከው ቅዱስ ገብርኤል እንደ ሆነ ቤተ ክርስቲያን ታስተምራለች፤ ይህንንም በታኅሣሥ ገብርኤል ታስባለች። ያላቃጠላቸውን እሳትም የመለኮትን እሳት ተሸክማ ያልተቃጠለችው የእመቤታችን ምሳሌ አድርጋ ታየዋለች።",
+    },
+    minnevers: "Dan 3:17",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvorfor ble de tre unge mennene kastet i ovnen?", am: "ሦስቱ ወጣቶች ለምን ወደ እቶን ተጣሉ?" },
+        svar: {
+          no: "Fordi de ikke ville tilbe kongens gullbilde.",
+          am: "ለንጉሡ የወርቅ ምስል ስላልሰገዱ።",
+        },
+      },
+      {
+        sporsmal: { no: "Hvor mange så kongen i ilden?", am: "ንጉሡ በእሳቱ ውስጥ ስንት ሰዎች አየ?" },
+        svar: { no: "Fire.", am: "አራት።" },
+      },
+      {
+        sporsmal: { no: "Hvem lærer kirka at reddet dem?", am: "ቤተ ክርስቲያን ያዳናቸው ማን እንደ ሆነ ታስተምራለች?" },
+        svar: { no: "Erkeengelen Gabriel.", am: "ቅዱስ ገብርኤል።" },
+      },
+    ],
+  },
+  {
+    slug: "daniel-i-lovehulen",
+    testament: "gt",
+    nr: 24,
+    tittel: { no: "Daniel i løvehulen", am: "ዳንኤል በአንበሶች ጕድጓድ" },
+    ref: "Dan 6:1-28",
+    tekst: [
+      {
+        no: "Daniel var en av de øverste lederne hos kong Dareios, fordi det var en god ånd i ham. De andre lederne ble misunnelige og lette etter noe å anklage ham for, men de fant ingenting galt.",
+        am: "ዳንኤል መልካም መንፈስ ስለ ነበረበት በንጉሡ በዳርዮስ ዘንድ ከአለቆቹ ሁሉ በለጠ። ሌሎቹ አለቆች ቀኑበት፤ የሚከሱበትንም ነገር ፈለጉ፤ ነገር ግን ምንም በደል አላገኙበትም።",
+      },
+      {
+        no: "Da lurte de kongen til å lage en lov: I tretti dager fikk ingen be til noen annen enn kongen. Den som brøt loven, skulle kastes i løvehulen.",
+        am: "ስለዚህ ንጉሡን አታለው ሕግ አስወጡ፤ ሠላሳ ቀን ከንጉሡ በቀር ወደ ማንም የሚለምን ቢኖር ወደ አንበሶች ጕድጓድ ይጣላል።",
+      },
+      {
+        no: "Daniel visste om loven, men han gikk hjem som før. Med vinduene åpne mot Jerusalem knelte han og ba til Gud tre ganger om dagen. Mennene anklaget ham, og kongen måtte, svært lei seg, la ham kaste i løvehulen.",
+        am: "ዳንኤል ሕጉ እንደ ወጣ ቢያውቅም እንደ ቀድሞው ወደ ቤቱ ገባ። መስኮቶቹ ወደ ኢየሩሳሌም ተከፍተው በቀን ሦስት ጊዜ ተንበርክኮ ወደ እግዚአብሔር ይጸልይ ነበር። ሰዎቹም ከሰሱት፤ ንጉሡም እጅግ አዝኖ ወደ አንበሶች ጕድጓድ አስጣለው።",
+      },
+      {
+        no: "Kongen fikk ikke sove den natten. Tidlig om morgenen løp han til hulen og ropte. Daniel svarte: «Min Gud sendte sin engel og lukket løvenes gap.» Daniel var uskadd, for han hadde stolt på Gud. Kongen befalte at alle skulle frykte Daniels Gud.",
+        am: "ንጉሡም በዚያች ሌሊት እንቅልፍ ራቀው። በማለዳም ወደ ጕድጓዱ ፈጥኖ ሄዶ ጠራው። ዳንኤልም «አምላኬ መልአኩን ልኮ የአንበሶችን አፍ ዘጋ» አለው። ዳንኤል በአምላኩ ታምኖ ነበርና ምንም አልጐዳውም። ንጉሡም ሰዎች ሁሉ የዳንኤልን አምላክ እንዲፈሩ አዘዘ።",
+      },
+    ],
+    laerdom: {
+      no: "Daniel sluttet ikke å be selv når det var farlig. Kirka lærer oss å be til faste tider hver dag, slik Daniel ba tre ganger om dagen, og David sju ganger om dagen. Gud beskytter dem som stoler på ham.",
+      am: "ዳንኤል አደጋ ቢኖርም መጸለይን አላቋረጠም። ቤተ ክርስቲያን ዳንኤል በቀን ሦስት ጊዜ፣ ዳዊትም በቀን ሰባት ጊዜ እንደ ጸለዩ በየዕለቱ በተወሰኑ ሰዓታት እንድንጸልይ ታስተምረናለች። እግዚአብሔር በእርሱ የሚታመኑትን ይጠብቃል።",
+    },
+    minnevers: "Dan 6:22",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvor mange ganger om dagen ba Daniel?", am: "ዳንኤል በቀን ስንት ጊዜ ይጸልይ ነበር?" },
+        svar: { no: "Tre ganger.", am: "ሦስት ጊዜ።" },
+      },
+      {
+        sporsmal: { no: "Hvorfor gjorde ikke løvene Daniel noe?", am: "አንበሶቹ ዳንኤልን ለምን አልጐዱትም?" },
+        svar: {
+          no: "Fordi Gud sendte sin engel og lukket løvenes gap.",
+          am: "እግዚአብሔር መልአኩን ልኮ የአንበሶችን አፍ ስለ ዘጋ።",
+        },
+      },
+    ],
+  },
+  {
+    slug: "jona",
+    testament: "gt",
+    nr: 25,
+    tittel: { no: "Jona og den store fisken", am: "ዮናስና ታላቁ ዓሣ" },
+    ref: "Jonah 1:1-17",
+    tekst: [
+      {
+        no: "Gud sa til profeten Jona: «Gå til den store byen Ninive og forkynn mot den, for ondskapen deres har steget opp til meg.» Men Jona ville ikke. Han gikk om bord i et skip til Tarsis for å flykte bort fra Herren.",
+        am: "እግዚአብሔር ነቢዩን ዮናስን «ወደ ታላቂቱ ከተማ ወደ ነነዌ ሂድ፤ ክፋታቸው ወደ ፊቴ ወጥቶአልና በእርስዋ ላይ ስበክ» አለው። ዮናስ ግን አልፈለገም። ከእግዚአብሔር ፊት ሊኰበልል ወደ ተርሴስ በሚሄድ መርከብ ተሳፈረ።",
+      },
+      {
+        no: "Herren sendte en kraftig storm, og skipet holdt på å gå i stykker. Sjømennene kastet lodd, og loddet falt på Jona. Han sa: «Kast meg i havet, så blir det stille.» De kastet ham ut, og havet ble stille.",
+        am: "እግዚአብሔርም በባሕሩ ላይ ታላቅ ነፋስ አመጣ፤ መርከቢቱም ልትሰበር ቀረበች። መርከበኞቹም ዕጣ ተጣጣሉ፤ ዕጣውም በዮናስ ላይ ወደቀ። እርሱም «ወደ ባሕር ጣሉኝ፤ ባሕሩም ጸጥ ይላል» አላቸው። ወደ ባሕር ጣሉት፤ ባሕሩም ጸጥ አለ።",
+      },
+      {
+        no: "Gud sendte en stor fisk som slukte Jona. Han var i fiskens buk i tre dager og tre netter. Der ba han til Gud, og Gud befalte fisken å spy ham ut på land.",
+        am: "እግዚአብሔርም ዮናስን የሚውጥ ታላቅ ዓሣ አዘጋጀ። ዮናስም ሦስት ቀንና ሦስት ሌሊት በዓሣው ሆድ ውስጥ ነበረ። በዚያም ወደ እግዚአብሔር ጸለየ፤ እግዚአብሔርም ዓሣውን አዘዘው፤ ዮናስንም በየብስ ላይ ተፋው።",
+      },
+      {
+        no: "Nå gikk Jona til Ninive og forkynte: «Om førti dager skal Ninive bli ødelagt!» Folket trodde på Gud. Alle, fra kongen til den minste, fastet og kledde seg i sekk. Gud så at de vendte om fra sin onde vei, og han sparte byen.",
+        am: "ዮናስም ወደ ነነዌ ሄዶ «በአርባ ቀን ነነዌ ትገለበጣለች» ብሎ ሰበከ። የነነዌም ሰዎች እግዚአብሔርን አመኑ። ከንጉሡ ጀምሮ እስከ ታናሹ ድረስ ሁሉም ጾሙ፤ ማቅም ለበሱ። እግዚአብሔርም ከክፉ መንገዳቸው እንደ ተመለሱ አየ፤ ከተማይቱንም ማረ።",
+      },
+    ],
+    laerdom: {
+      no: "Jesus sa at slik Jona var tre dager i fiskens buk, skulle han selv være tre dager i jorden og så stå opp. Til minne om Ninives omvendelse holder kirka ጾመ ነነዌ, en tredagers faste før den store fasten. Gud er barmhjertig mot alle som angrer.",
+      am: "ጌታችን ዮናስ በዓሣው ሆድ ሦስት ቀን እንደ ነበረ እርሱም በምድር ልብ ሦስት ቀን ቆይቶ እንደሚነሣ ተናገረ። ቤተ ክርስቲያንም የነነዌን ሰዎች ንስሐ ለማሰብ ከዐቢይ ጾም በፊት የሦስት ቀን ጾመ ነነዌን ትጾማለች። እግዚአብሔር ንስሐ ለሚገቡ ሁሉ መሐሪ ነው።",
+    },
+    minnevers: "Matt 12:40",
+    sporsmal: [
+      {
+        sporsmal: { no: "Hvor lenge var Jona i fiskens buk?", am: "ዮናስ በዓሣው ሆድ ውስጥ ምን ያህል ቆየ?" },
+        svar: { no: "Tre dager og tre netter.", am: "ሦስት ቀንና ሦስት ሌሊት።" },
+      },
+      {
+        sporsmal: { no: "Hva gjorde folket i Ninive da Jona forkynte?", am: "ዮናስ በሰበከ ጊዜ የነነዌ ሰዎች ምን አደረጉ?" },
+        svar: {
+          no: "De trodde på Gud, fastet og vendte om.",
+          am: "በእግዚአብሔር አመኑ፤ ጾሙ፤ ንስሐም ገቡ።",
+        },
+      },
+      {
+        sporsmal: { no: "Hvilken faste minner oss om Ninive?", am: "ነነዌን የሚያሳስበን የትኛው ጾም ነው?" },
+        svar: { no: "ጾመ ነነዌ, som varer i tre dager.", am: "ሦስት ቀን የሚጾመው ጾመ ነነዌ።" },
       },
     ],
   },

@@ -96,7 +96,7 @@ export function MinneversListe({ vers }: { vers: Minnevers[] }) {
                 }`}
               >
                 <Check className="size-3.5" aria-hidden="true" />
-                {kjent ? "Kan det" : "Jeg kan det"} · <span lang="am">{kjent ? "አውቀዋለሁ" : "አውቀዋለሁ?"}</span>
+                {kjent ? "Kan det" : "Jeg kan det"} · <span lang="am">{kjent ? "ተጠንቷል" : "አውቀዋለሁ"}</span>
               </button>
             </li>
           );

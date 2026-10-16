@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { BookOpenText, Quote } from "lucide-react";
 import { alleBoker, type Bok } from "@/lib/bibel";
 import { BILDER } from "@/lib/bilder";
 import { Seksjonstopp } from "@/components/seksjonstopp";
@@ -119,6 +120,22 @@ export default function Bibelen() {
       <div className="mx-auto max-w-6xl px-4 pb-10 pt-14 sm:px-6">
         <div className="grid gap-16 lg:grid-cols-[1fr_16rem]">
           <div className="grid gap-16">
+            <nav aria-label="Mer i bibelen" className="grid gap-3 sm:grid-cols-2">
+              {[
+                { href: "/bibelen/fortellinger/", no: "Bibelfortellinger", am: "የመጽሐፍ ቅዱስ ታሪኮች", Ikon: BookOpenText },
+                { href: "/bibelen/minnevers/", no: "Minnevers", am: "የሚጠኑ ጥቅሶች", Ikon: Quote },
+              ].map(({ href, no, am, Ikon }) => (
+                <Link key={href} href={href} className="group flex items-center gap-4 rounded-2xl border border-linje bg-flate p-5 hover:border-rubrikk/40">
+                  <Ikon className="size-6 shrink-0 text-rubrikk" aria-hidden="true" />
+                  <span>
+                    <span className="block font-serif text-xl group-hover:text-rubrikk">{no}</span>
+                    <span lang="am" className="text-dempet">
+                      {am}
+                    </span>
+                  </span>
+                </Link>
+              ))}
+            </nav>
             <Om81 />
             <Liste tittel="Det gamle testamentet" am="ብሉይ ኪዳን" boker={boker.filter((b) => b.testament === "gt")} />
             <Liste tittel="Det nye testamentet" am="ሐዲስ ኪዳን" boker={boker.filter((b) => b.testament === "nt")} />

@@ -1,4 +1,5 @@
 // Søkeindeksen lages når siden bygges og lastes først når noen søker.
+import { FORTELLINGER } from "@/content/fortellinger";
 import { TEMAER } from "@/content/laer";
 import { finnDel } from "@/content/laer/deler";
 import { alleBoker, kapitlene } from "@/lib/bibel";
@@ -20,6 +21,8 @@ function lagIndeks(): SokIndeks {
     { type: "side", href: "/laer/fidel/", tittel: { no: "Fidel", am: "ፊደል" }, tekst: ["ge'ez amharisk bokstaver alfabet"] },
     { type: "side", href: "/laer/ov/", tittel: { no: "Øving", am: "ልምምድ" }, tekst: ["ordkort spørsmål quiz"] },
     { type: "side", href: "/om/", tittel: { no: "Kilder", am: "ምንጮች" }, tekst: [] },
+    { type: "side", href: "/bibelen/fortellinger/", tittel: { no: "Bibelfortellinger", am: "የመጽሐፍ ቅዱስ ታሪኮች" }, tekst: [] },
+    { type: "side", href: "/bibelen/minnevers/", tittel: { no: "Minnevers", am: "የሚጠኑ ጥቅሶች" }, tekst: [] },
   );
 
   for (const t of TEMAER) {
@@ -46,6 +49,16 @@ function lagIndeks(): SokIndeks {
         tekst: [...(a.ingress ? to(a.ingress) : []), ...a.punkter.flatMap((p) => to(p.tekst))],
       });
     }
+  }
+
+  for (const f of FORTELLINGER) {
+    dok.push({
+      type: "fortelling",
+      href: `/bibelen/fortellinger/${f.slug}/`,
+      tittel: f.tittel,
+      sti: f.testament === "gt" ? "Det gamle testamentet" : "Det nye testamentet",
+      tekst: [...f.tekst.flatMap(to), ...to(f.laerdom), ...f.sporsmal.flatMap((q) => [...to(q.sporsmal), ...to(q.svar)])],
+    });
   }
 
   for (const d of BONNEBOK.deler) {

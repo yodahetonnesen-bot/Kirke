@@ -9,6 +9,7 @@ const TYPER: Record<SokType, { no: string; am: string; ikon: typeof Search }> = 
   side: { no: "Side", am: "ገጽ", ikon: ArrowRight },
   tema: { no: "Troslære", am: "ትምህርተ ሃይማኖት", ikon: Church },
   avsnitt: { no: "Troslære", am: "ትምህርተ ሃይማኖት", ikon: ScrollText },
+  fortelling: { no: "Bibelfortelling", am: "የመጽሐፍ ቅዱስ ታሪክ", ikon: BookOpen },
   bonn: { no: "Bønner", am: "ጸሎት", ikon: Flame },
   hoytid: { no: "Kalender", am: "ቀን መቁጠሪያ", ikon: CalendarDays },
   bok: { no: "Bibelen", am: "መጽሐፍ ቅዱስ", ikon: BookOpen },
