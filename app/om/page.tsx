@@ -19,11 +19,11 @@ export default function Om() {
       <p lang="am" className="mt-1 text-2xl text-dempet">ስለ ድረ ገጹ</p>
       <div className="mt-10 space-y-4">
         <p>
-          Siden er laget for at barna og ungdommen i kirka skal kunne lære troen på både amharisk og norsk. Den er
+          Siden er laget for at barna og ungdommen i kirka vår i Kristiansand skal kunne lære troen på både amharisk og norsk. Den er
           gratis og åpen, og lagrer ingenting om deg.
         </p>
         <p lang="am" className="text-dempet">
-          ይህ ድረ ገጽ የቤተ ክርስቲያን ልጆችና ወጣቶች ሃይማኖታቸውን በአማርኛና በኖርዌይኛ እንዲማሩ የተዘጋጀ ነው። ነጻና ለሁሉም ክፍት ነው።
+          ይህ ድረ ገጽ በክሪስቲያንሳንድ የምትገኘው የቤተ ክርስቲያናችን ልጆችና ወጣቶች ሃይማኖታቸውን በአማርኛና በኖርዌይኛ እንዲማሩ የተዘጋጀ ነው። ነጻና ለሁሉም ክፍት ነው።
         </p>
         <p className="text-sm text-svak">
           Lærestoffet er under arbeid og skal leses gjennom av en prest eller søndagsskolelærer før det regnes som
