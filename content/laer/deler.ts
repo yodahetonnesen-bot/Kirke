@@ -1,7 +1,7 @@
 // Delene i «Lær troen», i samme rekkefølge som i INNHOLDSPLAN.md.
 // Hvert tema i content/laer/ hører til én del gjennom feltet `del`.
 import {
-  BookOpen, CalendarHeart, Church, Droplets, Flame, Landmark, Languages, Library, MapPin, Music, Sparkles, Users, Wheat,
+  BookOpen, CalendarHeart, Church, Droplets, Flame, Landmark, Languages, Library, Music, Sparkles, Users, Wheat,
   type LucideIcon,
 } from "lucide-react";
 
@@ -19,7 +19,6 @@ export const DELER = [
   { id: "personer", ikon: Users, no: "Helgener og viktige personer", am: "ቅዱሳንና አባቶች" },
   { id: "hverdag", ikon: BookOpen, no: "Kristent liv i hverdagen", am: "ክርስቲያናዊ ሕይወት" },
   { id: "sprak", ikon: Languages, no: "ፊደል og ge'ez", am: "ፊደልና ግዕዝ" },
-  { id: "norge", ikon: MapPin, no: "Å være ortodoks i Norge", am: "በኖርዌይ ኦርቶዶክሳዊ መሆን" },
   { id: "boker", ikon: Library, no: "Kirkens bøker", am: "የቤተ ክርስቲያን መጻሕፍት" },
 ] as const satisfies readonly Del[];
 
