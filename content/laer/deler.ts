@@ -18,7 +18,7 @@ export const DELER = [
   { id: "historie", ikon: Landmark, no: "Kirkehistorie", am: "የቤተ ክርስቲያን ታሪክ" },
   { id: "personer", ikon: Users, no: "Helgener og viktige personer", am: "ቅዱሳንና አባቶች" },
   { id: "hverdag", ikon: BookOpen, no: "Kristent liv i hverdagen", am: "ክርስቲያናዊ ሕይወት" },
-  { id: "sprak", ikon: Languages, no: "ፊደል og ge'ez", am: "ፊደልና ግዕዝ" },
+  { id: "sprak", ikon: Languages, no: "ፊደል og ge'ez", am: "ፊደልና ግእዝ" },
   { id: "boker", ikon: Library, no: "Kirkens bøker", am: "የቤተ ክርስቲያን መጻሕፍት" },
 ] as const satisfies readonly Del[];
 
