@@ -17,6 +17,9 @@ import { mariaOgHelgenfester } from "./maria-og-helgenfester";
 import { kirkehistorie } from "./kirkehistorie";
 import { yared } from "./yared";
 import { kirkeskolen } from "./kirkeskolen";
+import { mariaOgEnglene } from "./maria-og-englene";
+import { apostlerOgMartyrer } from "./apostler-og-martyrer";
+import { etiopiskeHelgener } from "./etiopiske-helgener";
 import { sakramentene } from "./sakramentene";
 import { myron } from "./myron";
 import { nattverden } from "./nattverden";
@@ -26,6 +29,6 @@ import { ekteskap } from "./ekteskap";
 import { prestevigsel } from "./prestevigsel";
 
 // Rekkefølgen her er rekkefølgen temaene vises i innenfor hver del.
-export const TEMAER: Tema[] = [femMysteriene, treenigheten, menneskevordelsen, oppstandelsen, sakramentene, daapen, myron, nattverden, skriftemaal, sykesalving, ekteskap, prestevigsel, kirkebygget, tingIKirka, iKirka, kidase, mahlet, yared, kirkeskolen, bonnetider, fastene, herrensHoytider, paskeuka, mariaOgHelgenfester, kirkehistorie];
+export const TEMAER: Tema[] = [femMysteriene, treenigheten, menneskevordelsen, oppstandelsen, sakramentene, daapen, myron, nattverden, skriftemaal, sykesalving, ekteskap, prestevigsel, kirkebygget, tingIKirka, iKirka, kidase, mahlet, yared, kirkeskolen, bonnetider, fastene, herrensHoytider, paskeuka, mariaOgHelgenfester, kirkehistorie, mariaOgEnglene, apostlerOgMartyrer, etiopiskeHelgener];
 
 export const finnTema = (slug: string) => TEMAER.find((t) => t.slug === slug);
