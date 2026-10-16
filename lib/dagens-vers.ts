@@ -2,7 +2,7 @@ import { alleBoker, kapittelRader } from "./bibel";
 import type { Vers } from "@/components/dagens-vers";
 
 // Kjente vers som passer for barn og unge. [bok-id, kapittel, vers]
-const LISTE: [string, number, number][] = [
+export const LISTE: [string, number, number][] = [
   ["John", 3, 16], ["Ps", 23, 1], ["Matt", 5, 9], ["Matt", 11, 28], ["Phil", 4, 13],
   ["Rom", 8, 28], ["Prov", 3, 5], ["Isa", 40, 31], ["Josh", 1, 9], ["Ps", 46, 1],
   ["Matt", 6, 33], ["John", 14, 6], ["Gal", 5, 22], ["Eph", 6, 1], ["Ps", 119, 105],
