@@ -9,15 +9,11 @@ export function Seksjonstopp({
   bilde,
   tittel,
   am,
-  tekst,
-  tekstAm,
   children,
 }: {
   bilde: Bilde;
   tittel: string;
   am: string;
-  tekst?: string;
-  tekstAm?: string;
   children?: React.ReactNode;
 }) {
   return (
@@ -34,16 +30,6 @@ export function Seksjonstopp({
         <p lang="am" className="mt-1 text-2xl text-dempet sm:text-3xl">
           {am}
         </p>
-        {(tekst || tekstAm) && (
-          <div className="mt-6 grid max-w-4xl gap-2 md:grid-cols-2 md:gap-10">
-            {tekst && <p className="text-dempet">{tekst}</p>}
-            {tekstAm && (
-              <p lang="am" className="text-svak">
-                {tekstAm}
-              </p>
-            )}
-          </div>
-        )}
         {children}
       </div>
     </header>

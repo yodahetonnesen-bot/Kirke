@@ -115,8 +115,6 @@ export default function Bibelen() {
         bilde={BILDER.evangeliebokTekst}
         tittel="Bibelen"
         am="መጽሐፍ ቅዱስ"
-        tekst="Amharisk og norsk side om side. Velg en bok for å begynne å lese."
-        tekstAm="በአማርኛና በኖርዌይኛ ጎን ለጎን። ለማንበብ መጽሐፍ ይምረጡ።"
       />
       <div className="mx-auto max-w-6xl px-4 pb-10 pt-14 sm:px-6">
         <div className="grid gap-16 lg:grid-cols-[1fr_16rem]">

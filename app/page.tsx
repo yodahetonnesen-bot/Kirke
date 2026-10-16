@@ -44,18 +44,9 @@ export default function Forside() {
         />
         <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-4 pb-16 pt-12 sm:px-6 md:grid-cols-[1.05fr_1fr] md:pb-24 md:pt-20">
           <div>
-            <p className="inline-block rounded-2xl border border-linje bg-flate/70 px-3 py-1 text-sm text-dempet">
-              For barna og ungdommen i kirka · <span lang="am">ለልጆችና ለወጣቶች</span>
-            </p>
-            <h1 className="mt-6 font-serif text-5xl leading-[1.05] tracking-tight sm:text-7xl">Lær troen vår</h1>
+            <h1 className="font-serif text-5xl leading-[1.05] tracking-tight sm:text-7xl">Ortodoks Tewahedo</h1>
             <p lang="am" className="mt-2 font-serif text-3xl text-rubrikk sm:text-4xl">
-              ሃይማኖታችንን እንማር
-            </p>
-            <p className="mt-8 max-w-md text-lg text-dempet">
-              Bibelen, bønnene, høytidene og kirkas historie – på amharisk og norsk, side om side.
-            </p>
-            <p lang="am" className="mt-2 max-w-md text-svak">
-              መጽሐፍ ቅዱስ፣ ጸሎቶች፣ በዓላትና የቤተ ክርስቲያን ታሪክ በአማርኛና በኖርዌይኛ።
+              ኦርቶዶክስ ተዋሕዶ
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
@@ -107,7 +98,7 @@ export default function Forside() {
             <p>
               <span className="block font-serif text-5xl tabular-nums tracking-tight">{antall}</span>
               <span className="text-dempet">
-                bøker og {kapitler.toLocaleString("nb-NO")} kapitler på amharisk, med norsk eller engelsk ved siden av
+                bøker · {kapitler.toLocaleString("nb-NO")} kapitler
               </span>
             </p>
             <span className="inline-flex items-center gap-1 text-sm text-rubrikk">
@@ -147,10 +138,6 @@ export default function Forside() {
                         {s.am}
                       </span>
                     </div>
-                    <p className="mt-1 text-sm text-dempet">{s.beskrivelse.no}</p>
-                    <p lang="am" className="text-sm text-svak">
-                      {s.beskrivelse.am}
-                    </p>
                   </Link>
                 </li>
               );
@@ -159,11 +146,7 @@ export default function Forside() {
         </section>
 
         <section className="mt-24">
-          <Overskrift no="Fra en gammel etiopisk evangeliebok" am="ከጥንታዊ የወንጌል መጽሐፍ">
-            <p className="max-w-sm text-sm text-dempet">
-              Malt i et kloster i Nord-Etiopia for over 600 år siden. Trykk på et bilde for å lese fortellingen i bibelen.
-            </p>
-          </Overskrift>
+          <Overskrift no="Fra en gammel etiopisk evangeliebok" am="ከጥንታዊ የወንጌል መጽሐፍ" />
           <div className="mt-10">
             <Scenegalleri />
           </div>

@@ -11,8 +11,7 @@ const serifGe = Noto_Serif_Ethiopic({ variable: "--font-noto-serif-ethiopic", su
 
 export const metadata: Metadata = {
   title: { default: "Troslære · ትምህርተ ሃይማኖት", template: "%s · Troslære" },
-  description:
-    "Lær den etiopisk-ortodokse Tewahedo-troen på amharisk og norsk: bibelen, bønnene, sakramentene, høytidene og kirkas historie.",
+  description: "Etiopisk-ortodoks Tewahedo: bibel, bønner, kalender og troslære på amharisk og norsk.",
 };
 
 export const viewport: Viewport = {

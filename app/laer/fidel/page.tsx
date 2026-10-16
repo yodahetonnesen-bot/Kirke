@@ -22,13 +22,11 @@ export default function Fidel() {
     <>
       <Seksjonstopp
         bilde={BILDER.evangeliebokTekst}
-        tittel="Lær fidel"
-        am="ፊደል እንማር"
-        tekst="Bokstavene som ge'ez og amharisk skrives med. Hver bokstav har sju former, én for hver vokal."
-        tekstAm="ግዕዝና አማርኛ የሚጻፉባቸው ፊደላት። እያንዳንዱ ፊደል ሰባት ቅርጾች አሉት።"
+        tittel="Fidel"
+        am="ፊደል"
       >
         <Link href="/laer/" className="mt-6 inline-block text-sm text-dempet hover:text-blekk">
-          ← Lær troen · <span lang="am">ትምህርተ ሃይማኖት</span>
+          ← Troslære · <span lang="am">ትምህርተ ሃይማኖት</span>
         </Link>
       </Seksjonstopp>
       <div className="mx-auto max-w-4xl px-4 pb-16 sm:px-6">

@@ -39,8 +39,6 @@ export default function Bonner() {
         bilde={BILDER.arganonaMaryamDetalj}
         tittel={seksjon.no}
         am={seksjon.am}
-        tekst="De daglige bønnene, ውዳሴ ማርያም for hver dag i uka og ይዌድስዋ መላእክት – på ge'ez, amharisk og norsk."
-        tekstAm="የዘወትር ጸሎት፣ ውዳሴ ማርያም ለየዕለቱና ይዌድስዋ መላእክት በግዕዝ፣ በአማርኛና በኖርዌይኛ።"
       />
       <div className="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
         <section className="mt-12">
@@ -51,9 +49,8 @@ export default function Bonner() {
             <Kort
               href="/bonner/daglig/"
               tittel={daglig.tittel}
-              tekst="Korsets tegn, takkebønnen, Fadervår, Marias hilsen, trosbekjennelsen og de andre bønnene vi ber hver dag."
             />
-            <Kort href="/bonner/englenes-lovsang/" tittel={englene.tittel} tekst="Englenes lovsang til Maria, med engelen Gabriels hilsen." />
+            <Kort href="/bonner/englenes-lovsang/" tittel={englene.tittel} />
           </div>
         </section>
 
@@ -65,7 +62,7 @@ export default function Bonner() {
             <span className="text-xl text-dempet">Lovprisningen av Maria</span>
           </h2>
           <p className="mt-3 max-w-3xl text-dempet">
-            ውዳሴ ማርያም er skrevet av den hellige Efrem den syriske, og har en egen del for hver dag i uka. Dagens del er merket.
+            ውዳሴ ማርያም er skrevet av den hellige Efrem den syriske, og har en egen del for hver dag i uka.
           </p>
           <p lang="am" className="mt-1 max-w-3xl text-dempet">
             ውዳሴ ማርያም በቅዱስ ኤፍሬም የተደረሰ ሲሆን ለሳምንቱ ዕለታት ሁሉ የራሱ ክፍል አለው።
@@ -85,8 +82,7 @@ export default function Bonner() {
         </section>
 
         <p className="mt-14 text-sm text-svak">
-          Teksten er fra «{BONNEBOK.kilde.tittel}», oversatt til norsk av {BONNEBOK.kilde.oversatt} ({BONNEBOK.kilde.tid}). Har du spørsmål om
-          bønnene, spør presten i kirka.
+          Teksten er fra «{BONNEBOK.kilde.tittel}», oversatt til norsk av {BONNEBOK.kilde.oversatt} ({BONNEBOK.kilde.tid}).
         </p>
       </div>
     </>

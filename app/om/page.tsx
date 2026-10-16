@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { BILDER } from "@/lib/bilder";
 
-export const metadata: Metadata = { title: "Om siden · ስለ ድረ ገጹ" };
+export const metadata: Metadata = { title: "Kilder · ምንጮች" };
 
 function Kilde({ tittel, children }: { tittel: string; children: React.ReactNode }) {
   return (
@@ -15,21 +15,8 @@ function Kilde({ tittel, children }: { tittel: string; children: React.ReactNode
 export default function Om() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6 sm:py-20">
-      <h1 className="font-serif text-4xl sm:text-5xl">Om siden</h1>
-      <p lang="am" className="mt-1 text-2xl text-dempet">ስለ ድረ ገጹ</p>
-      <div className="mt-10 space-y-4">
-        <p>
-          Siden er laget for at barna og ungdommen i kirka vår i Kristiansand skal kunne lære troen på både amharisk og norsk. Den er
-          gratis og åpen, og lagrer ingenting om deg.
-        </p>
-        <p lang="am" className="text-dempet">
-          ይህ ድረ ገጽ በክሪስቲያንሳንድ የምትገኘው የቤተ ክርስቲያናችን ልጆችና ወጣቶች ሃይማኖታቸውን በአማርኛና በኖርዌይኛ እንዲማሩ የተዘጋጀ ነው። ነጻና ለሁሉም ክፍት ነው።
-        </p>
-        <p className="text-sm text-svak">
-          Lærestoffet er under arbeid og skal leses gjennom av en prest eller søndagsskolelærer før det regnes som
-          ferdig.
-        </p>
-      </div>
+      <h1 className="font-serif text-4xl sm:text-5xl">Kilder</h1>
+      <p lang="am" className="mt-1 text-2xl text-dempet">ምንጮች</p>
 
       <h2 className="mt-14 text-sm uppercase tracking-[0.18em] text-dempet">
         Bibeltekstene · <span lang="am" className="normal-case tracking-normal">የመጽሐፍ ቅዱስ ጽሑፎች</span>

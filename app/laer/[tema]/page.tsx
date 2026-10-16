@@ -18,7 +18,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/laer/[tema]">): Promise<Metadata> {
   const tema = finnTema((await params).tema);
-  return { title: tema ? `${tema.tittel.no} · ${tema.tittel.am}` : "Lær troen" };
+  return { title: tema ? `${tema.tittel.no} · ${tema.tittel.am}` : "Troslære" };
 }
 
 function Overskrift({ no, am, ikon: Ikon }: { no: string; am: string; ikon?: typeof Quote }) {
@@ -52,7 +52,7 @@ export default async function TemaSide({ params }: PageProps<"/laer/[tema]">) {
         <div className="mt-6 flex flex-wrap items-center gap-3 text-sm">
           <nav aria-label="Brødsmuler" className="text-dempet">
             <Link href="/laer/" className="hover:text-blekk">
-              ← Lær troen · <span lang="am">ትምህርተ ሃይማኖት</span>
+              ← Troslære · <span lang="am">ትምህርተ ሃይማኖት</span>
             </Link>
             <span className="px-2 text-svak">/</span>
             <Link href={`/laer/#${del.id}`} className="hover:text-blekk">

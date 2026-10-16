@@ -8,7 +8,7 @@ import { BILDER } from "@/lib/bilder";
 import { Seksjonstopp } from "@/components/seksjonstopp";
 import { TemaKort } from "@/components/tema-kort";
 
-export const metadata: Metadata = { title: "Lær troen · ትምህርተ ሃይማኖት" };
+export const metadata: Metadata = { title: "Troslære · ትምህርተ ሃይማኖት" };
 
 export default function Laer() {
   const seksjon = SEKSJONER.find((s) => s.href === "/laer/")!;
@@ -21,8 +21,6 @@ export default function Laer() {
         bilde={BILDER.ewostatewos}
         tittel={seksjon.no}
         am={seksjon.am}
-        tekst={seksjon.beskrivelse.no}
-        tekstAm={seksjon.beskrivelse.am}
       >
         <nav aria-label="Deler" className="mt-8 flex flex-wrap gap-2">
           {klare.map(({ del, temaer }) => {
@@ -45,7 +43,7 @@ export default function Laer() {
           className="group mt-4 inline-flex items-center gap-2 rounded-full bg-blekk px-4 py-2 text-sm text-bakgrunn"
         >
           <Layers className="size-4" aria-hidden="true" />
-          Øv med ordkort og spørsmål · <span lang="am">በካርዶችና በጥያቄዎች ይለማመዱ</span>
+          Ordkort og spørsmål · <span lang="am">ካርዶችና ጥያቄዎች</span>
           <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
         </Link>
         <Link
@@ -53,7 +51,7 @@ export default function Laer() {
           className="group ml-2 mt-4 inline-flex items-center gap-2 rounded-full border border-linje bg-flate px-4 py-2 text-sm"
         >
           <span lang="am" className="text-rubrikk">ሀ ሁ ሂ</span>
-          Lær fidel · <span lang="am">ፊደል ይማሩ</span>
+          Fidel · <span lang="am">ፊደል</span>
         </Link>
       </Seksjonstopp>
 

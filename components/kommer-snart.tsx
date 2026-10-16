@@ -16,7 +16,7 @@ export function KommerSnart({
   const Ikon = seksjon.ikon;
   return (
     <>
-      <Seksjonstopp bilde={BILDER[bilde]} tittel={seksjon.no} am={seksjon.am} tekst={seksjon.beskrivelse.no} tekstAm={seksjon.beskrivelse.am}>
+      <Seksjonstopp bilde={BILDER[bilde]} tittel={seksjon.no} am={seksjon.am}>
         <p className="mt-8 inline-flex items-center gap-2 rounded-full border border-linje bg-flate px-3 py-1 text-sm text-dempet">
           <Clock className="size-4" aria-hidden="true" />
           Under arbeid · <span lang="am">በዝግጅት ላይ</span>
