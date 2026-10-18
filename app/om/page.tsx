@@ -109,14 +109,14 @@ export default function Om() {
       <h2 className="mt-14 text-sm uppercase tracking-[0.18em] text-dempet">
         Kalenderen · <span lang="am" className="normal-case tracking-normal">ቀን መቁጠሪያ</span>
       </h2>
-      <Kilde tittel="ግጻዌ · EOTCDev API">
+      <Kilde tittel="ምስባክ · misbak.org">
         <p>
-          Dagens lesninger (ግጻዌ) og dagens minne er hentet fra{" "}
-          <a href="https://natinael96.github.io/EOTCDevAPI/" className="text-rubrikk hover:underline" target="_blank" rel="noreferrer">
-            EOTCDev API
-          </a>{" "}
-          (MIT-lisens). Foreløpig er bare den faste syklusen etter dagen i måneden med; søndagssyklusen og de flyttbare
-          høytidene er ikke skrevet av ennå.
+          Dagens ምስባክ i kalenderen – hvilke salmevers som synges hver dag, på søndagene og på de flyttbare høytidene,
+          og ge&apos;ez-teksten – er hentet fra{" "}
+          <a href="https://misbak.org/" className="text-rubrikk hover:underline" target="_blank" rel="noreferrer">
+            misbak.org
+          </a>
+          . Den amhariske og norske teksten er fra bibelen på denne siden (1962 og 1930).
         </p>
       </Kilde>
 

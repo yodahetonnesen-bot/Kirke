@@ -48,7 +48,7 @@ export default function Forside() {
               <img
                 src="/logo-stor.webp"
                 alt="Ortodoks Tewahedo · ኦርቶዶክስ ተዋሕዶ"
-                width={911}
+                width={910}
                 height={800}
                 fetchPriority="high"
                 className="w-full max-w-[22rem] drop-shadow-[0_18px_30px_rgb(60_30_10/0.18)] sm:max-w-[26rem] lg:max-w-[28rem]"
