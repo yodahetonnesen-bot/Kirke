@@ -109,6 +109,16 @@ export default function Om() {
       <h2 className="mt-14 text-sm uppercase tracking-[0.18em] text-dempet">
         Kalenderen · <span lang="am" className="normal-case tracking-normal">ቀን መቁጠሪያ</span>
       </h2>
+      <Kilde tittel="ግጻዌ · EOTCDev API">
+        <p>
+          De andre lesningene for dagen (Paulus, apostelbrevet, Apostlenes gjerninger, evangeliet, anaforaen og
+          lesningene morgen og kveld) og dagens minne er hentet fra{" "}
+          <a href="https://natinael96.github.io/EOTCDevAPI/" className="text-rubrikk hover:underline" target="_blank" rel="noreferrer">
+            EOTCDev API
+          </a>{" "}
+          (MIT-lisens). Foreløpig er bare den faste syklusen etter dagen i måneden med.
+        </p>
+      </Kilde>
       <Kilde tittel="ምስባክ · misbak.org">
         <p>
           Dagens ምስባክ i kalenderen – hvilke salmevers som synges hver dag, på søndagene og på de flyttbare høytidene,

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { MANEDER, UKEDAGER_AM, geezTall, tilEtiopisk } from "@/lib/etiopisk-dato";
 import { manedIKirka } from "@/lib/hoytider";
+import { Gitsawe } from "./gitsawe";
 import { Misbak } from "./misbak";
 
 const ingenting = () => () => {};
@@ -183,6 +184,7 @@ export function Kirkekalender() {
         </p>
 
         <Misbak dato={dag.dato} et={dag.et} />
+        <Gitsawe maned={maned} dag={dag.et.dag} />
       </div>
     </section>
   );
