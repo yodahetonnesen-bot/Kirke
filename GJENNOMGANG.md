@@ -104,6 +104,7 @@ Kapitler der den andre kolonnen har en annen versinndeling (81-bokbibelen, sjekk
 - [ ] Minnedagene for hver dag (MANEDLIGE) er fra én kilde (ethiopianorthodox.org); bare de første navnene er tatt med.
 - [ ] ግዝረት, ቃና ዘገሊላ og de andre faste datoene følger den etiopiske datoen også i året etter at ጳጉሜን har hatt seks dager; bare ልደት flyttes da (til ታኅሣሥ 28).
 - [ ] Fastetidene og hvilke dager det ikke fastes (se også siden om fastene).
+- [ ] ግጻዌ i kalenderen (fra EOTCDev API): sjekk noen dager mot en trykt ግጻዌ. Søndagssyklusen og de flyttbare høytidene mangler i kilden.
 
 ## Lærsidene
 

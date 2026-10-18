@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { MANEDER, UKEDAGER_AM, geezTall, tilEtiopisk } from "@/lib/etiopisk-dato";
 import { manedIKirka } from "@/lib/hoytider";
+import { Gitsawe } from "./gitsawe";
 
 const ingenting = () => () => {};
 const UKEDAGER_NO = ["søn", "man", "tir", "ons", "tor", "fre", "lør"];
@@ -180,6 +181,8 @@ export function Kirkekalender() {
             </span>
           )}
         </p>
+
+        <Gitsawe maned={maned} dag={dag.et.dag} />
       </div>
     </section>
   );

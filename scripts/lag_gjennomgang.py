@@ -77,6 +77,7 @@ def main() -> None:
     ut.append("## Kalenderen\n")
     ut += [f"- [ ] {p}" for p in usikre(ROT / "lib/hoytider-data.ts")]
     ut.append("- [ ] Fastetidene og hvilke dager det ikke fastes (se også siden om fastene).")
+    ut.append("- [ ] ግጻዌ i kalenderen (fra EOTCDev API): sjekk noen dager mot en trykt ግጻዌ. Søndagssyklusen og de flyttbare høytidene mangler i kilden.")
     ut.append("")
 
     ut.append("## Lærsidene\n")
