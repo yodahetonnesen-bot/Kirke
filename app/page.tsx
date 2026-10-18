@@ -42,16 +42,16 @@ export default function Forside() {
           aria-hidden="true"
           className="pointer-events-none absolute -bottom-56 left-1/3 size-[36rem] rounded-full bg-[radial-gradient(closest-side,color-mix(in_oklch,var(--gull)_18%,transparent),transparent)]"
         />
-        <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-4 pb-16 pt-12 sm:px-6 md:grid-cols-[1.05fr_1fr] md:pb-24 md:pt-20">
+        <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-4 pb-16 pt-12 sm:px-6 md:grid-cols-[1.25fr_1fr] md:pb-24 md:pt-20">
           <div>
             <h1>
               <img
                 src="/logo-stor.webp"
                 alt="Ortodoks Tewahedo · ኦርቶዶክስ ተዋሕዶ"
-                width={797}
-                height={520}
+                width={911}
+                height={800}
                 fetchPriority="high"
-                className="w-full max-w-[26rem] drop-shadow-[0_18px_30px_rgb(60_30_10/0.18)] sm:max-w-[30rem]"
+                className="w-full max-w-[22rem] drop-shadow-[0_18px_30px_rgb(60_30_10/0.18)] sm:max-w-[26rem] lg:max-w-[28rem]"
               />
             </h1>
             <div className="mt-10 flex flex-wrap gap-3">
