@@ -25,7 +25,6 @@ import type { Tema } from "./typer";
 // men vi fant ikke den nøyaktige datoen i en EOTC-kilde. At han nektet å velsigne okkupasjonen, fant vi ikke ordrett.
 // Usikkert: For Abune Tewophilos fant vi i EOTC-kildene bare at han var den andre patriarken, var «ሰማዕቱ», og ble drept
 // av Derg i juli 1979. At han ble arrestert i 1976, står bare i ikke-kirkelige kilder, så det er ikke tatt med.
-// Usikkert: Antall kirker i Norge (to) er fra MK i 2013 og kan være utdatert.
 // Merk: Yared-siden i «Kirkemusikk»-delen er ikke lenket, bare nevnt i teksten.
 export const kirkehistorie: Tema = {
   slug: "kirkehistorie",
@@ -576,8 +575,8 @@ export const kirkehistorie: Tema = {
         },
         {
           tekst: {
-            no: "Under den italienske okkupasjonen sendte Abune Basilios munker til etiopierne i England, slik at de kunne få nattverd. Senere ble det bygget kirker i Europa, Amerika, Afrika, Midtøsten og Australia. I 2013 var det to etiopisk-ortodokse kirker i Norge, og kirka hadde bispedømmer over hele verden.",
-            am: "በፋሺስት ወረራ ዘመን አቡነ ባስልዮስ በእንግሊዝ ለነበሩ ኢትዮጵያውያን ምሥጢራትን እንዲፈጽሙ መነኮሳትን ላኩ። በኋላም በአውሮፓ፣ በአሜሪካ፣ በአፍሪካ፣ በመካከለኛው ምሥራቅና በአውስትራሊያ አብያተ ክርስቲያናት ተተከሉ። በ፳፻፭ ዓ.ም በኖርዌይ ሁለት አብያተ ክርስቲያናት ነበሩ፤ ቤተ ክርስቲያንም በዓለም ሁሉ አህጉረ ስብከት አሏት።",
+            no: "Under den italienske okkupasjonen sendte Abune Basilios munker til etiopierne i England, slik at de kunne få nattverd. Senere ble det bygget kirker i Europa, Amerika, Afrika, Midtøsten og Australia. I dag er det åtte etiopisk-ortodokse kirker i Norge, og kirka har bispedømmer over hele verden.",
+            am: "በፋሺስት ወረራ ዘመን አቡነ ባስልዮስ በእንግሊዝ ለነበሩ ኢትዮጵያውያን ምሥጢራትን እንዲፈጽሙ መነኮሳትን ላኩ። በኋላም በአውሮፓ፣ በአሜሪካ፣ በአፍሪካ፣ በመካከለኛው ምሥራቅና በአውስትራሊያ አብያተ ክርስቲያናት ተተከሉ። ዛሬ በኖርዌይ ስምንት አብያተ ክርስቲያናት አሉ፤ ቤተ ክርስቲያንም በዓለም ሁሉ አህጉረ ስብከት አሏት።",
           },
         },
         {

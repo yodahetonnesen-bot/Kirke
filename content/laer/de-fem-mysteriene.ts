@@ -177,7 +177,7 @@ export const femMysteriene: Tema = {
       punkter: [
         {
           tekst: {
-            no: "Kirka har også sju sakramenter (ሰባቱ ምሥጢራተ ቤተ ክርስቲያን): dåpen (ጥምቀት), myron (ሜሮን), nattverden (ቍርባን), skriftemålet (ንስሐ), salving av syke (ቀንዲል), ekteskapet (ተክሊል) og prestevigselen (ክህነት). Kirka ser et bilde på dem i de sju søylene som Visdommen hogg til for huset sitt.",
+            no: "Kirka har også sju sakramenter (ሰባቱ ምሥጢራተ ቤተ ክርስቲያን): dåpen (ጥምቀት), myron (ሜሮን), nattverden (ቍርባን), omvendelsen (ንስሐ), salving av syke (ቀንዲል), ekteskapet (ተክሊል) og prestevigselen (ክህነት). Kirka ser et bilde på dem i de sju søylene som Visdommen hogg til for huset sitt.",
             am: "ቤተ ክርስቲያን ሰባት ምሥጢራትም አሏት፤ እነርሱም ጥምቀት፣ ሜሮን፣ ቍርባን፣ ንስሐ፣ ቀንዲል፣ ተክሊልና ክህነት ናቸው። ጥበብ ቤቷን ሠርታ ያቆመቻቸው ሰባቱ ምሰሶዎች የእነዚህ ምሳሌ ናቸው።",
           },
           vers: ["Prov 9:1"],

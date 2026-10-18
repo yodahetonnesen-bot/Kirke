@@ -301,7 +301,7 @@ export const sykesalving: Tema = {
     },
     {
       id: "nisha",
-      tittel: { no: "ቀንዲል og skriftemålet (ንስሐ)", am: "ቀንዲልና ንስሐ" },
+      tittel: { no: "ቀንዲል og omvendelsen (ንስሐ)", am: "ቀንዲልና ንስሐ" },
       punkter: [
         {
           tekst: {

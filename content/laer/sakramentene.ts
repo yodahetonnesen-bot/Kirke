@@ -28,7 +28,7 @@ export const sakramentene: Tema = {
   bilde: "evangeliebladLam",
   ingress: {
     no:
-      "Kirka har sju sakramenter (ምሥጢራተ ቤተ ክርስቲያን): dåpen (ጥምቀት), myron (ሜሮን), nattverden (ቍርባን), skriftemålet (ንስሐ), salving av syke (ቀንዲል), ekteskapet (ተክሊል) og prestevielsen (ክህነት). Et sakrament er en hellig handling der vi får Guds usynlige nåde gjennom noe vi kan se og høre. Jesus Kristus innstiftet dem, og biskoper og prester utfører dem. Kirka sammenligner dem med de sju søylene Visdommen satte opp i huset sitt.",
+      "Kirka har sju sakramenter (ምሥጢራተ ቤተ ክርስቲያን): dåpen (ጥምቀት), myron (ሜሮን), nattverden (ቍርባን), omvendelsen (ንስሐ), salving av syke (ቀንዲል), ekteskapet (ተክሊል) og prestevielsen (ክህነት). Et sakrament er en hellig handling der vi får Guds usynlige nåde gjennom noe vi kan se og høre. Jesus Kristus innstiftet dem, og biskoper og prester utfører dem. Kirka sammenligner dem med de sju søylene Visdommen satte opp i huset sitt.",
     am:
       "ቤተ ክርስቲያን ሰባት ምሥጢራት አሏት፤ እነርሱም ጥምቀት፣ ሜሮን፣ ቍርባን፣ ንስሐ፣ ቀንዲል፣ ተክሊልና ክህነት ናቸው። ምሥጢራተ ቤተ ክርስቲያን በሚታይ አገልግሎት የማይታይ የእግዚአብሔርን ጸጋ የምናገኝባቸው ቅዱሳት ሥርዓቶች ናቸው። የመሠረታቸው ጌታችን ኢየሱስ ክርስቶስ ነው፤ የሚፈጽሟቸውም ኤጲስ ቆጶሳትና ቀሳውስት ናቸው። ቤተ ክርስቲያን ጥበብ በቤቷ ካቆመቻቸው ሰባት ምሰሶዎች ጋር ታመሳስላቸዋለች።",
   },
@@ -214,27 +214,27 @@ export const sakramentene: Tema = {
       id: "legedom",
       tittel: { no: "Sakramentene som leger sjel og kropp", am: "የነፍስንና የሥጋን ቍስል የሚፈውሱ ምሥጢራት" },
       ingress: {
-        no: "Den andre gruppen er skriftemålet og salving av syke. Synd gjør sjelen syk, og sykdom rammer kroppen. Gjennom disse to blir vi helbredet.",
+        no: "Den andre gruppen er omvendelsen (ንስሐ) og salving av syke. Synd gjør sjelen syk, og sykdom rammer kroppen. Gjennom disse to blir vi helbredet.",
         am: "ሁለተኛው ክፍል ንስሐና ቀንዲል ናቸው። ኃጢአት ነፍስን ታሳምማለች፤ ደዌ ደግሞ ሥጋን ያገኛል፤ በእነዚህ ሁለቱ ምሥጢራት እንፈወሳለን።",
       },
       punkter: [
         {
           tekst: {
-            no: "ንስሐ – skriftemålet. Den som har syndet etter dåpen, angrer av hjertet, bestemmer seg for ikke å gjøre det igjen, kneler foran Gud og presten og bekjenner syndene sine. Slik blir han løst fra syndens lenker og får tilgivelse fra Gud.",
+            no: "ንስሐ – omvendelsen. Den som har syndet etter dåpen, angrer av hjertet, bestemmer seg for ikke å gjøre det igjen, kneler foran Gud og presten og bekjenner syndene sine. Slik blir han løst fra syndens lenker og får tilgivelse fra Gud.",
             am: "ንስሐ፤ አንድ ሰው ከጥምቀት በኋላ የሠራውን ኃጢአት ላለመድገም ወስኖ፣ ከልቡ ተጸጽቶ፣ በእግዚአብሔርና በካህኑ ፊት ተንበርክኮ ኃጢአቱን በመናዘዝ ከኃጢአት እስራት የሚፈታበትና ከእግዚአብሔር ይቅርታ የሚያገኝበት ምሥጢር ነው።",
           },
           vers: ["Prov 28:13", "1John 1:8-9"],
         },
         {
           tekst: {
-            no: "Jesus innstiftet skriftemålet. Han sa til Peter: «Det du binder på jorden, skal være bundet i himmelen.» Etter oppstandelsen blåste han på apostlene og sa: «Tilgir dere noen syndene, er de tilgitt.»",
+            no: "Jesus innstiftet omvendelsens sakrament. Han sa til Peter: «Det du binder på jorden, skal være bundet i himmelen.» Etter oppstandelsen blåste han på apostlene og sa: «Tilgir dere noen syndene, er de tilgitt.»",
             am: "ምሥጢረ ንስሐን የመሠረተው ጌታችን ነው። ለቅዱስ ጴጥሮስ «በምድር የምታስረው ሁሉ በሰማያት የታሰረ ይሆናል» አለው። ከትንሣኤውም በኋላ እፍ ብሎባቸው «ኃጢአታቸውን ይቅር ያላችኋቸው ሁሉ ይቀርላቸዋል» አላቸው።",
           },
           vers: ["Matt 16:19", "John 20:22-23"],
         },
         {
           tekst: {
-            no: "Skriftemålet har tre deler: ኀዘን (sorg over synden), ኑዛዜ (å fortelle syndene til presten uten å skjule noe) og ቀኖና (botsøvelse – faste, bønn, knefall eller å gi til de fattige, som presten gir). Presten må aldri fortelle noen det han har hørt i skriftemålet.",
+            no: "Omvendelsens sakrament har tre deler: ኀዘን (sorg over synden), ኑዛዜ (å fortelle syndene til presten uten å skjule noe) og ቀኖና (botsøvelse – faste, bønn, knefall eller å gi til de fattige, som presten gir). Presten må aldri fortelle noen det han har hørt i skriftemålet.",
             am: "ንስሐ የሚገባ ሰው ሦስት ነገሮችን ይፈጽማል፤ ኀዘን፣ ኑዛዜና ቀኖና። በኃጢአቱ ያዝናል፤ ሳይፈራና ሳይደብቅ ለካህኑ ይናዘዛል፤ ካህኑ በሚሰጠው ቀኖና ይጾማል፣ ይጸልያል፣ ይሰግዳል፣ ይመጸውታል። ካህኑም በኑዛዜ የሰማውን ለማንም አይገልጥም።",
           },
           vers: ["Acts 3:19"],
@@ -340,7 +340,7 @@ export const sakramentene: Tema = {
         },
         {
           tekst: {
-            no: "Mange ganger: nattverden (ቍርባን), skriftemålet (ንስሐ) og salving av syke (ቀንዲል). Kroppen trenger mat hver dag, og sjelen trenger Kristi kropp og blod igjen og igjen. Vi synder igjen og trenger å gjøre bot igjen. Og hver gang vi blir syke, kan vi bli salvet på nytt.",
+            no: "Mange ganger: nattverden (ቍርባን), omvendelsen (ንስሐ) og salving av syke (ቀንዲል). Kroppen trenger mat hver dag, og sjelen trenger Kristi kropp og blod igjen og igjen. Vi synder igjen og trenger å gjøre bot igjen. Og hver gang vi blir syke, kan vi bli salvet på nytt.",
             am: "የሚደገሙ ምሥጢራት፤ ቍርባን፣ ንስሐና ቀንዲል ናቸው። ሰው ለሥጋው በየዕለቱ ምግብ እንደሚያስፈልገው ዘወትር የክርስቶስን ሥጋና ደም መመገብ ያስፈልገዋል። በበደለ ጊዜ ሁሉ ንስሐ ይገባል። በታመመ ጊዜም ሁሉ ቅብዐ ቀንዲል ሊቀባ ይችላል።",
           },
           vers: ["John 6:57", "1Cor 11:26"],
@@ -360,7 +360,7 @@ export const sakramentene: Tema = {
         },
         {
           tekst: {
-            no: "Skriftemålet er også for alle. Alle mennesker er svake og synder, og alle trenger å forsones med Gud. Derfor sier kirka at de fire første sakramentene skal alle troende ta imot.",
+            no: "Omvendelsen (ንስሐ) er også for alle. Alle mennesker er svake og synder, og alle trenger å forsones med Gud. Derfor sier kirka at de fire første sakramentene skal alle troende ta imot.",
             am: "ንስሐም ለሁሉ ይፈጸማል፤ የሰው ልጅ ሁሉ በሥጋው ደካማ ነው፤ ኃጢአትም ይሠራል፤ ከእግዚአብሔር እንዳይለይ ለዕርቅና ለሥርየተ ኃጢአት ሁሉ ንስሐ ያስፈልገዋል። ስለዚህ የመጀመሪያዎቹ አራቱ ለምእመናን ሁሉ አስፈላጊ ናቸው።",
           },
           vers: ["1John 1:8-9"],
@@ -560,7 +560,7 @@ export const sakramentene: Tema = {
     {
       sporsmal: { no: "Nevn de sju sakramentene.", am: "ሰባቱን ምሥጢራት ዘርዝሩ።" },
       svar: {
-        no: "ጥምቀት (dåp), ሜሮን (myron), ቍርባን (nattverd), ንስሐ (skriftemål), ቀንዲል (salving av syke), ተክሊል (ekteskap) og ክህነት (prestevielse).",
+        no: "ጥምቀት (dåp), ሜሮን (myron), ቍርባን (nattverd), ንስሐ (omvendelse), ቀንዲል (salving av syke), ተክሊል (ekteskap) og ክህነት (prestevielse).",
         am: "ጥምቀት፣ ሜሮን፣ ቍርባን፣ ንስሐ፣ ቀንዲል፣ ተክሊልና ክህነት።",
       },
     },

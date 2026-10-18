@@ -44,10 +44,16 @@ export default function Forside() {
         />
         <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-4 pb-16 pt-12 sm:px-6 md:grid-cols-[1.05fr_1fr] md:pb-24 md:pt-20">
           <div>
-            <h1 className="font-serif text-5xl leading-[1.05] tracking-tight sm:text-7xl">Ortodoks Tewahedo</h1>
-            <p lang="am" className="mt-2 font-serif text-3xl text-rubrikk sm:text-4xl">
-              ኦርቶዶክስ ተዋሕዶ
-            </p>
+            <h1>
+              <img
+                src="/logo-stor.webp"
+                alt="Ortodoks Tewahedo · ኦርቶዶክስ ተዋሕዶ"
+                width={797}
+                height={520}
+                fetchPriority="high"
+                className="w-full max-w-[26rem] drop-shadow-[0_18px_30px_rgb(60_30_10/0.18)] sm:max-w-[30rem]"
+              />
+            </h1>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
                 href="/bibelen/"

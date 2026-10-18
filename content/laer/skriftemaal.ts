@@ -21,7 +21,7 @@ import type { Tema } from "./typer";
 export const skriftemaal: Tema = {
   slug: "skriftemaal",
   del: "sakramentene",
-  tittel: { no: "Omvendelse og skriftemål", am: "ምሥጢረ ንስሐ" },
+  tittel: { no: "Omvendelsen", am: "ምሥጢረ ንስሐ" },
   undertittel: {
     no: "Veien tilbake til Gud",
     am: "ወደ እግዚአብሔር የምንመለስበት መንገድ",
@@ -29,7 +29,7 @@ export const skriftemaal: Tema = {
   bilde: "ewostatewos",
   ingress: {
     no:
-      "I dåpen blir vi Guds barn. Men alle mennesker synder igjen etter dåpen, også helgenene. Derfor har Jesus gitt kirka skriftemålet (ምሥጢረ ንስሐ). Den som angrer av hjertet, bekjenner syndene sine for presten og gjør det presten gir ham, blir løst fra syndene og forsonet med Gud. Kirka kaller skriftemålet en medisin for sjelen.",
+      "I dåpen blir vi Guds barn. Men alle mennesker synder igjen etter dåpen, også helgenene. Derfor har Jesus gitt kirka omvendelsens sakrament (ምሥጢረ ንስሐ). Den som angrer av hjertet, bekjenner syndene sine for presten og gjør det presten gir ham, blir løst fra syndene og forsonet med Gud. Kirka kaller skriftemålet en medisin for sjelen.",
     am:
       "በጥምቀት የእግዚአብሔር ልጆች እንሆናለን። ነገር ግን ሰው ሁሉ፣ ቅዱሳንም እንኳ፣ ከጥምቀት በኋላ ይበድላል። ስለዚህ ጌታችን ምሥጢረ ንስሐን ለቤተ ክርስቲያን ሰጣት። ከልቡ ተጸጽቶ ኃጢአቱን ለካህኑ የሚናዘዝና የተሰጠውን ቀኖና የሚፈጽም ሰው ከኃጢአቱ እስራት ይፈታል፤ ከእግዚአብሔርም ጋር ይታረቃል። ቤተ ክርስቲያን ንስሐን የነፍስ መድኃኒት ትለዋለች።",
   },
@@ -257,7 +257,7 @@ export const skriftemaal: Tema = {
     },
     {
       id: "trinn",
-      tittel: { no: "Trinnene i skriftemålet", am: "የንስሐ ደረጃዎች" },
+      tittel: { no: "Trinnene i omvendelsen", am: "የንስሐ ደረጃዎች" },
       ingress: {
         no: "Den som vender om, gjør tre ting: ጸጸት (anger og sorg), ኑዛዜ (bekjennelse) og ቀኖና (botsøvelse). Til slutt tar han imot nattverden.",
         am: "ንስሐ የሚገባ ሰው ሦስት ነገሮችን ይፈጽማል፤ ጸጸት (ኀዘን)፣ ኑዛዜና ቀኖና። በመጨረሻም ሥጋውንና ደሙን ይቀበላል።",
@@ -445,7 +445,7 @@ export const skriftemaal: Tema = {
     },
     {
       id: "nattverd",
-      tittel: { no: "Skriftemålet og nattverden", am: "ንስሐና ቍርባን" },
+      tittel: { no: "Omvendelsen og nattverden", am: "ንስሐና ቍርባን" },
       punkter: [
         {
           tekst: {
@@ -477,7 +477,7 @@ export const skriftemaal: Tema = {
     },
     {
       id: "naade",
-      tittel: { no: "Hva gir skriftemålet oss?", am: "በምሥጢረ ንስሐ የምናገኘው ጸጋ" },
+      tittel: { no: "Hva gir omvendelsen oss?", am: "በምሥጢረ ንስሐ የምናገኘው ጸጋ" },
       punkter: [
         {
           tekst: { no: "Syndenes forlatelse.", am: "ሥርየተ ኃጢአት።" },

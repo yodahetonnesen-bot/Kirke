@@ -46,13 +46,51 @@ Vers slått sammen ved import (81-bokbibelen, sjekkes mot en trykt ሰማንያ 
 
 Kapitler der den andre kolonnen har en annen versinndeling (81-bokbibelen, sjekkes mot en trykt ሰማንያ አሐዱ):
 
+- [ ] Manasses' bønn: kapittel 1
 - [ ] 3. Esrabok (Esra kale): kapittel 2
 - [ ] 4. Esrabok (Esra Sutuel): kapittel 1, 3, 6, 8, 9, 13
-- [ ] Tobits bok: kapittel 10, 11
-- [ ] Judits bok: kapittel 16
-- [ ] Visdommens bok: kapittel 1, 2, 11, 17, 19
-- [ ] Baruks bok: kapittel 3
-- [ ] Siraks bok: kapittel 3, 4, 13, 18, 19, 20, 23, 31, 32, 34, 38, 41, 44
+- [ ] Tobits bok: kapittel 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+- [ ] Judits bok: kapittel 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+- [ ] Ester med tilleggene: kapittel 1, 3, 4, 5, 8, 10
+- [ ] Visdommens bok: kapittel 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19
+- [ ] Baruks bok: kapittel 1, 2, 3, 4
+- [ ] Jeremias' brev: kapittel 1
+- [ ] Tilleggene i Daniel: kapittel 3, 13, 14
+- [ ] Siraks bok: kapittel 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
+- [ ] Sinodos: Befalingene (Tizaz): kapittel 1
+- [ ] rettet for hånd etter sidebildet: 13
+- [ ] ord rettet med ordlisten fra Nasjonalbibliotekets OCR (ø/æ, lang s o.l.): 573
+- [ ] versnumre som OCR leste feil eller ikke så, rettet ut fra rekkefølgen: 35
+- [ ] ord satt inn fra linjelesingen: 4
+- [ ] parallellhenvisninger, fotnoter og innholdsoversikter fjernet: 551
+- [ ] vers med ord som ikke finnes i Nasjonalbibliotekets OCR (mulige lesefeil, ofte navn): 943 vers, 1168 ord
+
+Å se på først (81-bokbibelen, sjekkes mot en trykt ሰማንያ አሐዱ):
+
+- [ ] side 18a: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 32
+- [ ] side 45a: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 27
+- [ ] side 48b: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 21
+- [ ] side 51a: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 27
+- [ ] side 53a: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 31
+- [ ] side 69b: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 41
+- [ ] side 78b: SJEKK: nytt kapittel uten overskrift ved vers 1 etter vers 32
+- [ ] Tob 3: SJEKK: innholdsoversikten går til vers 23, teksten har 26 vers («…udsender Rafael for at hjælpe dem, 2426.»)
+- [ ] Tob 13: SJEKK: innholdsoversikten går til vers 14, teksten har 28 vers («…g Jeru- salem vorde saare herligt, 1528.»)
+- [ ] Jdt 9: SJEKK: innholdsoversikten går til vers 6, teksten har 16 vers («…il at udfoͤre, hvad hun har isinde, 1¹6.»)
+- [ ] Jdt 12: SJEKK: innholdsoversikten går til vers 16, teksten har 22 vers («…hed 1— 2 drikker langt over sin Sædvane,»)
+- [ ] EstAdd 10: SJEKK: innholdsoversikten går til vers 11, teksten har 14 vers («…b og Haman og om sit Folks Frelse, 7-11,»)
+- [ ] EstAdd 12: SJEKK: innholdsoversikten går til vers 6, teksten har 7 vers («…t, 6. (Fortsættelse af det Foregagende.)»)
+- [ ] Sir 8: SJEKK: innholdsoversikten går til vers 14, teksten har 24 vers («…ller aabne sit Hjerte for Enhver, 15⁴½4.»)
+- [ ] Sir 10: SJEKK: innholdsoversikten går til vers 20, teksten har 34 vers («… giver selv den Fattige Wre,‚, 21-11, 1.»)
+- [ ] Sir 16: SJEKK: innholdsoversikten går til vers 30, teksten har 33 vers («…Begyndelsen har ftabt og ordnet Alt, 30.»)
+- [ ] Sir 19: SJEKK: innholdsoversikten går til vers 30, teksten har 31 vers («…et Menneste kjendes paa sit Mdre, 22-30.»)
+- [ ] Sir 22: SJEKK: innholdsoversikten går til vers 31, teksten har 32 vers («…standige Mand, 19-21, om Venskab, 22-31.»)
+- [ ] Sir 26: SJEKK: innholdsoversikten går til vers 34, teksten har 35 vers («…r tre Ting, der volde Bedrøvelse, 32-34.»)
+- [ ] Sir 27: SJEKK: innholdsoversikten går til vers 30, teksten har 31 vers («…else, og en Kræmmer holdes fri for Synd.»)
+- [ ] Sir 41: SJEKK: innholdsoversikten går til vers 42, teksten har 29 vers («… hvad man stal flamme sig ved, 17-42, 2.»)
+- [ ] Sir 42: SJEKK: innholdsoversikten går til vers 20, teksten har 35 vers («…iser Herrens Gjerninger og hans Storhed,»)
+- [ ] Sir 48: SJEKK: innholdsoversikten går til vers 47, teksten har 33 vers («…ng Ezechias og Pro- feten Esaias, 22-33.»)
+- [ ] DanAdd 3: SJEKK: innholdsoversikten går til vers 50, teksten har 90 vers («…, 46-50. (Er at henføre til Dan. 3, 23.)»)
 
 ## Bønneboka
 
@@ -204,8 +242,7 @@ Kapitler der den andre kolonnen har en annen versinndeling (81-bokbibelen, sjekk
 - [ ] Kirkemøtet om de to sabbatene i Debre Mitmaq er i MK oppgitt som «፲፬፻፶ ዓ.ም». Vi skriver «omkring 1450».
 - [ ] Kildene gir ingen sikre årstall for kong Kaleb og kong Lalibela; vi skriver «500-tallet» og «omkring 1200».
 - [ ] Abune Petros: kildene sier at han ble drept av de italienske fascistene i Addis Abeba i 1936 (፲፱፻፳፰ ዓ.ም), men vi fant ikke den nøyaktige datoen i en EOTC-kilde. At han nektet å velsigne okkupasjonen, fant vi ikke ordrett.
-- [ ] For Abune Tewophilos fant vi i EOTC-kildene bare at han var den andre patriarken, var «ሰማዕቱ», og ble drept av Derg i juli 1979. At han ble arrestert i 1976, står bare i ikke-kirkelige kilder, så det er ikke tatt med.
-- [ ] Antall kirker i Norge (to) er fra MK i 2013 og kan være utdatert. Merk: Yared-siden i «Kirkemusikk»-delen er ikke lenket, bare nevnt i teksten.
+- [ ] For Abune Tewophilos fant vi i EOTC-kildene bare at han var den andre patriarken, var «ሰማዕቱ», og ble drept av Derg i juli 1979. At han ble arrestert i 1976, står bare i ikke-kirkelige kilder, så det er ikke tatt med. Merk: Yared-siden i «Kirkemusikk»-delen er ikke lenket, bare nevnt i teksten.
 
 ### Kirkas tjenere, klostre og valfart · የቤተ ክርስቲያን አገልጋዮች፣ ገዳማትና ንግደት
 
@@ -329,7 +366,7 @@ Kapitler der den andre kolonnen har en annen versinndeling (81-bokbibelen, sjekk
 - [ ] 8.-klasseboka er lest som opplasting på Scribd. Utgiveren står ikke på siden vi leste.
 - [ ] Hvor mange prester som ber ved ቀንዲል: 8.-klasseboka sier sju prester, ethiopianorthodox.org sier sju bønner. Siden nevner begge som kildene sier, uten å si hva som er vanlig i menigheten i dag.
 
-### Omvendelse og skriftemål · ምሥጢረ ንስሐ
+### Omvendelsen · ምሥጢረ ንስሐ
 
 `/laer/skriftemaal/` · `content/laer/skriftemaal.ts`
 

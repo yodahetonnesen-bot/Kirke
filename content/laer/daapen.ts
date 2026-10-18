@@ -152,7 +152,7 @@ export const daapen: Tema = {
         },
         {
           tekst: {
-            no: "Den som har forlatt troen og kommer tilbake, blir ikke døpt på nytt. Han eller hun tas imot igjen gjennom skriftemål (ንስሐ) og nattverd.",
+            no: "Den som har forlatt troen og kommer tilbake, blir ikke døpt på nytt. Han eller hun tas imot igjen gjennom omvendelse (ንስሐ) og nattverd.",
             am: "ሃይማኖቱን ትቶ የተመለሰ ሰው ዳግመኛ አይጠመቅም፤ በንስሐና በቍርባን ይመለሳል።",
           },
         },
