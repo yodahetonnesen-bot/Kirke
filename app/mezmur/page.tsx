@@ -3,6 +3,7 @@ import { BILDER } from "@/lib/bilder";
 import { KATEGORIER, MEZMURER } from "@/lib/mezmur";
 import { Seksjonstopp } from "@/components/seksjonstopp";
 import { MezmurListe } from "@/components/mezmur-liste";
+import { UkasMezmur } from "@/components/ukas-mezmur";
 
 export const metadata: Metadata = { title: "Mezmur · መዝሙር" };
 
@@ -21,6 +22,9 @@ export default function Mezmur() {
         </p>
       </Seksjonstopp>
       <div className="mx-auto max-w-4xl px-4 pb-16 pt-10 sm:px-6">
+        <div className="mb-12">
+          <UkasMezmur mezmurer={kort} />
+        </div>
         <MezmurListe mezmurer={kort} kategorier={KATEGORIER} />
       </div>
     </>
