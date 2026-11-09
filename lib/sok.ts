@@ -4,7 +4,7 @@
 // «timket», «timkat» og «ጥምቀት» finner hverandre.
 import { BOKSTAVER } from "./fidel";
 
-export type SokType = "side" | "tema" | "avsnitt" | "fortelling" | "bonn" | "hoytid" | "bok";
+export type SokType = "side" | "tema" | "avsnitt" | "fortelling" | "mezmur" | "bonn" | "hoytid" | "bok";
 
 export type SokDok = {
   type: SokType;
@@ -84,7 +84,10 @@ export function normaliser(s: string): string {
 }
 
 /** Bare konsonantene, med latinske bokstaver. Ord skilles med mellomrom. */
-export function skjelett(normalisert: string): string {
+/** Både det strenge og det løse skjelettet, så et søk kan treffe begge. */
+export const skjeletter = (normalisert: string) => `${skjelett(normalisert)} ¦ ${skjelett(normalisert, true)}`;
+
+export function skjelett(normalisert: string, los = false): string {
   let ut = "";
   let latin = "";
   const tomLatin = () => {
@@ -114,6 +117,8 @@ export function skjelett(normalisert: string): string {
   }
   tomLatin();
   // doble konsonanter (gemination) skrives ulikt
+  // Løst skjelett: j (y) og h skrives ofte ikke med latinske bokstaver («Mariam», «Medane Alem»).
+  if (los) ut = ut.replace(/[jh]/g, "");
   return ut.replace(/([a-z])\1+/g, "$1").replace(/ +/g, " ").trim();
 }
 
@@ -140,25 +145,25 @@ export function forbered(indeks: SokIndeks) {
     const tittel = `${d.tittel.no} ${d.tittel.am}`;
     const deler = d.tekst.map((t) => {
       const n = normaliser(t);
-      return { n, s: skjelett(n) };
+      return { n, s: skjeletter(n) };
     });
     const nTittel = normaliser(tittel);
     const n = ` ${nTittel} ${deler.map((x) => x.n).join(" ")} `;
-    const s = ` ${skjelett(nTittel)} ${deler.map((x) => x.s).join(" ")} `;
-    return { ...d, n, nTittel, sTittel: ` ${skjelett(nTittel)} `, tett: n.replace(/ /g, ""), s, deler, ord: new Set(n.split(" ").filter((o) => o.length >= 4)) };
+    const s = ` ${skjeletter(nTittel)} ${deler.map((x) => x.s).join(" ")} `;
+    return { ...d, n, nTittel, sTittel: ` ${skjeletter(nTittel)} `, tett: n.replace(/ /g, ""), s, deler, ord: new Set(n.split(" ").filter((o) => o.length >= 4)) };
   });
 }
 
 export type Treff = { dok: SokDok; poeng: number; utdrag: string };
 
-const TYPEVEKT: Record<SokType, number> = { side: 3, tema: 2.5, fortelling: 1.8, bok: 1.2, hoytid: 1.5, bonn: 1.2, avsnitt: 1 };
+const TYPEVEKT: Record<SokType, number> = { side: 3, tema: 2.5, fortelling: 1.8, mezmur: 1.4, bok: 1.2, hoytid: 1.5, bonn: 1.2, avsnitt: 1 };
 
 /** Søker i den forberedte indeksen. Alle ordene i søket må finnes, eksakt eller omtrent. */
 export function sok(forberedt: Forberedt[], sporring: string, maks = 60): Treff[] {
   const ord = normaliser(sporring)
     .split(" ")
     .filter(Boolean)
-    .map((o) => ({ n: o, s: skjelett(o) }));
+    .map((o) => ({ n: o, s: skjelett(o), l: skjelett(o, true) }));
   if (ord.length === 0) return [];
   const treff: Treff[] = [];
   for (const d of forberedt) {
@@ -168,7 +173,8 @@ export function sok(forberedt: Forberedt[], sporring: string, maks = 60): Treff[
       let p = 0;
       const sk = o.s.replace(/ /g, "");
       // skjelettet må være langt nok, eller et helt ord, for ikke å treffe alt
-      const skOk = (tekst: string) => (sk.length >= 3 ? tekst.includes(` ${o.s}`) : sk.length >= 2 && tekst.includes(` ${o.s} `));
+      const passer = (tekst: string, s: string) => (s.length >= 3 ? tekst.includes(` ${s}`) : s.length >= 2 && tekst.includes(` ${s} `));
+      const skOk = (tekst: string) => passer(tekst, o.s) || passer(tekst, o.l);
       const antall = (tekst: string, bit: string) => Math.min(2, (tekst.split(bit).length - 1) * 0.15);
       if (d.nTittel.includes(o.n)) p = 6;
       else if (skOk(d.sTittel)) p = 4.5;
@@ -184,6 +190,7 @@ export function sok(forberedt: Forberedt[], sporring: string, maks = 60): Treff[
           }
         }
       }
+      if (p === 0 && sk.length < 2 && o.l.length < 2 && ord.length > 1) continue;
       if (p === 0) {
         alle = false;
         break;

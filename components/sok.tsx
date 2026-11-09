@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, BookOpen, CalendarDays, Church, Flame, Search, ScrollText } from "lucide-react";
+import { ArrowRight, BookOpen, Music, CalendarDays, Church, Flame, Search, ScrollText } from "lucide-react";
 import { finnHenvisning, forbered, sok, type SokIndeks, type SokType } from "@/lib/sok";
 
 const TYPER: Record<SokType, { no: string; am: string; ikon: typeof Search }> = {
@@ -10,6 +10,7 @@ const TYPER: Record<SokType, { no: string; am: string; ikon: typeof Search }> = 
   tema: { no: "Troslære", am: "ትምህርተ ሃይማኖት", ikon: Church },
   avsnitt: { no: "Troslære", am: "ትምህርተ ሃይማኖት", ikon: ScrollText },
   fortelling: { no: "Bibelfortelling", am: "የመጽሐፍ ቅዱስ ታሪክ", ikon: BookOpen },
+  mezmur: { no: "Mezmur", am: "መዝሙር", ikon: Music },
   bonn: { no: "Bønner", am: "ጸሎት", ikon: Flame },
   hoytid: { no: "Kalender", am: "ቀን መቁጠሪያ", ikon: CalendarDays },
   bok: { no: "Bibelen", am: "መጽሐፍ ቅዱስ", ikon: BookOpen },

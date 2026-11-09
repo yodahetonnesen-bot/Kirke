@@ -5,6 +5,7 @@ import { finnDel } from "@/content/laer/deler";
 import { alleBoker, kapitlene } from "@/lib/bibel";
 import { BONNEBOK } from "@/lib/bonner";
 import { FASTER, HOYTIDER } from "@/lib/hoytider";
+import { MEZMURER } from "@/lib/mezmur";
 import { SEKSJONER } from "@/lib/navigasjon";
 import type { SokDok, SokIndeks } from "@/lib/sok";
 import { FORKORTELSER } from "@/lib/vers";
@@ -58,6 +59,16 @@ function lagIndeks(): SokIndeks {
       tittel: f.tittel,
       sti: f.testament === "gt" ? "Det gamle testamentet" : "Det nye testamentet",
       tekst: [...f.tekst.flatMap(to), ...to(f.laerdom), ...f.sporsmal.flatMap((q) => [...to(q.sporsmal), ...to(q.svar)])],
+    });
+  }
+
+  for (const m of MEZMURER) {
+    dok.push({
+      type: "mezmur",
+      href: `/mezmur/${m.nr}/`,
+      tittel: { no: `${m.nr}`, am: m.tittel },
+      sti: m.kategori,
+      tekst: [m.linjer.find((l) => l.trim()) ?? ""],
     });
   }
 

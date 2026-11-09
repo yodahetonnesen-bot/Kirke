@@ -50,6 +50,6 @@ export const SEKSJONER: Seksjon[] = [
     bilde: "lyre",
     no: "Mezmur",
     am: "መዝሙር",
-    klar: false,
+    klar: true,
   },
 ];
