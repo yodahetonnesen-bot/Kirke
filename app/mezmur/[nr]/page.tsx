@@ -67,7 +67,14 @@ export default async function MezmurSide({ params }: PageProps<"/mezmur/[nr]">) 
             className="size-full"
           />
         </div>
-      ) : (
+      ) : null}
+      {id && (
+        <a href={youtubeSok(m)} target="_blank" rel="noreferrer" className="mt-3 inline-flex items-center gap-1.5 text-sm text-dempet hover:text-rubrikk">
+          <PlayCircle className="size-4" aria-hidden="true" />
+          Andre opptak på YouTube · <span lang="am">ሌሎች ቪዲዮዎች</span>
+        </a>
+      )}
+      {!id && (
         <a
           href={youtubeSok(m)}
           target="_blank"
